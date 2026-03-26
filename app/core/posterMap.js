@@ -1,0 +1,1 @@
+export const posters = {'HomeHub': 'art_main.png', 'MatchmakingHome': 'match_home.png', 'MatchmakingResult': 'match_result.png', 'LoungeHome': 'lounge_home.png', 'LoungeStories': 'lounge_stories.png', 'LoungeGoLive': 'lounge_live.png', 'Coins': 'coin_explorer_hall.png', 'ChallengesScreen': 'challenges.png', 'Travel': 'travel_main.png', 'GamesHub': 'games_hub.png'}

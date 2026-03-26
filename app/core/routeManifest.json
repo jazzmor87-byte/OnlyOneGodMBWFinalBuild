@@ -1,0 +1,12 @@
+{
+  "SAFE_START_ROUTE": "GateOpenCinematic",
+  "SAFE_HUB_ROUTE": "MainHall",
+  "PATH_SELECTION_TARGET": "MainHall",
+  "KNOWN_ROUTES": [
+    "GateOpenCinematic",
+    "GateLockedScreen",
+    "GateOpenAfterUnlock",
+    "PathSelection",
+    "MainHall"
+  ]
+}

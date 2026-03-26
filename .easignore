@@ -1,0 +1,12 @@
+node_modules
+.expo
+dist
+reports
+backup_*
+scripts
+*.py
+*.xlsx
+*.log
+*.tgz
+android
+ios

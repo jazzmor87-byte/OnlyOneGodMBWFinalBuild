@@ -1,0 +1,1 @@
+export const initialSeepState={mode:"SEEP_4P",players:[{id:"P1",seat:0,team:"A",hand:[],captured:[],sweeps:0},{id:"P2",seat:1,team:"B",hand:[],captured:[],sweeps:0},{id:"P3",seat:2,team:"A",hand:[],captured:[],sweeps:0},{id:"P4",seat:3,team:"B",hand:[],captured:[],sweeps:0}],floor:[],houses:[],currentTurn:0,dealer:0,roundStatus:"bidding",bidWinner:null,lastCapturingTeam:null};

@@ -1,0 +1,37 @@
+{
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "apk": {
+      "android": {
+        "buildType": "apk"
+      },
+      "environment": "preview"
+    },
+    "production": {
+      "distribution": "store",
+      "channel": "production",
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "production-apk": {
+      "distribution": "internal",
+      "channel": "production-apk",
+      "android": {
+        "buildType": "apk",
+        "ndk": "26.1.10909125"
+      },
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "cli": {
+    "appVersionSource": "local"
+  }
+}
