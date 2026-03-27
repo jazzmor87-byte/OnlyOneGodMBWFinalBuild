@@ -82,6 +82,50 @@ import StayRequestsScreen from "./app/_vault_expansion49_backup/StayRequestsScre
 import TradeSignalsScreen from "./app/_vault_expansion49_backup/TradeSignalsScreen";
 import TravelSafePassScreen from "./app/_vault_expansion49_backup/TravelSafePassScreen";
 import VaultGalleryScreen from "./app/_vault_expansion49_backup/VaultGalleryScreen";
+import ChallengesScreen from "./app/screens/ChallengesScreen";
+import CoinMarket from "./app/screens/Coins/CoinMarket";
+import CoinTrade from "./app/screens/Coins/CoinTrade";
+import CoinVault from "./app/screens/Coins/CoinVault";
+import GamesHubScreen from "./app/screens/Games/GamesHubScreen";
+import GamesScreen from "./app/screens/GamesScreen";
+import GateCinematic from "./app/screens/GateCinematic";
+import GateScreen from "./app/screens/GateScreen";
+import HomeScreen from "./app/screens/HomeScreen";
+import KamaHome from "./app/screens/Kamashastra/KamaHome";
+import KamaLessons from "./app/screens/Kamashastra/KamaLessons";
+import KamaQuiz from "./app/screens/Kamashastra/KamaQuiz";
+import KamashastraScreen from "./app/screens/KamashastraScreen";
+import LiveLoungeScreen from "./app/screens/LiveLoungeScreen";
+import LockedScreen from "./app/screens/Gate/GateLockedScreen";
+import LoungeGoLive from "./app/screens/MensLounge/LoungeGoLive";
+import LoungeHome from "./app/screens/MensLounge/LoungeHome";
+import LudoLobbyScreen from "./app/screens/Games/LudoLobbyScreen";
+import LudoResultScreen from "./app/screens/Games/LudoResultScreen";
+import MatchmakingFilters from "./app/screens/Matchmaking/MatchmakingFilters";
+import MatchmakingHome from "./app/screens/Matchmaking/MatchmakingHome";
+import MatchmakingResult from "./app/screens/Matchmaking/MatchmakingResult";
+import MatchmakingScreen from "./app/screens/MatchmakingScreen";
+import MerchCheckout from "./app/screens/Merchandise/MerchCheckout";
+import MerchHome from "./app/screens/Merchandise/MerchHome";
+import MerchProduct from "./app/screens/Merchandise/MerchProduct";
+import MerchandiseScreen from "./app/screens/MerchandiseScreen";
+import ProfileHome from "./app/screens/Profile/ProfileHome";
+import ProfileSecurity from "./app/screens/Profile/ProfileSecurity";
+import ProfileSettings from "./app/screens/Profile/ProfileSettings";
+import RealmHome from "./app/screens/RealmHome";
+import SeepLobbyScreen from "./app/screens/Games/SeepLobbyScreen";
+import SeepRoundResultScreen from "./app/screens/Games/SeepRoundResultScreen";
+import SeepScreen from "./app/screens/SeepScreen";
+import SeepTableScreen from "./app/screens/Games/SeepTableScreen";
+import TravelInbox from "./app/screens/Travel/TravelInbox";
+import TravelLocalAdventure from "./app/screens/Travel/TravelLocalAdventure";
+import TravelOverseasHost from "./app/screens/Travel/TravelOverseasHost";
+import TravelScreen from "./app/screens/TravelScreen";
+import _GateLuxury from "./app/screens/Gate/_GateLuxury";
+import _Main3DFactory from "./app/screens/main3d/_Main3DFactory";
+import _PosterEngine from "./app/screens/finalux/_PosterEngine";
+import Login from "./app/screens/auth/Login";
+import Signup from "./app/screens/auth/Signup";
 
 const Stack = createNativeStackNavigator();
 const navigationRef = createNavigationContainerRef();
@@ -93,11 +137,11 @@ export default function AppNavigator() {
       onReady={() => secondMamReport("nav_ready", { route: navigationRef.getCurrentRoute()?.name || "UNKNOWN" })}
       onStateChange={() => secondMamReport("nav_state", { route: navigationRef.getCurrentRoute()?.name || "UNKNOWN" })}
     >
-      <Stack.Navigator initialRouteName="GateOpenCinematic" screenOptions={{ headerShown: false }}>
+      <Stack.Navigator initialRouteName="GateCinematic" screenOptions={{ headerShown: false }}>
         <Stack.Screen name="GateOpenCinematic" component={GateOpenCinematic} />
         <Stack.Screen name="GateLockedScreen" component={GateLockedScreen} />
         <Stack.Screen name="GateOpenAfterUnlock" component={GateOpenAfterUnlock} />
-        <Stack.Screen name="PathSelection" component={PathSelectionLux} />
+        <Stack.Screen name="PathSelection" component={PathSelectionScreen} />
         <Stack.Screen name="Subscription" component={Subscription} />
         <Stack.Screen name="HomeHub" component={HomeHub} />
         <Stack.Screen name="UserHome" component={UserHome} />
