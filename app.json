@@ -2,7 +2,7 @@
   "expo": {
     "name": "MBW",
     "slug": "MBW-App",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -12,7 +12,7 @@
     },
     "android": {
       "package": "com.mbw.app",
-      "versionCode": 27,
+      "versionCode": 28,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icons/adaptive-foreground.png",
         "backgroundColor": "#000000"
@@ -22,7 +22,7 @@
     "ios": {
       "bundleIdentifier": "com.menbehindwall.mbw"
     },
-    "runtimeVersion": "1.2.4",
+    "runtimeVersion": "1.2.5",
     "updates": {
       "enabled": false
     },
