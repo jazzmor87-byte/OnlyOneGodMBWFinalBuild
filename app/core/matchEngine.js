@@ -1,4 +1,4 @@
-
+import { getSeedUsers, getOnlineSeedUsers, getAppRoster, getSectionMembers } from "./seedUsers";\n
 import { updateAura } from './auraSystem';
 import { getRole } from './coinHierarchy'; } from './auraSystem';
 import { getTier } from './premiumSystem'; } from './auraSystem';
@@ -51,4 +51,8 @@ score = Math.min(score, 99);
 
   earnCoins(5);
 return score;
-};
+};\n\n/* MBW_SEED_ENTIRE_APP */
+export const getCandidatePool = async () => getSeedUsers();
+export const getMatches = async () => getSeedUsers().slice(0, 8).map((u, i) => ({ ...u, chemistry: 98 - (i * 3) }));
+export const getSuggestedMembers = async () => getSeedUsers().slice(0, 6);
+\n

@@ -1,4 +1,4 @@
-import { getAuraLevel } from './auraSystem';
+import { getSeedUsers, getOnlineSeedUsers, getAppRoster, getSectionMembers } from "./seedUsers";\nimport { getAuraLevel } from './auraSystem';
 
 export const getHotChat = () => {
   const hot = [
@@ -30,4 +30,7 @@ export const getDelayedChat = (mode="hot", cb) => {
   setTimeout(()=>{
     cb(msg);
   }, 1200 + Math.random()*1000);
-};
+};\n\n/* MBW_SEED_ENTIRE_APP */
+export const getChatMembers = async () => getSectionMembers('Games');
+export const getGameRoomMembers = async () => getSectionMembers('Games');
+\n
