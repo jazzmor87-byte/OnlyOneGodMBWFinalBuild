@@ -12,7 +12,7 @@
     },
     "android": {
       "package": "com.mbw.app",
-      "versionCode": 29,
+      "versionCode": 30,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icons/adaptive-foreground.png",
         "backgroundColor": "#000000"
