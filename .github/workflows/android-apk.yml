@@ -71,11 +71,11 @@ jobs:
           PY
 
       - name: Export preflight
-        run: npx expo export --platform android --clear
+        run: NODE_ENV=production npx expo export --platform android --clear
 
       - name: Build release APK
         working-directory: android
-        run: ./gradlew assembleRelease --no-daemon
+        run: NODE_ENV=production ./gradlew assembleRelease --no-daemon -PreactNativeArchitectures=arm64-v8a,armeabi-v7a
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
