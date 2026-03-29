@@ -1,0 +1,85 @@
+name: Android APK Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master, main ]
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@017a9effdb900e5b5b2fddfb590a105619dca3c3
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Force JSC for CI
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          p = Path("app.json")
+          if p.exists():
+              data = json.loads(p.read_text(encoding="utf-8"))
+              expo = data.setdefault("expo", {})
+              expo["jsEngine"] = "jsc"
+              expo.setdefault("android", {})
+              expo["android"]["jsEngine"] = "jsc"
+              p.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+          gp = Path("android/gradle.properties")
+          if gp.exists():
+              txt = gp.read_text(encoding="utf-8", errors="ignore")
+              lines = txt.splitlines()
+              out=[]
+              saw_expo=False
+              saw_hermes=False
+              for line in lines:
+                  s=line.strip()
+                  if s.startswith("expo.jsEngine="):
+                      out.append("expo.jsEngine=jsc"); saw_expo=True
+                  elif s.startswith("hermesEnabled="):
+                      out.append("hermesEnabled=false"); saw_hermes=True
+                  else:
+                      out.append(line)
+              if not saw_expo: out.append("expo.jsEngine=jsc")
+              if not saw_hermes: out.append("hermesEnabled=false")
+              gp.write_text("\n".join(out) + "\n", encoding="utf-8")
+          cfg = Path("app.config.js")
+          if cfg.exists():
+              txt = cfg.read_text(encoding="utf-8", errors="ignore")
+              txt = txt.replace('jsEngine:"hermes"', 'jsEngine:"jsc"').replace("jsEngine:'hermes'","jsEngine:'jsc'")
+              txt = txt.replace('jsEngine:"jsc"', 'jsEngine:"jsc"')
+              cfg.write_text(txt, encoding="utf-8")
+          PY
+
+      - name: Export preflight
+        run: JS_ENGINE=jsc npx expo export --platform android --clear
+
+      - name: Build release APK
+        working-directory: android
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mbw-android-apk
+          path: android/app/build/outputs/apk/release/*.apk
+          if-no-files-found: error
