@@ -65,8 +65,8 @@ jobs:
           cfg = Path("app.config.js")
           if cfg.exists():
               txt = cfg.read_text(encoding="utf-8", errors="ignore")
-              txt = txt.replace('jsEngine:"hermes"', 'jsEngine:"jsc"').replace("jsEngine:'hermes'","jsEngine:'jsc'")
-              txt = txt.replace('jsEngine:"jsc"', 'jsEngine:"jsc"')
+              txt = txt.replace('jsEngine:"jsc"', 'jsEngine:"hermes"').replace("jsEngine:'jsc'","jsEngine:'hermes'")
+              txt = txt.replace('jsEngine:"hermes"', 'jsEngine:"hermes"')
               cfg.write_text(txt, encoding="utf-8")
           PY
 
