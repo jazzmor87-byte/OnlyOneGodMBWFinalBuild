@@ -17,7 +17,7 @@
         "foregroundImage": "./assets/icons/adaptive-foreground.png",
         "backgroundColor": "#000000"
       },
-      "jsEngine": "jsc"
+      "jsEngine": "hermes"
     },
     "ios": {
       "bundleIdentifier": "com.menbehindwall.mbw"
@@ -32,7 +32,7 @@
       }
     },
     "owner": "onlyonegod",
-    "jsEngine": "jsc",
+    "jsEngine": "hermes",
     "plugins": [
       [
         "expo-build-properties",
