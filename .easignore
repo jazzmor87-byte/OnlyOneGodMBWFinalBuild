@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist_hotspot_fix/
+.expo/
+.expo-shared/
+*.apk
+*.tgz
+*.zip
+*.log
+*.bak_authflow
+POSTER_MAP.json
+MBW_ROUTE_AUDIT.txt

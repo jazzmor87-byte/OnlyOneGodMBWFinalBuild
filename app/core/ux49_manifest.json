@@ -1,0 +1,534 @@
+{
+  "version": "1.0.1",
+  "theme": "ultra3d",
+  "items": [
+    {
+      "file": "BorderCrossingsScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "CoinExplorerHall.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "CoinKeeperHall.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "CoinSeekerHall.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "CoinTraderHall.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "DesiredSignalsScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "HostCircleScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "JourneyCompanionScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "LiveChamberScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "LocalTrailsScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "LoungePulseScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "MasterOfCoinsMain.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "MatchIntelligenceScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "MintStoriesScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "NomadCircuitMain.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "ProfileCrownScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "RealmPrivilegesScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "SafeMeetAtlasScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "StayCircleScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "TravelLedgerScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "TributeLedgerScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "VaultReserveScreen.js",
+      "zone": "compensation",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "ChemistryBoardScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "CoinOracleScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "CollectorRankScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "ConciergeDeskScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "CrownArchiveScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "DesireCompassScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "HostVerificationScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "JourneyMapScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "LiveScheduleScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "LocalCircleScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "LoungeRankingScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "LoungeStoriesScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "MatchVaultScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "MemberLedgerScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "MerchandiseVaultScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "PrivilegeVaultScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "RealmCouncilScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "RealmNewsScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "StayRequestsScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "TradeSignalsScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "TravelSafePassScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    },
+    {
+      "file": "VaultGalleryScreen.js",
+      "zone": "expansion49",
+      "mode": "ultra3d_gate_luxury",
+      "lighting": "gold_rim",
+      "depth": "velvet_shadow",
+      "psychology": [
+        "status",
+        "exclusivity",
+        "ascension"
+      ]
+    }
+  ]
+}

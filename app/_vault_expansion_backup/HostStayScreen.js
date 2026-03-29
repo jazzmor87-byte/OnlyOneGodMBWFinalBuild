@@ -1,0 +1,1 @@
+import React from "react"; import { View, Text, ScrollView, Style, TouchableOpacity } from "react-native"

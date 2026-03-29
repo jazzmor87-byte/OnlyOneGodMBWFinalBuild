@@ -1,0 +1,420 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Adrian",
+      "city": "KLCC",
+      "role": "MBW",
+      "tier": "Ace",
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "name": "Zayn",
+      "city": "Bukit Bintang",
+      "role": "USER",
+      "tier": "Gold",
+      "status": "online"
+    },
+    {
+      "id": 3,
+      "name": "Rafi",
+      "city": "Mont Kiara",
+      "role": "USER",
+      "tier": "Silver",
+      "status": "nearby"
+    },
+    {
+      "id": 4,
+      "name": "Leon",
+      "city": "KL Sentral",
+      "role": "MBW",
+      "tier": "Ace",
+      "status": "live"
+    },
+    {
+      "id": 5,
+      "name": "Mikail",
+      "city": "Damansara",
+      "role": "USER",
+      "tier": "Gold",
+      "status": "online"
+    },
+    {
+      "id": 6,
+      "name": "Arman",
+      "city": "Ampang",
+      "role": "USER",
+      "tier": "Bronze",
+      "status": "away"
+    },
+    {
+      "id": 7,
+      "name": "Reza",
+      "city": "Subang",
+      "role": "MBW",
+      "tier": "Ace",
+      "status": "hosting"
+    },
+    {
+      "id": 8,
+      "name": "Kian",
+      "city": "Petaling Jaya",
+      "role": "USER",
+      "tier": "Gold",
+      "status": "online"
+    },
+    {
+      "id": 9,
+      "name": "Ash",
+      "city": "Cheras",
+      "role": "USER",
+      "tier": "Silver",
+      "status": "online"
+    },
+    {
+      "id": 10,
+      "name": "Nico",
+      "city": "Cyberjaya",
+      "role": "MBW",
+      "tier": "Ace",
+      "status": "travel"
+    },
+    {
+      "id": 11,
+      "name": "Ray",
+      "city": "Putrajaya",
+      "role": "USER",
+      "tier": "Gold",
+      "status": "nearby"
+    },
+    {
+      "id": 12,
+      "name": "Izan",
+      "city": "Shah Alam",
+      "role": "USER",
+      "tier": "Silver",
+      "status": "online"
+    },
+    {
+      "id": 13,
+      "name": "Milan",
+      "city": "KLCC",
+      "role": "MBW",
+      "tier": "Ace",
+      "status": "online"
+    },
+    {
+      "id": 14,
+      "name": "Danish",
+      "city": "Setapak",
+      "role": "USER",
+      "tier": "Bronze",
+      "status": "away"
+    },
+    {
+      "id": 15,
+      "name": "Kai",
+      "city": "Bangsar",
+      "role": "USER",
+      "tier": "Gold",
+      "status": "online"
+    },
+    {
+      "id": 16,
+      "name": "Ammar",
+      "city": "TTDI",
+      "role": "MBW",
+      "tier": "Ace",
+      "status": "live"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Story 1"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Story 2"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "Story 3"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "title": "Story 4"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "title": "Story 5"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "title": "Story 6"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "title": "Story 7"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "title": "Story 8"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "title": "Story 9"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "title": "Story 10"
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "title": "Story 11"
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "title": "Story 12"
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "userId": 1,
+      "score": 87
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "score": 84
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "score": 81
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "score": 78
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "score": 75
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "score": 72
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "score": 90
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "score": 87
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "score": 84
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "score": 81
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "score": 78
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "score": 75
+    }
+  ],
+  "travel": [
+    {
+      "id": 1,
+      "hostId": 1,
+      "type": "local",
+      "slots": 2
+    },
+    {
+      "id": 2,
+      "hostId": 2,
+      "type": "overseas",
+      "slots": 2
+    },
+    {
+      "id": 3,
+      "hostId": 3,
+      "type": "local",
+      "slots": 5
+    },
+    {
+      "id": 4,
+      "hostId": 4,
+      "type": "overseas",
+      "slots": 2
+    },
+    {
+      "id": 5,
+      "hostId": 5,
+      "type": "local",
+      "slots": 2
+    },
+    {
+      "id": 6,
+      "hostId": 6,
+      "type": "overseas",
+      "slots": 5
+    },
+    {
+      "id": 7,
+      "hostId": 7,
+      "type": "local",
+      "slots": 2
+    },
+    {
+      "id": 8,
+      "hostId": 8,
+      "type": "overseas",
+      "slots": 2
+    }
+  ],
+  "lounge": [
+    {
+      "id": 1,
+      "userId": 1,
+      "kind": "live"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "kind": "post"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "kind": "live"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "kind": "post"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "kind": "live"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "kind": "post"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "kind": "live"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "kind": "post"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "kind": "live"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "kind": "post"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "fromId": 1,
+      "toId": 2,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 2,
+      "fromId": 2,
+      "toId": 3,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 3,
+      "fromId": 3,
+      "toId": 4,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 4,
+      "fromId": 4,
+      "toId": 5,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 5,
+      "fromId": 5,
+      "toId": 6,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 6,
+      "fromId": 6,
+      "toId": 7,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 7,
+      "fromId": 7,
+      "toId": 8,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 8,
+      "fromId": 8,
+      "toId": 9,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 9,
+      "fromId": 9,
+      "toId": 10,
+      "preview": "Welcome to MBW"
+    },
+    {
+      "id": 10,
+      "fromId": 10,
+      "toId": 11,
+      "preview": "Welcome to MBW"
+    }
+  ]
+}

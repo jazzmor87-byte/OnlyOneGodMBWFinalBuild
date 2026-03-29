@@ -1,0 +1,1 @@
+export const normalizeTier=(tier)=>String(tier||"tier1").toLowerCase(); export const canAccessSeep=(tier)=>["tier1","tier2"].includes(normalizeTier(tier)); export const canAccessLudo=(tier)=>["tier1","tier2","tier3","tier4"].includes(normalizeTier(tier)); export const getGamesTierLabel=(tier)=>normalizeTier(tier).toUpperCase();

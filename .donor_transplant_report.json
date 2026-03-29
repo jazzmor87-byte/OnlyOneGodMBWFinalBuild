@@ -1,0 +1,19 @@
+{
+  "merge_workspace": "/data/data/com.termux/files/home/MBW_ULTRA_FINAL_MERGE",
+  "donor": "/data/data/com.termux/files/home/MBW-FINAL",
+  "backup": "/data/data/com.termux/files/home/MBW_ULTRA_FINAL_MERGE/_donor_transplant_backup_20260328_205415",
+  "copied_count": 10,
+  "copied": [
+    "AppNavigator.js",
+    "app/screens/Gate/GateOpenCinematic.js",
+    "app/screens/Gate/GateLockedScreen.js",
+    "app/screens/Gate/GateOpenAfterUnlock.js",
+    "app/screens/Gate/PathSelectionScreen.js",
+    "app/screens/Gate/gateCodes.js",
+    "app/screens/finalux/LoginLux.js",
+    "app/screens/finalux/SignupLux.js",
+    "app/storage/gateState.js",
+    "app/screens/recovery/"
+  ],
+  "missing": []
+}
