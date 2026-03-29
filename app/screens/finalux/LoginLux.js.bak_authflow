@@ -1,8 +1,0 @@
-import { makePosterScreen } from "./_PosterEngine";
-export default makePosterScreen({
-  assetKey: "login_main",
-  title: "MEN BEHIND WALL",
-  subtitle: "Elite path awaits.",
-  family: "realm",
-  hotspots: [],
-});

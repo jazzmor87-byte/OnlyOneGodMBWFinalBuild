@@ -1,8 +1,0 @@
-import { makePosterScreen } from "./_PosterEngine";
-export default makePosterScreen({
-  assetKey: "path_selection",
-  title: "CHOOSE YOUR PATH",
-  subtitle: "Enter as User or MBW.",
-  family: "realm",
-  hotspots: [],
-});

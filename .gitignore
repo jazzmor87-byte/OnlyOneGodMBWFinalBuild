@@ -23,3 +23,13 @@ MBW_BLOAT_HOLD
 android/app/build
 android/build
 ios/build
+
+.WORKING_COPY
+.alive_audit.json
+.donor_transplant_report.json
+.merge_audit.json
+.runtime_route_walk.json
+.eas_finished_android.json
+.easignore.bak
+app/screens/finalux/*.bak_authflow
+android/app/debug.keystore
