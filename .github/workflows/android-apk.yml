@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Force JSC for CI
+      - name: Force Hermes for CI
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -40,9 +40,9 @@ jobs:
           if p.exists():
               data = json.loads(p.read_text(encoding="utf-8"))
               expo = data.setdefault("expo", {})
-              expo["jsEngine"] = "jsc"
+              expo["jsEngine"] = "hermes"
               expo.setdefault("android", {})
-              expo["android"]["jsEngine"] = "jsc"
+              expo["android"]["jsEngine"] = "hermes"
               p.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
           gp = Path("android/gradle.properties")
           if gp.exists():
@@ -54,13 +54,13 @@ jobs:
               for line in lines:
                   s=line.strip()
                   if s.startswith("expo.jsEngine="):
-                      out.append("expo.jsEngine=jsc"); saw_expo=True
+                      out.append("expo.jsEngine=hermes"); saw_expo=True
                   elif s.startswith("hermesEnabled="):
-                      out.append("hermesEnabled=false"); saw_hermes=True
+                      out.append("hermesEnabled=true"); saw_hermes=True
                   else:
                       out.append(line)
-              if not saw_expo: out.append("expo.jsEngine=jsc")
-              if not saw_hermes: out.append("hermesEnabled=false")
+              if not saw_expo: out.append("expo.jsEngine=hermes")
+              if not saw_hermes: out.append("hermesEnabled=true")
               gp.write_text("\n".join(out) + "\n", encoding="utf-8")
           cfg = Path("app.config.js")
           if cfg.exists():
@@ -71,7 +71,7 @@ jobs:
           PY
 
       - name: Export preflight
-        run: JS_ENGINE=jsc npx expo export --platform android --clear
+        run: npx expo export --platform android --clear
 
       - name: Build release APK
         working-directory: android
