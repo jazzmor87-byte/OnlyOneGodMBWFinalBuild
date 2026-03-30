@@ -25,24 +25,26 @@ export default function GateLockedScreen({ navigation }) {
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
       <View style={s.scrim} />
       <View style={s.wrap}>
-        <Text style={s.helper}>Only one word is the password of this app to go further.</Text>
-        <Text style={s.tatva}>PANCH TATVA • EARTH • WATER • FIRE • AIR • SPACE</Text>
+        <View style={s.floatCard}>
+          <Text style={s.helper}>Only one word is the password of this app to go further.</Text>
+          <Text style={s.tatva}>PANCH TATVA • EARTH • WATER • FIRE • AIR • SPACE</Text>
 
-        <TextInput
-          value={pw}
-          onChangeText={(t) => { setPw(t); setErr(""); }}
-          placeholder="WRITE THE PASSWORD"
-          placeholderTextColor="#D7B86A"
-          style={s.i}
-          autoCapitalize="characters"
-          autoCorrect={false}
-        />
+          <TextInput
+            value={pw}
+            onChangeText={(t) => { setPw(t); setErr(""); }}
+            placeholder="WRITE THE PASSWORD"
+            placeholderTextColor="#D7B86A"
+            style={s.i}
+            autoCapitalize="characters"
+            autoCorrect={false}
+          />
 
-        <TouchableOpacity style={s.btn} onPress={onEnter} activeOpacity={0.9}>
-          <Text style={s.t}>UNLOCK GATE</Text>
-        </TouchableOpacity>
+          <TouchableOpacity style={s.btn} onPress={onEnter} activeOpacity={0.9}>
+            <Text style={s.t}>UNLOCK GATE</Text>
+          </TouchableOpacity>
 
-        {!!err && <Text style={s.e}>{err}</Text>}
+          {!!err && <Text style={s.e}>{err}</Text>}
+        </View>
       </View>
     </ImageBackground>
   );
@@ -50,44 +52,48 @@ export default function GateLockedScreen({ navigation }) {
 
 const s = StyleSheet.create({
   bg: { flex: 1, backgroundColor: "#000" },
-  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.18)" },
-  wrap: { flex: 1, justifyContent: "flex-end", padding: 18, paddingBottom: 26 },
+  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.12)" },
+  wrap: { flex: 1, justifyContent: "flex-end", padding: 14, paddingBottom: 16 },
+  floatCard: {
+    backgroundColor: "rgba(0,0,0,0.10)",
+    borderWidth: 1.1,
+    borderColor: "rgba(212,175,55,0.72)",
+    borderRadius: 18,
+    paddingVertical: 12,
+    paddingHorizontal: 14
+  },
   helper: {
     color: "#F7EBCB",
-    fontSize: 13,
+    fontSize: 12.5,
     textAlign: "center",
-    marginBottom: 8,
-    textShadowColor: "rgba(0,0,0,0.45)",
-    textShadowRadius: 6
+    marginBottom: 6
   },
   tatva: {
     color: "#D4AF37",
-    fontSize: 11.5,
+    fontSize: 10.8,
     textAlign: "center",
-    marginBottom: 14,
-    letterSpacing: 0.6,
-    textShadowColor: "rgba(0,0,0,0.45)",
-    textShadowRadius: 6
+    marginBottom: 12,
+    letterSpacing: 0.6
   },
   i: {
-    borderWidth: 1.2,
+    borderWidth: 1.1,
     borderColor: "#D4AF37",
-    borderRadius: 18,
+    borderRadius: 16,
     color: "#fff",
-    paddingVertical: 16,
-    paddingHorizontal: 16,
-    fontSize: 16,
-    backgroundColor: "rgba(0,0,0,0.10)"
+    paddingVertical: 14,
+    paddingHorizontal: 14,
+    fontSize: 15.5,
+    backgroundColor: "rgba(0,0,0,0.06)"
   },
   btn: {
-    marginTop: 12,
-    borderWidth: 1.2,
+    marginTop: 10,
+    borderWidth: 1.1,
     borderColor: "#D4AF37",
-    borderRadius: 18,
-    paddingVertical: 15,
+    borderRadius: 16,
+    paddingVertical: 14,
     alignItems: "center",
-    backgroundColor: "rgba(0,0,0,0.08)"
+    backgroundColor: "rgba(0,0,0,0.05)"
   },
-  t: { color: "#FAE8B8", fontSize: 16, fontWeight: "900" },
-  e: { color: "#ffb0b0", textAlign: "center", marginTop: 10, fontWeight: "700" }
+  t: { color: "#FAE8B8", fontSize: 15, fontWeight: "900" },
+  e: { color: "#ffb0b0", textAlign: "center", marginTop: 8, fontWeight: "700" }
 });
