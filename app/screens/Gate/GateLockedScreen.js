@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet, ImageBackground } 
 import { resolveGateTier } from "./gateCodes";
 import { unlockGate, setTier, lockGate } from "../../storage/gateState";
 
-const BG = require("../../assets/mbw_luxscreens/realm_main_alt.png");
+const BG = require("../../assets/gate/locked.png");
 
 export default function GateLockedScreen({ navigation }) {
   const [pw, setPw] = useState("");
@@ -25,26 +25,24 @@ export default function GateLockedScreen({ navigation }) {
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
       <View style={s.scrim} />
       <View style={s.wrap}>
-        <View style={s.card}>
-          <Text style={s.helper}>Only one word is the password of this app to go further.</Text>
-          <Text style={s.tatva}>PANCH TATVA • EARTH • WATER • FIRE • AIR • SPACE</Text>
+        <Text style={s.helper}>Only one word is the password of this app to go further.</Text>
+        <Text style={s.tatva}>PANCH TATVA • EARTH • WATER • FIRE • AIR • SPACE</Text>
 
-          <TextInput
-            value={pw}
-            onChangeText={(t) => { setPw(t); setErr(""); }}
-            placeholder="WRITE THE PASSWORD"
-            placeholderTextColor="#D7B86A"
-            style={s.i}
-            autoCapitalize="characters"
-            autoCorrect={false}
-          />
+        <TextInput
+          value={pw}
+          onChangeText={(t) => { setPw(t); setErr(""); }}
+          placeholder="WRITE THE PASSWORD"
+          placeholderTextColor="#D7B86A"
+          style={s.i}
+          autoCapitalize="characters"
+          autoCorrect={false}
+        />
 
-          <TouchableOpacity style={s.btn} onPress={onEnter} activeOpacity={0.9}>
-            <Text style={s.t}>UNLOCK GATE</Text>
-          </TouchableOpacity>
+        <TouchableOpacity style={s.btn} onPress={onEnter} activeOpacity={0.9}>
+          <Text style={s.t}>UNLOCK GATE</Text>
+        </TouchableOpacity>
 
-          {!!err && <Text style={s.e}>{err}</Text>}
-        </View>
+        {!!err && <Text style={s.e}>{err}</Text>}
       </View>
     </ImageBackground>
   );
@@ -52,9 +50,8 @@ export default function GateLockedScreen({ navigation }) {
 
 const s = StyleSheet.create({
   bg: { flex: 1, backgroundColor: "#000" },
-  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.32)" },
+  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.18)" },
   wrap: { flex: 1, justifyContent: "flex-end", padding: 18, paddingBottom: 26 },
-  card: { backgroundColor: "transparent" },
   helper: {
     color: "#F7EBCB",
     fontSize: 13,
