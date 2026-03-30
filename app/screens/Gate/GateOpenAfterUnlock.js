@@ -1,25 +1,43 @@
 import React from "react";
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { View, Text, TouchableOpacity, StyleSheet, ImageBackground } from "react-native";
 
-export default function GateOpenAfterUnlock({ navigation, route }) {
-  const mode = route?.params?.entryMode || "PUBLIC";
+const BG = require("../../assets/mbw_luxscreens/main_hub.png");
 
+export default function GateOpenAfterUnlock({ navigation }) {
   return (
-    <View style={s.c}>
-      <Text style={s.h}>THE GATE IS OPEN</Text>
-      <Text style={s.p}>{mode === "MBW" ? "Private MBW path unlocked." : "Public path ready."}</Text>
+    <ImageBackground source={BG} style={s.bg} resizeMode="cover">
+      <View style={s.scrim} />
+      <View style={s.wrap}>
+        <View style={s.card}>
+          <Text style={s.top}>THE GATE IS OPEN</Text>
+          <Text style={s.h}>GOD LET YOU PASS THROUGH THE GATE LOCK</Text>
+          <Text style={s.p}>to be a free man where you can do things which you like in your way, but you are watched by God.</Text>
 
-      <TouchableOpacity style={s.btn} onPress={() => navigation.replace("PathSelection", { entryMode: mode })}>
-        <Text style={s.t}>ENTER FURTHER</Text>
-      </TouchableOpacity>
-    </View>
+          <TouchableOpacity style={s.btn} onPress={() => navigation.replace("PathSelection")} activeOpacity={0.9}>
+            <Text style={s.t}>ENTER FURTHER</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </ImageBackground>
   );
 }
 
 const s = StyleSheet.create({
-  c: { flex: 1, backgroundColor: "#000", justifyContent: "center", padding: 24, alignItems: "center" },
-  h: { color: "#D4AF37", fontSize: 30, fontWeight: "900", textAlign: "center" },
-  p: { color: "#fff", fontSize: 15, textAlign: "center", marginTop: 12, marginBottom: 24 },
-  btn: { backgroundColor: "rgba(15,15,15,0.86)", borderWidth: 1, borderColor: "#D4AF37", borderRadius: 18, paddingVertical: 16, paddingHorizontal: 28 },
-  t: { color: "#fff", fontSize: 18, fontWeight: "900" }
+  bg: { flex: 1, backgroundColor: "#000" },
+  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.22)" },
+  wrap: { flex: 1, justifyContent: "flex-end", padding: 18, paddingBottom: 26 },
+  card: { backgroundColor: "transparent", alignItems: "center" },
+  top: { color: "#E2C26E", fontSize: 14, fontWeight: "700", marginBottom: 10, letterSpacing: 1.1 },
+  h: { color: "#FAE8B8", fontSize: 22, fontWeight: "900", textAlign: "center", lineHeight: 28 },
+  p: { color: "#F7EBCB", fontSize: 13, textAlign: "center", marginTop: 12, marginBottom: 22, lineHeight: 19, paddingHorizontal: 6 },
+  btn: {
+    alignSelf: "stretch",
+    borderWidth: 1.2,
+    borderColor: "#D4AF37",
+    borderRadius: 18,
+    paddingVertical: 15,
+    alignItems: "center",
+    backgroundColor: "rgba(0,0,0,0.08)"
+  },
+  t: { color: "#FAE8B8", fontSize: 16, fontWeight: "900" }
 });
