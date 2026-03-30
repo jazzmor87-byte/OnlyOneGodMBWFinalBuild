@@ -11,7 +11,7 @@ export default function DesiredSignalsScreen() {
       secondaryRoutes={["MatchmakingScreen", "MatchmakingResult", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/match_extra.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/match_extra.png')}
     />
   );
 }

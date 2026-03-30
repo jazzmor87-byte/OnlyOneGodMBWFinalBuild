@@ -11,7 +11,7 @@ export default function AllScreensHub() {
       secondaryRoutes={["HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../assets/finalux/art_main.png')}
+      fallbackAsset={require('../assets/mbw_luxscreens/art_main.png')}
     />
   );
 }

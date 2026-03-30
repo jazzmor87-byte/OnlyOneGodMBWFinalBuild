@@ -11,7 +11,7 @@ export default function CoinsMain() {
       secondaryRoutes={["wallet_main", "coin_main", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/mint_stories.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/mint_stories.png')}
     />
   );
 }

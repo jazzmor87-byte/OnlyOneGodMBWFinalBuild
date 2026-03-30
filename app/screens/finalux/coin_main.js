@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function coin_main() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/coin_main.js", "coin_main");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/points_main.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/wallet_main.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

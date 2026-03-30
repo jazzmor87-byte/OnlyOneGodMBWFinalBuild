@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function MBW_CoinOracleScreen_Poster_02() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/MBW_CoinOracleScreen_Poster_02.js", "MBW_CoinOracleScreen_Poster_02");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/collector_rank.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/collector_rank.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

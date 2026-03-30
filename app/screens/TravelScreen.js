@@ -11,7 +11,7 @@ export default function TravelScreen() {
       secondaryRoutes={["TravelOverseasHost", "TravelLocalAdventure", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../assets/finalux/border_crossings.png')}
+      fallbackAsset={require('../assets/mbw_luxscreens/border_crossing.png')}
     />
   );
 }

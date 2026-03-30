@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function profile_main() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/profile_main.js", "profile_main");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/profile_main.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/profile_main.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

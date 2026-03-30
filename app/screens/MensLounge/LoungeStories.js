@@ -11,7 +11,7 @@ export default function LoungeStories() {
       secondaryRoutes={["LoungeHome", "LoungeGoLive", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/lounge_pulse.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/Live_lounge.png')}
     />
   );
 }

@@ -6,7 +6,7 @@ export default function Signup() {
     <EntryStaticScreen
       title="SIGN UP"
       subtitle="Create your account and continue into MBW."
-      asset={require('../../assets/finalux/sign_up_main.png')}
+      asset={require('../../assets/mbw_luxscreens/signup_main.png')}
       primaryLabel="Continue"
       primaryRoutes={['Subscription', 'MBWHome', 'HomeHub']}
       secondaryLabel="Log In"

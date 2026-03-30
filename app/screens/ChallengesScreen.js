@@ -11,7 +11,7 @@ export default function ChallengesScreen() {
       secondaryRoutes={["AllScreensHub", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../assets/finalux/games_main.png')}
+      fallbackAsset={require('../assets/mbw_luxscreens/main_hub.png')}
     />
   );
 }

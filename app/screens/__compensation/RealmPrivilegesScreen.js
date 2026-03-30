@@ -11,7 +11,7 @@ export default function RealmPrivilegesScreen() {
       secondaryRoutes={["RealmHome", "MBWHome", "HomeHub"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/realm_council.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/realm_council.png')}
     />
   );
 }

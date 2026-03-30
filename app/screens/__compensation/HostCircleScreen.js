@@ -11,7 +11,7 @@ export default function HostCircleScreen() {
       secondaryRoutes={["BorderCrossingsScreen", "SeepScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/games_main.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/main_hub.png')}
     />
   );
 }

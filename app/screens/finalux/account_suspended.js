@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function account_suspended() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/account_suspended.js", "account_suspended");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/account_suspended.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/account_suspended.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

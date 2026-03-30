@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function border_crossing() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/border_crossing.js", "border_crossing");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/games_main.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/main_hub.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

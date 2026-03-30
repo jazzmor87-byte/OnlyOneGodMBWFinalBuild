@@ -11,7 +11,7 @@ export default function JourneyCompanionScreen() {
       secondaryRoutes={["TravelScreen", "TravelOverseasHost", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/travel_overseas.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/travel_overseas.png')}
     />
   );
 }

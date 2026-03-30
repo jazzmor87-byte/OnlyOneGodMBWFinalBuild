@@ -11,7 +11,7 @@ export default function MatchmakingFilters() {
       secondaryRoutes={["HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/desire_compass.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/desire_compass.png')}
     />
   );
 }

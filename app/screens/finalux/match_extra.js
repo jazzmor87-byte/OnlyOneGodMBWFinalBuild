@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function match_extra() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/match_extra.js", "match_extra");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/desired_signals.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/desired_signals.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

@@ -11,7 +11,7 @@ export default function MatchmakingMain() {
       secondaryRoutes={["private_chat", "members_near_you", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/match_intelligence.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/matchmaking_main.png')}
     />
   );
 }

@@ -28,3 +28,5 @@ const s = StyleSheet.create({
   alt: { borderColor: "#800000" },
   t: { color: "#fff", fontSize: 18, fontWeight: "900" }
 });
+
+/* ACE_LOCKED_POSTER:path_selection.png */

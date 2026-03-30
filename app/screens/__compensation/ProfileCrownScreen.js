@@ -11,7 +11,7 @@ export default function ProfileCrownScreen() {
       secondaryRoutes={["ProfileSettings", "ProfileSecurity", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/profile_crown.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/profile_main.png')}
     />
   );
 }

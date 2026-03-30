@@ -11,7 +11,7 @@ export default function MasterOfCoinsMain() {
       secondaryRoutes={["CoinTraderHall", "CoinSeekerHall", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/master_of_coins.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/coin_main.png')}
     />
   );
 }

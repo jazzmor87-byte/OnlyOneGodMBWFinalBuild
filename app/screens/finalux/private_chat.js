@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function private_chat() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/private_chat.js", "private_chat");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/match_found.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/match_found.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

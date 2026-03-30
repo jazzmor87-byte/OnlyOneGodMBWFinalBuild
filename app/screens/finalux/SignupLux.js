@@ -10,7 +10,7 @@ export default function SignupLux({ navigation, route }) {
       <Text style={s.p}>Create your path and continue to the Main Hall.</Text>
       <TouchableOpacity
         style={s.btn}
-        onPress={() => navigation.dispatch(CommonActions.reset({ index: 0, routes: [{ name: "RecoveryHub", params: { tier: mode === "MBW" ? "MBW" : "PUBLIC" } }] }))}
+        onPress={() => navigation.dispatch(CommonActions.reset({ index: 0, routes: [{ name: "Main_Activity", params: { tier: mode === "MBW" ? "MBW" : "PUBLIC" } }] }))}
       >
         <Text style={s.t}>ENTER MAIN HALL</Text>
       </TouchableOpacity>
@@ -25,3 +25,5 @@ const s = StyleSheet.create({
   btn: { backgroundColor: "#111", borderWidth: 1, borderColor: "#800000", borderRadius: 18, paddingVertical: 16, paddingHorizontal: 28 },
   t: { color: "#fff", fontSize: 18, fontWeight: "900" }
 });
+
+/* ACE_LOCKED_POSTER:signup_main.png */

@@ -11,7 +11,7 @@ export default function ProfileHome() {
       secondaryRoutes={["Profile", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/profile_crown.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/profile_main.png')}
     />
   );
 }

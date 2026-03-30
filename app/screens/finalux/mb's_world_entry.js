@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function mbs_world_entry() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/mb's_world_entry.js", "mb's_world_entry");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/homepage_main.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/main_hub.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

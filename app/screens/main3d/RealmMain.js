@@ -11,7 +11,7 @@ export default function RealmMain() {
       secondaryRoutes={["HomeHub","Login","GateScreen"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/realm_council.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/realm_council.png')}
     />
   );
 }

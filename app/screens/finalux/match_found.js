@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function match_found() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/match_found.js", "match_found");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/match_main.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/matchmaking_main.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

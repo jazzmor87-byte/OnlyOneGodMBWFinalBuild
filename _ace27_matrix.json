@@ -1,0 +1,234 @@
+{
+  "lux_total": 27,
+  "use": {
+    "login_main.png": [
+      "app/screens/Login.js"
+    ],
+    "signup_main.png": [
+      "app/screens/Subscription.js",
+      "app/screens/auth/Signup.js"
+    ],
+    "realm_main_alt.png": [
+      "app/screens/RealmHome.js",
+      "app/screens/LockedScreen.js",
+      "app/screens/home/MBWHome.js"
+    ],
+    "main_hub.png": [
+      "app/screens/SeepArena.js",
+      "app/screens/HomeScreen.js",
+      "app/screens/HomeHub.js",
+      "app/screens/ChallengesScreen.js",
+      "app/screens/Gate/_GateLuxury.js",
+      "app/screens/__compensation/VaultReserveScreen.js",
+      "app/screens/__compensation/NomadCircuitMain.js",
+      "app/screens/__compensation/HostCircleScreen.js",
+      "app/screens/Kamashastra/KamaQuiz.js",
+      "app/screens/Games/LudoLobbyScreen.js",
+      "app/screens/Games/SeepRoundResultScreen.js",
+      "app/screens/main3d/ArtMain.js",
+      "app/screens/finalux/mb's_world_entry.js",
+      "app/screens/finalux/signup_main.js",
+      "app/screens/finalux/border_crossing.js"
+    ],
+    "art_main.png": [
+      "app/screens/LudoArena.js",
+      "app/screens/GamesScreen.js",
+      "app/screens/AllScreensHub.js",
+      "app/screens/home/UserHome.js",
+      "app/screens/__compensation/TributeLedgerScreen.js",
+      "app/screens/__compensation/MintStoriesScreen.js",
+      "app/screens/__compensation/BorderCrossingsScreen.js",
+      "app/screens/Kamashastra/KamaLessons.js",
+      "app/screens/Games/SeepLobbyScreen.js",
+      "app/screens/Games/LudoBoardScreen.js",
+      "app/screens/main3d/_Main3DFactory.js",
+      "app/screens/finalux/art_main.js",
+      "app/screens/finalux/path_selection.js"
+    ],
+    "profile_main.png": [
+      "app/screens/Profile.js",
+      "app/screens/__compensation/ProfileCrownScreen.js",
+      "app/screens/Profile/ProfileHome.js",
+      "app/screens/Profile/ProfileSettings.js",
+      "app/screens/finalux/profile_main.js"
+    ],
+    "Live_lounge.png": [
+      "app/screens/LiveLoungeScreen.js",
+      "app/screens/MensLounge/LoungeStories.js"
+    ],
+    "match_details.png": [
+      "app/screens/MatchmakingScreen.js",
+      "app/screens/finalux/matchmaking_main.js"
+    ],
+    "border_crossing.png": [
+      "app/screens/TravelScreen.js"
+    ],
+    "mb's_world_entry.png": [
+      "app/screens/MBWHome.js",
+      "app/screens/finalux/realm_main_alt.js"
+    ],
+    "merch_main.png": [
+      "app/screens/MerchandiseScreen.js",
+      "app/screens/Merchandise/MerchCheckout.js",
+      "app/screens/main3d/MerchMain.js"
+    ],
+    "coin_main.png": [
+      "app/screens/__compensation/MasterOfCoinsMain.js",
+      "app/screens/__compensation/CoinExplorerHall.js",
+      "app/screens/__compensation/CoinSeekerHall.js",
+      "app/screens/__compensation/CoinTraderHall.js",
+      "app/screens/Coins/CoinMarket.js"
+    ],
+    "wallet_main.png": [
+      "app/screens/__compensation/CoinKeeperHall.js",
+      "app/screens/Coins/CoinVault.js",
+      "app/screens/finalux/coin_main.js"
+    ],
+    "Safe_meet_atlas.png": [
+      "app/screens/__compensation/SafeMeetAtlasScreen.js",
+      "app/screens/finalux/travel.js"
+    ],
+    "travel_overseas.png": [
+      "app/screens/__compensation/JourneyCompanionScreen.js"
+    ],
+    "host_circle.png": [
+      "app/screens/__compensation/TravelLedgerScreen.js"
+    ],
+    "match_extra.png": [
+      "app/screens/__compensation/DesiredSignalsScreen.js",
+      "app/screens/finalux/members_near_you.js"
+    ],
+    "match_found.png": [
+      "app/screens/__compensation/MatchIntelligenceScreen.js",
+      "app/screens/finalux/private_chat.js"
+    ],
+    "matchmaking_main.png": [
+      "app/screens/Matchmaking/MatchmakingResult.js",
+      "app/screens/main3d/MatchmakingMain.js",
+      "app/screens/finalux/match_found.js"
+    ],
+    "travel.png": [
+      "app/screens/Travel/TravelLocalAdventure.js",
+      "app/screens/Travel/TravelInbox.js",
+      "app/screens/main3d/TravelMain.js",
+      "app/screens/finalux/host_circle.js",
+      "app/screens/finalux/Safe_meet_atlas.js"
+    ],
+    "MBW_CoinOracleScreen_Poster_02.png": [
+      "app/screens/Coins/CoinTrade.js"
+    ],
+    "account_suspended.png": [
+      "app/screens/finalux/account_suspended.js"
+    ]
+  },
+  "overused": {
+    "signup_main.png": [
+      "app/screens/Subscription.js",
+      "app/screens/auth/Signup.js"
+    ],
+    "realm_main_alt.png": [
+      "app/screens/RealmHome.js",
+      "app/screens/LockedScreen.js",
+      "app/screens/home/MBWHome.js"
+    ],
+    "main_hub.png": [
+      "app/screens/SeepArena.js",
+      "app/screens/HomeScreen.js",
+      "app/screens/HomeHub.js",
+      "app/screens/ChallengesScreen.js",
+      "app/screens/Gate/_GateLuxury.js",
+      "app/screens/__compensation/VaultReserveScreen.js",
+      "app/screens/__compensation/NomadCircuitMain.js",
+      "app/screens/__compensation/HostCircleScreen.js",
+      "app/screens/Kamashastra/KamaQuiz.js",
+      "app/screens/Games/LudoLobbyScreen.js",
+      "app/screens/Games/SeepRoundResultScreen.js",
+      "app/screens/main3d/ArtMain.js",
+      "app/screens/finalux/mb's_world_entry.js",
+      "app/screens/finalux/signup_main.js",
+      "app/screens/finalux/border_crossing.js"
+    ],
+    "art_main.png": [
+      "app/screens/LudoArena.js",
+      "app/screens/GamesScreen.js",
+      "app/screens/AllScreensHub.js",
+      "app/screens/home/UserHome.js",
+      "app/screens/__compensation/TributeLedgerScreen.js",
+      "app/screens/__compensation/MintStoriesScreen.js",
+      "app/screens/__compensation/BorderCrossingsScreen.js",
+      "app/screens/Kamashastra/KamaLessons.js",
+      "app/screens/Games/SeepLobbyScreen.js",
+      "app/screens/Games/LudoBoardScreen.js",
+      "app/screens/main3d/_Main3DFactory.js",
+      "app/screens/finalux/art_main.js",
+      "app/screens/finalux/path_selection.js"
+    ],
+    "profile_main.png": [
+      "app/screens/Profile.js",
+      "app/screens/__compensation/ProfileCrownScreen.js",
+      "app/screens/Profile/ProfileHome.js",
+      "app/screens/Profile/ProfileSettings.js",
+      "app/screens/finalux/profile_main.js"
+    ],
+    "Live_lounge.png": [
+      "app/screens/LiveLoungeScreen.js",
+      "app/screens/MensLounge/LoungeStories.js"
+    ],
+    "match_details.png": [
+      "app/screens/MatchmakingScreen.js",
+      "app/screens/finalux/matchmaking_main.js"
+    ],
+    "mb's_world_entry.png": [
+      "app/screens/MBWHome.js",
+      "app/screens/finalux/realm_main_alt.js"
+    ],
+    "merch_main.png": [
+      "app/screens/MerchandiseScreen.js",
+      "app/screens/Merchandise/MerchCheckout.js",
+      "app/screens/main3d/MerchMain.js"
+    ],
+    "coin_main.png": [
+      "app/screens/__compensation/MasterOfCoinsMain.js",
+      "app/screens/__compensation/CoinExplorerHall.js",
+      "app/screens/__compensation/CoinSeekerHall.js",
+      "app/screens/__compensation/CoinTraderHall.js",
+      "app/screens/Coins/CoinMarket.js"
+    ],
+    "wallet_main.png": [
+      "app/screens/__compensation/CoinKeeperHall.js",
+      "app/screens/Coins/CoinVault.js",
+      "app/screens/finalux/coin_main.js"
+    ],
+    "Safe_meet_atlas.png": [
+      "app/screens/__compensation/SafeMeetAtlasScreen.js",
+      "app/screens/finalux/travel.js"
+    ],
+    "match_extra.png": [
+      "app/screens/__compensation/DesiredSignalsScreen.js",
+      "app/screens/finalux/members_near_you.js"
+    ],
+    "match_found.png": [
+      "app/screens/__compensation/MatchIntelligenceScreen.js",
+      "app/screens/finalux/private_chat.js"
+    ],
+    "matchmaking_main.png": [
+      "app/screens/Matchmaking/MatchmakingResult.js",
+      "app/screens/main3d/MatchmakingMain.js",
+      "app/screens/finalux/match_found.js"
+    ],
+    "travel.png": [
+      "app/screens/Travel/TravelLocalAdventure.js",
+      "app/screens/Travel/TravelInbox.js",
+      "app/screens/main3d/TravelMain.js",
+      "app/screens/finalux/host_circle.js",
+      "app/screens/finalux/Safe_meet_atlas.js"
+    ]
+  },
+  "unmapped": [
+    "Main_Activity.jpg",
+    "members_near_you.png",
+    "path_selection.png",
+    "private_chat.png",
+    "subscription_main.png"
+  ]
+}

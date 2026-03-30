@@ -11,7 +11,7 @@ export default function LockedScreen() {
       secondaryRoutes={["GateScreen", "GateCinematic", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../assets/finalux/realm_main_alt.png')}
+      fallbackAsset={require('../assets/mbw_luxscreens/realm_main_alt.png')}
     />
   );
 }

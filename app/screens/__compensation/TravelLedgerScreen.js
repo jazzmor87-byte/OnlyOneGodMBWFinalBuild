@@ -11,7 +11,7 @@ export default function TravelLedgerScreen() {
       secondaryRoutes={["SafeMeetAtlasScreen", "JourneyCompanionScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/host_circle.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/host_circle.png')}
     />
   );
 }

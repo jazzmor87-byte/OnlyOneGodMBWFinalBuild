@@ -11,7 +11,7 @@ export default function CoinTrade() {
       secondaryRoutes={["CoinMarket", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/coin_oracle.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/MBW_CoinOracleScreen_Poster_02.png')}
     />
   );
 }

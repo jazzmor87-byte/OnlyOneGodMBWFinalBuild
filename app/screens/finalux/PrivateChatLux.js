@@ -22,3 +22,5 @@ const styles = StyleSheet.create({
     title: { fontSize: 28, color: '#FFD700', marginBottom: 20 },
     poster: { width: 360, height: 640, resizeMode: 'cover', marginBottom: 20 }
 });
+
+/* ACE_LOCKED_POSTER:private_chat.png */

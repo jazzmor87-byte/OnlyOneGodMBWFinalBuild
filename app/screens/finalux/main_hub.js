@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function main_hub() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/main_hub.js", "main_hub");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/concierge_desk.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/concierge_desk.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

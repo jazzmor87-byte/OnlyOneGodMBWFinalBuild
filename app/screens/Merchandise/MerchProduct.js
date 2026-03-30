@@ -11,7 +11,7 @@ export default function MerchProduct() {
       secondaryRoutes={["MerchHome", "MerchCheckout", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/vault_gallery.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/vault_gallery.png')}
     />
   );
 }

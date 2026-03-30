@@ -11,7 +11,7 @@ export default function KamaHome() {
       secondaryRoutes={["HomeScreen", "GamesScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/chemistry_board.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/chemistry_board.png')}
     />
   );
 }

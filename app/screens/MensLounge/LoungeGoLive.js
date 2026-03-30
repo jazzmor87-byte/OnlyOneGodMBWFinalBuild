@@ -11,7 +11,7 @@ export default function LoungeGoLive() {
       secondaryRoutes={["LiveLoungeScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/live_chamber.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/live_chamber.png')}
     />
   );
 }

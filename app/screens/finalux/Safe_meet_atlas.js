@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function Safe_meet_atlas() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/Safe_meet_atlas.js", "Safe_meet_atlas");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/local_trails.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/travel.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

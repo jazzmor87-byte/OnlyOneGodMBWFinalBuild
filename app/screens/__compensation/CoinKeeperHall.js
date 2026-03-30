@@ -11,7 +11,7 @@ export default function CoinKeeperHall() {
       secondaryRoutes={["CoinExplorerHall", "CoinVault", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/coin_keeper_hall.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/wallet_main.png')}
     />
   );
 }

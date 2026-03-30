@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function subscription_main() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/subscription_main.js", "subscription_main");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/chemistry_board.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/chemistry_board.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

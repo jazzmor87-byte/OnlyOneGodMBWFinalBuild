@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function travel_overseas() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/travel_overseas.js", "travel_overseas");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/host_verification.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/host_verification.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

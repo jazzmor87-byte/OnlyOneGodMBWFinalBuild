@@ -11,7 +11,7 @@ export default function TravelOverseasHost() {
       secondaryRoutes={["TravelLocalAdventure", "TravelInbox", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/journey_map.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/journey_map.png')}
     />
   );
 }

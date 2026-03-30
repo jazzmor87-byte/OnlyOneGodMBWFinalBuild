@@ -11,7 +11,7 @@ export default function CoinVault() {
       secondaryRoutes={["CoinTrade", "CoinMarket", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/wallet_main.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/wallet_main.png')}
     />
   );
 }

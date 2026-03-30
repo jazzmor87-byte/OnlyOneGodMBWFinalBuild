@@ -6,7 +6,7 @@ export default function Subscription() {
     <EntryStaticScreen
       title="SUBSCRIPTION"
       subtitle="Choose your access and continue into the app."
-      asset={require('../assets/finalux/sign_up_main.png')}
+      asset={require('../assets/mbw_luxscreens/subscription_main.png')}
       primaryLabel="Enter"
       primaryRoutes={['MBWHome', 'HomeHub', 'RealmHome']}
       secondaryLabel="Back"

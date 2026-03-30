@@ -11,7 +11,7 @@ export default function SafeMeetAtlasScreen() {
       secondaryRoutes={["JourneyCompanionScreen", "TravelScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/safe_meet_atlas.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/Safe_meet_atlas.png')}
     />
   );
 }

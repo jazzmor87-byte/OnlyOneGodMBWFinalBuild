@@ -11,7 +11,7 @@ export default function TravelInbox() {
       secondaryRoutes={["HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/nomad_circuit.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/travel.png')}
     />
   );
 }

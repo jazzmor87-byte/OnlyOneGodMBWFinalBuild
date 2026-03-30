@@ -11,7 +11,7 @@ export default function LiveChamberScreen() {
       secondaryRoutes={["LoungeStories", "LoungeHome", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/lounge_ranking.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/lounge_ranking.png')}
     />
   );
 }

@@ -11,7 +11,7 @@ export default function Login() {
       secondaryRoutes={["LockedScreen", "GateScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/concierge_desk.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/concierge_desk.png')}
     />
   );
 }

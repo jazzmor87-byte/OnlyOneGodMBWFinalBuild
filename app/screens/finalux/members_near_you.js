@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function members_near_you() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/members_near_you.js", "members_near_you");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/match_extra.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/members_near_you.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

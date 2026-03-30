@@ -11,7 +11,7 @@ export default function StayCircleScreen() {
       secondaryRoutes={["NomadCircuitMain", "MintStoriesScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/chemistry_board.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/chemistry_board.png')}
     />
   );
 }

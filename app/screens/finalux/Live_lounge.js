@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function Live_lounge() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/Live_lounge.js", "Live_lounge");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/live_chamber.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/live_chamber.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);

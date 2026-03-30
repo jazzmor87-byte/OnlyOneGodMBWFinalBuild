@@ -11,7 +11,7 @@ export default function MatchmakingHome() {
       secondaryRoutes={["MatchmakingFilters", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../../assets/finalux/desired_signals.png')}
+      fallbackAsset={require('../../assets/mbw_luxscreens/desired_signals.png')}
     />
   );
 }

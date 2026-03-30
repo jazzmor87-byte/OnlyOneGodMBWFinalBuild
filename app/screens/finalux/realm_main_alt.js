@@ -26,7 +26,7 @@ function resolveRoute(navigation, candidates = []) {
 export default function realm_main_alt() {
   const navigation = useNavigation();
   const __mbwPosterPool = getPosterPoolForScreen("app/screens/finalux/realm_main_alt.js", "realm_main_alt");
-  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/finalux/realm_main.png");
+  const __mbwPickedPoster = pickPosterForIndex(__mbwPosterPool, 0) || require("../../assets/mbw_luxscreens/mb's_world_entry.png");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);
