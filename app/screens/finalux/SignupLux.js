@@ -6,7 +6,7 @@ const BG = require("../../assets/mbw_luxscreens/signup_main.png");
 
 export default function SignupLux({ navigation, route }) {
   const accessPath = route?.params?.accessPath || "MATCH_RIGHT_MATCH";
-  const accessLabel = accessPath === "MASTER_OF_COINS" ? "MASTER OF COINS" : "MATCH RIGHT MATCH";
+  const accessLabel = accessPath === "MASTER_OF_COINS" ? "BECOME MASTER OF COINS" : "MATCH THE RIGHT MATCH";
 
   return (
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
@@ -31,11 +31,27 @@ export default function SignupLux({ navigation, route }) {
 
 const s = StyleSheet.create({
   bg: { flex: 1, backgroundColor: "#000" },
-  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.28)" },
-  wrap: { flex: 1, justifyContent: "flex-end", padding: 18, paddingBottom: 28 },
-  card: { backgroundColor: "rgba(0,0,0,0.10)", borderRadius: 18, padding: 18, alignItems: "center" },
-  h: { color: "#F4D88E", fontSize: 28, fontWeight: "900" },
-  p: { color: "#F7EBCB", textAlign: "center", marginTop: 10, marginBottom: 18, fontSize: 13 },
-  btn: { borderWidth: 1.2, borderColor: "#D4AF37", borderRadius: 16, paddingVertical: 15, paddingHorizontal: 28, backgroundColor: "rgba(0,0,0,0.08)" },
-  t: { color: "#FAE8B8", fontSize: 16, fontWeight: "900" }
+  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.18)" },
+  wrap: { flex: 1, justifyContent: "flex-end", padding: 14, paddingBottom: 16 },
+  card: {
+    backgroundColor: "rgba(0,0,0,0.08)",
+    borderWidth: 1.1,
+    borderColor: "rgba(212,175,55,0.72)",
+    borderRadius: 18,
+    paddingVertical: 12,
+    paddingHorizontal: 14,
+    alignItems: "center"
+  },
+  h: { color: "#F4D88E", fontSize: 24, fontWeight: "900" },
+  p: { color: "#F7EBCB", textAlign: "center", marginTop: 8, marginBottom: 14, fontSize: 12.5, lineHeight: 18 },
+  btn: {
+    alignSelf: "stretch",
+    borderWidth: 1.1,
+    borderColor: "#D4AF37",
+    borderRadius: 16,
+    paddingVertical: 13,
+    alignItems: "center",
+    backgroundColor: "rgba(0,0,0,0.06)"
+  },
+  t: { color: "#FAE8B8", fontSize: 15, fontWeight: "900" }
 });

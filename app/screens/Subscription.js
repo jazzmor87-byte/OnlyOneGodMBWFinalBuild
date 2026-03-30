@@ -1,16 +1,62 @@
-import React from 'react';
-import EntryStaticScreen from './Gate/_EntryStaticScreen';
+import React from "react";
+import { View, Text, TouchableOpacity, StyleSheet, ImageBackground } from "react-native";
+import { CommonActions } from "@react-navigation/native";
 
-export default function Subscription() {
+const BG = require("../assets/mbw_luxscreens/subscription_main.png");
+
+export default function Subscription({ navigation, route }) {
+  const accessPath = route?.params?.accessPath || "MATCH_RIGHT_MATCH";
+  const accessTitle = accessPath === "MASTER_OF_COINS" ? "BECOME MASTER OF COINS" : "MATCH THE RIGHT MATCH";
+  const accessDesc = accessPath === "MASTER_OF_COINS"
+    ? "ENTERTAINMENT ZONE GAMES TRAVEL ACROSS WORLD WITH LEAST MONEY STRATEGY AND STAY WITH MOST KIND PEOPLE IN THE WORLD WHO PROMOTES HUMANITY"
+    : "DATE ON RIGHT DATE WITH RIGHT DATE";
+
   return (
-    <EntryStaticScreen
-      title="SUBSCRIPTION"
-      subtitle="Choose your access and continue into the app."
-      asset={require('../assets/mbw_luxscreens/subscription_main.png')}
-      primaryLabel="Enter"
-      primaryRoutes={['MBWHome', 'HomeHub', 'RealmHome']}
-      secondaryLabel="Back"
-      secondaryRoutes={['Login', 'Signup', 'PathSelectionScreen']}
-    />
+    <ImageBackground source={BG} style={s.bg} resizeMode="cover">
+      <View style={s.scrim} />
+      <View style={s.wrap}>
+        <View style={s.card}>
+          <Text style={s.h}>SUBSCRIPTION</Text>
+          <Text style={s.route}>{accessTitle}</Text>
+          <Text style={s.p}>{accessDesc}</Text>
+
+          <TouchableOpacity
+            style={s.btn}
+            onPress={() => navigation.dispatch(CommonActions.reset({ index: 0, routes: [{ name: "Main_Activity", params: { accessPath } }] }))}
+            activeOpacity={0.9}
+          >
+            <Text style={s.t}>ENTER MBW HOME</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </ImageBackground>
   );
 }
+
+const s = StyleSheet.create({
+  bg: { flex: 1, backgroundColor: "#000" },
+  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.16)" },
+  wrap: { flex: 1, justifyContent: "flex-end", padding: 14, paddingBottom: 16 },
+  card: {
+    backgroundColor: "rgba(0,0,0,0.08)",
+    borderWidth: 1.1,
+    borderColor: "rgba(212,175,55,0.72)",
+    borderRadius: 18,
+    paddingVertical: 12,
+    paddingHorizontal: 14,
+    alignItems: "center"
+  },
+  h: { color: "#F4D88E", fontSize: 24, fontWeight: "900" },
+  route: { color: "#FAE8B8", fontSize: 16, fontWeight: "900", textAlign: "center", marginTop: 8 },
+  p: { color: "#F7EBCB", textAlign: "center", marginTop: 8, marginBottom: 14, fontSize: 12, lineHeight: 17 },
+  btn: {
+    alignSelf: "stretch",
+    borderWidth: 1.1,
+    borderColor: "#D4AF37",
+    borderRadius: 16,
+    paddingVertical: 13,
+    alignItems: "center",
+    backgroundColor: "rgba(0,0,0,0.06)"
+  },
+  t: { color: "#FAE8B8", fontSize: 15, fontWeight: "900" }
+});
