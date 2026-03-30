@@ -21,7 +21,7 @@ export default function Subscription({ navigation, route }) {
           <Text style={s.p}>{accessDesc}</Text>
           <TouchableOpacity
             style={s.btn}
-            onPress={() => navigation.dispatch(CommonActions.reset({ index: 0, routes: [{{ name: "Main_Activity", params: {{ accessPath }} }}] }))}
+            onPress={() => navigation.dispatch(CommonActions.reset({ index: 0, routes: [{ name: "Main_Activity", params: { accessPath } }] }))}
             activeOpacity={0.9}
           >
             <Text style={s.t}>ENTER MBW HOME</Text>
@@ -30,13 +30,13 @@ export default function Subscription({ navigation, route }) {
       </View>
     </ImageBackground>
   );
-}}
+}
 
-const s = StyleSheet.create({{
-  bg: {{ flex: 1, backgroundColor: "#000" }},
-  scrim: {{ ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.12)" }},
-  wrap: {{ flex: 1, justifyContent: "flex-end", padding: 14, paddingBottom: 16 }},
-  floatCard: {{
+const s = StyleSheet.create({
+  bg: { flex: 1, backgroundColor: "#000" },
+  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.12)" },
+  wrap: { flex: 1, justifyContent: "flex-end", padding: 14, paddingBottom: 16 },
+  floatCard: {
     backgroundColor: "rgba(0,0,0,0.08)",
     borderWidth: 1.1,
     borderColor: "rgba(212,175,55,0.72)",
@@ -44,11 +44,11 @@ const s = StyleSheet.create({{
     paddingVertical: 12,
     paddingHorizontal: 14,
     alignItems: "center"
-  }},
-  h: {{ color: "#F4D88E", fontSize: 24, fontWeight: "900" }},
-  route: {{ color: "#FAE8B8", fontSize: 15.5, fontWeight: "900", textAlign: "center", marginTop: 8 }},
-  p: {{ color: "#F7EBCB", textAlign: "center", marginTop: 8, marginBottom: 14, fontSize: 11.5, lineHeight: 17 }},
-  btn: {{
+  },
+  h: { color: "#F4D88E", fontSize: 24, fontWeight: "900" },
+  route: { color: "#FAE8B8", fontSize: 15.5, fontWeight: "900", textAlign: "center", marginTop: 8 },
+  p: { color: "#F7EBCB", textAlign: "center", marginTop: 8, marginBottom: 14, fontSize: 11.5, lineHeight: 17 },
+  btn: {
     alignSelf: "stretch",
     borderWidth: 1.1,
     borderColor: "#D4AF37",
@@ -56,6 +56,6 @@ const s = StyleSheet.create({{
     paddingVertical: 13,
     alignItems: "center",
     backgroundColor: "rgba(0,0,0,0.05)"
-  }},
-  t: {{ color: "#FAE8B8", fontSize: 15, fontWeight: "900" }}
-}});
+  },
+  t: { color: "#FAE8B8", fontSize: 15, fontWeight: "900" }
+});
