@@ -1,6 +1,7 @@
-import React from 'react';
-import { SafeAreaView, View, Text, StyleSheet, ImageBackground, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import React from "react";
+import { SafeAreaView, View, Text, StyleSheet, ImageBackground, TouchableOpacity, Animated } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+import useTatvaScreen from "../../hooks/useTatvaScreen";
 
 function collectRouteNames(state, out = new Set()) {
   if (!state) return out;
@@ -33,6 +34,7 @@ export default function EntryStaticScreen({
   secondaryRoutes = [],
 }) {
   const navigation = useNavigation();
+  const { visual, panelFloatStyle, textFloatStyle, buttonFloatStyle } = useTatvaScreen(title || "EntryStaticScreen");
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);
@@ -43,21 +45,32 @@ export default function EntryStaticScreen({
     <ImageBackground source={asset} style={styles.bg} resizeMode="cover">
       <SafeAreaView style={styles.safe}>
         <View style={styles.overlay}>
-          <View style={styles.copy}>
-            <Text style={styles.title}>{title}</Text>
-            {!!subtitle && <Text style={styles.subtitle}>{subtitle}</Text>}
+          <View style={styles.fx} pointerEvents="none">
+            <Animated.View style={[styles.tatvaGlow, panelFloatStyle, { backgroundColor: visual.glow }]} />
+            <Animated.View style={[styles.tatvaVeil, textFloatStyle, { backgroundColor: visual.veil }]} />
           </View>
+
+          <Animated.View style={[styles.copy, panelFloatStyle, { borderColor: visual.edge }]}>
+            <Animated.Text style={[styles.title, { color: visual.text }, textFloatStyle]}>{title}</Animated.Text>
+            {!!subtitle && <Animated.Text style={[styles.subtitle, textFloatStyle]}>{subtitle}</Animated.Text>}
+          </Animated.View>
 
           <View style={styles.actions}>
             {!!primaryLabel && (
-              <TouchableOpacity style={styles.primaryBtn} onPress={() => go(primaryRoutes)}>
-                <Text style={styles.primaryText}>{primaryLabel}</Text>
-              </TouchableOpacity>
+              <Animated.View style={buttonFloatStyle}>
+                <TouchableOpacity style={[styles.primaryBtn, { borderColor: visual.edge }]} onPress={() => go(primaryRoutes)} activeOpacity={0.9}>
+                  <View style={[styles.btnAura, { backgroundColor: visual.buttonAura }]} pointerEvents="none" />
+                  <Animated.Text style={[styles.primaryText, { color: visual.text }, textFloatStyle]}>{primaryLabel}</Animated.Text>
+                </TouchableOpacity>
+              </Animated.View>
             )}
             {!!secondaryLabel && (
-              <TouchableOpacity style={styles.secondaryBtn} onPress={() => go(secondaryRoutes)}>
-                <Text style={styles.secondaryText}>{secondaryLabel}</Text>
-              </TouchableOpacity>
+              <Animated.View style={buttonFloatStyle}>
+                <TouchableOpacity style={[styles.secondaryBtn, { borderColor: visual.edge }]} onPress={() => go(secondaryRoutes)} activeOpacity={0.9}>
+                  <View style={[styles.btnAura, { backgroundColor: visual.buttonAura }]} pointerEvents="none" />
+                  <Animated.Text style={[styles.secondaryText, { color: visual.text }, textFloatStyle]}>{secondaryLabel}</Animated.Text>
+                </TouchableOpacity>
+              </Animated.View>
             )}
           </View>
         </View>
@@ -67,65 +80,84 @@ export default function EntryStaticScreen({
 }
 
 const styles = StyleSheet.create({
-  bg: { flex: 1, backgroundColor: '#050505' },
+  bg: { flex: 1, backgroundColor: "#050505" },
   safe: { flex: 1 },
   overlay: {
     flex: 1,
-    justifyContent: 'space-between',
+    justifyContent: "space-between",
     paddingHorizontal: 20,
     paddingTop: 24,
     paddingBottom: 28,
-    backgroundColor: 'rgba(0,0,0,0.20)',
+    backgroundColor: "rgba(0,0,0,0.20)",
+  },
+  fx: { ...StyleSheet.absoluteFillObject },
+  tatvaGlow: {
+    position: "absolute",
+    right: "-8%",
+    top: "14%",
+    width: 220,
+    height: 220,
+    borderRadius: 110,
+    opacity: 0.18,
+  },
+  tatvaVeil: {
+    position: "absolute",
+    left: "6%",
+    right: "6%",
+    bottom: "18%",
+    height: 190,
+    borderRadius: 28,
+    opacity: 0.14,
   },
   copy: {
     marginTop: 10,
-    backgroundColor: 'rgba(0,0,0,0.28)',
+    backgroundColor: "rgba(0,0,0,0.30)",
+    borderWidth: 1.1,
     borderRadius: 16,
     paddingHorizontal: 14,
     paddingVertical: 12,
-    alignSelf: 'stretch',
+    alignSelf: "stretch",
   },
   title: {
-    color: '#F1D27A',
     fontSize: 26,
-    fontWeight: '800',
+    fontWeight: "800",
     letterSpacing: 0.4,
-    textAlign: 'center',
+    textAlign: "center",
   },
   subtitle: {
-    color: '#F7E8BD',
+    color: "#F7E8BD",
     fontSize: 14,
-    textAlign: 'center',
+    textAlign: "center",
     marginTop: 8,
     lineHeight: 20,
   },
-  actions: {
-    gap: 12,
-  },
+  actions: { gap: 12 },
   primaryBtn: {
-    backgroundColor: 'rgba(120,0,38,0.82)',
+    overflow: "hidden",
+    backgroundColor: "rgba(120,0,38,0.82)",
     borderWidth: 1.4,
-    borderColor: '#D4AF37',
     paddingVertical: 12,
     borderRadius: 16,
   },
   primaryText: {
-    color: '#F7E8BD',
-    textAlign: 'center',
+    textAlign: "center",
     fontSize: 15,
-    fontWeight: '700',
+    fontWeight: "700",
   },
   secondaryBtn: {
-    backgroundColor: 'rgba(0,0,0,0.42)',
+    overflow: "hidden",
+    backgroundColor: "rgba(0,0,0,0.42)",
     borderWidth: 1.1,
-    borderColor: '#7A5A20',
     paddingVertical: 11,
     borderRadius: 16,
   },
   secondaryText: {
-    color: '#D4AF37',
-    textAlign: 'center',
+    textAlign: "center",
     fontSize: 14,
-    fontWeight: '700',
+    fontWeight: "700",
+  },
+  btnAura: {
+    ...StyleSheet.absoluteFillObject,
+    opacity: 1,
   },
 });

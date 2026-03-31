@@ -11,7 +11,7 @@ export default function GamesScreen() {
       secondaryRoutes={["SeepTableScreen", "SeepRoundResultScreen", "HomeHub", "MBWHome", "RealmHome"]}
       primaryLabel="Continue"
       secondaryLabel="Home"
-      fallbackAsset={require('../assets/mbw_luxscreens/art_main.png')}
+      fallbackAsset={require('../assets/mbw_luxscreens/games_main.png')}
     />
   );
 }
