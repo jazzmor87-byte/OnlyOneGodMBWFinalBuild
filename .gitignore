@@ -33,3 +33,16 @@ ios/build
 .easignore.bak
 app/screens/finalux/*.bak_authflow
 android/app/debug.keystore
+
+# MBW local backup/build artifacts
+_*backup_*/
+.pre_*/
+.post_*/
+.final_*/
+.tatva_*/
+_*backup*
+_lux_cutover_backup_*
+.pre_*
+.post_*
+.final_*
+.tatva_*

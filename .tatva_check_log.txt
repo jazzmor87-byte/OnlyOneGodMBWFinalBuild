@@ -1,7 +1,0 @@
-Starting Metro Bundler
-Android node_modules/expo/AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
-Android node_modules/expo/AppEntry.js ▓▓▓▓▓▓▓▓▓▓░░░░░░ 63.1% (646/813)
-
-Failed to generate Hermes bytecode for: /data/data/com.termux/files/home/MBW_GITHUB_WORK/node_modules/expo/AppEntry.js
-Android Bundling failed 6524ms node_modules/expo/AppEntry.js (1518 modules)
-Error: Unsupported host platform for Hermes compiler: android
