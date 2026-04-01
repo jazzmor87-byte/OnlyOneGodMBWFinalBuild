@@ -94,7 +94,7 @@ export default function GateOpenAfterUnlock({ navigation }) {
   const spaceOpacity = space.interpolate({ inputRange: [0, 1], outputRange: [0.05, 0.14] });
   const spaceScale = space.interpolate({ inputRange: [0, 1], outputRange: [1, 1.08] });
 
-  const topY = ui.interpolate({ inputRange: [0, 1], outputRange: [1.5, -2.5] });
+  const gateChipY = ui.interpolate({ inputRange: [0, 1], outputRange: [9, -9] });
   const bottomY = ui.interpolate({ inputRange: [0, 1], outputRange: [2, -3] });
   const titleGlow = ui.interpolate({ inputRange: [0, 1], outputRange: [0.94, 1] });
   const bodyGlow = ui.interpolate({ inputRange: [0, 1], outputRange: [0.88, 0.97] });
@@ -175,7 +175,7 @@ export default function GateOpenAfterUnlock({ navigation }) {
       </View>
 
       <View style={s.wrap}>
-        <Animated.View style={[s.floatTop, { transform: [{ translateY: topY }], opacity: titleGlow }]}>
+        <Animated.View style={[s.floatTop, { transform: [{ translateY: gateChipY }], opacity: titleGlow }]}>
           <Animated.Text style={[s.top, { opacity: titleGlow }]}>THE GATE IS OPEN</Animated.Text>
         </Animated.View>
 
@@ -265,7 +265,14 @@ const s = StyleSheet.create({
   },
 
   floatTop: {
-    alignSelf: "center",
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: "38%",
+    alignItems: "center",
+    zIndex: 4
+  },
+  topWrap: {
     backgroundColor: "rgba(0,0,0,0.26)",
     borderWidth: 1,
     borderColor: "rgba(212,175,55,0.80)",
@@ -273,7 +280,20 @@ const s = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 6
   },
-  top: { color: "#E6C977", fontSize: 13, fontWeight: "800", letterSpacing: 1.1, textAlign: "center" },
+  top: {
+    color: "#E6C977",
+    fontSize: 13,
+    fontWeight: "800",
+    letterSpacing: 1.1,
+    textAlign: "center",
+    backgroundColor: "rgba(0,0,0,0.26)",
+    borderWidth: 1,
+    borderColor: "rgba(212,175,55,0.80)",
+    borderRadius: 14,
+    overflow: "hidden",
+    paddingHorizontal: 12,
+    paddingVertical: 6
+  },
 
   floatBottom: {
     backgroundColor: "rgba(10,5,5,0.28)",
