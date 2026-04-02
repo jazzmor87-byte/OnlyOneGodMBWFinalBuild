@@ -27,7 +27,7 @@ const BUTTONS = [
   { key: "MATCH", icon: "cards-playing-outline", routes: ["MatchmakingMainLux","MatchmakingMain","MatchmakingHome","MatchmakingResult","MatchmakingScreen"], pos: "tl", dx: -3, dy: -3 },
   { key: "REALM", icon: "crown-outline", routes: ["RealmMainLux","RealmMain","MBWHome","RealmHome","home_MBWHome"], pos: "tr", dx: 3, dy: -3 },
   { key: "LOUNGE", icon: "glass-cocktail", routes: ["LiveLoungeLux","LoungeMain","LoungeHome","LiveLoungeScreen","LoungeStories"], pos: "ml", dx: -3, dy: 0 },
-  { key: "COINS", icon: "help-circle-outline", routes: ["CoinsMainLux","CoinsMain","MasterOfCoinsMain","CoinExplorerHall","CoinMarket"], pos: "mr", dx: 3, dy: 0 },
+  { key: "COINS", icon: "help-circle-outline", routes: ["MasterOfCoinsMain","CoinsMainLux","CoinsMain","CoinExplorerHall","CoinMarket"], pos: "mr", dx: 3, dy: 0 },
   { key: "TRAVEL", icon: "airplane", routes: ["TravelOverseasLux","TravelMain","TravelScreen","TravelOverseasHost","TravelLocalAdventure"], pos: "bl", dx: -3, dy: 2 },
   { key: "MERCH", icon: "shopping-outline", routes: ["MerchMainLux","MerchMain","MerchHome","MerchandiseScreen","MerchCheckout"], pos: "br", dx: 3, dy: 2 },
   { key: "GAMES", icon: "chess-king", routes: ["GamesMainLux","GamesMain","GamesHubScreen","GamesScreen","LudoArena"], pos: "bll", dx: -2, dy: 3 },
