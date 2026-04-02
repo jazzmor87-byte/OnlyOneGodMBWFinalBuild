@@ -94,106 +94,47 @@ export default function GateOpenAfterUnlock({ navigation }) {
   const spaceOpacity = space.interpolate({ inputRange: [0, 1], outputRange: [0.05, 0.14] });
   const spaceScale = space.interpolate({ inputRange: [0, 1], outputRange: [1, 1.08] });
 
-  const gateChipY = ui.interpolate({ inputRange: [0, 1], outputRange: [9, -9] });
-  const bottomY = ui.interpolate({ inputRange: [0, 1], outputRange: [2, -3] });
-  const titleGlow = ui.interpolate({ inputRange: [0, 1], outputRange: [0.94, 1] });
-  const bodyGlow = ui.interpolate({ inputRange: [0, 1], outputRange: [0.88, 0.97] });
-
-  const buttonY = button.interpolate({ inputRange: [0, 1], outputRange: [1.5, -3] });
+  const gateChipY = ui.interpolate({ inputRange: [0, 1], outputRange: [12, -12] });
+  const buttonY = button.interpolate({ inputRange: [0, 1], outputRange: [2, -4] });
   const buttonGlow = button.interpolate({ inputRange: [0, 1], outputRange: [0.90, 1] });
 
   return (
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
       <View style={s.scrim} />
       <View style={s.fx} pointerEvents="none">
-        <Animated.View
-          style={[
-            s.fireGlow,
-            {
-              opacity: fireOpacity,
-              transform: [{ translateX: fireX }, { translateY: fireY }]
-            }
-          ]}
-        />
-        <Animated.View
-          style={[
-            s.airVeil,
-            {
-              opacity: airOpacity,
-              transform: [{ translateX: airX }]
-            }
-          ]}
-        />
-        <Animated.View
-          style={[
-            s.waterGlow,
-            {
-              opacity: waterOpacity,
-              transform: [{ translateY: waterY }]
-            }
-          ]}
-        />
-        <Animated.View
-          style={[
-            s.goldField,
-            {
-              opacity: goldOpacity,
-              transform: [{ translateY: goldY }]
-            }
-          ]}
-        >
+        <Animated.View style={[s.fireGlow, { opacity: fireOpacity, transform: [{ translateX: fireX }, { translateY: fireY }] }]} />
+        <Animated.View style={[s.airVeil, { opacity: airOpacity, transform: [{ translateX: airX }] }]} />
+        <Animated.View style={[s.waterGlow, { opacity: waterOpacity, transform: [{ translateY: waterY }] }]} />
+        <Animated.View style={[s.goldField, { opacity: goldOpacity, transform: [{ translateY: goldY }] }]}>
           {GOLD_DUST.map((d, i) => (
-            <View
-              key={"g" + i}
-              style={[
-                s.goldDot,
-                { left: d.left, top: d.top, width: d.size, height: d.size, borderRadius: d.size / 2 }
-              ]}
-            />
+            <View key={"g" + i} style={[s.goldDot, { left: d.left, top: d.top, width: d.size, height: d.size, borderRadius: d.size / 2 }]} />
           ))}
         </Animated.View>
-        <Animated.View
-          style={[
-            s.spaceGlow,
-            {
-              opacity: spaceOpacity,
-              transform: [{ scale: spaceScale }]
-            }
-          ]}
-        />
+        <Animated.View style={[s.spaceGlow, { opacity: spaceOpacity, transform: [{ scale: spaceScale }] }]} />
         <Animated.View style={[s.spaceField, { opacity: spaceOpacity }]}>
           {STARS.map((d, i) => (
-            <View
-              key={"s" + i}
-              style={[
-                s.starDot,
-                { left: d.left, top: d.top, width: d.size, height: d.size, borderRadius: d.size / 2 }
-              ]}
-            />
+            <View key={"s" + i} style={[s.starDot, { left: d.left, top: d.top, width: d.size, height: d.size, borderRadius: d.size / 2 }]} />
           ))}
         </Animated.View>
       </View>
 
       <View style={s.wrap}>
-        <Animated.View style={[s.floatTop, { transform: [{ translateY: gateChipY }], opacity: titleGlow }]}>
-          <Animated.Text style={[s.top, { opacity: titleGlow }]}>THE GATE IS OPEN</Animated.Text>
+        <Animated.View style={[s.floatTop, { transform: [{ translateY: gateChipY }] }]}>
+          <Text style={s.top}>THE GATE IS OPEN</Text>
         </Animated.View>
 
-        <Animated.View style={[s.floatBottom, { transform: [{ translateY: bottomY }] }]}>
-          <Animated.Text style={[s.h, { opacity: titleGlow }]}>
-            GOD LET YOU PASS THROUGH THE GATE LOCK
-          </Animated.Text>
-          <Animated.Text style={[s.p, { opacity: bodyGlow }]}>
+        <View style={s.floatBottom}>
+          <Text style={s.h}>GOD LET YOU PASS THROUGH THE GATE LOCK</Text>
+          <Text style={s.p}>
             to be a free man where you can do things which you like in your way, but you are watched by God.
-          </Animated.Text>
-
+          </Text>
           <Animated.View style={{ transform: [{ translateY: buttonY }], opacity: buttonGlow }}>
             <TouchableOpacity style={s.btn} onPress={() => navigation.replace("PathSelection")} activeOpacity={0.9}>
               <View style={s.btnAura} pointerEvents="none" />
-              <Animated.Text style={[s.t, { opacity: buttonGlow }]}>ENTER FURTHER</Animated.Text>
+              <Text style={s.t}>ENTER FURTHER</Text>
             </TouchableOpacity>
           </Animated.View>
-        </Animated.View>
+        </View>
       </View>
     </ImageBackground>
   );
@@ -203,7 +144,7 @@ const s = StyleSheet.create({
   bg: { flex: 1, backgroundColor: "#000" },
   scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.18)" },
   fx: { ...StyleSheet.absoluteFillObject },
-  wrap: { flex: 1, justifyContent: "space-between", padding: 14, paddingBottom: 16, paddingTop: 16 },
+  wrap: { flex: 1, padding: 14, paddingBottom: 16, paddingTop: 16 },
 
   fireGlow: {
     position: "absolute",
@@ -268,17 +209,9 @@ const s = StyleSheet.create({
     position: "absolute",
     left: 0,
     right: 0,
-    top: "38%",
+    top: "46%",
     alignItems: "center",
     zIndex: 4
-  },
-  topWrap: {
-    backgroundColor: "rgba(0,0,0,0.26)",
-    borderWidth: 1,
-    borderColor: "rgba(212,175,55,0.80)",
-    borderRadius: 14,
-    paddingHorizontal: 12,
-    paddingVertical: 6
   },
   top: {
     color: "#E6C977",
@@ -296,6 +229,10 @@ const s = StyleSheet.create({
   },
 
   floatBottom: {
+    position: "absolute",
+    left: 14,
+    right: 14,
+    bottom: 16,
     backgroundColor: "rgba(10,5,5,0.28)",
     borderWidth: 1.15,
     borderColor: "rgba(212,175,55,0.86)",

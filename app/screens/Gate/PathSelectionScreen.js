@@ -4,6 +4,14 @@ import useTatvaScreen from "../../hooks/useTatvaScreen";
 
 const BG = require("../../assets/mbw_luxscreens/path_selection.png");
 
+const TATVAS = [
+  { key: "fire", label: "FIRE" },
+  { key: "air", label: "AIR" },
+  { key: "water", label: "WATER" },
+  { key: "earth", label: "EARTH" },
+  { key: "space", label: "SPACE" }
+];
+
 function SmallActionRow({ onLogin, onSignup, buttonStyle, textStyle, visual }) {
   return (
     <View style={s.row}>
@@ -49,11 +57,11 @@ export default function PathSelectionScreen({ navigation }) {
     return () => loop.stop();
   }, [drift]);
 
-  const fireY = drift.interpolate({ inputRange: [0, 1], outputRange: [6, -8] });
-  const airX = drift.interpolate({ inputRange: [0, 1], outputRange: [-10, 10] });
-  const waterY = drift.interpolate({ inputRange: [0, 1], outputRange: [8, -6] });
-  const earthY = drift.interpolate({ inputRange: [0, 1], outputRange: [4, -4] });
-  const spaceScale = drift.interpolate({ inputRange: [0, 1], outputRange: [1, 1.07] });
+  const fireY = drift.interpolate({ inputRange: [0, 1], outputRange: [8, -10] });
+  const airX = drift.interpolate({ inputRange: [0, 1], outputRange: [-12, 12] });
+  const waterY = drift.interpolate({ inputRange: [0, 1], outputRange: [10, -8] });
+  const earthY = drift.interpolate({ inputRange: [0, 1], outputRange: [5, -5] });
+  const spaceScale = drift.interpolate({ inputRange: [0, 1], outputRange: [1, 1.09] });
 
   return (
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
@@ -68,6 +76,14 @@ export default function PathSelectionScreen({ navigation }) {
         <Animated.View style={[s.tatvaGlow, panelFloatStyle, { backgroundColor: visual.glow }]} />
         <Animated.View style={[s.tatvaVeil, textFloatStyle, { backgroundColor: visual.veil }]} />
       </View>
+
+      <Animated.View style={[s.tatvaRow, panelFloatStyle]}>
+        {TATVAS.map((x) => (
+          <View key={x.key} style={[s.tatvaChip, { borderColor: visual.edge }]}>
+            <Text style={[s.tatvaChipText, { color: visual.text }]}>{x.label}</Text>
+          </View>
+        ))}
+      </Animated.View>
 
       <View style={s.bottomArea}>
         <FloatRoute
@@ -108,7 +124,7 @@ const s = StyleSheet.create({
     width: 110,
     height: 110,
     borderRadius: 55,
-    opacity: 0.12,
+    opacity: 0.18,
     backgroundColor: "rgba(255,108,44,0.95)"
   },
   airMist: {
@@ -118,7 +134,7 @@ const s = StyleSheet.create({
     top: "17%",
     height: 58,
     borderRadius: 29,
-    opacity: 0.10,
+    opacity: 0.14,
     backgroundColor: "rgba(245,237,215,0.95)"
   },
   waterGlow: {
@@ -128,7 +144,7 @@ const s = StyleSheet.create({
     width: 124,
     height: 96,
     borderRadius: 48,
-    opacity: 0.11,
+    opacity: 0.18,
     backgroundColor: "rgba(77,137,198,0.92)"
   },
   earthVeil: {
@@ -138,7 +154,7 @@ const s = StyleSheet.create({
     bottom: "24%",
     height: 150,
     borderRadius: 28,
-    opacity: 0.09,
+    opacity: 0.14,
     backgroundColor: "rgba(133,95,48,0.92)"
   },
   spaceGlow: {
@@ -148,7 +164,7 @@ const s = StyleSheet.create({
     width: 210,
     height: 210,
     borderRadius: 105,
-    opacity: 0.10,
+    opacity: 0.16,
     backgroundColor: "rgba(84,54,128,0.96)"
   },
   tatvaGlow: {
@@ -158,7 +174,7 @@ const s = StyleSheet.create({
     width: 220,
     height: 220,
     borderRadius: 110,
-    opacity: 0.2
+    opacity: 0.22
   },
   tatvaVeil: {
     position: "absolute",
@@ -167,7 +183,31 @@ const s = StyleSheet.create({
     bottom: "16%",
     height: 170,
     borderRadius: 28,
-    opacity: 0.14
+    opacity: 0.16
+  },
+
+  tatvaRow: {
+    position: "absolute",
+    top: 18,
+    left: 10,
+    right: 10,
+    zIndex: 4,
+    flexDirection: "row",
+    justifyContent: "space-between"
+  },
+  tatvaChip: {
+    minWidth: 58,
+    borderWidth: 1,
+    borderRadius: 12,
+    paddingHorizontal: 8,
+    paddingVertical: 5,
+    backgroundColor: "rgba(0,0,0,0.22)"
+  },
+  tatvaChipText: {
+    fontSize: 10,
+    fontWeight: "900",
+    textAlign: "center",
+    letterSpacing: 0.6
   },
 
   bottomArea: { flex: 1, justifyContent: "flex-end", paddingHorizontal: 14, paddingBottom: 14, gap: 10 },

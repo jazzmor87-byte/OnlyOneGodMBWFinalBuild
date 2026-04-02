@@ -6,14 +6,14 @@ import useTatvaScreen from "../hooks/useTatvaScreen";
 const BG = require("../assets/mbw_luxscreens/main_hub.png");
 
 const ITEMS = [
-  { key: "match", label: "MATCH", icon: "◈", routes: ["MatchmakingScreen", "MatchmakingHome"], pos: "tl", mx: 4, my: -6 },
-  { key: "realm", label: "REALM", icon: "♛", routes: ["RealmHome", "MBWHome"], pos: "tr", mx: -4, my: -6 },
-  { key: "lounge", label: "LOUNGE", icon: "◉", routes: ["LiveLoungeScreen", "LoungeHome"], pos: "ml", mx: 5, my: -4 },
-  { key: "coins", label: "COINS", icon: "✦", routes: ["MasterOfCoinsMain", "CoinExplorerHall"], pos: "mr", mx: -5, my: -4 },
-  { key: "travel", label: "TRAVEL", icon: "✈", routes: ["TravelScreen", "NomadCircuitMain"], pos: "bl", mx: 4, my: 4 },
-  { key: "merch", label: "MERCH", icon: "⌘", routes: ["MerchandiseScreen", "MerchHome"], pos: "brm", mx: -4, my: 4 },
-  { key: "games", label: "GAMES", icon: "♟", routes: ["GamesScreen", "GamesHubScreen"], pos: "bll", mx: 3, my: 5 },
-  { key: "profile", label: "PROFILE", icon: "◌", routes: ["Profile", "UserProfile"], pos: "brr", mx: -3, my: 5 },
+  { key: "match", label: "MATCH", icon: "◈", routes: ["MatchmakingScreen", "MatchmakingHome"], pos: "tl", mx: 6, my: -8 },
+  { key: "realm", label: "REALM", icon: "♛", routes: ["RealmHome", "MBWHome"], pos: "tr", mx: -6, my: -8 },
+  { key: "lounge", label: "LOUNGE", icon: "◉", routes: ["LiveLoungeScreen", "LoungeHome"], pos: "ml", mx: 7, my: -5 },
+  { key: "coins", label: "COINS", icon: "✦", routes: ["MasterOfCoinsMain", "CoinExplorerHall"], pos: "mr", mx: -7, my: -5 },
+  { key: "travel", label: "TRAVEL", icon: "✈", routes: ["TravelScreen", "NomadCircuitMain"], pos: "bl", mx: 6, my: 6 },
+  { key: "merch", label: "MERCH", icon: "⌘", routes: ["MerchandiseScreen", "MerchHome"], pos: "brm", mx: -6, my: 6 },
+  { key: "games", label: "GAMES", icon: "♟", routes: ["GamesScreen", "GamesHubScreen"], pos: "bll", mx: 5, my: 7 },
+  { key: "profile", label: "PROFILE", icon: "◌", routes: ["Profile", "UserProfile"], pos: "brr", mx: -5, my: 7 }
 ];
 
 function collectRouteNames(state, out = new Set()) {
@@ -36,25 +36,25 @@ function resolveRoute(navigation, candidates = []) {
   return candidates[0] || null;
 }
 
-function PentagramChip({ item, onPress, visual, style, textFloatStyle, drift }) {
+function PentagramChip({ item, onPress, visual, style, drift }) {
   const dx = drift.interpolate({ inputRange: [0, 1], outputRange: [item.mx, -item.mx] });
   const dy = drift.interpolate({ inputRange: [0, 1], outputRange: [item.my, -item.my] });
 
   return (
     <Animated.View style={[styles.chipWrap, style, { transform: [{ translateX: dx }, { translateY: dy }] }]}>
-      <TouchableOpacity activeOpacity={0.9} onPress={onPress} style={[styles.chipBox, { borderColor: visual.edge }]}>
-        <View style={[styles.chipAura, { backgroundColor: visual.buttonAura }]} pointerEvents="none" />
-        <View style={styles.starFrame}>
-          <View style={[styles.starLine, styles.starTopLeft, { backgroundColor: visual.edge }]} />
-          <View style={[styles.starLine, styles.starTopRight, { backgroundColor: visual.edge }]} />
-          <View style={[styles.starLine, styles.starMidLeft, { backgroundColor: visual.edge }]} />
-          <View style={[styles.starLine, styles.starMidRight, { backgroundColor: visual.edge }]} />
-          <View style={[styles.starLine, styles.starBottom, { backgroundColor: visual.edge }]} />
+      <TouchableOpacity activeOpacity={0.9} onPress={onPress} style={styles.touchArea}>
+        <View style={[styles.badgeAura, { backgroundColor: visual.buttonAura }]} />
+        <View style={styles.badgeCore}>
+          <View style={styles.badgeStar}>
+            <View style={[styles.starLine, styles.star1, { backgroundColor: visual.edge }]} />
+            <View style={[styles.starLine, styles.star2, { backgroundColor: visual.edge }]} />
+            <View style={[styles.starLine, styles.star3, { backgroundColor: visual.edge }]} />
+            <View style={[styles.starLine, styles.star4, { backgroundColor: visual.edge }]} />
+            <View style={[styles.starLine, styles.star5, { backgroundColor: visual.edge }]} />
+          </View>
+          <Text style={[styles.iconText, { color: visual.text }]}>{item.icon}</Text>
         </View>
-        <View style={[styles.iconHalo, { borderColor: visual.edge, backgroundColor: "rgba(0,0,0,0.18)" }]}>
-          <Animated.Text style={[styles.iconText, { color: visual.text }, textFloatStyle]}>{item.icon}</Animated.Text>
-        </View>
-        <Animated.Text style={[styles.chipLabel, { color: visual.text }, textFloatStyle]}>{item.label}</Animated.Text>
+        <Text style={[styles.chipLabel, { color: visual.text }]}>{item.label}</Text>
       </TouchableOpacity>
     </Animated.View>
   );
@@ -62,7 +62,7 @@ function PentagramChip({ item, onPress, visual, style, textFloatStyle, drift }) 
 
 export default function HomeHub() {
   const navigation = useNavigation();
-  const { visual, panelFloatStyle, textFloatStyle } = useTatvaScreen("HomeHub");
+  const { visual } = useTatvaScreen("HomeHub");
   const drift = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
@@ -81,26 +81,24 @@ export default function HomeHub() {
     if (target) navigation.navigate(target);
   };
 
-  const starFloat = drift.interpolate({ inputRange: [0, 1], outputRange: [5, -5] });
-  const glowPulse = drift.interpolate({ inputRange: [0, 1], outputRange: [0.10, 0.18] });
+  const starFloat = drift.interpolate({ inputRange: [0, 1], outputRange: [8, -8] });
 
   return (
     <ImageBackground source={BG} style={styles.bg} resizeMode="cover">
       <SafeAreaView style={styles.safe}>
         <View style={styles.overlay}>
-          <Animated.View style={[styles.titleWrap, panelFloatStyle]}>
+          <View style={styles.titleWrap}>
             <Text style={[styles.title, { color: visual.text }]}>MBW HOME</Text>
-          </Animated.View>
+          </View>
 
           <View style={styles.fx} pointerEvents="none">
-            <Animated.View style={[styles.centerGlow, { backgroundColor: visual.glow, opacity: glowPulse }]} />
-            <Animated.View style={[styles.centerVeil, { backgroundColor: visual.veil }]} />
+            <View style={[styles.centerGlow, { backgroundColor: visual.glow }]} />
             <Animated.View style={[styles.corePentagram, { transform: [{ translateY: starFloat }] }]}>
-              <View style={[styles.pentLine, styles.p1, { backgroundColor: visual.edge }]} />
-              <View style={[styles.pentLine, styles.p2, { backgroundColor: visual.edge }]} />
-              <View style={[styles.pentLine, styles.p3, { backgroundColor: visual.edge }]} />
-              <View style={[styles.pentLine, styles.p4, { backgroundColor: visual.edge }]} />
-              <View style={[styles.pentLine, styles.p5, { backgroundColor: visual.edge }]} />
+              <View style={[styles.bigLine, styles.bp1, { backgroundColor: visual.edge }]} />
+              <View style={[styles.bigLine, styles.bp2, { backgroundColor: visual.edge }]} />
+              <View style={[styles.bigLine, styles.bp3, { backgroundColor: visual.edge }]} />
+              <View style={[styles.bigLine, styles.bp4, { backgroundColor: visual.edge }]} />
+              <View style={[styles.bigLine, styles.bp5, { backgroundColor: visual.edge }]} />
             </Animated.View>
           </View>
 
@@ -111,7 +109,6 @@ export default function HomeHub() {
               onPress={() => go(item.routes)}
               visual={visual}
               style={styles[item.pos]}
-              textFloatStyle={textFloatStyle}
               drift={drift}
             />
           ))}
@@ -125,6 +122,7 @@ const styles = StyleSheet.create({
   bg: { flex: 1, backgroundColor: "#050505" },
   safe: { flex: 1 },
   overlay: { flex: 1, backgroundColor: "rgba(0,0,0,0.08)" },
+
   titleWrap: {
     position: "absolute",
     top: 18,
@@ -134,42 +132,35 @@ const styles = StyleSheet.create({
     zIndex: 3
   },
   title: { fontSize: 24, fontWeight: "900", letterSpacing: 0.8 },
+
   fx: { ...StyleSheet.absoluteFillObject },
   centerGlow: {
     position: "absolute",
-    left: "24%",
-    right: "24%",
-    top: "22%",
-    height: "28%",
-    borderRadius: 140
-  },
-  centerVeil: {
-    position: "absolute",
-    left: "12%",
-    right: "12%",
-    top: "19%",
-    bottom: "14%",
-    borderRadius: 40,
-    opacity: 0.08
+    left: "22%",
+    right: "22%",
+    top: "20%",
+    height: "30%",
+    borderRadius: 160,
+    opacity: 0.22
   },
   corePentagram: {
     position: "absolute",
-    left: "14%",
-    right: "14%",
-    top: "17%",
-    bottom: "14%",
-    opacity: 0.22
+    left: "18%",
+    right: "18%",
+    top: "25%",
+    height: "36%",
+    opacity: 0.44
   },
-  pentLine: {
+  bigLine: {
     position: "absolute",
-    height: 1.15,
-    borderRadius: 1.2
+    height: 1.8,
+    borderRadius: 2
   },
-  p1: { width: "56%", top: "16%", left: "22%", transform: [{ rotate: "-37deg" }] },
-  p2: { width: "56%", top: "16%", right: "22%", transform: [{ rotate: "37deg" }] },
-  p3: { width: "74%", top: "44%", left: "12%", transform: [{ rotate: "18deg" }] },
-  p4: { width: "74%", top: "44%", right: "12%", transform: [{ rotate: "-18deg" }] },
-  p5: { width: "44%", bottom: "20%", left: "28%" },
+  bp1: { width: "58%", top: "9%", left: "21%", transform: [{ rotate: "-35deg" }] },
+  bp2: { width: "58%", top: "9%", right: "21%", transform: [{ rotate: "35deg" }] },
+  bp3: { width: "74%", top: "39%", left: "10%", transform: [{ rotate: "18deg" }] },
+  bp4: { width: "74%", top: "39%", right: "10%", transform: [{ rotate: "-18deg" }] },
+  bp5: { width: "44%", bottom: "15%", left: "28%" },
 
   chipWrap: {
     position: "absolute",
@@ -177,36 +168,52 @@ const styles = StyleSheet.create({
     height: 126,
     zIndex: 4
   },
-  chipBox: {
+  touchArea: {
     flex: 1,
-    overflow: "hidden",
-    borderWidth: 1,
-    borderRadius: 18,
     alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "rgba(0,0,0,0.12)",
-    paddingTop: 10,
-    paddingBottom: 10
+    justifyContent: "flex-start",
+    backgroundColor: "transparent"
   },
-  chipAura: { ...StyleSheet.absoluteFillObject, opacity: 0.9 },
-  starFrame: { ...StyleSheet.absoluteFillObject, opacity: 0.28 },
-  starLine: { position: "absolute", height: 1.1, borderRadius: 1 },
-  starTopLeft: { width: 38, top: 22, left: 16, transform: [{ rotate: "-36deg" }] },
-  starTopRight: { width: 38, top: 22, right: 16, transform: [{ rotate: "36deg" }] },
-  starMidLeft: { width: 42, top: 56, left: 10, transform: [{ rotate: "18deg" }] },
-  starMidRight: { width: 42, top: 56, right: 10, transform: [{ rotate: "-18deg" }] },
-  starBottom: { width: 52, bottom: 30, left: 23 },
-  iconHalo: {
-    width: 46,
-    height: 46,
-    borderRadius: 23,
-    borderWidth: 1,
+  badgeAura: {
+    position: "absolute",
+    top: 6,
+    width: 78,
+    height: 78,
+    borderRadius: 39,
+    opacity: 0.18
+  },
+  badgeCore: {
+    width: 78,
+    height: 82,
     alignItems: "center",
-    justifyContent: "center",
-    marginBottom: 10
+    justifyContent: "center"
   },
-  iconText: { fontSize: 22, fontWeight: "900" },
-  chipLabel: { fontSize: 12, fontWeight: "900", letterSpacing: 0.6 },
+  badgeStar: {
+    ...StyleSheet.absoluteFillObject,
+    opacity: 0.95
+  },
+  starLine: {
+    position: "absolute",
+    height: 1.5,
+    borderRadius: 2
+  },
+  star1: { width: 42, top: 12, left: 18, transform: [{ rotate: "-36deg" }] },
+  star2: { width: 42, top: 12, right: 18, transform: [{ rotate: "36deg" }] },
+  star3: { width: 46, top: 40, left: 13, transform: [{ rotate: "18deg" }] },
+  star4: { width: 46, top: 40, right: 13, transform: [{ rotate: "-18deg" }] },
+  star5: { width: 58, top: 58, left: 10 },
+  iconText: {
+    fontSize: 24,
+    fontWeight: "900",
+    textAlign: "center"
+  },
+  chipLabel: {
+    marginTop: 2,
+    fontSize: 12,
+    fontWeight: "900",
+    letterSpacing: 0.6,
+    textAlign: "center"
+  },
 
   tl: { top: 40, left: 18 },
   tr: { top: 40, right: 18 },
