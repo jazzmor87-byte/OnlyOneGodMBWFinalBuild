@@ -24,19 +24,53 @@ function resolveRoute(navigation, candidates = []) {
 }
 
 const BUTTONS = [
-  { key: "MATCH", icon: "cards-playing-outline", routes: ["MatchmakingMainLux","MatchmakingMain","MatchmakingHome","MatchmakingResult","MatchmakingScreen"], pos: "tl", dx: -6, dy: -8 },
-  { key: "REALM", icon: "crown-outline", routes: ["RealmMainLux","RealmMain","MBWHome","RealmHome","home_MBWHome"], pos: "tr", dx: 6, dy: -8 },
-  { key: "LOUNGE", icon: "glass-cocktail", routes: ["LiveLoungeLux","LoungeMain","LoungeHome","LiveLoungeScreen","LoungeStories"], pos: "ml", dx: -8, dy: -2 },
-  { key: "COINS", icon: "help-circle-outline", routes: ["CoinsMainLux","CoinsMain","MasterOfCoinsMain","CoinExplorerHall","CoinMarket"], pos: "mr", dx: 8, dy: -2 },
-  { key: "TRAVEL", icon: "airplane", routes: ["TravelOverseasLux","TravelMain","TravelScreen","TravelOverseasHost","TravelLocalAdventure"], pos: "bl", dx: -7, dy: 5 },
-  { key: "MERCH", icon: "shopping-outline", routes: ["MerchMainLux","MerchMain","MerchHome","MerchandiseScreen","MerchCheckout"], pos: "br", dx: 7, dy: 5 },
-  { key: "GAMES", icon: "chess-king", routes: ["GamesMainLux","GamesMain","GamesHubScreen","GamesScreen","LudoArena"], pos: "bll", dx: -5, dy: 8 },
-  { key: "PROFILE", icon: "account-outline", routes: ["ProfileMainLux","ProfileMain","ProfileHome","Profile","ProfileSettings"], pos: "brr", dx: 5, dy: 8 }
+  { key: "MATCH", icon: "cards-playing-outline", routes: ["MatchmakingMainLux","MatchmakingMain","MatchmakingHome","MatchmakingResult","MatchmakingScreen"], pos: "top", dx: 0, dy: -8 },
+  { key: "REALM", icon: "crown-outline", routes: ["RealmMainLux","RealmMain","MBWHome","RealmHome","home_MBWHome"], pos: "ur", dx: 7, dy: -6 },
+  { key: "LOUNGE", icon: "glass-cocktail", routes: ["LiveLoungeLux","LoungeMain","LoungeHome","LiveLoungeScreen","LoungeStories"], pos: "ul", dx: -7, dy: -6 },
+  { key: "COINS", icon: "help-circle-outline", routes: ["CoinsMainLux","CoinsMain","MasterOfCoinsMain","CoinExplorerHall","CoinMarket"], pos: "mr", dx: 8, dy: 0 },
+  { key: "TRAVEL", icon: "airplane", routes: ["TravelOverseasLux","TravelMain","TravelScreen","TravelOverseasHost","TravelLocalAdventure"], pos: "ml", dx: -8, dy: 0 },
+  { key: "MERCH", icon: "shopping-outline", routes: ["MerchMainLux","MerchMain","MerchHome","MerchandiseScreen","MerchCheckout"], pos: "lr", dx: 7, dy: 6 },
+  { key: "GAMES", icon: "chess-king", routes: ["GamesMainLux","GamesMain","GamesHubScreen","GamesScreen","LudoArena"], pos: "ll", dx: -7, dy: 6 },
+  { key: "PROFILE", icon: "account-outline", routes: ["ProfileMainLux","ProfileMain","ProfileHome","Profile","ProfileSettings"], pos: "bottom", dx: 0, dy: 8 }
 ];
 
-function OrbitButton({ item, drift, onPress }) {
-  const tx = drift.interpolate({ inputRange: [0, 1], outputRange: [item.dx, -item.dx] });
-  const ty = drift.interpolate({ inputRange: [0, 1], outputRange: [item.dy, -item.dy] });
+const STARS = [
+  { left: "18%", top: "12%", size: 3, dx: -4, dy: 2 },
+  { left: "36%", top: "20%", size: 2, dx: 5, dy: -2 },
+  { left: "62%", top: "18%", size: 3, dx: -3, dy: 3 },
+  { left: "78%", top: "26%", size: 2, dx: 4, dy: -3 },
+  { left: "24%", top: "48%", size: 2, dx: -4, dy: 3 },
+  { left: "70%", top: "54%", size: 3, dx: 4, dy: -2 },
+  { left: "42%", top: "66%", size: 2, dx: -2, dy: 4 },
+  { left: "58%", top: "72%", size: 3, dx: 2, dy: -4 }
+];
+
+function SpaceOverlay({ phase }) {
+  return (
+    <View pointerEvents="none" style={StyleSheet.absoluteFillObject}>
+      <View style={s.spaceGlowA} />
+      <View style={s.spaceGlowB} />
+      {STARS.map((x, i) => {
+        const tx = phase.interpolate({ inputRange: [0, 1], outputRange: [x.dx, -x.dx] });
+        const ty = phase.interpolate({ inputRange: [0, 1], outputRange: [x.dy, -x.dy] });
+        const op = phase.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.16, 0.42, 0.16] });
+        return (
+          <Animated.View
+            key={i}
+            style={[
+              s.star,
+              { left: x.left, top: x.top, width: x.size, height: x.size, opacity: op, transform: [{ translateX: tx }, { translateY: ty }] }
+            ]}
+          />
+        );
+      })}
+    </View>
+  );
+}
+
+function OrbitButton({ item, phase, onPress }) {
+  const tx = phase.interpolate({ inputRange: [0, 1], outputRange: [item.dx, -item.dx] });
+  const ty = phase.interpolate({ inputRange: [0, 1], outputRange: [item.dy, -item.dy] });
 
   return (
     <Animated.View style={[s.slot, s[item.pos], { transform: [{ translateX: tx }, { translateY: ty }] }]}>
@@ -55,18 +89,18 @@ function OrbitButton({ item, drift, onPress }) {
 
 export default function Main_Activity() {
   const navigation = useNavigation();
-  const drift = useRef(new Animated.Value(0)).current;
+  const phase = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     const loop = Animated.loop(
       Animated.sequence([
-        Animated.timing(drift, { toValue: 1, duration: 3400, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
-        Animated.timing(drift, { toValue: 0, duration: 3400, easing: Easing.inOut(Easing.sin), useNativeDriver: true })
+        Animated.timing(phase, { toValue: 1, duration: 3600, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
+        Animated.timing(phase, { toValue: 0, duration: 3600, easing: Easing.inOut(Easing.sin), useNativeDriver: true })
       ])
     );
     loop.start();
     return () => loop.stop();
-  }, [drift]);
+  }, [phase]);
 
   const go = (routes) => {
     const target = resolveRoute(navigation, routes);
@@ -75,14 +109,15 @@ export default function Main_Activity() {
 
   return (
     <ImageBackground source={require("../../assets/mbw_luxscreens/main_hub.png")} style={s.bg} resizeMode="cover">
+      <View style={s.scrim} />
+      <SpaceOverlay phase={phase} />
       <SafeAreaView style={s.safe}>
-        <View style={s.scrim} />
         <View style={s.titleWrap}>
           <Text style={s.title}>MBW HOME</Text>
         </View>
 
         {BUTTONS.map((item) => (
-          <OrbitButton key={item.key} item={item} drift={drift} onPress={() => go(item.routes)} />
+          <OrbitButton key={item.key} item={item} phase={phase} onPress={() => go(item.routes)} />
         ))}
       </SafeAreaView>
     </ImageBackground>
@@ -113,28 +148,47 @@ const s = StyleSheet.create({
     paddingVertical: 6
   },
 
+  spaceGlowA: {
+    position: "absolute",
+    left: "12%",
+    top: "18%",
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    backgroundColor: "rgba(98,72,142,0.06)"
+  },
+  spaceGlowB: {
+    position: "absolute",
+    right: "16%",
+    bottom: "22%",
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    backgroundColor: "rgba(182,146,222,0.05)"
+  },
+  star: {
+    position: "absolute",
+    borderRadius: 3,
+    backgroundColor: "rgba(248,232,188,0.55)"
+  },
+
   slot: {
     position: "absolute",
     width: 88,
     alignItems: "center",
     zIndex: 4
   },
-  tl: { top: 58, left: 8 },
-  tr: { top: 58, right: 8 },
-  ml: { top: "34%", left: 8, marginTop: -54 },
-  mr: { top: "34%", right: 8, marginTop: -54 },
-  bl: { top: "60%", left: 8, marginTop: -54 },
-  br: { top: "60%", right: 8, marginTop: -54 },
-  bll: { bottom: 18, left: 8 },
-  brr: { bottom: 18, right: 8 },
+  top: { top: 60, left: "50%", marginLeft: -44 },
+  ul: { top: "19%", left: "12%" },
+  ur: { top: "19%", right: "12%" },
+  ml: { top: "38%", left: "6%" },
+  mr: { top: "38%", right: "6%" },
+  ll: { top: "60%", left: "12%" },
+  lr: { top: "60%", right: "12%" },
+  bottom: { bottom: 20, left: "50%", marginLeft: -44 },
 
   touch: { alignItems: "center" },
-  halo: {
-    width: 70,
-    height: 70,
-    alignItems: "center",
-    justifyContent: "center"
-  },
+  halo: { width: 70, height: 70, alignItems: "center", justifyContent: "center" },
   iconCore: {
     position: "absolute",
     width: 36,

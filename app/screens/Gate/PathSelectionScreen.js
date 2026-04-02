@@ -1,15 +1,38 @@
-import React from "react";
-import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, ImageBackground } from "react-native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
+import React, { useEffect, useRef } from "react";
+import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, ImageBackground, Animated, Easing } from "react-native";
 
 const BG = require("../../assets/mbw_luxscreens/path_selection.png");
-const TATVAS = [
-  { label: "EARTH", icon: "leaf" },
-  { label: "WATER", icon: "water-outline" },
-  { label: "FIRE", icon: "fire" },
-  { label: "AIR", icon: "weather-windy" },
-  { label: "SPACE", icon: "star-four-points-outline" }
+const EMBERS = [
+  { left: "16%", size: 8, delay: 0, drift: -8 },
+  { left: "28%", size: 6, delay: 300, drift: 6 },
+  { left: "44%", size: 10, delay: 800, drift: -4 },
+  { left: "58%", size: 7, delay: 1200, drift: 9 },
+  { left: "76%", size: 9, delay: 1700, drift: -6 },
 ];
+
+function FireOverlay({ phase }) {
+  return (
+    <View pointerEvents="none" style={StyleSheet.absoluteFillObject}>
+      <View style={s.fireWash} />
+      {EMBERS.map((e, i) => {
+        const rise = phase.interpolate({ inputRange: [0, 1], outputRange: [18 + i * 3, -18 - i * 4] });
+        const drift = phase.interpolate({ inputRange: [0, 1], outputRange: [e.drift, -e.drift] });
+        const op = phase.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.18, 0.40, 0.18] });
+        return (
+          <Animated.View
+            key={i}
+            style={[
+              s.ember,
+              { left: e.left, width: e.size, height: e.size + 10, opacity: op, transform: [{ translateY: rise }, { translateX: drift }] }
+            ]}
+          />
+        );
+      })}
+      <View style={s.fireRibbonLeft} />
+      <View style={s.fireRibbonRight} />
+    </View>
+  );
+}
 
 function ActionRow({ onLogin, onSignup }) {
   return (
@@ -35,19 +58,24 @@ function RouteCard({ title, desc, onLogin, onSignup }) {
 }
 
 export default function PathSelectionScreen({ navigation }) {
+  const phase = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(phase, { toValue: 1, duration: 3200, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
+        Animated.timing(phase, { toValue: 0, duration: 3200, easing: Easing.inOut(Easing.sin), useNativeDriver: true })
+      ])
+    );
+    loop.start();
+    return () => loop.stop();
+  }, [phase]);
+
   return (
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
       <View style={s.scrim} />
+      <FireOverlay phase={phase} />
       <SafeAreaView style={s.safe}>
-        <View style={s.tatvaBand}>
-          {TATVAS.map((x) => (
-            <View key={x.label} style={s.tatvaChip}>
-              <MaterialCommunityIcons name={x.icon} size={16} color="#F3D27D" />
-              <Text style={s.tatvaText}>{x.label}</Text>
-            </View>
-          ))}
-        </View>
-
         <View style={s.bottomArea}>
           <RouteCard
             title="MATCH THE RIGHT MATCH"
@@ -73,34 +101,39 @@ const s = StyleSheet.create({
   safe: { flex: 1 },
   scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.08)" },
 
-  tatvaBand: {
-    marginTop: 6,
-    marginHorizontal: 10,
-    flexDirection: "row",
-    backgroundColor: "rgba(0,0,0,0.56)",
-    borderWidth: 1.1,
-    borderColor: "rgba(212,175,55,0.72)",
-    borderRadius: 15,
-    paddingHorizontal: 4,
-    paddingVertical: 6
+  fireWash: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: "8%",
+    height: "54%",
+    backgroundColor: "rgba(153,58,20,0.05)"
   },
-  tatvaChip: {
-    flex: 1,
-    marginHorizontal: 2,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "rgba(40,18,0,0.82)",
-    borderWidth: 1,
-    borderColor: "rgba(212,175,55,0.85)",
-    borderRadius: 12,
-    paddingVertical: 6
+  ember: {
+    position: "absolute",
+    top: "34%",
+    borderRadius: 10,
+    backgroundColor: "rgba(230,134,54,0.22)"
   },
-  tatvaText: {
-    marginTop: 2,
-    color: "#F3D27D",
-    fontSize: 9.5,
-    fontWeight: "900",
-    letterSpacing: 0.35
+  fireRibbonLeft: {
+    position: "absolute",
+    left: "10%",
+    top: "24%",
+    width: 72,
+    height: 180,
+    borderRadius: 40,
+    backgroundColor: "rgba(186,72,20,0.08)",
+    transform: [{ rotate: "-18deg" }]
+  },
+  fireRibbonRight: {
+    position: "absolute",
+    right: "12%",
+    top: "20%",
+    width: 64,
+    height: 160,
+    borderRadius: 40,
+    backgroundColor: "rgba(230,138,44,0.06)",
+    transform: [{ rotate: "16deg" }]
   },
 
   bottomArea: { flex: 1, justifyContent: "flex-end", paddingHorizontal: 14, paddingBottom: 14, gap: 10 },

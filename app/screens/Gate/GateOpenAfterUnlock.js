@@ -1,15 +1,46 @@
 import React, { useEffect, useRef } from "react";
 import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, ImageBackground, Animated, Easing } from "react-native";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 const BG = require("../../assets/gate/open.png");
-const TATVAS = [
-  { label: "EARTH", icon: "leaf" },
-  { label: "WATER", icon: "water-outline" },
-  { label: "FIRE", icon: "fire" },
-  { label: "AIR", icon: "weather-windy" },
-  { label: "SPACE", icon: "star-four-points-outline" }
+const FLOWS = [
+  { key: "earth", top: "16%", tint: "rgba(122,78,34,0.10)", glow: "rgba(156,103,44,0.16)", dx: -18, dy: 4 },
+  { key: "water", top: "26%", tint: "rgba(92,136,188,0.10)", glow: "rgba(116,173,233,0.14)", dx: 18, dy: -4 },
+  { key: "fire", top: "36%", tint: "rgba(164,66,28,0.12)", glow: "rgba(230,142,44,0.18)", dx: -14, dy: -6 },
+  { key: "air", top: "46%", tint: "rgba(214,214,214,0.08)", glow: "rgba(255,255,255,0.12)", dx: 14, dy: 0 },
+  { key: "space", top: "56%", tint: "rgba(108,76,146,0.10)", glow: "rgba(182,146,222,0.16)", dx: -10, dy: 6 },
 ];
+
+function TatvaFlow({ phase }) {
+  return (
+    <View pointerEvents="none" style={StyleSheet.absoluteFillObject}>
+      {FLOWS.map((f, i) => {
+        const tx = phase.interpolate({ inputRange: [0, 1], outputRange: [f.dx, -f.dx] });
+        const ty = phase.interpolate({ inputRange: [0, 1], outputRange: [f.dy, -f.dy] });
+        const op = phase.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.32, 0.52, 0.32] });
+        return (
+          <Animated.View
+            key={f.key}
+            style={[
+              s.flowBand,
+              { top: f.top, backgroundColor: f.tint, opacity: op, transform: [{ translateX: tx }, { translateY: ty }] }
+            ]}
+          >
+            <View style={[s.glowBlob, { left: "8%", backgroundColor: f.glow }]} />
+            <View style={[s.glowBlob, { left: "42%", backgroundColor: f.glow }]} />
+            <View style={[s.glowBlob, { right: "8%", backgroundColor: f.glow }]} />
+            {i === 4 && (
+              <>
+                <View style={[s.star, { left: "18%", top: 8 }]} />
+                <View style={[s.star, { left: "52%", top: 18 }]} />
+                <View style={[s.star, { right: "16%", top: 10 }]} />
+              </>
+            )}
+          </Animated.View>
+        );
+      })}
+    </View>
+  );
+}
 
 export default function GateOpenAfterUnlock({ navigation }) {
   const ui = useRef(new Animated.Value(0)).current;
@@ -17,8 +48,8 @@ export default function GateOpenAfterUnlock({ navigation }) {
   useEffect(() => {
     const loop = Animated.loop(
       Animated.sequence([
-        Animated.timing(ui, { toValue: 1, duration: 3000, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
-        Animated.timing(ui, { toValue: 0, duration: 3000, easing: Easing.inOut(Easing.sin), useNativeDriver: true })
+        Animated.timing(ui, { toValue: 1, duration: 3600, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
+        Animated.timing(ui, { toValue: 0, duration: 3600, easing: Easing.inOut(Easing.sin), useNativeDriver: true })
       ])
     );
     loop.start();
@@ -30,16 +61,8 @@ export default function GateOpenAfterUnlock({ navigation }) {
   return (
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
       <View style={s.scrim} />
+      <TatvaFlow phase={ui} />
       <SafeAreaView style={s.safe}>
-        <View style={s.tatvaBand}>
-          {TATVAS.map((x) => (
-            <View key={x.label} style={s.tatvaChip}>
-              <MaterialCommunityIcons name={x.icon} size={16} color="#F3D27D" />
-              <Text style={s.tatvaText}>{x.label}</Text>
-            </View>
-          ))}
-        </View>
-
         <Animated.View style={[s.floatTop, { transform: [{ translateY: chipY }] }]}>
           <Text style={s.top}>THE GATE IS OPEN</Text>
         </Animated.View>
@@ -61,34 +84,27 @@ const s = StyleSheet.create({
   safe: { flex: 1 },
   scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.18)" },
 
-  tatvaBand: {
-    marginTop: 6,
-    marginHorizontal: 10,
-    flexDirection: "row",
-    backgroundColor: "rgba(0,0,0,0.56)",
-    borderWidth: 1.1,
-    borderColor: "rgba(212,175,55,0.72)",
-    borderRadius: 15,
-    paddingHorizontal: 4,
-    paddingVertical: 6
+  flowBand: {
+    position: "absolute",
+    left: 12,
+    right: 12,
+    height: 34,
+    borderRadius: 20,
+    overflow: "hidden"
   },
-  tatvaChip: {
-    flex: 1,
-    marginHorizontal: 2,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "rgba(40,18,0,0.82)",
-    borderWidth: 1,
-    borderColor: "rgba(212,175,55,0.85)",
-    borderRadius: 12,
-    paddingVertical: 6
+  glowBlob: {
+    position: "absolute",
+    top: 6,
+    width: 84,
+    height: 22,
+    borderRadius: 14
   },
-  tatvaText: {
-    marginTop: 2,
-    color: "#F3D27D",
-    fontSize: 9.5,
-    fontWeight: "900",
-    letterSpacing: 0.35
+  star: {
+    position: "absolute",
+    width: 3,
+    height: 3,
+    borderRadius: 2,
+    backgroundColor: "rgba(255,245,210,0.45)"
   },
 
   floatTop: {
