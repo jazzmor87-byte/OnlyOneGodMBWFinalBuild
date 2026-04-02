@@ -1,8 +1,15 @@
-import React, { useEffect, useRef } from "react";
-import { View, Text, TouchableOpacity, StyleSheet, ImageBackground, Animated, Easing } from "react-native";
+import React from "react";
+import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, ImageBackground } from "react-native";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 const BG = require("../../assets/mbw_luxscreens/path_selection.png");
-const TATVAS = ["EARTH","WATER","FIRE","AIR","SPACE"];
+const TATVAS = [
+  { label: "EARTH", icon: "leaf" },
+  { label: "WATER", icon: "water-outline" },
+  { label: "FIRE", icon: "fire" },
+  { label: "AIR", icon: "weather-windy" },
+  { label: "SPACE", icon: "star-four-points-outline" }
+];
 
 function ActionRow({ onLogin, onSignup }) {
   return (
@@ -28,99 +35,81 @@ function RouteCard({ title, desc, onLogin, onSignup }) {
 }
 
 export default function PathSelectionScreen({ navigation }) {
-  const drift = useRef(new Animated.Value(0)).current;
-
-  useEffect(() => {
-    const loop = Animated.loop(
-      Animated.sequence([
-        Animated.timing(drift, { toValue: 1, duration: 3600, easing: Easing.inOut(Easing.sin), useNativeDriver: true }),
-        Animated.timing(drift, { toValue: 0, duration: 3600, easing: Easing.inOut(Easing.sin), useNativeDriver: true })
-      ])
-    );
-    loop.start();
-    return () => loop.stop();
-  }, [drift]);
-
-  const glowY = drift.interpolate({ inputRange: [0, 1], outputRange: [8, -8] });
-
   return (
     <ImageBackground source={BG} style={s.bg} resizeMode="cover">
       <View style={s.scrim} />
-      <Animated.View style={[s.glow, { transform: [{ translateY: glowY }] }]} />
+      <SafeAreaView style={s.safe}>
+        <View style={s.tatvaBand}>
+          {TATVAS.map((x) => (
+            <View key={x.label} style={s.tatvaChip}>
+              <MaterialCommunityIcons name={x.icon} size={16} color="#F3D27D" />
+              <Text style={s.tatvaText}>{x.label}</Text>
+            </View>
+          ))}
+        </View>
 
-      <View style={s.tatvaRow}>
-        {TATVAS.map((x) => (
-          <View key={x} style={s.tatvaChip}>
-            <Text style={s.tatvaText}>{x}</Text>
-          </View>
-        ))}
-      </View>
+        <View style={s.bottomArea}>
+          <RouteCard
+            title="MATCH THE RIGHT MATCH"
+            desc="DATE ON RIGHT DATE WITH RIGHT DATE"
+            onLogin={() => navigation.navigate("LoginLux", { accessPath: "MATCH_RIGHT_MATCH" })}
+            onSignup={() => navigation.navigate("SignupLux", { accessPath: "MATCH_RIGHT_MATCH" })}
+          />
 
-      <View style={s.bottomArea}>
-        <RouteCard
-          title="MATCH THE RIGHT MATCH"
-          desc="DATE ON RIGHT DATE WITH RIGHT DATE"
-          onLogin={() => navigation.navigate("LoginLux", { accessPath: "MATCH_RIGHT_MATCH" })}
-          onSignup={() => navigation.navigate("SignupLux", { accessPath: "MATCH_RIGHT_MATCH" })}
-        />
-
-        <RouteCard
-          title="BECOME MASTER OF COINS"
-          desc="ENTERTAINMENT ZONE GAMES TRAVEL ACROSS WORLD WITH LEAST MONEY STRATEGY AND STAY WITH MOST KIND PEOPLE IN THE WORLD WHO PROMOTES HUMANITY"
-          onLogin={() => navigation.navigate("LoginLux", { accessPath: "MASTER_OF_COINS" })}
-          onSignup={() => navigation.navigate("SignupLux", { accessPath: "MASTER_OF_COINS" })}
-        />
-      </View>
+          <RouteCard
+            title="BECOME MASTER OF COINS"
+            desc="ENTERTAINMENT ZONE GAMES TRAVEL ACROSS WORLD WITH LEAST MONEY STRATEGY AND STAY WITH MOST KIND PEOPLE IN THE WORLD WHO PROMOTES HUMANITY"
+            onLogin={() => navigation.navigate("LoginLux", { accessPath: "MASTER_OF_COINS" })}
+            onSignup={() => navigation.navigate("SignupLux", { accessPath: "MASTER_OF_COINS" })}
+          />
+        </View>
+      </SafeAreaView>
     </ImageBackground>
   );
 }
 
 const s = StyleSheet.create({
   bg: { flex: 1, backgroundColor: "#000" },
+  safe: { flex: 1 },
   scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.08)" },
-  glow: {
-    position: "absolute",
-    left: "10%",
-    right: "10%",
-    top: "14%",
-    height: 130,
-    borderRadius: 30,
-    backgroundColor: "rgba(212,175,55,0.12)"
-  },
 
-  tatvaRow: {
-    position: "absolute",
-    top: 14,
-    left: 10,
-    right: 10,
-    zIndex: 5,
+  tatvaBand: {
+    marginTop: 6,
+    marginHorizontal: 10,
     flexDirection: "row",
-    justifyContent: "space-between"
+    backgroundColor: "rgba(0,0,0,0.56)",
+    borderWidth: 1.1,
+    borderColor: "rgba(212,175,55,0.72)",
+    borderRadius: 15,
+    paddingHorizontal: 4,
+    paddingVertical: 6
   },
   tatvaChip: {
-    minWidth: 58,
+    flex: 1,
+    marginHorizontal: 2,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "rgba(40,18,0,0.82)",
     borderWidth: 1,
-    borderColor: "rgba(212,175,55,0.72)",
+    borderColor: "rgba(212,175,55,0.85)",
     borderRadius: 12,
-    paddingHorizontal: 8,
-    paddingVertical: 5,
-    backgroundColor: "rgba(0,0,0,0.22)"
+    paddingVertical: 6
   },
   tatvaText: {
-    color: "#E8C56A",
-    fontSize: 10,
+    marginTop: 2,
+    color: "#F3D27D",
+    fontSize: 9.5,
     fontWeight: "900",
-    textAlign: "center",
-    letterSpacing: 0.6
+    letterSpacing: 0.35
   },
 
   bottomArea: { flex: 1, justifyContent: "flex-end", paddingHorizontal: 14, paddingBottom: 14, gap: 10 },
   floatRoute: {
     overflow: "hidden",
-    borderWidth: 1.1,
-    borderColor: "rgba(212,175,55,0.72)",
+    borderWidth: 1.15,
+    borderColor: "rgba(212,175,55,0.86)",
     borderRadius: 18,
-    backgroundColor: "rgba(0,0,0,0.14)",
+    backgroundColor: "rgba(0,0,0,0.18)",
     paddingVertical: 10,
     paddingHorizontal: 12
   },
@@ -130,7 +119,7 @@ const s = StyleSheet.create({
   smallBtn: {
     flex: 1,
     borderWidth: 1.1,
-    borderColor: "rgba(212,175,55,0.72)",
+    borderColor: "rgba(212,175,55,0.82)",
     borderRadius: 14,
     paddingVertical: 10,
     alignItems: "center",
