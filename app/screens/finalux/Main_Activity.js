@@ -24,14 +24,14 @@ function resolveRoute(navigation, candidates = []) {
 }
 
 const BUTTONS = [
-  { key: "MATCH", icon: "cards-playing-outline", routes: ["MatchmakingMainLux","MatchmakingMain","MatchmakingHome","MatchmakingResult","MatchmakingScreen"], pos: "ct", dx: 0, dy: -6 },
-  { key: "LOUNGE", icon: "glass-cocktail", routes: ["LiveLoungeLux","LoungeMain","LoungeHome","LiveLoungeScreen","LoungeStories"], pos: "ul", dx: -6, dy: -4 },
-  { key: "REALM", icon: "crown-outline", routes: ["RealmMainLux","RealmMain","MBWHome","RealmHome","home_MBWHome"], pos: "ur", dx: 6, dy: -4 },
-  { key: "TRAVEL", icon: "airplane", routes: ["TravelOverseasLux","TravelMain","TravelScreen","TravelOverseasHost","TravelLocalAdventure"], pos: "ml", dx: -7, dy: 0 },
-  { key: "COINS", icon: "help-circle-outline", routes: ["CoinsMainLux","CoinsMain","MasterOfCoinsMain","CoinExplorerHall","CoinMarket"], pos: "mr", dx: 7, dy: 0 },
-  { key: "GAMES", icon: "chess-king", routes: ["GamesMainLux","GamesMain","GamesHubScreen","GamesScreen","LudoArena"], pos: "ll", dx: -6, dy: 4 },
-  { key: "MERCH", icon: "shopping-outline", routes: ["MerchMainLux","MerchMain","MerchHome","MerchandiseScreen","MerchCheckout"], pos: "lr", dx: 6, dy: 4 },
-  { key: "PROFILE", icon: "account-outline", routes: ["ProfileMainLux","ProfileMain","ProfileHome","Profile","ProfileSettings"], pos: "cb", dx: 0, dy: 6 }
+  { key: "MATCH", icon: "cards-playing-outline", routes: ["MatchmakingMainLux","MatchmakingMain","MatchmakingHome","MatchmakingResult","MatchmakingScreen"], pos: "tl", dx: -3, dy: -3 },
+  { key: "REALM", icon: "crown-outline", routes: ["RealmMainLux","RealmMain","MBWHome","RealmHome","home_MBWHome"], pos: "tr", dx: 3, dy: -3 },
+  { key: "LOUNGE", icon: "glass-cocktail", routes: ["LiveLoungeLux","LoungeMain","LoungeHome","LiveLoungeScreen","LoungeStories"], pos: "ml", dx: -3, dy: 0 },
+  { key: "COINS", icon: "help-circle-outline", routes: ["CoinsMainLux","CoinsMain","MasterOfCoinsMain","CoinExplorerHall","CoinMarket"], pos: "mr", dx: 3, dy: 0 },
+  { key: "TRAVEL", icon: "airplane", routes: ["TravelOverseasLux","TravelMain","TravelScreen","TravelOverseasHost","TravelLocalAdventure"], pos: "bl", dx: -3, dy: 2 },
+  { key: "MERCH", icon: "shopping-outline", routes: ["MerchMainLux","MerchMain","MerchHome","MerchandiseScreen","MerchCheckout"], pos: "br", dx: 3, dy: 2 },
+  { key: "GAMES", icon: "chess-king", routes: ["GamesMainLux","GamesMain","GamesHubScreen","GamesScreen","LudoArena"], pos: "bll", dx: -2, dy: 3 },
+  { key: "PROFILE", icon: "account-outline", routes: ["ProfileMainLux","ProfileMain","ProfileHome","Profile","ProfileSettings"], pos: "brr", dx: 2, dy: 3 }
 ];
 
 const STARS = [
@@ -54,7 +54,7 @@ function SpaceOverlay({ phase }) {
       {STARS.map((x, i) => {
         const tx = phase.interpolate({ inputRange: [0, 1], outputRange: [x.dx, -x.dx] });
         const ty = phase.interpolate({ inputRange: [0, 1], outputRange: [x.dy, -x.dy] });
-        const op = phase.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.18, 0.54, 0.18] });
+        const op = phase.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.18, 0.50, 0.18] });
         return (
           <Animated.View
             key={i}
@@ -77,9 +77,9 @@ function OrbitButton({ item, phase, onPress }) {
     <Animated.View style={[s.slot, s[item.pos], { transform: [{ translateX: tx }, { translateY: ty }] }]}>
       <TouchableOpacity style={s.touch} onPress={onPress} activeOpacity={0.9}>
         <View style={s.halo}>
-          <MaterialCommunityIcons name="pentagon-outline" size={44} color="rgba(232,197,106,0.94)" />
+          <MaterialCommunityIcons name="pentagon-outline" size={40} color="rgba(232,197,106,0.94)" />
           <View style={s.iconCore}>
-            <MaterialCommunityIcons name={item.icon} size={15} color="#E8C56A" />
+            <MaterialCommunityIcons name={item.icon} size={14} color="#E8C56A" />
           </View>
         </View>
         <Text style={s.label}>{item.key}</Text>
@@ -184,26 +184,26 @@ const s = StyleSheet.create({
 
   slot: {
     position: "absolute",
-    width: 58,
+    width: 54,
     alignItems: "center",
     zIndex: 4
   },
-  ct: { top: "18%", left: "50%", marginLeft: -29 },
-  ul: { top: "30%", left: "28%" },
-  ur: { top: "30%", right: "28%" },
-  ml: { top: "46%", left: "22%" },
-  mr: { top: "46%", right: "22%" },
-  ll: { top: "62%", left: "30%" },
-  lr: { top: "62%", right: "30%" },
-  cb: { bottom: "12%", left: "50%", marginLeft: -29 },
+  tl: { top: 66, left: 10 },
+  tr: { top: 66, right: 10 },
+  ml: { top: "34%", left: 10, marginTop: -40 },
+  mr: { top: "34%", right: 10, marginTop: -40 },
+  bl: { top: "58%", left: 10, marginTop: -40 },
+  br: { top: "58%", right: 10, marginTop: -40 },
+  bll: { bottom: 22, left: 10 },
+  brr: { bottom: 22, right: 10 },
 
   touch: { alignItems: "center" },
-  halo: { width: 48, height: 48, alignItems: "center", justifyContent: "center" },
+  halo: { width: 44, height: 44, alignItems: "center", justifyContent: "center" },
   iconCore: {
     position: "absolute",
-    width: 24,
-    height: 24,
-    borderRadius: 12,
+    width: 22,
+    height: 22,
+    borderRadius: 11,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(0,0,0,0.20)"
@@ -211,9 +211,9 @@ const s = StyleSheet.create({
   label: {
     marginTop: 2,
     color: "#F7E7BB",
-    fontSize: 8.6,
+    fontSize: 8.2,
     fontWeight: "900",
-    letterSpacing: 0.28,
+    letterSpacing: 0.25,
     textAlign: "center"
   }
 });
