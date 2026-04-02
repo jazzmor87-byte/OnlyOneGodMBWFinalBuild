@@ -3,13 +3,13 @@ import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, ImageBackground
 
 const BG = require("../../assets/mbw_luxscreens/path_selection.png");
 const EMBERS = [
-  { left: "12%", size: 10, drift: -10, riseA: 22, riseB: -26 },
-  { left: "22%", size: 8, drift: 8, riseA: 10, riseB: -18 },
-  { left: "34%", size: 12, drift: -7, riseA: 18, riseB: -28 },
+  { left: "12%", size: 10, drift: -10, riseA: 20, riseB: -28 },
+  { left: "22%", size: 8, drift: 8, riseA: 12, riseB: -18 },
+  { left: "34%", size: 12, drift: -7, riseA: 18, riseB: -30 },
   { left: "46%", size: 9, drift: 10, riseA: 14, riseB: -22 },
-  { left: "58%", size: 11, drift: -9, riseA: 24, riseB: -30 },
+  { left: "58%", size: 11, drift: -9, riseA: 22, riseB: -30 },
   { left: "70%", size: 8, drift: 7, riseA: 12, riseB: -20 },
-  { left: "82%", size: 10, drift: -8, riseA: 20, riseB: -26 }
+  { left: "82%", size: 10, drift: -8, riseA: 18, riseB: -26 }
 ];
 
 function FireOverlay({ phase }) {
@@ -17,13 +17,14 @@ function FireOverlay({ phase }) {
     <View pointerEvents="none" style={StyleSheet.absoluteFillObject}>
       <View style={s.fireWashTop} />
       <View style={s.fireWashMid} />
+      <View style={s.fireWashLow} />
       <View style={s.fireRibbonLeft} />
       <View style={s.fireRibbonRight} />
       <View style={s.fireRibbonCenter} />
       {EMBERS.map((e, i) => {
         const rise = phase.interpolate({ inputRange: [0, 1], outputRange: [e.riseA, e.riseB] });
         const drift = phase.interpolate({ inputRange: [0, 1], outputRange: [e.drift, -e.drift] });
-        const op = phase.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.18, 0.48, 0.18] });
+        const op = phase.interpolate({ inputRange: [0, 0.5, 1], outputRange: [0.18, 0.52, 0.18] });
         return (
           <Animated.View
             key={i}
@@ -109,58 +110,66 @@ export default function PathSelectionScreen({ navigation }) {
 const s = StyleSheet.create({
   bg: { flex: 1, backgroundColor: "#000" },
   safe: { flex: 1 },
-  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.06)" },
+  scrim: { ...StyleSheet.absoluteFillObject, backgroundColor: "rgba(0,0,0,0.05)" },
 
   fireWashTop: {
     position: "absolute",
     left: 0,
     right: 0,
     top: "6%",
-    height: "24%",
-    backgroundColor: "rgba(160,58,18,0.08)"
+    height: "22%",
+    backgroundColor: "rgba(156,56,18,0.08)"
   },
   fireWashMid: {
     position: "absolute",
     left: 0,
     right: 0,
-    top: "28%",
-    height: "30%",
-    backgroundColor: "rgba(196,88,24,0.07)"
+    top: "24%",
+    height: "22%",
+    backgroundColor: "rgba(196,88,24,0.08)"
+  },
+  fireWashLow: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    top: "42%",
+    height: "18%",
+    backgroundColor: "rgba(248,154,48,0.05)"
   },
   fireRibbonLeft: {
     position: "absolute",
     left: "8%",
-    top: "20%",
-    width: 92,
+    top: "18%",
+    width: 90,
     height: 250,
     borderRadius: 50,
-    backgroundColor: "rgba(196,80,18,0.10)",
+    backgroundColor: "rgba(196,80,18,0.12)",
     transform: [{ rotate: "-20deg" }]
   },
   fireRibbonRight: {
     position: "absolute",
     right: "10%",
-    top: "18%",
+    top: "16%",
     width: 82,
     height: 230,
     borderRadius: 50,
-    backgroundColor: "rgba(236,126,30,0.10)",
+    backgroundColor: "rgba(236,126,30,0.12)",
     transform: [{ rotate: "18deg" }]
   },
   fireRibbonCenter: {
     position: "absolute",
     left: "42%",
-    top: "12%",
+    top: "10%",
     width: 64,
-    height: 320,
+    height: 330,
     borderRadius: 40,
-    backgroundColor: "rgba(242,164,44,0.08)"
+    backgroundColor: "rgba(242,164,44,0.09)"
   },
   ember: {
     position: "absolute",
     top: "34%",
     borderRadius: 12,
-    backgroundColor: "rgba(248,168,56,0.26)"
+    backgroundColor: "rgba(248,168,56,0.28)"
   },
 
   bottomArea: { flex: 1, justifyContent: "flex-end", paddingHorizontal: 14, paddingBottom: 14, gap: 10 },
@@ -169,7 +178,7 @@ const s = StyleSheet.create({
     borderWidth: 1.15,
     borderColor: "rgba(212,175,55,0.86)",
     borderRadius: 18,
-    backgroundColor: "rgba(0,0,0,0.22)",
+    backgroundColor: "rgba(0,0,0,0.24)",
     paddingVertical: 10,
     paddingHorizontal: 12
   },
@@ -183,7 +192,7 @@ const s = StyleSheet.create({
     borderRadius: 14,
     paddingVertical: 10,
     alignItems: "center",
-    backgroundColor: "rgba(0,0,0,0.12)"
+    backgroundColor: "rgba(0,0,0,0.14)"
   },
   smallBtnText: { color: "#FAE8B8", fontSize: 13.5, fontWeight: "900" }
 });
