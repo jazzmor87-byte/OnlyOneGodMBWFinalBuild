@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { Alert, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { Alert, Animated, Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { ResizeMode, Video } from 'expo-av';
 import {
   MBWActionButton,
@@ -22,12 +22,55 @@ import {
 import { useMBWGoldenMaster } from './MBWGoldenMasterStore';
 
 const CINEMATIC = require('../assets/cinematic/mbw_cinematic.mp4');
+const DEFAULT_SEED_VISUAL = require('../assets/mbw_all_pad/ACE_MBW_ICON.png');
 const TIERS = [
   { tier: '111', badge: 'BLACK', amount: 26, currency: 'USD' },
   { tier: '222', badge: 'GOLDEN', amount: 53, currency: 'USD' },
   { tier: '333', badge: 'MAROON', amount: 79.30, currency: 'USD' },
   { tier: '444', badge: 'ACE', amount: 105.99, currency: 'USD' },
 ];
+
+const HUB_ORBIT_POSITIONS = Object.freeze([
+  { top: '2%', left: '41%' },
+  { top: '10%', left: '12%' },
+  { top: '10%', right: '12%' },
+  { top: '27%', left: '2%' },
+  { top: '27%', right: '2%' },
+  { top: '45%', left: '8%' },
+  { top: '45%', right: '8%' },
+  { top: '61%', left: '2%' },
+  { top: '61%', right: '2%' },
+  { top: '76%', left: '14%' },
+  { top: '76%', right: '14%' },
+  { top: '85%', left: '33%' },
+  { top: '85%', right: '33%' },
+]);
+
+function GateStarMotion({ children, amplitude = 92, duration = 2300 }) {
+  const vertical = useRef(new Animated.Value(-1)).current;
+
+  useEffect(() => {
+    const loop = Animated.loop(
+      Animated.sequence([
+        Animated.timing(vertical, { toValue: 1, duration, useNativeDriver: true }),
+        Animated.timing(vertical, { toValue: -1, duration, useNativeDriver: true }),
+      ]),
+    );
+    loop.start();
+    return () => loop.stop();
+  }, [duration, vertical]);
+
+  const translateY = vertical.interpolate({
+    inputRange: [-1, 1],
+    outputRange: [-amplitude, amplitude],
+  });
+
+  return (
+    <Animated.View style={[styles.gateMotion, { transform: [{ translateY }] }]}>
+      {children}
+    </Animated.View>
+  );
+}
 
 function Shell({ routeName, navigation, children, showSeed = true, scroll = true }) {
   return <MBWOneVisualSurface routeName={routeName} navigation={navigation} showSeed={showSeed} scroll={scroll}>{children}</MBWOneVisualSurface>;
@@ -72,10 +115,14 @@ export function GateLockedScreen({ navigation }) {
   };
   return (
     <Shell routeName="GateLocked" navigation={navigation} showSeed={false} scroll={false}>
-      <View style={styles.centerStage}>
-        <MBWInput value={secret} onChangeText={setSecret} placeholder="ACCESS" secureTextEntry />
-        <MBWActionButton icon="★" label="ENTER" onPress={submit} disabled={!secret.trim()} />
-        <CompleteState state={state} />
+      <View style={styles.gateScene}>
+        <GateStarMotion amplitude={84}>
+          <MBWActionButton icon="✦" label="ENTER" compact iconOnly onPress={submit} disabled={!secret.trim()} />
+        </GateStarMotion>
+        <View style={styles.gateInputDock}>
+          <MBWInput value={secret} onChangeText={setSecret} placeholder="ACCESS" secureTextEntry />
+          <CompleteState state={state} />
+        </View>
       </View>
     </Shell>
   );
@@ -89,7 +136,11 @@ export function GateOpenScreen({ navigation }) {
   }, [navigation, state.lifecycle.firstRunComplete]);
   return (
     <Shell routeName="GateOpen" navigation={navigation} showSeed={false} scroll={false}>
-      <View style={styles.centerStage}><Text style={styles.gateStar}>☆</Text><MBWStatus>ACCESS OPEN</MBWStatus></View>
+      <View style={styles.gateScene}>
+        <GateStarMotion amplitude={112} duration={2600}>
+          <Text style={styles.gateStar}>✦</Text>
+        </GateStarMotion>
+      </View>
     </Shell>
   );
 }
@@ -101,35 +152,58 @@ export function PathSelectionScreen({ navigation }) {
     navigation.navigate('SubscriptionSignup');
   };
   return (
-    <Shell routeName="PathSelection" navigation={navigation}>
-      <View style={styles.centerStage}>
-        <MBWRow>
-          <MBWActionButton icon="👑" label="MASTER OF LIFE" onPress={() => choose('MASTER_OF_LIFE')} />
-          <MBWActionButton icon="♠️" label="FULL MBW" onPress={() => choose('FULL_MBW_APP')} />
-        </MBWRow>
+    <Shell routeName="PathSelection" navigation={navigation} scroll={false}>
+      <View style={styles.pathScene}>
+        <View style={[styles.pathChoice, styles.pathChoiceLeft]}>
+          <MBWActionButton compact icon="♛" label="MASTER OF LIFE" onPress={() => choose('MASTER_OF_LIFE')} />
+        </View>
+        <View style={[styles.pathChoice, styles.pathChoiceRight]}>
+          <MBWActionButton compact icon="♠" label="FULL MBW" onPress={() => choose('FULL_MBW_APP')} />
+        </View>
       </View>
     </Shell>
   );
 }
 
 export function SubscriptionSignupScreen({ navigation }) {
-  const { state, dispatch, sendVerification, verifyPhone } = useMBWGoldenMaster();
+  const { state, dispatch, sendVerification, verifyPhone, pickSeedPoster } = useMBWGoldenMaster();
   const [name, setName] = useState(state.userSeed.displayName === 'ACE' ? '' : state.userSeed.displayName);
   const [phone, setPhone] = useState(state.auth.phone || '');
   const [code, setCode] = useState('');
   const ready = state.auth.signedUp && state.auth.phoneVerified && state.subscription.status === 'ACTIVE_PREVIEW'
     && state.safety.privacyAccepted && state.safety.termsAccepted && state.safety.consentAccepted;
+  const seedSource = state.userSeed.profilePoster ? { uri: state.userSeed.profilePoster } : DEFAULT_SEED_VISUAL;
 
-  const signup = () => {
+  const signup = async () => {
     if (name.trim().length < 2 || phone.replace(/\D/g, '').length < 7) {
       dispatch({ type: 'ERROR', message: 'NAME AND PHONE REQUIRED' });
       return;
     }
     dispatch({ type: 'SIGNUP', displayName: name.trim().toUpperCase(), phone: phone.trim() });
+    await pickSeedPoster();
   };
+
+  const requestCode = async () => {
+    const generated = await sendVerification();
+    if (generated) setCode(generated);
+  };
+
   const finish = () => {
-    if (!ready) {
-      dispatch({ type: 'ERROR', message: 'COMPLETE ALL ACCESS STEPS' });
+    const missing = !state.auth.signedUp
+      ? 'CREATE SEED'
+      : !state.auth.phoneVerified
+        ? 'VERIFY PHONE'
+        : state.subscription.status !== 'ACTIVE_PREVIEW'
+          ? 'SELECT TIER'
+          : !state.safety.privacyAccepted
+            ? 'ACCEPT PRIVACY'
+            : !state.safety.termsAccepted
+              ? 'ACCEPT TERMS'
+              : !state.safety.consentAccepted
+                ? 'ACCEPT CONSENT'
+                : null;
+    if (missing) {
+      dispatch({ type: 'ERROR', message: missing });
       return;
     }
     dispatch({ type: 'FIRST_RUN_COMPLETE' });
@@ -138,33 +212,38 @@ export function SubscriptionSignupScreen({ navigation }) {
 
   return (
     <Shell routeName="SubscriptionSignup" navigation={navigation}>
-      <MBWSectionTitle>IDENTITY</MBWSectionTitle>
-      <MBWInput value={name} onChangeText={setName} placeholder="DISPLAY NAME" />
-      <MBWInput value={phone} onChangeText={setPhone} placeholder="PHONE" keyboardType="phone-pad" />
-      <MBWRow><MBWActionButton icon="🌱" label={state.auth.signedUp ? 'SAVED' : 'CREATE SEED'} onPress={signup} selected={state.auth.signedUp} /></MBWRow>
+      <View style={styles.signupScene}>
+        <Pressable accessibilityRole="button" accessibilityLabel="Create visual seed" onPress={signup} style={styles.signupSeedRing}>
+          <Image source={seedSource} style={styles.signupSeedVisual} resizeMode="cover" />
+        </Pressable>
+        <MBWInput value={name} onChangeText={setName} placeholder="DISPLAY NAME" />
+        <MBWInput value={phone} onChangeText={setPhone} placeholder="PHONE" keyboardType="phone-pad" />
 
-      <MBWSectionTitle>VERIFY</MBWSectionTitle>
-      <MBWRow>
-        <MBWActionButton icon="📨" label="SEND CODE" onPress={sendVerification} disabled={!state.auth.signedUp} />
-        <MBWInput value={code} onChangeText={setCode} placeholder="6 DIGITS" keyboardType="number-pad" />
-        <MBWActionButton icon="✅" label="VERIFY" onPress={() => verifyPhone(code)} disabled={!state.auth.verificationCode} selected={state.auth.phoneVerified} />
-      </MBWRow>
+        <MBWRow>
+          <MBWActionButton compact icon="✉" label="CODE" onPress={requestCode} disabled={!state.auth.signedUp} />
+          <View style={styles.signupCodeField}>
+            <MBWInput value={code} onChangeText={setCode} placeholder="6 DIGITS" keyboardType="number-pad" />
+          </View>
+          <MBWActionButton compact icon="✓" label="VERIFY" onPress={() => verifyPhone(code)} disabled={!state.auth.verificationCode} selected={state.auth.phoneVerified} />
+        </MBWRow>
 
-      <MBWSectionTitle>TIER</MBWSectionTitle>
-      <MBWRow>
-        {TIERS.map((item) => (
-          <MBWActionButton key={item.tier} icon={item.tier === '444' ? '👑' : '♠️'} label={`${item.tier} · $${item.amount}`} selected={state.subscription.tier === item.tier} onPress={() => dispatch({ type: 'TIER', ...item })} />
-        ))}
-      </MBWRow>
+        <MBWRow>
+          {TIERS.map((item) => (
+            <MBWActionButton compact key={item.tier} icon={item.tier === '444' ? '♛' : '♠'} label={`${item.tier} · $${item.amount}`} selected={state.subscription.tier === item.tier} onPress={() => dispatch({ type: 'TIER', ...item })} />
+          ))}
+        </MBWRow>
 
-      <MBWSectionTitle>CONSENT</MBWSectionTitle>
-      <MBWRow>
-        <MBWActionButton icon="🛡️" label="PRIVACY" selected={state.safety.privacyAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'privacyAccepted', value: !state.safety.privacyAccepted })} />
-        <MBWActionButton icon="⚖️" label="TERMS" selected={state.safety.termsAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'termsAccepted', value: !state.safety.termsAccepted })} />
-        <MBWActionButton icon="✅" label="CONSENT" selected={state.safety.consentAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'consentAccepted', value: !state.safety.consentAccepted })} />
-      </MBWRow>
-      <MBWRow><MBWActionButton icon="♠️" label="ENTER MBW" onPress={finish} disabled={!ready} selected={ready} /></MBWRow>
-      <CompleteState state={state} />
+        <MBWRow>
+          <MBWActionButton compact icon="◇" label="PRIVACY" selected={state.safety.privacyAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'privacyAccepted', value: !state.safety.privacyAccepted })} />
+          <MBWActionButton compact icon="≋" label="TERMS" selected={state.safety.termsAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'termsAccepted', value: !state.safety.termsAccepted })} />
+          <MBWActionButton compact icon="✓" label="CONSENT" selected={state.safety.consentAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'consentAccepted', value: !state.safety.consentAccepted })} />
+        </MBWRow>
+
+        <MBWRow>
+          <MBWActionButton icon="✦" label="ENTER MBW" onPress={finish} selected={ready} />
+        </MBWRow>
+        <CompleteState state={state} />
+      </View>
     </Shell>
   );
 }
@@ -173,17 +252,19 @@ export function MainHubScreen({ navigation }) {
   const { state, navigateChecked } = useMBWGoldenMaster();
   const visibleRoutes = mbwVisibleMainRoutes(state, MBW_MAIN_ROUTES);
   return (
-    <Shell routeName="MainHub" navigation={navigation}>
-      <MBWRow>
-        {visibleRoutes.map(([route, icon]) => (
-          <MBWActionButton
-            key={route}
-            icon={icon}
-            label={MBW_ROUTE_LABELS[route] || route}
-            onPress={() => navigateChecked(navigation, route)}
-          />
+    <Shell routeName="MainHub" navigation={navigation} scroll={false}>
+      <View style={styles.hubOrbit}>
+        {visibleRoutes.map(([route, icon], index) => (
+          <View key={route} style={[styles.hubOrbitSlot, HUB_ORBIT_POSITIONS[index % HUB_ORBIT_POSITIONS.length]]}>
+            <MBWActionButton
+              compact
+              icon={icon}
+              label={MBW_ROUTE_LABELS[route] || route}
+              onPress={() => navigateChecked(navigation, route)}
+            />
+          </View>
         ))}
-      </MBWRow>
+      </View>
       {state.lifecycle.lastError ? <MBWStatus danger>{state.lifecycle.lastError}</MBWStatus> : null}
     </Shell>
   );
@@ -507,18 +588,19 @@ export function SettingsScreen({ navigation }) {
 }
 
 export function SeedProfileScreen({ navigation }) {
-  const { state, dispatch } = useMBWGoldenMaster();
+  const { state, dispatch, pickSeedPoster } = useMBWGoldenMaster();
   const [name, setName] = useState(state.userSeed.displayName);
   const [orientation, setOrientation] = useState(state.userSeed.orientation);
+  const seedSource = state.userSeed.profilePoster ? { uri: state.userSeed.profilePoster } : DEFAULT_SEED_VISUAL;
   return (
     <Shell routeName="SeedProfile" navigation={navigation}>
       <MBWBackButton navigation={navigation} />
-      {state.userSeed.profilePoster ? <Image source={{ uri: state.userSeed.profilePoster }} style={styles.seedPoster} /> : null}
+      <Pressable accessibilityRole="button" accessibilityLabel="Change seed image" onPress={pickSeedPoster}>
+        <Image source={seedSource} style={styles.seedPoster} resizeMode="cover" />
+      </Pressable>
       <MBWInput value={name} onChangeText={setName} placeholder="DISPLAY NAME" />
-      <MBWRow>{['TOP', 'VT/V/VB', 'BOTTOM'].map((value) => <MBWActionButton key={value} icon="🌱" label={value} selected={orientation === value} onPress={() => setOrientation(value)} />)}</MBWRow>
-      <MBWRow><MBWActionButton icon="💾" label="SAVE SEED" onPress={() => dispatch({ type: 'SEED_UPDATE', patch: { displayName: name.trim().toUpperCase() || 'ACE', orientation } })} /></MBWRow>
-      <MBWStatus>SEED · {state.userSeed.id.slice(-8).toUpperCase()}</MBWStatus>
-      <MBWStatus>{state.userSeed.path} · {state.userSeed.tier} · {state.userSeed.subscriptionState}</MBWStatus>
+      <MBWRow>{['TOP', 'VT/V/VB', 'BOTTOM'].map((value) => <MBWActionButton compact key={value} icon="✦" label={value} selected={orientation === value} onPress={() => setOrientation(value)} />)}</MBWRow>
+      <MBWRow><MBWActionButton compact icon="□" label="SAVE" onPress={() => dispatch({ type: 'SEED_UPDATE', patch: { displayName: name.trim().toUpperCase() || 'ACE', orientation } })} /></MBWRow>
     </Shell>
   );
 }
@@ -585,8 +667,21 @@ const styles = StyleSheet.create({
   cinematicWelcome: { position: 'absolute', bottom: 110, color: '#ffe8aa', fontSize: 15, letterSpacing: 6, fontWeight: '900', textShadowColor: '#000', textShadowRadius: 10 },
   cinematicMBW: { position: 'absolute', bottom: 88, color: '#ffe8aa', fontSize: 48, letterSpacing: 10, fontWeight: '900', textShadowColor: '#000', textShadowRadius: 12 },
   centerStage: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 24 },
-  gateStar: { color: '#ffe8aa', fontSize: 164, textShadowColor: '#e4bb62', textShadowRadius: 24 },
+  gateScene: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+  gateMotion: { alignItems: 'center', justifyContent: 'center', zIndex: 5 },
+  gateInputDock: { position: 'absolute', left: 28, right: 28, bottom: 58 },
+  gateStar: { color: '#ffe8aa', fontSize: 148, textShadowColor: '#e4bb62', textShadowRadius: 26 },
+  pathScene: { flex: 1 },
+  pathChoice: { position: 'absolute', top: '48%' },
+  pathChoiceLeft: { left: '34%' },
+  pathChoiceRight: { right: '34%' },
+  signupScene: { flex: 1, justifyContent: 'center', paddingHorizontal: 12, paddingBottom: 12 },
+  signupSeedRing: { width: 76, height: 76, borderRadius: 38, borderWidth: 1.5, borderColor: '#e4bb62', backgroundColor: 'rgba(0,0,0,0.12)', alignSelf: 'center', alignItems: 'center', justifyContent: 'center', marginBottom: 6, overflow: 'hidden' },
+  signupSeedVisual: { width: 70, height: 70, borderRadius: 35 },
+  signupCodeField: { width: 110 },
+  hubOrbit: { flex: 1, position: 'relative' },
+  hubOrbitSlot: { position: 'absolute', width: 64, height: 64, alignItems: 'center', justifyContent: 'center' },
   posterPreview: { width: '100%', height: 360, borderRadius: 16, backgroundColor: 'rgba(0,0,0,0.34)' },
   posterHistory: { width: '100%', height: 300, marginVertical: 8, borderRadius: 16 },
-  seedPoster: { width: 120, height: 120, borderRadius: 60, alignSelf: 'center', marginBottom: 12 },
+  seedPoster: { width: 144, height: 144, borderRadius: 72, alignSelf: 'center', marginBottom: 12, borderWidth: 2, borderColor: '#e4bb62', backgroundColor: 'rgba(0,0,0,0.12)' },
 });

@@ -1,5 +1,4 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useReducer, useRef } from 'react';
-import { Alert } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import CryptoJS from 'crypto-js';
 import * as Crypto from 'expo-crypto';
@@ -771,7 +770,6 @@ export function MBWGoldenMasterProvider({ children }) {
     const numeric = ((bytes[0] << 24) >>> 0) + (bytes[1] << 16) + (bytes[2] << 8) + bytes[3];
     const code = String(100000 + (numeric % 900000));
     dispatch({ type: 'VERIFICATION_SENT', code, expiresAt: Date.now() + 5 * 60 * 1000 });
-    Alert.alert('PREVIEW VERIFICATION', `SANDBOX CODE: ${code}`);
     return code;
   }, []);
 
@@ -835,6 +833,26 @@ export function MBWGoldenMasterProvider({ children }) {
       return false;
     }
   }, [persistImage, safeDeletePoster, state.aiPoster.currentUri, state.aiPoster.history]);
+
+  const pickSeedPoster = useCallback(async () => {
+    try {
+      const result = await ImagePicker.launchImageLibraryAsync({
+        mediaTypes: ImagePicker.MediaTypeOptions.Images,
+        allowsEditing: true,
+        aspect: [1, 1],
+        quality: 0.92,
+      });
+      const asset = result.assets?.[0];
+      if (result.canceled || !asset?.uri) return false;
+      const uri = await persistImage(asset.uri, 'jpg');
+      dispatch({ type: 'POSTER_CURRENT', uri, width: asset.width, height: asset.height, rotation: 0 });
+      dispatch({ type: 'POSTER_SAVE', uri });
+      return true;
+    } catch (error) {
+      dispatch({ type: 'POSTER_ERROR', message: 'SEED IMAGE IMPORT FAILED' });
+      return false;
+    }
+  }, [persistImage]);
 
   const transformPoster = useCallback(async (mode) => {
     const current = state.aiPoster.currentUri;
@@ -942,6 +960,7 @@ export function MBWGoldenMasterProvider({ children }) {
     verifyPhone,
     requestNearby,
     pickPoster,
+    pickSeedPoster,
     rotatePoster: () => transformPoster('ROTATE'),
     cropPoster: () => transformPoster('CROP'),
     savePoster,
@@ -957,6 +976,7 @@ export function MBWGoldenMasterProvider({ children }) {
     verifyPhone,
     requestNearby,
     pickPoster,
+    pickSeedPoster,
     transformPoster,
     savePoster,
     startSeep,

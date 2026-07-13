@@ -28,7 +28,7 @@ export const MBW_GOLDEN_MASTER_ROUTES = Object.freeze({
   Terms: { title: 'TERMS', icon: '⚖️', media: 'POSTER', poster: require('../assets/mbw_clean_shuffled_visual_body_posters/SettingsResultScreen.jpg') },
   Safety: { title: 'SAFETY', icon: '🚨', media: 'POSTER', poster: require('../assets/mbw_clean_shuffled_visual_body_posters/SettingsVaultScreen.jpg') },
   AccountControl: { title: 'ACCOUNT CONTROL', icon: '🔑', media: 'POSTER', poster: require('../assets/mbw_clean_shuffled_visual_body_posters/SettingsStateScreen.jpg') },
-  SeedProfile: { title: 'USER SEED', icon: '🌱', media: 'POSTER', poster: require('../assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterSeedScreen.jpg') },
+  SeedProfile: { title: '', icon: '✦', media: 'POSTER', poster: require('../assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterSeedScreen.jpg') },
   Consent: { title: 'CONSENT', icon: '✅', media: 'POSTER', poster: require('../assets/mbw_clean_shuffled_visual_body_posters/SettingsButtonsScreen.jpg') },
 });
 

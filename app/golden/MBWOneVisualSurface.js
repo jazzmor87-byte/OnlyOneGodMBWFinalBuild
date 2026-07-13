@@ -17,7 +17,23 @@ import { useMBWGoldenMaster } from './MBWGoldenMasterStore';
 const GOLD = '#e4bb62';
 const GOLD_SOFT = 'rgba(228,187,98,0.42)';
 const MAROON = '#6d1228';
-const BLACK = 'rgba(0,0,0,0.68)';
+const BLACK = 'rgba(0,0,0,0.16)';
+const DEFAULT_SEED_VISUAL = require('../assets/mbw_all_pad/ACE_MBW_ICON.png');
+
+const MBW_MONO_GLYPHS = Object.freeze({
+  '5️⃣': 'Ⅴ', '★': '✦', '☆': '✧', '♠️': '♠', '⚖️': '≋', '⚙️': '⌘', '⚜️': '⚜',
+  '⛔': '⊘', '✂️': '✂', '✅': '✓', '✈️': '✦', '✕': '×', '❤️': '♥', '➕': '+',
+  '➖': '−', '➤': '›', '🂡': 'A', '🌱': '✦', '🎙️': '●', '🎮': '◆', '🎯': '⊙',
+  '🎲': '◆', '🏆': '♛', '🏠': '⌂', '👑': '♛', '💎': '◆', '💘': '♥', '💬': '◇',
+  '💾': '□', '📁': '▣', '📍': '⌖', '📡': '⌁', '📨': '✉', '📱': '▯', '📸': '◈',
+  '🔐': '◇', '🔑': '⚿', '🔖': '◇', '🔥': '♨', '🔴': '●', '🕹️': '◆', '🖼️': '▣',
+  '🗑️': '×', '🚨': '!', '🛍️': '◇', '🛡️': '◇', '🧭': '⌖', '🧳': '▣', '🧾': '≡',
+  '🪙': '●', '↺': '↺', '↻': '↻', '⚜': '⚜', '♠': '♠', '←': '←', '✦': '✦',
+});
+
+function mbwMonoGlyph(icon) {
+  return MBW_MONO_GLYPHS[icon] || icon || '✦';
+}
 
 function PanchTatvaLayer() {
   const pulse = useRef(new Animated.Value(0)).current;
@@ -86,7 +102,7 @@ function LivingHeadline({ title, icon }) {
         <Text style={styles.starGlyph}>⛤</Text>
       </Animated.View>
       <Animated.View style={{ opacity: word, transform: [{ scale: wordScale }] }}>
-        <Text style={iconPhase ? styles.headlineIcon : styles.headlineText}>{iconPhase ? icon : title}</Text>
+        <Text style={iconPhase ? styles.headlineIcon : styles.headlineText}>{iconPhase ? mbwMonoGlyph(icon) : title}</Text>
       </Animated.View>
     </View>
   );
@@ -95,19 +111,16 @@ function LivingHeadline({ title, icon }) {
 function UserSeedBadge({ navigation }) {
   const { state } = useMBWGoldenMaster();
   const seed = state.userSeed;
+  const source = seed.profilePoster ? { uri: seed.profilePoster } : DEFAULT_SEED_VISUAL;
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityLabel="Open User Seed"
       onPress={() => navigation?.navigate('SeedProfile')}
       style={({ pressed }) => [styles.seedBadge, pressed && styles.pressed]}
-      hitSlop={8}
+      hitSlop={10}
     >
-      {seed.profilePoster ? <Image source={{ uri: seed.profilePoster }} style={styles.seedAvatar} /> : <Text style={styles.seedIcon}>🌱</Text>}
-      <View style={styles.seedTextWrap}>
-        <Text numberOfLines={1} style={styles.seedName}>{seed.displayName || 'ACE'}</Text>
-        <Text style={styles.seedMeta}>{seed.tier || '111'} · {seed.badge || 'BLACK'}</Text>
-      </View>
+      <Image source={source} style={styles.seedAvatar} resizeMode="cover" />
     </Pressable>
   );
 }
@@ -141,30 +154,32 @@ export function MBWOneVisualSurface({ routeName, navigation, children, scroll = 
   );
 }
 
-export function MBWActionButton({ icon, label, onPress, disabled = false, selected = false, danger = false }) {
+export function MBWActionButton({ icon, label, onPress, disabled = false, selected = false, danger = false, compact = false, iconOnly = false }) {
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={label}
+      accessibilityLabel={label || 'MBW action'}
       disabled={disabled}
       onPress={onPress}
       hitSlop={6}
       style={({ pressed }) => [
         styles.actionButton,
+        compact && styles.actionCompact,
+        iconOnly && styles.actionIconOnly,
         selected && styles.actionSelected,
         danger && styles.actionDanger,
         disabled && styles.disabled,
         pressed && !disabled && styles.pressed,
       ]}
     >
-      <Text style={styles.actionIcon}>{icon}</Text>
-      <Text numberOfLines={2} style={styles.actionLabel}>{label}</Text>
+      <Text style={styles.actionIcon}>{mbwMonoGlyph(icon)}</Text>
+      {!iconOnly && label ? <Text numberOfLines={2} style={styles.actionLabel}>{label}</Text> : null}
     </Pressable>
   );
 }
 
 export function MBWBackButton({ navigation }) {
-  return <MBWActionButton icon="←" label="RETURN" onPress={() => navigation?.canGoBack() ? navigation.goBack() : navigation?.navigate('MainHub')} />;
+  return <MBWActionButton icon="←" label="RETURN" compact iconOnly onPress={() => navigation?.canGoBack() ? navigation.goBack() : navigation?.navigate('MainHub')} />;
 }
 
 export function MBWSectionTitle({ children }) {
@@ -197,7 +212,7 @@ export function MBWRow({ children, wrap = true }) {
 export function MBWListItem({ title, subtitle, right, onPress, icon = '♠️' }) {
   const content = (
     <View style={styles.listItem}>
-      <Text style={styles.listIcon}>{icon}</Text>
+      <Text style={styles.listIcon}>{mbwMonoGlyph(icon)}</Text>
       <View style={styles.listTextWrap}>
         <Text style={styles.listTitle}>{title}</Text>
         {subtitle ? <Text style={styles.listSubtitle}>{subtitle}</Text> : null}
@@ -210,37 +225,39 @@ export function MBWListItem({ title, subtitle, right, onPress, icon = '♠️' }
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: '#030101' },
-  poster: { opacity: 0.92 },
-  posterVeil: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.30)' },
+  poster: { opacity: 1 },
+  posterVeil: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0,0,0,0.10)' },
   safe: { flex: 1, minHeight: 760 },
   scrollContent: { flexGrow: 1 },
-  contentZone: { flex: 1, paddingTop: 172, paddingHorizontal: 16, paddingBottom: 116 },
+  contentZone: { flex: 1, paddingTop: 160, paddingHorizontal: 10, paddingBottom: 116 },
   headlineZone: { position: 'absolute', left: 16, right: 16, top: 34, height: 122, alignItems: 'center', justifyContent: 'center', zIndex: 5 },
   starRing: { position: 'absolute', width: 118, height: 118, alignItems: 'center', justifyContent: 'center' },
   starGlyph: { fontSize: 104, color: 'rgba(228,187,98,0.52)', marginTop: -8, textShadowColor: 'rgba(109,18,40,0.64)', textShadowRadius: 16 },
   headlineText: { color: '#ffe8aa', fontSize: 20, fontWeight: '900', letterSpacing: 3, textAlign: 'center', textShadowColor: '#000', textShadowRadius: 10 },
   headlineIcon: { fontSize: 40, textAlign: 'center' },
-  seedBadge: { position: 'absolute', right: 14, bottom: 18, minWidth: 104, maxWidth: 154, height: 42, borderRadius: 21, borderWidth: 1, borderColor: GOLD_SOFT, backgroundColor: 'rgba(0,0,0,0.66)', flexDirection: 'row', alignItems: 'center', paddingHorizontal: 8, zIndex: 30 },
-  seedAvatar: { width: 30, height: 30, borderRadius: 15, marginRight: 7 },
-  seedIcon: { fontSize: 20, marginRight: 7 },
-  seedTextWrap: { flexShrink: 1 },
-  seedName: { color: '#ffe8aa', fontSize: 10, fontWeight: '900', letterSpacing: 1 },
-  seedMeta: { color: 'rgba(255,232,170,0.65)', fontSize: 8, marginTop: 2 },
-  actionButton: { width: 82, minHeight: 76, borderRadius: 41, borderWidth: 1, borderColor: GOLD_SOFT, backgroundColor: BLACK, alignItems: 'center', justifyContent: 'center', padding: 8, margin: 5 },
-  actionSelected: { borderColor: GOLD, backgroundColor: 'rgba(109,18,40,0.76)' },
+  seedBadge: { position: 'absolute', right: 14, bottom: 18, width: 56, height: 56, borderRadius: 28, borderWidth: 1.5, borderColor: GOLD, backgroundColor: 'rgba(0,0,0,0.12)', alignItems: 'center', justifyContent: 'center', zIndex: 30, overflow: 'hidden' },
+  seedAvatar: { width: 50, height: 50, borderRadius: 25 },
+  seedIcon: { display: 'none' },
+  seedTextWrap: { display: 'none' },
+  seedName: { display: 'none' },
+  seedMeta: { display: 'none' },
+  actionButton: { width: 64, minHeight: 62, borderRadius: 32, borderWidth: 1, borderColor: GOLD_SOFT, backgroundColor: 'rgba(0,0,0,0.16)', alignItems: 'center', justifyContent: 'center', padding: 5, margin: 4 },
+  actionCompact: { width: 56, minHeight: 54, borderRadius: 28, padding: 4, margin: 3 },
+  actionIconOnly: { width: 54, minHeight: 54, borderRadius: 27, padding: 0 },
+  actionSelected: { borderColor: GOLD, backgroundColor: 'rgba(109,18,40,0.58)' },
   actionDanger: { borderColor: 'rgba(255,96,96,0.7)' },
-  actionIcon: { fontSize: 24 },
-  actionLabel: { color: '#ffe8aa', fontSize: 8, lineHeight: 11, fontWeight: '800', letterSpacing: 0.8, textAlign: 'center', marginTop: 4 },
+  actionIcon: { fontSize: 23, color: GOLD, textShadowColor: 'rgba(109,18,40,0.85)', textShadowRadius: 8 },
+  actionLabel: { color: '#ffe8aa', fontSize: 7, lineHeight: 9, fontWeight: '900', letterSpacing: 0.5, textAlign: 'center', marginTop: 2 },
   disabled: { opacity: 0.35 },
   pressed: { opacity: 0.72, transform: [{ scale: 0.97 }] },
   sectionTitle: { color: '#ffe8aa', fontSize: 15, fontWeight: '900', letterSpacing: 2, textAlign: 'center', marginVertical: 12, textShadowColor: '#000', textShadowRadius: 7 },
   status: { color: 'rgba(255,232,170,0.78)', fontSize: 11, lineHeight: 17, textAlign: 'center', marginVertical: 8 },
   statusDanger: { color: '#ff9999' },
-  input: { minHeight: 46, borderRadius: 23, borderWidth: 1, borderColor: GOLD_SOFT, backgroundColor: 'rgba(0,0,0,0.58)', color: '#ffe8aa', paddingHorizontal: 16, marginVertical: 6 },
+  input: { minHeight: 44, borderRadius: 22, borderWidth: 1, borderColor: GOLD_SOFT, backgroundColor: 'rgba(0,0,0,0.22)', color: '#ffe8aa', paddingHorizontal: 16, marginVertical: 5 },
   inputMultiline: { minHeight: 84, paddingTop: 12, textAlignVertical: 'top' },
   row: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center' },
   rowWrap: { flexWrap: 'wrap' },
-  listItem: { minHeight: 58, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: 'rgba(228,187,98,0.22)', backgroundColor: 'rgba(0,0,0,0.42)', flexDirection: 'row', alignItems: 'center', paddingHorizontal: 12, marginVertical: 2 },
+  listItem: { minHeight: 56, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: 'rgba(228,187,98,0.22)', backgroundColor: 'rgba(0,0,0,0.16)', flexDirection: 'row', alignItems: 'center', paddingHorizontal: 12, marginVertical: 2 },
   listIcon: { fontSize: 19, width: 34 },
   listTextWrap: { flex: 1 },
   listTitle: { color: '#ffe8aa', fontSize: 11, fontWeight: '900', letterSpacing: 1 },
