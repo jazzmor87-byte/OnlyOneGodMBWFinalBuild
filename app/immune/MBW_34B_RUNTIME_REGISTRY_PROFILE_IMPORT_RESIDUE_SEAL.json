@@ -1,0 +1,31 @@
+{
+  "court": "MBW_34B_RUNTIME_REGISTRY_PROFILE_IMPORT_RESIDUE_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "4d75bc8",
+  "runtime_registry": "app/runtime/MBWGeneratedRouteRegistry.js",
+  "old_profile_import_hits_after": [
+    "app/runtime/MBWGeneratedRouteRegistry.js"
+  ],
+  "missing_imports_after": [],
+  "version_44_hits_after": [
+    "app/immune/MBW_34A_CLOUD_ARCHIVE_POISON_REPAIR_SEAL.json"
+  ],
+  "harmful_easignore_hits_after": [],
+  "critical_missing_after": [],
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "npm_ci_dry_run_rc": 0,
+  "babel_parse_rc": 0,
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false
+}

@@ -1,0 +1,13 @@
+{
+  "seal": "MBW_03_GLOBAL_VISUAL_BODY_LAYER_PATCH_SEAL",
+  "poster_layer": true,
+  "panch_tatva_layer": true,
+  "pentagram_layer": true,
+  "headline_layer": true,
+  "icon_rail_layer": true,
+  "safe_action_bridge": true,
+  "pointer_events_law": "VISUAL_BOX_NONE_TEXT_NONE_ICON_AUTO",
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

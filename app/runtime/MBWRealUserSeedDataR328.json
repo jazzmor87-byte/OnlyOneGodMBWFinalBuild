@@ -1,0 +1,71 @@
+[
+  {
+    "id": "MBW_USER_001",
+    "avatar": "ProfilePoster",
+    "tier": "ACE",
+    "aura": "gold",
+    "distance": "1.1",
+    "MBW_USER_SEED_PHYSICAL_R328_LOCK": true,
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "id": "MBW_USER_002",
+    "avatar": "Matchmaking",
+    "tier": "BLACK",
+    "aura": "maroon",
+    "distance": "2.3",
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "id": "MBW_USER_003",
+    "avatar": "MainHub",
+    "tier": "GOLD",
+    "aura": "gold",
+    "distance": "3.5",
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "id": "MBW_USER_004",
+    "avatar": "Games",
+    "tier": "ACE",
+    "aura": "black",
+    "distance": "4.4",
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "id": "MBW_USER_005",
+    "avatar": "MensLounge",
+    "tier": "MAROON",
+    "aura": "maroon",
+    "distance": "5.5",
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "id": "MBW_USER_006",
+    "avatar": "TravelLocal",
+    "tier": "GOLD",
+    "aura": "gold",
+    "distance": "6.6",
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "id": "MBW_USER_007",
+    "avatar": "TravelOverseas",
+    "tier": "ACE",
+    "aura": "black",
+    "distance": "7.7",
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "id": "MBW_USER_008",
+    "avatar": "MasterOfLife",
+    "tier": "BLACK",
+    "aura": "maroon",
+    "distance": "8.8",
+    "route": "MBWUserSeedRoute"
+  },
+  {
+    "route": "MBWRealUserSeedDataR328",
+    "one_mbw_full_body_owner_8d50": true
+  }
+]

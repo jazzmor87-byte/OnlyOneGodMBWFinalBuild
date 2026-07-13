@@ -1,0 +1,11 @@
+{
+  "seal": "MBW_APP_BODY_AND_GRADLE_OWNER_DECISION_SEAL",
+  "app_body_owner": "App.js",
+  "app_tsx_required": false,
+  "android_gradle_properties_owner": "android/gradle.properties",
+  "root_gradle_properties_required": false,
+  "decision": "NO_ROOT_GRADLE_PROPERTIES_PATCH_REQUIRED_FOR_ANDROID_GRADLE_OWNER",
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

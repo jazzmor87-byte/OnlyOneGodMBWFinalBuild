@@ -1,0 +1,63 @@
+{
+  "seal": "MBW_17_EXACT_IDENTITY_REPAIR_SEAL",
+  "head_before": "56b4d24",
+  "files_modified": [
+    "app.json",
+    "android/app/src/main/res/values/strings.xml"
+  ],
+  "identity_before": {
+    "expo_name": "MBW",
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "android_package": "com.mbw.app",
+    "android_versionCode": 44,
+    "jsEngine": "hermes",
+    "newArchEnabled": false
+  },
+  "identity_after": {
+    "expo_name": "MBW_FINAL_APK",
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "android_package": "com.mbw.app",
+    "android_versionCode": 44,
+    "jsEngine": "hermes",
+    "newArchEnabled": false
+  },
+  "android_app_name_after": "MBW_FINAL_APK",
+  "import_metrics": {
+    "tracked_source_count": 309,
+    "parsed_source_count": 309,
+    "parse_bad_count": 0,
+    "missing_target_count": 0,
+    "escaped_target_count": 0,
+    "target_not_indexed_count": 0,
+    "export_mismatch_count": 0,
+    "external_missing_count": 0,
+    "dynamic_unresolved_count": 0,
+    "commonjs_uncertain_count": 0,
+    "import_cycle_count": 0
+  },
+  "typescript_runner_proof": {
+    "platform_runner_required": "@typescript/typescript-android-arm64",
+    "vendor_modified": false,
+    "candidate_files": [
+      {
+        "path": "node_modules/typescript/lib/_tsc.js",
+        "exists": false
+      },
+      {
+        "path": "node_modules/typescript/lib/tsc.js",
+        "exists": true
+      }
+    ],
+    "semantic_source_error_proven": false,
+    "environment_runner_unavailable": true
+  },
+  "node_modules_modified": false,
+  "vendor_modified": false,
+  "delete_executed": false,
+  "move_executed": false,
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

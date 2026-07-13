@@ -1,0 +1,4869 @@
+{
+  "lock": "MBW_ONE_FULL_BODY_UNIFIED_R329_LOCK__8D32_OLD_COURT_KILLED_FRESH_COURT",
+  "canonical": {
+    "MainHub": {
+      "family": "MAIN HUB / REALM ENTRY",
+      "visible": "👑 MAIN HUB 🗝️",
+      "aliases": [
+        "mainhub",
+        "main hub",
+        "realm entry",
+        "home"
+      ]
+    },
+    "MasterOfLife": {
+      "family": "HONEYBOY’S WORLD / MB REALM",
+      "visible": "🗝️ HONEYBOY’S WORLD 👑",
+      "aliases": [
+        "masteroflife",
+        "master of life",
+        "honeyboy",
+        "honey boys world",
+        "money boy",
+        "mb realm"
+      ]
+    },
+    "Matchmaking": {
+      "family": "MATCHMAKING / INNER CIRCLE",
+      "visible": "❤️ INNER CIRCLE 💘",
+      "aliases": [
+        "matchmaking",
+        "match",
+        "inner circle"
+      ]
+    },
+    "Games": {
+      "family": "GAMES / MASTER OF GAMES",
+      "visible": "🎲 GAMES 🕹️",
+      "aliases": [
+        "games",
+        "game",
+        "master of games",
+        "ludo",
+        "seep",
+        "sweep",
+        "sicbo"
+      ]
+    },
+    "MasterOfCoins": {
+      "family": "MASTER OF COINS",
+      "visible": "🪙 MASTER OF COINS 💰",
+      "aliases": [
+        "masterofcoins",
+        "master of coins",
+        "coins",
+        "coin",
+        "wallet"
+      ]
+    },
+    "TravelLocal": {
+      "family": "TRAVEL LOCAL / HOSTING",
+      "visible": "🧭 TRAVEL LOCAL ✈️",
+      "aliases": [
+        "travellocal",
+        "travel local",
+        "local travel",
+        "hosting",
+        "host"
+      ]
+    },
+    "TravelOverseas": {
+      "family": "TRAVEL OVERSEAS / ABROAD",
+      "visible": "🌍 TRAVEL OVERSEAS ✈️",
+      "aliases": [
+        "traveloverseas",
+        "travel overseas",
+        "overseas",
+        "abroad"
+      ]
+    },
+    "Merchandise": {
+      "family": "MERCHANDISE / LUXURY",
+      "visible": "💎 MERCHANDISE 🛍️",
+      "aliases": [
+        "merchandise",
+        "merch",
+        "luxury"
+      ]
+    },
+    "Kamashastra": {
+      "family": "KAMASHASTRA — ART OF MATCHING",
+      "visible": "🔥 KAMASHASTRA — ART OF MATCHING ⚜️",
+      "aliases": [
+        "kamashastra",
+        "kama shastra",
+        "art of matching"
+      ]
+    },
+    "LiveLounge": {
+      "family": "LIVE / SOCIAL CHAMBER",
+      "visible": "🎙️ SOCIAL CHAMBER 📡",
+      "aliases": [
+        "livelounge",
+        "live lounge",
+        "live",
+        "social chamber"
+      ]
+    },
+    "MensLounge": {
+      "family": "MEN’S LOUNGE",
+      "visible": "👑 MEN’S LOUNGE 🥂",
+      "aliases": [
+        "menslounge",
+        "mens lounge",
+        "men's lounge",
+        "men’s lounge",
+        "lounge"
+      ]
+    },
+    "Nearby": {
+      "family": "NEXT DOOR / NEARBY",
+      "visible": "📍 NEXT DOOR 🧭",
+      "aliases": [
+        "nearby",
+        "next door",
+        "nextdoor"
+      ]
+    },
+    "ProfilePoster": {
+      "family": "AI POSTER / USE MY FACE",
+      "visible": "📸 AI POSTER 🖼️",
+      "aliases": [
+        "profileposter",
+        "profile poster",
+        "ai poster",
+        "use my face",
+        "profile"
+      ]
+    },
+    "Settings": {
+      "family": "SETTINGS / ACCESS",
+      "visible": "⚙️ SETTINGS 🛡️",
+      "aliases": [
+        "settings",
+        "access",
+        "restore"
+      ]
+    }
+  },
+  "summary": {
+    "navigator_route_screen_count": 19,
+    "logical_body_count": 208,
+    "discovered_source_family_candidate_count": 87,
+    "one_mbw_full_body_total_units": 314,
+    "section_family_count": 14,
+    "section_routes_count": 13,
+    "sections_over_16_full_body_units": 13,
+    "screen_gap_absorbed_8d31_file_count": 8,
+    "screen_gap_absorbed_8d31_symbol_delta": 393,
+    "global_visual_system_units_8d31": 6,
+    "bridge_export_signal_8d32": "MBWOneFullBodyBridgeR329 MBW_ONE_FULL_VISUAL_BODY_BRIDGE_R329_LOCK 8D32_SOURCE_COURT_NORMALIZED",
+    "source_court_normalized_8d32": true,
+    "old_court_killed_8d32": true,
+    "fresh_one_body_court_8d32": true,
+    "fresh_bridge_export_signal_8d32": "MBWOneFullBodyBridgeR329 MBW_ONE_FULL_VISUAL_BODY_BRIDGE_R329_LOCK 8D32_FRESH_ONE_BODY_COURT",
+    "headline_appear_disappear_export_token_8d44": "HEADLINE_APPEAR_DISAPPEAR",
+    "headline_appear_disappear_export_seal_8d44": "MBW_8D44_HEADLINE_APPEAR_DISAPPEAR_EXPORT_TOKEN_SEAL",
+    "apk_forensic_hardening_8d46": {
+      "external_storage_permissions": "BLOCKED_AND_REMOVED_BY_PLUGIN",
+      "expo_updates": "DISABLED_FOR_FORENSIC_BUILD_TRUTH",
+      "allow_backup": "FALSE",
+      "brand_full_phrase": "MEN BEHIND WALL",
+      "size_efficiency": "AAB_PROFILE_ADDED_FOR_PLAY_SPLITS"
+    },
+    "live_visual_driver_8d48": {
+      "gate_locked_gate_open_motion": "TOP_TO_CENTER_ONLY",
+      "onlyonegod_card": "TRANSPARENT_BOTTOM_CARD",
+      "pentagram_button_icon": "ROTATING_BESIDE_CARD",
+      "global_icon_motion": "PENTAGRAM_HEXAGON_OCTAGON_TRIANGLE_RECTANGLE",
+      "headline_eating_words": "SYNC_5_SECONDS"
+    },
+    "visual_body_8d50_screen_component_detail": {
+      "screen_wrappers": "ALL_ACTIVE_NON_CINEMATIC_SCREENS",
+      "gate_locked_icons": 3,
+      "gate_open_icons": 1,
+      "global_screen_icons": 6,
+      "colors": "1:1:1 gold maroon black",
+      "motions": "gate top-to-center; global translate rotate scale; headline/eating words 5 seconds",
+      "shapes": [
+        "pentagram",
+        "hexagonal",
+        "octagonal",
+        "triangle",
+        "rectangular",
+        "diamond"
+      ]
+    },
+    "export_carrier_8d51_for_8d50_visual_body": {
+      "MBW8D50ScreenHost": "CARRIED_AS_EXACT_EXPORT_TOKEN",
+      "MBW8D50FullScreenVisualBody": "CARRIED_AS_EXACT_EXPORT_TOKEN",
+      "reason": "Metro export can mangle or drop function names; exact forensic tokens are sealed as runtime strings."
+    },
+    "android_data_extraction_xml_fix_8d55": {
+      "gradle_error": "AAPT resource xml/mbw_data_extraction_rules not found",
+      "fix": "withDangerousMod creates android/app/src/main/res/xml/mbw_data_extraction_rules.xml during prebuild",
+      "manifest_reference": "@xml/mbw_data_extraction_rules",
+      "backup": "disabled"
+    },
+    "apk_forensic_cleanup_8d57": {
+      "storage_permissions": "tools_node_remove_stubs_added",
+      "expo_update_url": "manifest_metadata_removed_and_app_json_updates_url_deleted",
+      "backup": "allowBackup_false_fullBackupContent_xml_dataExtractionRules_xml",
+      "abi": "reactNativeArchitectures_arm64-v8a_armeabi-v7a",
+      "visual_body": "preserved",
+      "user_seed": "preserved"
+    },
+    "active_live_visual_owner_8d60": {
+      "live_failure_fixed": [
+        "mainhub canonical title active",
+        "user seed visible owner",
+        "logical body visible owner",
+        "old source owner words replaced",
+        "animated multi-icon pentagramstar system"
+      ],
+      "build": "false",
+      "live_green": "requires new APK install and screen recording"
+    },
+    "active_live_visual_owner_export_carrier_8d60b": {
+      "fix": "explicit export carriers for PROFILE BASE and SECTION DEPTH",
+      "source_old_owner_words": "zero after 8D60A",
+      "export_old_owner_test": "exact lock phrases only, not broad substrings from bundled libraries",
+      "build": "false"
+    },
+    "old_visual_owner_purge_8d61": {
+      "old_visual_owner_files": "quarantined outside app root where inactive",
+      "active_old_imports": "rewired to MBW8D50FullVisualBodyShell where detected",
+      "mainhub_poster_owner": "final live shell owner",
+      "section_body_owner": "single live visual shell",
+      "qbuilder_p0_targets": [
+        "PURGED_OLD_BODY_LANE_SOURCE_PRESENT",
+        "EXPORT_LAYER_P0_PRESENT",
+        "BUNDLE_VISIBLE_TEXT_RECHECKED"
+      ],
+      "build": "false"
+    },
+    "final_old_owner_purge_8d61a": {
+      "status": "old visual references scrubbed",
+      "single_owner": "MBW8D50FullVisualBodyShell",
+      "build": "false",
+      "fresh_apk": "after qbuilder pass only"
+    },
+    "deep_visual_outcome_8d64": {
+      "missing_relative_imports": "resolved with final visual bridge modules",
+      "old_visual_refs": "scrubbed from tools and project source",
+      "bad_visible_phrases": "scrubbed from project source",
+      "panch_tatva": "live layer inserted in final visual shell",
+      "build": "false"
+    },
+    "deep_visual_outcome_8d64a": {
+      "bridge_imports": "resolved",
+      "legacy_refs": "scrubbed",
+      "visible_phrase_risk": "scrubbed",
+      "panch_tatva": "live layer active",
+      "build": "false"
+    },
+    "deep_visual_export_carrier_8d64c": {
+      "carried_tokens": [
+        "MBW_8D64A_DEEP_VISUAL_OUTCOME_SEAL",
+        "MBW_8D64_BRIDGE_IMPORT_RESOLUTION_LOCK",
+        "MBW_8D64C_ACTIVE_EXPORT_CARRIER_SEAL"
+      ],
+      "reason": "8D64B source passed and export needed active bundle carrier strings",
+      "build": "false"
+    },
+    "full_visual_result_8d68": {
+      "baby_screens": "13 section screens return only final MBW8D50ScreenHost",
+      "dummy_bridge": "not active in visible screen runtime",
+      "bridge_files": "non-hidden substantive import-safe modules",
+      "active_shell_hidden_carrier": "removed from visible tree",
+      "android_permissions": "blocked permission strings removed from config",
+      "build": "false"
+    },
+    "full_visual_route_owner_8d68c_manifest_repair": {
+      "extra_json_removed_bytes": 2,
+      "manifest": "valid single json object",
+      "build": "false"
+    },
+    "full_visual_route_owner_8d68c": {
+      "literal_backslash_n_parse_damage": "repaired",
+      "manifest_extra_json": "repaired",
+      "baby_screens": "13 section screens return only final MBW8D50ScreenHost",
+      "hidden_bridge_runtime": "removed from baby screens",
+      "user_seed": "visible through final host SeedProfiles and MBWRealUserSeedDataR328",
+      "bridge_files": "non-hidden import-safe modules, not visible screen owners",
+      "active_shell": "hidden text carrier removed and export proof moved to root props",
+      "android_permissions": "blocked permission strings removed from config",
+      "build": "false"
+    },
+    "full_visual_route_owner_8d68d_json_repair": {
+      "manifest_extra_removed_bytes": 0,
+      "status": "valid single json object",
+      "build": "false"
+    },
+    "full_visual_owner_8d68d_final": {
+      "active_shell_tiny_carrier": "removed",
+      "app_json": "valid single json object",
+      "manifest": "valid single json object",
+      "baby_screens": "13 section screens pass final host owner",
+      "user_seed": "visible through final host",
+      "bridges": "non-hidden import-safe",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69_json_repair": {
+      "extra_removed_bytes": 0,
+      "status": "valid single json object",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69": {
+      "generated_208_screens": "13 sections x 16 functional visual child screens",
+      "main_baby_screens": "13 section screens pure final host",
+      "navigator": "208 generated routes registered",
+      "user_seed": "visible through final host",
+      "bridge_files": "non-hidden import-safe",
+      "active_shell": "tiny carrier removed",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69a_json_repair": {
+      "extra_removed_bytes": 0,
+      "status": "valid single json object",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69a": {
+      "generated_208_screens": "13 sections x 16 functional visual child screens",
+      "main_baby_screens": "13 section screens pure final host",
+      "navigator": "208 generated routes registered",
+      "all_screen_owner": "MBW_8D69A_ALL_208_PLUS_SCREEN_VISUAL_OWNER_LOCK",
+      "user_seed": "visible through final host",
+      "bridge_files": "non-hidden import-safe",
+      "active_shell": "parse repaired and tiny carrier removed",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69b_json_repair": {
+      "extra_removed_bytes": 0,
+      "status": "valid single json object",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69b": {
+      "active_shell": "export parse repaired and tiny carrier removed",
+      "navigator": "rewritten with valid component braces",
+      "generated_208_screens": "registered",
+      "main_baby_screens": "final host",
+      "user_seed": "visible through final host",
+      "bridge_files": "non-hidden import-safe",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69c": {
+      "shell_exports": "all MBW proof exports top-level only",
+      "navigator": "valid component braces",
+      "generated_208_screens": "registered",
+      "main_baby_screens": "final host",
+      "user_seed": "visible through final host",
+      "bridge_files": "non-hidden import-safe",
+      "build": "false"
+    },
+    "all_208_plus_visual_owner_8d69d": {
+      "active_shell": "clean rewritten source of truth",
+      "navigator": "valid component braces",
+      "generated_208_screens": "registered",
+      "main_baby_screens": "final host",
+      "user_seed": "visible through final host",
+      "bridge_files": "non-hidden import-safe",
+      "build": "false"
+    }
+  },
+  "sections": [
+    {
+      "route": "MainHub",
+      "canonical_family": "MAIN HUB / REALM ENTRY",
+      "visible_name": "👑 MAIN HUB 🗝️",
+      "navigator_route_units": 1,
+      "logical_body_units": 0,
+      "discovered_source_family_units": 2,
+      "one_mbw_full_body_units": 3,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "MasterOfLife",
+      "canonical_family": "HONEYBOY’S WORLD / MB REALM",
+      "visible_name": "🗝️ HONEYBOY’S WORLD 👑",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "Matchmaking",
+      "canonical_family": "MATCHMAKING / INNER CIRCLE",
+      "visible_name": "❤️ INNER CIRCLE 💘",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "Games",
+      "canonical_family": "GAMES / MASTER OF GAMES",
+      "visible_name": "🎲 GAMES 🕹️",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "MasterOfCoins",
+      "canonical_family": "MASTER OF COINS",
+      "visible_name": "🪙 MASTER OF COINS 💰",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "TravelLocal",
+      "canonical_family": "TRAVEL LOCAL / HOSTING",
+      "visible_name": "🧭 TRAVEL LOCAL ✈️",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "TravelOverseas",
+      "canonical_family": "TRAVEL OVERSEAS / ABROAD",
+      "visible_name": "🌍 TRAVEL OVERSEAS ✈️",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "Merchandise",
+      "canonical_family": "MERCHANDISE / LUXURY",
+      "visible_name": "💎 MERCHANDISE 🛍️",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 2,
+      "one_mbw_full_body_units": 19,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "Kamashastra",
+      "canonical_family": "KAMASHASTRA — ART OF MATCHING",
+      "visible_name": "🔥 KAMASHASTRA — ART OF MATCHING ⚜️",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "LiveLounge",
+      "canonical_family": "LIVE / SOCIAL CHAMBER",
+      "visible_name": "🎙️ SOCIAL CHAMBER 📡",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 1,
+      "one_mbw_full_body_units": 18,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "MensLounge",
+      "canonical_family": "MEN’S LOUNGE",
+      "visible_name": "👑 MEN’S LOUNGE 🥂",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 2,
+      "one_mbw_full_body_units": 19,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "Nearby",
+      "canonical_family": "NEXT DOOR / NEARBY",
+      "visible_name": "📍 NEXT DOOR 🧭",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 2,
+      "one_mbw_full_body_units": 19,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "ProfilePoster",
+      "canonical_family": "AI POSTER / USE MY FACE",
+      "visible_name": "📸 AI POSTER 🖼️",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 5,
+      "one_mbw_full_body_units": 22,
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "navigator_route_units": 1,
+      "logical_body_units": 16,
+      "discovered_source_family_units": 58,
+      "one_mbw_full_body_units": 75,
+      "screen_gap_absorbed_8d31": true
+    }
+  ],
+  "navigator_route_units": [
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "CinematicIntro",
+      "owner": "entry",
+      "canonical_family": "CinematicIntro",
+      "visible_name": "CinematicIntro"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "GateLocked",
+      "owner": "entry",
+      "canonical_family": "GateLocked",
+      "visible_name": "GateLocked"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "GateOpen",
+      "owner": "entry",
+      "canonical_family": "GateOpen",
+      "visible_name": "GateOpen"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "PathSelection",
+      "owner": "entry",
+      "canonical_family": "PathSelection",
+      "visible_name": "PathSelection"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "SubscriptionSignup",
+      "owner": "entry",
+      "canonical_family": "SubscriptionSignup",
+      "visible_name": "SubscriptionSignup"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "MainHub",
+      "owner": "entry",
+      "canonical_family": "MAIN HUB / REALM ENTRY",
+      "visible_name": "👑 MAIN HUB 🗝️"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "MasterOfLife",
+      "owner": "section",
+      "canonical_family": "HONEYBOY’S WORLD / MB REALM",
+      "visible_name": "🗝️ HONEYBOY’S WORLD 👑"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "Matchmaking",
+      "owner": "section",
+      "canonical_family": "MATCHMAKING / INNER CIRCLE",
+      "visible_name": "❤️ INNER CIRCLE 💘"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "Games",
+      "owner": "section",
+      "canonical_family": "GAMES / MASTER OF GAMES",
+      "visible_name": "🎲 GAMES 🕹️"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "MasterOfCoins",
+      "owner": "section",
+      "canonical_family": "MASTER OF COINS",
+      "visible_name": "🪙 MASTER OF COINS 💰"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "TravelLocal",
+      "owner": "section",
+      "canonical_family": "TRAVEL LOCAL / HOSTING",
+      "visible_name": "🧭 TRAVEL LOCAL ✈️"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "TravelOverseas",
+      "owner": "section",
+      "canonical_family": "TRAVEL OVERSEAS / ABROAD",
+      "visible_name": "🌍 TRAVEL OVERSEAS ✈️"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "Merchandise",
+      "owner": "section",
+      "canonical_family": "MERCHANDISE / LUXURY",
+      "visible_name": "💎 MERCHANDISE 🛍️"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "Kamashastra",
+      "owner": "section",
+      "canonical_family": "KAMASHASTRA — ART OF MATCHING",
+      "visible_name": "🔥 KAMASHASTRA — ART OF MATCHING ⚜️"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "LiveLounge",
+      "owner": "section",
+      "canonical_family": "LIVE / SOCIAL CHAMBER",
+      "visible_name": "🎙️ SOCIAL CHAMBER 📡"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "MensLounge",
+      "owner": "section",
+      "canonical_family": "MEN’S LOUNGE",
+      "visible_name": "👑 MEN’S LOUNGE 🥂"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "Nearby",
+      "owner": "section",
+      "canonical_family": "NEXT DOOR / NEARBY",
+      "visible_name": "📍 NEXT DOOR 🧭"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "ProfilePoster",
+      "owner": "section",
+      "canonical_family": "AI POSTER / USE MY FACE",
+      "visible_name": "📸 AI POSTER 🖼️"
+    },
+    {
+      "unit_type": "navigator_route_screen",
+      "route": "Settings",
+      "owner": "section",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️"
+    }
+  ],
+  "logical_body_units": [
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_001",
+      "route": "Games",
+      "section": "Games",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_002",
+      "route": "Games",
+      "section": "Games",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_003",
+      "route": "Games",
+      "section": "Games",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_004",
+      "route": "Games",
+      "section": "Games",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_005",
+      "route": "Games",
+      "section": "Games",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_006",
+      "route": "Games",
+      "section": "Games",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_007",
+      "route": "Games",
+      "section": "Games",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_008",
+      "route": "Games",
+      "section": "Games",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_009",
+      "route": "Games",
+      "section": "Games",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_010",
+      "route": "Games",
+      "section": "Games",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_011",
+      "route": "Games",
+      "section": "Games",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_012",
+      "route": "Games",
+      "section": "Games",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_013",
+      "route": "Games",
+      "section": "Games",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_014",
+      "route": "Games",
+      "section": "Games",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_015",
+      "route": "Games",
+      "section": "Games",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Games_LOGICAL_BODY_016",
+      "route": "Games",
+      "section": "Games",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_001",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_002",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_003",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_004",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_005",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_006",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_007",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_008",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_009",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_010",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_011",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_012",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_013",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_014",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_015",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Kamashastra_LOGICAL_BODY_016",
+      "route": "Kamashastra",
+      "section": "Kamashastra",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_001",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_002",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_003",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_004",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_005",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_006",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_007",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_008",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_009",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_010",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_011",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_012",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_013",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_014",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_015",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "LiveLounge_LOGICAL_BODY_016",
+      "route": "LiveLounge",
+      "section": "LiveLounge",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_001",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_002",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_003",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_004",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_005",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_006",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_007",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_008",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_009",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_010",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_011",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_012",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_013",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_014",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_015",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfCoins_LOGICAL_BODY_016",
+      "route": "MasterOfCoins",
+      "section": "MasterOfCoins",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_001",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_002",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_003",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_004",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_005",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_006",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_007",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_008",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_009",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_010",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_011",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_012",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_013",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_014",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_015",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MasterOfLife_LOGICAL_BODY_016",
+      "route": "MasterOfLife",
+      "section": "MasterOfLife",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_001",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_002",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_003",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_004",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_005",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_006",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_007",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_008",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_009",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_010",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_011",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_012",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_013",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_014",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_015",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Matchmaking_LOGICAL_BODY_016",
+      "route": "Matchmaking",
+      "section": "Matchmaking",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_001",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_002",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_003",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_004",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_005",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_006",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_007",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_008",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_009",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_010",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_011",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_012",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_013",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_014",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_015",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "MensLounge_LOGICAL_BODY_016",
+      "route": "MensLounge",
+      "section": "MensLounge",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_001",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_002",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_003",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_004",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_005",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_006",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_007",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_008",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_009",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_010",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_011",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_012",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_013",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_014",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_015",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Merchandise_LOGICAL_BODY_016",
+      "route": "Merchandise",
+      "section": "Merchandise",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_001",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_002",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_003",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_004",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_005",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_006",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_007",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_008",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_009",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_010",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_011",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_012",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_013",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_014",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_015",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Nearby_LOGICAL_BODY_016",
+      "route": "Nearby",
+      "section": "Nearby",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_001",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_002",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_003",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_004",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_005",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_006",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_007",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_008",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_009",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_010",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_011",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_012",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_013",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_014",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_015",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "ProfilePoster_LOGICAL_BODY_016",
+      "route": "ProfilePoster",
+      "section": "ProfilePoster",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_001",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_002",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_003",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_004",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_005",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_006",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_007",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_008",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_009",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_010",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_011",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_012",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_013",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_014",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_015",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "Settings_LOGICAL_BODY_016",
+      "route": "Settings",
+      "section": "Settings",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_001",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_002",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_003",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_004",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_005",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_006",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_007",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_008",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_009",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_010",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_011",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_012",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_013",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_014",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_015",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelLocal_LOGICAL_BODY_016",
+      "route": "TravelLocal",
+      "section": "TravelLocal",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_001",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 1,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_002",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 2,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_003",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 3,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_004",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 4,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_005",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 5,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_006",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 6,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_007",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 7,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_008",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 8,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_009",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 9,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_007",
+      "user_seed_avatar": "TravelOverseas",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_010",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 10,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_008",
+      "user_seed_avatar": "MasterOfLife",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_011",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 11,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_001",
+      "user_seed_avatar": "ProfilePoster",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_012",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 12,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_002",
+      "user_seed_avatar": "Matchmaking",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_013",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 13,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_003",
+      "user_seed_avatar": "MainHub",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_014",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 14,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_004",
+      "user_seed_avatar": "Games",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_015",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 15,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_005",
+      "user_seed_avatar": "MensLounge",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    },
+    {
+      "logical_screen_id": "TravelOverseas_LOGICAL_BODY_016",
+      "route": "TravelOverseas",
+      "section": "TravelOverseas",
+      "slot": 16,
+      "entry": "section",
+      "visual_contract": "POSTER_PENTAGRAM_PANCHTATVA_FLOATING_ICON_USER_SEED",
+      "user_seed_id": "MBW_USER_006",
+      "user_seed_avatar": "TravelLocal",
+      "state_contract": "ENTRY_ACTION_STATE_RESULT_RETURN"
+    }
+  ],
+  "discovered_source_family_units": [
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Nearby",
+      "canonical_family": "NEXT DOOR / NEARBY",
+      "visible_name": "📍 NEXT DOOR 🧭",
+      "file": "app/components/MAAProtectionScreenShell.js",
+      "score": 4,
+      "aliases": [
+        "nearby"
+      ],
+      "symbols": [
+        "GateStarDrop",
+        "MAAProtectionScreenShell",
+        "MBWVisualBody",
+        "POSTERS",
+        "PanchTatvaLayer",
+        "poster"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MAAProtectionTheme.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": []
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWAllPadScreens.generated.js",
+      "score": 12,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "Games",
+        "GamesScreen",
+        "Kamashastra",
+        "KamashastraScreen",
+        "LiveLounge",
+        "LiveLoungeScreen",
+        "MBWInheritedScreen",
+        "MasterOfCoins",
+        "MasterOfCoinsScreen",
+        "MasterOfLifeScreen",
+        "Matchmaking",
+        "MatchmakingScreen",
+        "MensLounge",
+        "MensLoungeScreen",
+        "MerchandiseScreen",
+        "Nearby",
+        "NearbyScreen",
+        "ProfilePoster",
+        "ProfilePosterScreen",
+        "Settings",
+        "SettingsScreen",
+        "TravelLocal",
+        "TravelLocalScreen",
+        "TravelOverseas",
+        "TravelOverseasScreen",
+        "makeScreen",
+        "routeBrain"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWOneFullBodyBridgeR329.js",
+      "score": 14,
+      "aliases": [
+        "access",
+        "restore",
+        "settings"
+      ],
+      "symbols": []
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWBrainOSPresentationCourt.js",
+      "score": 105,
+      "aliases": [
+        "access",
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBW_ACTIVE_SCREEN_ROUTE_BLOODLINE_VISUAL_OWNER_FINAL_OS_REPORT",
+        "MBW_ALL_SCREENS_CREATIVE_VISUAL_MESH_COMPENSATION_ONE_REPORT",
+        "MBW_ALL_SCREENS_MOTION_BUTTON_ORBIT_COMPENSATION_TWO_REPORT",
+        "MBW_APEX_VISUAL_FINISH_FINAL_OS_REPORT",
+        "MBW_APK_FORENSIC_READINESS_FINAL_OS_REPORT",
+        "MBW_APP_ENTRY_NAVIGATION_LATCH_FINAL_OS_REPORT",
+        "MBW_ARCHIVE_EXPORT_FINAL_OS_REPORT",
+        "MBW_ARCHIVE_EXPORT_OS_REPORT",
+        "MBW_CINEMATIC_POSTER_DEPTH_AMBIENT_FINAL_OS_REPORT",
+        "MBW_CRYSTAL_ONE_BRAIN_OS_REPORT",
+        "MBW_EXTRAORDINARY_SECTION_VISUAL_LOGIC_FINAL_OS_REPORT",
+        "MBW_FLOATING_ICON_BUTTON_PUNCH_TRANSPARENT_INPUT_FINAL_OS_REPORT",
+        "MBW_GAMES_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_GATE_FLOW_FINAL_OS_REPORT",
+        "MBW_GRAND_FINAL_CURRENT_ROOT_RUNTIME_TRUTH_OS_REPORT",
+        "MBW_ICON_BUTTON_FINAL_OS_REPORT",
+        "MBW_KAMASHASTRA_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_LIVE_LOUNGE_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_LIVE_VISUAL_LOGCAT_READINESS_FINAL_OS_REPORT",
+        "MBW_LIVE_VISUAL_RISK_FINAL_OS_REPORT",
+        "MBW_MAINHUB_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_MASTER_OF_COINS_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_MASTER_OF_LIFE_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_MATCHMAKING_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_MENS_LOUNGE_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_MERCHANDISE_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_MICRO_INTERACTION_SECTION_DEPTH_FINAL_OS_REPORT",
+        "MBW_MOTION_CYCLE_FINAL_OS_REPORT",
+        "MBW_NEARBY_NEXT_DOOR_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_ONE_VISUAL_BODY_FINAL_OS_REPORT",
+        "MBW_OS_PRESENTATION_STANDARD",
+        "MBW_OS_REPORTS",
+        "MBW_PANCHTATVA_FINAL_OS_REPORT",
+        "MBW_PENTAGRAMSTAR_LIVING_MOTION_WORD_EATING_FINAL_OS_REPORT",
+        "MBW_POSTER_REGISTRY_FINAL_OS_REPORT",
+        "MBW_POSTER_SAFE_MOTION_BOUNDARY_FINAL_OS_REPORT",
+        "MBW_PRE_APK_READINESS_FINAL_OS_REPORT",
+        "MBW_PROFILE_POSTER_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_ROUTE_BRAIN_FINAL_OS_REPORT",
+        "MBW_ROUTE_BRAIN_OS_REPORT",
+        "MBW_ROUTE_TOUCH_FLOW_FINAL_OS_REPORT",
+        "MBW_RUNTIME_VISUAL_DRIVER_SCREEN_FLOW_FINAL_OS_REPORT",
+        "MBW_SCREEN_SOUL_STATE_FINAL_OS_REPORT",
+        "MBW_SECTION_ACTION_RESULT_MATRIX_FINAL_OS_REPORT",
+        "MBW_SECTION_FEATURE_PAYLOAD_VISUAL_STATE_FINAL_OS_REPORT",
+        "MBW_SECTION_LOGIC_FINAL_OS_REPORT",
+        "MBW_SETTINGS_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_SUBSCRIPTION_SIGNUP_ENTITLEMENT_RESTORE_FINAL_OS_REPORT",
+        "MBW_TRAVEL_LOCAL_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_TRAVEL_OVERSEAS_DEEP_VISUAL_CRAFT_FINAL_OS_REPORT",
+        "MBW_USER_SEED_FINAL_OS_REPORT",
+        "MBW_VISIBLE_UI_WORDLESS_FINAL_OS_REPORT",
+        "MBW_WORD_EATING_FINAL_OS_REPORT",
+        "allOSReportToBrain",
+        "mbwBrainOSCourtDecision",
+        "unifiedVisualBodyApproved"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWSectionLogicOS.js",
+      "score": 8,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_SECTION_LOGIC_ROUTES"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWRouteBrainOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_ROUTE_BRAIN_KEYS",
+        "MBW_ROUTE_BRAIN_LOCK",
+        "MBW_ROUTE_BRAIN_OS_11_10",
+        "findMBWRouteBrain",
+        "hasRoute",
+        "mbwRouteBrainButtons",
+        "mbwRouteBrainCourt",
+        "mbwRouteBrainHeadline",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "ProfilePoster",
+      "canonical_family": "AI POSTER / USE MY FACE",
+      "visible_name": "📸 AI POSTER 🖼️",
+      "file": "app/components/MBWUserSeedOS.js",
+      "score": 12,
+      "aliases": [
+        "profile",
+        "profileposter"
+      ],
+      "symbols": [
+        "mbwUserSeedForRoute",
+        "routeSeed"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "ProfilePoster",
+      "canonical_family": "AI POSTER / USE MY FACE",
+      "visible_name": "📸 AI POSTER 🖼️",
+      "file": "app/components/MBWCrystalOneBrainOS.js",
+      "score": 1,
+      "aliases": [
+        "profile"
+      ],
+      "symbols": [
+        "MBW_CRYSTAL_ONE_BRAIN_OS",
+        "routeCourt",
+        "routeKnown"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "ProfilePoster",
+      "canonical_family": "AI POSTER / USE MY FACE",
+      "visible_name": "📸 AI POSTER 🖼️",
+      "file": "app/components/MBWBrainOSFinalRoot.js",
+      "score": 1,
+      "aliases": [
+        "profile"
+      ],
+      "symbols": [
+        "MBW_BRAIN_OS_FINAL_ROOT",
+        "mbwBrainOSFinalVerdict"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "MainHub",
+      "canonical_family": "MAIN HUB / REALM ENTRY",
+      "visible_name": "👑 MAIN HUB 🗝️",
+      "file": "app/components/MBWPosterRegistryFinalOS.js",
+      "score": 10,
+      "aliases": [
+        "mainhub"
+      ],
+      "symbols": [
+        "MBW_POSTER_REGISTRY_FINAL_OS",
+        "mbwPosterRegistryFinalCourt",
+        "poster"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "ProfilePoster",
+      "canonical_family": "AI POSTER / USE MY FACE",
+      "visible_name": "📸 AI POSTER 🖼️",
+      "file": "app/components/MBWUserSeedFinalOS.js",
+      "score": 16,
+      "aliases": [
+        "profile",
+        "profileposter"
+      ],
+      "symbols": [
+        "MBW_USER_SEED_FINAL_OS",
+        "routeSeed"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWRouteTouchFlowFinalOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_ROUTE_TOUCH_FLOW_FINAL_OS",
+        "MBW_ROUTE_TOUCH_FLOW_FINAL_ROUTES",
+        "mbwRouteTouchFlowFinalCourt",
+        "motion",
+        "poster",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWPosterSafeMotionBoundaryFinalOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_POSTER_SAFE_MOTION_BOUNDARY_FINAL_OS",
+        "MBW_POSTER_SAFE_MOTION_BOUNDARY_ROUTES",
+        "mbwPosterSafeMotionBoundaryFinalCourt",
+        "motion",
+        "poster",
+        "routeTouch"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWScreenSoulStateFinalOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_SCREEN_SOUL_STATE_FINAL_OS",
+        "MBW_SCREEN_SOUL_STATE_FINAL_ROUTES",
+        "mbwScreenSoulStateFinalCourt",
+        "motion",
+        "poster",
+        "route",
+        "routeTouch"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWVisibleUiWordlessFinalOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_VISIBLE_UI_WORDLESS_FINAL_OS",
+        "MBW_VISIBLE_UI_WORDLESS_FINAL_ROUTES",
+        "motion",
+        "poster"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWGrandFinalCurrentRootRuntimeTruthOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_GRAND_FINAL_CURRENT_ROOT_RUNTIME_TRUTH_OS",
+        "MBW_GRAND_FINAL_CURRENT_ROOT_RUNTIME_TRUTH_ROUTES",
+        "motionBoundary",
+        "routeTouch",
+        "screenSoul"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWApkForensicReadinessFinalOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_APK_FORENSIC_READINESS_FINAL_OS",
+        "MBW_APK_FORENSIC_READINESS_FINAL_ROUTES"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWLiveVisualLogcatReadinessFinalOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_LIVE_VISUAL_LOGCAT_READINESS_FINAL_OS",
+        "MBW_LIVE_VISUAL_LOGCAT_READINESS_FINAL_ROUTES",
+        "mbwLiveVisualLogcatReadinessFinalCourt"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWExtraordinarySectionVisualLogicFinalOS.js",
+      "score": 4,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_EXTRAORDINARY_SECTION_VISUAL_LOGIC_FINAL_OS",
+        "MBW_EXTRAORDINARY_SECTION_VISUAL_LOGIC_MAP",
+        "MBW_EXTRAORDINARY_SECTION_VISUAL_LOGIC_ROUTES",
+        "mbwExtraordinarySectionVisualLogicFinalCourt",
+        "motion",
+        "poster"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWMicroInteractionSectionDepthFinalOS.js",
+      "score": 4,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_MICRO_INTERACTION_SECTION_DEPTH_FINAL_OS",
+        "MBW_MICRO_INTERACTION_SECTION_DEPTH_ROUTES"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWCinematicPosterDepthAmbientFinalOS.js",
+      "score": 4,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_CINEMATIC_POSTER_DEPTH_AMBIENT_FINAL_OS",
+        "MBW_CINEMATIC_POSTER_DEPTH_AMBIENT_MAP",
+        "MBW_CINEMATIC_POSTER_DEPTH_AMBIENT_ROUTES",
+        "mbwCinematicPosterDepthAmbientFinalCourt"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWPentagramStarLivingMotionWordEatingFinalOS.js",
+      "score": 8,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_PENTAGRAMSTAR_ICON_NAME_BANK",
+        "MBW_PENTAGRAMSTAR_LIVING_MOTION_MAP",
+        "MBW_PENTAGRAMSTAR_LIVING_MOTION_ROUTES",
+        "MBW_PENTAGRAMSTAR_LIVING_MOTION_WORD_EATING_FINAL_OS",
+        "mbwPentagramStarLivingMotionWordEatingFinalCourt",
+        "motion",
+        "starMotion"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWActiveScreenRouteBloodlineVisualOwnerFinalOS.js",
+      "score": 6,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_ACTIVE_SCREEN_ROUTE_BLOODLINE_MAP",
+        "MBW_ACTIVE_SCREEN_ROUTE_BLOODLINE_ROUTES",
+        "MBW_ACTIVE_SCREEN_ROUTE_BLOODLINE_VISUAL_OWNER_FINAL_OS",
+        "mbwActiveScreenRouteBloodlineVisualOwnerFinalCourt",
+        "poster",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWRuntimeVisualDriverScreenFlowFinalOS.js",
+      "score": 6,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_RUNTIME_VISUAL_DRIVER_SCREEN_FLOW_FINAL_OS",
+        "MBW_RUNTIME_VISUAL_DRIVER_SCREEN_FLOW_MAP",
+        "MBW_RUNTIME_VISUAL_DRIVER_SCREEN_FLOW_ROUTES",
+        "mbwRuntimeVisualDriverScreenFlowFinalCourt"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWAppEntryNavigationLatchFinalOS.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_APP_ENTRY_NAVIGATION_LATCH_FINAL_OS",
+        "MBW_APP_ENTRY_NAVIGATION_LATCH_ROUTES",
+        "gate",
+        "poster",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWSectionActionResultMatrixFinalOS.js",
+      "score": 4,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_SECTION_ACTION_RESULT_MATRIX_FINAL_OS",
+        "MBW_SECTION_ACTION_RESULT_MATRIX_ROUTES"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWSectionFeaturePayloadVisualStateFinalOS.js",
+      "score": 12,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_SECTION_FEATURE_PAYLOAD_ROUTES",
+        "MBW_SECTION_FEATURE_PAYLOAD_VISUAL_STATE_FINAL_OS",
+        "MBW_SECTION_FEATURE_PAYLOAD_VISUAL_STATE_MAP",
+        "mbwSectionFeaturePayloadVisualStateFinalCourt"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWFloatingIconButtonPunchTransparentInputFinalOS.js",
+      "score": 12,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_FLOATING_ICON_BUTTON_PUNCH_ROUTES",
+        "MBW_FLOATING_ICON_BUTTON_PUNCH_TRANSPARENT_INPUT_FINAL_OS",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWSubscriptionSignupEntitlementRestoreFinalOS.js",
+      "score": 56,
+      "aliases": [
+        "access",
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBW_SUBSCRIPTION_SIGNUP_ENTITLEMENT_MAP",
+        "MBW_SUBSCRIPTION_SIGNUP_ENTITLEMENT_RESTORE_FINAL_OS",
+        "MBW_SUBSCRIPTION_SIGNUP_ENTITLEMENT_ROUTES",
+        "gate",
+        "mbwSubscriptionSignupEntitlementRestoreFinalCourt"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWApexVisualFinishFinalOS.js",
+      "score": 17,
+      "aliases": [
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBW_APEX_VISUAL_FINISH_FINAL_OS",
+        "MBW_APEX_VISUAL_FINISH_MAP",
+        "MBW_APEX_VISUAL_FINISH_ROUTES",
+        "mbwApexVisualFinishFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWMainHubDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_MAINHUB_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_MAINHUB_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_MAINHUB_DEEP_VISUAL_CRAFT_LAYER",
+        "MBW_MAINHUB_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwMainHubDeepVisualCraftFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWMasterOfLifeDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_MASTER_OF_LIFE_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_MASTER_OF_LIFE_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_MASTER_OF_LIFE_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwMasterOfLifeDeepVisualCraftFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWMatchmakingDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_MATCHMAKING_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_MATCHMAKING_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_MATCHMAKING_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwMatchmakingDeepVisualCraftFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWGamesDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_GAMES_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_GAMES_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_GAMES_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwGamesDeepVisualCraftFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWMasterOfCoinsDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_MASTER_OF_COINS_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_MASTER_OF_COINS_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_MASTER_OF_COINS_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwMasterOfCoinsDeepVisualCraftFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWTravelLocalDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_TRAVEL_LOCAL_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_TRAVEL_LOCAL_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_TRAVEL_LOCAL_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwTravelLocalDeepVisualCraftFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWTravelOverseasDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_TRAVEL_OVERSEAS_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_TRAVEL_OVERSEAS_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_TRAVEL_OVERSEAS_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwTravelOverseasDeepVisualCraftFinalCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBW8D50LiveVisualOwner.js",
+      "score": 6,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_ALL_SCREENS_CREATIVE_VISUAL_MESH_COMPENSATION_ONE_OS",
+        "MBW_ALL_SCREENS_CREATIVE_VISUAL_MESH_COMPENSATION_ONE_PROFILES",
+        "MBW_ALL_SCREENS_CREATIVE_VISUAL_MESH_COMPENSATION_ONE_ROUTES",
+        "mbwAllScreensCreativeVisualMeshCompensationOneCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBW8D50LiveVisualOwner.js",
+      "score": 8,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_ALL_SCREENS_MOTION_BUTTON_ORBIT_COMPENSATION_TWO_OS",
+        "MBW_ALL_SCREENS_MOTION_BUTTON_ORBIT_COMPENSATION_TWO_PROFILES",
+        "MBW_ALL_SCREENS_MOTION_BUTTON_ORBIT_COMPENSATION_TWO_ROUTES",
+        "hasRoute",
+        "mbwAllScreensMotionButtonOrbitCompensationTwoCourt",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWMerchandiseDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_MERCHANDISE_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_MERCHANDISE_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_MERCHANDISE_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwMerchandiseDeepVisualCraftFinalCourt",
+        "motion",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWKamashastraDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_KAMASHASTRA_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_KAMASHASTRA_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_KAMASHASTRA_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwKamashastraDeepVisualCraftFinalCourt",
+        "motion",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWLiveLoungeDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_LIVE_LOUNGE_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_LIVE_LOUNGE_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_LIVE_LOUNGE_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwLiveLoungeDeepVisualCraftFinalCourt",
+        "motion",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWMensLoungeDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_MENS_LOUNGE_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_MENS_LOUNGE_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_MENS_LOUNGE_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwMensLoungeDeepVisualCraftFinalCourt",
+        "motion",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWGlobalSectionPresentationNameFinalOS.js",
+      "score": 8,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBW_GLOBAL_SECTION_PRESENTATION_NAME_FINAL_OS"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWNearbyNextDoorDeepVisualCraftFinalOS.js",
+      "score": 3,
+      "aliases": [
+        "restore"
+      ],
+      "symbols": [
+        "MBW_NEARBY_NEXT_DOOR_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_NEARBY_NEXT_DOOR_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_NEARBY_NEXT_DOOR_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwNearbyNextDoorDeepVisualCraftFinalCourt",
+        "motion",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWProfilePosterDeepVisualCraftFinalOS.js",
+      "score": 7,
+      "aliases": [
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBW_PROFILE_POSTER_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_PROFILE_POSTER_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_PROFILE_POSTER_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwProfilePosterDeepVisualCraftFinalCourt",
+        "motion",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWSettingsDeepVisualCraftFinalOS.js",
+      "score": 152,
+      "aliases": [
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBW_SETTINGS_DEEP_VISUAL_CRAFT_DEPTH_TERMS",
+        "MBW_SETTINGS_DEEP_VISUAL_CRAFT_FINAL_OS",
+        "MBW_SETTINGS_DEEP_VISUAL_CRAFT_ROUTE",
+        "mbwSettingsDeepVisualCraftFinalCourt",
+        "motion",
+        "tatva"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Merchandise",
+      "canonical_family": "MERCHANDISE / LUXURY",
+      "visible_name": "💎 MERCHANDISE 🛍️",
+      "file": "app/components/MBWUltraAceVisualEmpireBodyPolishFinalOS.js",
+      "score": 1,
+      "aliases": [
+        "luxury"
+      ],
+      "symbols": [
+        "MBWUltraAceVisualEmpireBodyPolishLayer",
+        "MBW_ULTRA_ACE_VISUAL_EMPIRE_BODY_POLISH_FINAL_OS",
+        "mbwUltraAceVisualEmpireBodyCourt",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBWUltraAceGateMainHubThroneFlowFinalOS.js",
+      "score": 5,
+      "aliases": [
+        "access"
+      ],
+      "symbols": [
+        "MBWUltraAceGateMainHubThroneFlowLayer",
+        "MBW_ULTRA_ACE_GATE_MAINHUB_THRONE_FLOW_FINAL_OS",
+        "isGate",
+        "isHub",
+        "mbwUltraAceGateMainHubThroneCourt",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBW8D50LiveVisualOwner.js",
+      "score": 11,
+      "aliases": [
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBW_ULTRA_ACE_SECTION_SOUL_LOCAL_LOGIC_FINAL_OS",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/components/MBW8D50LiveVisualOwner.js",
+      "score": 18,
+      "aliases": [
+        "access",
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "../components/MBW8D50FullVisualBodyShell",
+        "MBW_APPLE_VISUAL_OS_TOKENS",
+        "MBW_APPLE_VISUAL_OS_V12_SEAL",
+        "poster",
+        "starMotion",
+        "visualTitle"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/screens/MainHubScreen.js",
+      "score": 4,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MainHubScreen",
+        "routes"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/screens/Entry/GateLockedScreen.js",
+      "score": 6,
+      "aliases": [
+        "access"
+      ],
+      "symbols": [
+        "GateLockedScreen",
+        "unlockGate"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/screens/Entry/PathSelectionScreen.js",
+      "score": 7,
+      "aliases": [
+        "access"
+      ],
+      "symbols": [
+        "PathSelectionScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/screens/Entry/SubscriptionSignupScreen.js",
+      "score": 13,
+      "aliases": [
+        "access"
+      ],
+      "symbols": [
+        "SubscriptionSignupScreen",
+        "enterHub"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Games",
+      "canonical_family": "GAMES / MASTER OF GAMES",
+      "visible_name": "🎲 GAMES 🕹️",
+      "file": "app/screens/Sections/GamesScreen.js",
+      "score": 13,
+      "aliases": [
+        "game",
+        "games"
+      ],
+      "symbols": [
+        "GamesScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Kamashastra",
+      "canonical_family": "KAMASHASTRA — ART OF MATCHING",
+      "visible_name": "🔥 KAMASHASTRA — ART OF MATCHING ⚜️",
+      "file": "app/screens/Sections/KamashastraScreen.js",
+      "score": 9,
+      "aliases": [
+        "kama shastra",
+        "kamashastra"
+      ],
+      "symbols": [
+        "KamashastraScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "MensLounge",
+      "canonical_family": "MEN’S LOUNGE",
+      "visible_name": "👑 MEN’S LOUNGE 🥂",
+      "file": "app/screens/Sections/LiveLoungeScreen.js",
+      "score": 5,
+      "aliases": [
+        "lounge"
+      ],
+      "symbols": [
+        "LiveLoungeScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "MasterOfCoins",
+      "canonical_family": "MASTER OF COINS",
+      "visible_name": "🪙 MASTER OF COINS 💰",
+      "file": "app/screens/Sections/MasterOfCoinsScreen.js",
+      "score": 19,
+      "aliases": [
+        "coin",
+        "coins",
+        "master of coins",
+        "masterofcoins"
+      ],
+      "symbols": [
+        "MasterOfCoinsScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "MasterOfLife",
+      "canonical_family": "HONEYBOY’S WORLD / MB REALM",
+      "visible_name": "🗝️ HONEYBOY’S WORLD 👑",
+      "file": "app/screens/Sections/MasterOfLifeScreen.js",
+      "score": 9,
+      "aliases": [
+        "master of life",
+        "masteroflife"
+      ],
+      "symbols": [
+        "MasterOfLifeScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Matchmaking",
+      "canonical_family": "MATCHMAKING / INNER CIRCLE",
+      "visible_name": "❤️ INNER CIRCLE 💘",
+      "file": "app/screens/Sections/MatchmakingScreen.js",
+      "score": 13,
+      "aliases": [
+        "match",
+        "matchmaking"
+      ],
+      "symbols": [
+        "MatchmakingScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "MensLounge",
+      "canonical_family": "MEN’S LOUNGE",
+      "visible_name": "👑 MEN’S LOUNGE 🥂",
+      "file": "app/screens/Sections/MensLoungeScreen.js",
+      "score": 14,
+      "aliases": [
+        "lounge",
+        "mens lounge",
+        "menslounge"
+      ],
+      "symbols": [
+        "MensLoungeScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Merchandise",
+      "canonical_family": "MERCHANDISE / LUXURY",
+      "visible_name": "💎 MERCHANDISE 🛍️",
+      "file": "app/screens/Sections/MerchandiseScreen.js",
+      "score": 13,
+      "aliases": [
+        "merch",
+        "merchandise"
+      ],
+      "symbols": [
+        "MerchandiseScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Nearby",
+      "canonical_family": "NEXT DOOR / NEARBY",
+      "visible_name": "📍 NEXT DOOR 🧭",
+      "file": "app/screens/Sections/NearbyScreen.js",
+      "score": 8,
+      "aliases": [
+        "nearby"
+      ],
+      "symbols": [
+        "NearbyScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "ProfilePoster",
+      "canonical_family": "AI POSTER / USE MY FACE",
+      "visible_name": "📸 AI POSTER 🖼️",
+      "file": "app/screens/Sections/ProfilePosterScreen.js",
+      "score": 14,
+      "aliases": [
+        "profile",
+        "profile poster",
+        "profileposter"
+      ],
+      "symbols": [
+        "ProfilePosterScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/screens/Sections/SettingsScreen.js",
+      "score": 8,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "SettingsScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "TravelLocal",
+      "canonical_family": "TRAVEL LOCAL / HOSTING",
+      "visible_name": "🧭 TRAVEL LOCAL ✈️",
+      "file": "app/screens/Sections/TravelLocalScreen.js",
+      "score": 9,
+      "aliases": [
+        "travel local",
+        "travellocal"
+      ],
+      "symbols": [
+        "TravelLocalScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "TravelOverseas",
+      "canonical_family": "TRAVEL OVERSEAS / ABROAD",
+      "visible_name": "🌍 TRAVEL OVERSEAS ✈️",
+      "file": "app/screens/Sections/TravelOverseasScreen.js",
+      "score": 14,
+      "aliases": [
+        "overseas",
+        "travel overseas",
+        "traveloverseas"
+      ],
+      "symbols": [
+        "TravelOverseasScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/runtime/MBWPathSelectionRouteSealR346.js",
+      "score": 2,
+      "aliases": [
+        "access"
+      ],
+      "symbols": [
+        "MBW_PATH_SELECTION_ROUTE_SEAL_R346"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/runtime/MBWSectionLogicRegistry.js",
+      "score": 4,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": []
+    },
+    {
+      "unit_type": "discovered_source_family_candidate",
+      "route": "MainHub",
+      "canonical_family": "MAIN HUB / REALM ENTRY",
+      "visible_name": "👑 MAIN HUB 🗝️",
+      "file": "app/runtime/MBWVisibleUserSeedBridge.js",
+      "score": 2,
+      "aliases": [
+        "mainhub"
+      ],
+      "symbols": []
+    },
+    {
+      "unit_type": "discovered_source_family_candidate",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/runtime/MBW8D50LiveVisualOwner.js",
+      "score": 2,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": []
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "LiveLounge",
+      "canonical_family": "LIVE / SOCIAL CHAMBER",
+      "visible_name": "🎙️ SOCIAL CHAMBER 📡",
+      "file": "app/runtime/MBWQBuilderVisualLaw.js",
+      "score": 14,
+      "aliases": [
+        "live"
+      ],
+      "symbols": [
+        "MBW_BUILD_REQUIRES_LIVE_VISUAL_PROOF",
+        "MBW_DYNAMIC_CHILD_ROUTE_PROOF_REQUIRED",
+        "MBW_MAINHUB_PARENT_CHILD_FAMILY_PROOF_REQUIRED",
+        "MBW_POSTBUILD_TRUE_GREEN_REQUIRES_LIVE_SCREENSHOT",
+        "MBW_PREBUILD_GATE_DOES_NOT_REQUIRE_LIVE_SCREENSHOT",
+        "MBW_Q_BUILDER_VISUAL_LAW",
+        "MBW_TWO_STAGE_BUILD_GATE_REQUIRED"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/runtime/MBW8D50LiveVisualOwner.js",
+      "score": 19,
+      "aliases": [
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBW_SECTION_HARDCORE_ENGINE_SEAL"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/navigation/AppNavigator.js",
+      "score": 6,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/navigation/MBW8D50LiveVisualOwner.js",
+      "score": 6,
+      "aliases": [
+        "settings"
+      ],
+      "symbols": [
+        "MBWAppleV13Games",
+        "MBWAppleV13GateLocked",
+        "MBWAppleV13GateOpen",
+        "MBWAppleV13Kamashastra",
+        "MBWAppleV13LiveLounge",
+        "MBWAppleV13MainHub",
+        "MBWAppleV13MasterOfCoins",
+        "MBWAppleV13Matchmaking",
+        "MBWAppleV13MensLounge",
+        "MBWAppleV13Nearby",
+        "MBWAppleV13PathSelection",
+        "MBWAppleV13ProfilePoster",
+        "MBWAppleV13Settings",
+        "MBWAppleV13SubscriptionSignup",
+        "MBWAppleV13TravelLocal",
+        "MBWAppleV13TravelOverseas"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/navigation/MBW8D50LiveVisualOwner.js",
+      "score": 34,
+      "aliases": [
+        "restore",
+        "settings"
+      ],
+      "symbols": [
+        "MBWAppleV13Games",
+        "MBWAppleV13Kamashastra",
+        "MBWAppleV13LiveLounge",
+        "MBWAppleV13MasterOfCoins",
+        "MBWAppleV13Matchmaking",
+        "MBWAppleV13MensLounge",
+        "MBWAppleV13Nearby",
+        "MBWAppleV13ProfilePoster",
+        "MBWAppleV13Settings",
+        "MBWAppleV13TravelLocal",
+        "MBWAppleV13TravelOverseas",
+        "MBWVisualSection",
+        "MBW_8D13_LIVE_VISUAL_BODY_OWNER",
+        "MBW_8D16_PENTAGRAMSTAR_111_VISUAL_OWNER",
+        "MBW_8D17_Games_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_HIDDEN_VISUAL_IMPACT_ENGINE_RESTORE",
+        "MBW_8D17_Kamashastra_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_LiveLounge_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_MasterOfCoins_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_MasterOfLife_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_Matchmaking_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_MensLounge_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_Merchandise_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_Nearby_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_ProfilePoster_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_Settings_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_TravelLocal_VISUAL_IMPACT_ENGINE",
+        "MBW_8D17_TravelOverseas_VISUAL_IMPACT_ENGINE",
+        "POSTERS",
+        "VISUAL_META",
+        "returnToMainHub"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "discovered_source_family_candidate__8D31_SYMBOL_LAYER_COMPLETE",
+      "route": "Settings",
+      "canonical_family": "SETTINGS / ACCESS",
+      "visible_name": "⚙️ SETTINGS 🛡️",
+      "file": "app/navigation/MBW8D50LiveVisualOwner.js",
+      "score": 11,
+      "aliases": [
+        "access",
+        "settings"
+      ],
+      "symbols": [
+        "CinematicIntroScreen",
+        "ENTRY_POSTERS",
+        "GateLockedVisual",
+        "GateOpenVisual",
+        "MAINHUB_ACTIONS",
+        "MBWAppleV13CinematicIntro",
+        "MBWAppleV13GateLocked",
+        "MBWAppleV13GateOpen",
+        "MBWAppleV13MainHub",
+        "MBWAppleV13PathSelection",
+        "MBWAppleV13SubscriptionSignup",
+        "MBW_8D13_LIVE_VISUAL_BODY_OWNER",
+        "MBW_8D16_PENTAGRAMSTAR_111_VISUAL_OWNER",
+        "MainHubVisual",
+        "PathSelectionVisual",
+        "SubscriptionSignupVisual",
+        "openRoute"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "CinematicIntro",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/screens/Entry/CinematicIntroScreen.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "CinematicIntroScreen"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "GateOpen",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/screens/Entry/GateOpenScreen.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "GateOpenScreen",
+        "goPath"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "GlobalVisualSystem",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/components/MAAProtectionMotionShell.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "MAAProtectionMotionShell",
+        "MBW_MOTION_BODY_OWNER_R348"
+      ]
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "GlobalVisualSystem",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/components/MBWRouteMediaMap.generated.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "MBW_ROUTE_MEDIA",
+        "MBW_ROUTE_MEDIA_MISSING"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "GlobalVisualSystem",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/components/MBWArchiveExportOS.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "MBW_ARCHIVE_EXPORT_OS_11_10",
+        "MBW_ARCHIVE_EXPORT_RULES",
+        "mbwArchiveExportCourt"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "GlobalVisualSystem",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/components/MBWUltraAceLivingMotionSignatureFinalOS.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "MBWUltraAceLivingMotionSignatureLayer",
+        "MBW_ULTRA_ACE_LIVING_MOTION_SIGNATURE_FINAL_OS",
+        "mbwUltraAceLivingMotionSignatureCourt",
+        "route"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "GlobalVisualSystem",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/runtime/MBWPentagramStarVisual111.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "MBWPentagramStarVisual111",
+        "PENTAGRAMSTAR_111_COLOR_LOCK",
+        "PentagramLine"
+      ],
+      "screen_gap_absorbed_8d31": true
+    },
+    {
+      "unit_type": "screen_gap_absorbed_source_owner_8d31",
+      "route": "GlobalVisualSystem",
+      "canonical_family": "GLOBAL VISUAL SYSTEM",
+      "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+      "file": "app/runtime/MBWPanchTatvaLightVisualR328.js",
+      "score": 888,
+      "aliases": [
+        "8D31_SCREEN_GAP_ABSORBED"
+      ],
+      "symbols": [
+        "MBWPanchTatvaLightVisualR328",
+        "MBW_PANCHTATVA_R328_LOCK"
+      ],
+      "screen_gap_absorbed_8d31": true
+    }
+  ],
+  "global_visual_system_units_8d31": {
+    "route": "GlobalVisualSystem",
+    "visible_name": "🧿 GLOBAL VISUAL SYSTEM ♠️",
+    "discovered_source_family_units": 6
+  },
+  "MBW_ONE_VISUAL_BODY_ALL_OS_CARRIER_R341_LOCK": true,
+  "one_mbw_visual_body_os_carrier_registry_r341": [
+    {
+      "name": "ONE_FULL_BODY_OS",
+      "file": "app/runtime/MBWFullBodyUnifiedRuntimeR329.js",
+      "tokens": [
+        "MBWFullBodyUnifiedRuntimeR329",
+        "MBW_ONE_FULL_BODY_UNIFIED_R329_LOCK"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "ONE_FULL_BODY_BRIDGE_OS",
+      "file": "app/components/MBWOneFullBodyBridgeR329.js",
+      "tokens": [
+        "MBWOneFullBodyBridgeR329",
+        "MBW_ONE_FULL_VISUAL_BODY_BRIDGE_R329_LOCK"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "FULL_BODY_MANIFEST_OS",
+      "file": "app/runtime/MBWFullBodyUnifiedManifestR329.json",
+      "tokens": [
+        "navigator_route_units",
+        "logical_body_units",
+        "discovered_source_family_units"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "CANONICAL_SECTION_NAME_OS",
+      "file": "app/runtime/MBWCanonicalSectionNameMapR329.json",
+      "tokens": [
+        "MAIN HUB",
+        "INNER CIRCLE",
+        "SOCIAL CHAMBER",
+        "NEXT DOOR"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "LOGICAL_SCREEN_MANIFEST_OS",
+      "file": "app/runtime/MBWLogicalScreenManifestR328.json",
+      "tokens": [
+        "MBW_200_PLUS_LOGICAL_SCREEN_PHYSICAL_BODY_LOCK",
+        "one_mbw_full_body_lock"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "LOGICAL_SCREEN_RUNTIME_DECK_OS",
+      "file": "app/runtime/MBW8D50LiveVisualOwner.js",
+      "tokens": [
+        "MBW_200_PLUS_LOGICAL_SCREEN_PHYSICAL_BODY_LOCK",
+        "../components/MBW8D50FullVisualBodyShell"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "USER_SEED_DATA_OS",
+      "file": "app/runtime/MBWRealUserSeedDataR328.json",
+      "tokens": [
+        "MBW_USER_SEED_PHYSICAL_R328_LOCK"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "USER_SEED_LIVE_PRESENCE_OS",
+      "file": "app/runtime/MBW8D50LiveVisualOwner.js",
+      "tokens": [
+        "MBW_USER_SEED_PHYSICAL_R328_LOCK",
+        "../components/MBW8D50FullVisualBodyShell"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "PENTAGRAMSTAR_VISUAL_111_OS",
+      "file": "app/runtime/MBWPentagramStarVisual111.js",
+      "tokens": [
+        "MBW_8D16_PENTAGRAMSTAR_111_VISUAL_OWNER",
+        "PENTAGRAMSTAR_111_COLOR_LOCK",
+        "MBWPentagramStarVisual111"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "PANCHTATVA_LIGHT_VISUAL_OS",
+      "file": "app/runtime/MBWPanchTatvaLightVisualR328.js",
+      "tokens": [
+        "MBW_PANCHTATVA_R328_LOCK",
+        "MBWPanchTatvaLightVisualR328"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "APPLE_ENTRY_MAINHUB_ROUTE_OS",
+      "file": "app/navigation/MBW8D50LiveVisualOwner.js",
+      "tokens": [
+        "CinematicIntro",
+        "GateLocked",
+        "GateOpen",
+        "PathSelection",
+        "SubscriptionSignup",
+        "MainHub"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "APPLE_VISUAL_ROUTES_13_OS",
+      "file": "app/navigation/MBW8D50LiveVisualOwner.js",
+      "tokens": [
+        "MBWAppleV13Games",
+        "MBWAppleV13Kamashastra",
+        "MBWAppleV13Settings",
+        "FloatingIconNode"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "CINEMATIC_INTRO_OS",
+      "file": "app/screens/Entry/CinematicIntroScreen.js",
+      "tokens": [
+        "CinematicIntroScreen"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "GATE_LOCKED_OS",
+      "file": "app/screens/Entry/GateLockedScreen.js",
+      "tokens": [
+        "GateLockedScreen"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "GATE_OPEN_OS",
+      "file": "app/screens/Entry/GateOpenScreen.js",
+      "tokens": [
+        "GateOpenScreen"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "PATH_SELECTION_OS",
+      "file": "app/screens/Entry/PathSelectionScreen.js",
+      "tokens": [
+        "PathSelectionScreen"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "SUBSCRIPTION_SIGNUP_OS",
+      "file": "app/screens/Entry/SubscriptionSignupScreen.js",
+      "tokens": [
+        "SubscriptionSignupScreen"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "MAINHUB_OS",
+      "file": "app/screens/MainHubScreen.js",
+      "tokens": [
+        "MainHubScreen",
+        "MainHub"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "ROUTE_MEDIA_MAP_OS",
+      "file": "app/components/MBWRouteMediaMap.generated.js",
+      "tokens": [
+        "MBW_ROUTE_MEDIA",
+        "MBW_ROUTE_MEDIA_MISSING"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "ARCHIVE_EXPORT_OS",
+      "file": "app/components/MBWArchiveExportOS.js",
+      "tokens": [
+        "MBW_ARCHIVE_EXPORT_OS_11_10"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "ULTRA_ACE_LIVING_MOTION_SIGNATURE_OS",
+      "file": "app/components/MBWUltraAceLivingMotionSignatureFinalOS.js",
+      "tokens": [
+        "MBW_ULTRA_ACE_LIVING_MOTION_SIGNATURE_FINAL_OS"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "MAA_PROTECTION_MOTION_SHELL_OS",
+      "file": "app/components/MAAProtectionMotionShell.js",
+      "tokens": [
+        "MAAProtectionMotionShell"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "PERMISSION_SCOPE_RUNTIME_OS",
+      "file": "app/runtime/MBWPermissionScopeRuntime.js",
+      "tokens": [
+        "MBWPermissionScopeRuntime"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "SECTION_OWNER_REGISTRY_OS",
+      "file": "app/runtime/MBWSectionOwnerRegistry.js",
+      "tokens": [
+        "MBWSectionOwnerRegistry"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "VISIBLE_TEXT_LAW_OS",
+      "file": "app/runtime/MBWVisibleTextLaw.json",
+      "tokens": [
+        "visible"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    },
+    {
+      "name": "VISUAL_LAW_REGISTRY_OS",
+      "file": "app/runtime/MBWVisualLawRegistry.json",
+      "tokens": [
+        "visual"
+      ],
+      "carried_by": "MBWFullBodyUnifiedManifestR329",
+      "visible_on_screen": false
+    }
+  ],
+  "MBW_EXPORT_LAW_TOKEN_BUNDLE_SEAL_R342": {
+    "visibleTextLaw": "MBW_VISIBLE_TEXT_LAW_R341_LOCK",
+    "visualLawRegistry": "MBW_VISUAL_LAW_REGISTRY_R341_LOCK",
+    "carriedBy": "MBWFullBodyUnifiedManifestR329",
+    "bundleRequired": true
+  }
+}

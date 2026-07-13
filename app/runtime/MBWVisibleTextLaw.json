@@ -1,0 +1,8 @@
+{
+  "visible": "MBW_VISIBLE_TEXT_LAW_R341_LOCK",
+  "legacyVisibleWords": "ZERO",
+  "finalScreenVisibleLegacyHitCount": 0,
+  "bodyTextRule": "FLOATING_ICON_BUTTONS_ONLY",
+  "transparentInputCards": "TYPING_ONLY",
+  "debugWordsOnScreen": "NO"
+}

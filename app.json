@@ -1,0 +1,130 @@
+{
+  "expo": {
+    "name": "MBW",
+    "slug": "MBW-App",
+    "owner": "onlyonegod",
+    "version": "1.0.42",
+    "orientation": "portrait",
+    "icon": "./app/assets/mbw_all_pad/ACE_MBW_ICON.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "jsEngine": "hermes",
+    "android": {
+      "package": "com.mbw.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/mbw_all_pad/ACE_MBW_ICON.png",
+        "backgroundColor": "#070304"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "versionCode": 44,
+      "blockedPermissions": [
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.ACTIVITY_RECOGNITION",
+        "android.permission.ADD_VOICEMAIL",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_ADVERTISE",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BODY_SENSORS",
+        "android.permission.BODY_SENSORS_BACKGROUND",
+        "android.permission.CALL_PHONE",
+        "android.permission.CAMERA",
+        "android.permission.GET_ACCOUNTS",
+        "android.permission.MANAGE_EXTERNAL_STORAGE",
+        "android.permission.NEARBY_WIFI_DEVICES",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.PROCESS_OUTGOING_CALLS",
+        "android.permission.QUERY_ALL_PACKAGES",
+        "android.permission.READ_CALENDAR",
+        "android.permission.READ_CALL_LOG",
+        "android.permission.READ_CONTACTS",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.READ_PHONE_STATE",
+        "android.permission.READ_SMS",
+        "android.permission.RECEIVE_MMS",
+        "android.permission.RECEIVE_SMS",
+        "android.permission.RECEIVE_WAP_PUSH",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.SEND_SMS",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.USE_EXACT_ALARM",
+        "android.permission.USE_FULL_SCREEN_INTENT",
+        "android.permission.USE_SIP",
+        "android.permission.UWB_RANGING",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.WRITE_CALL_LOG",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.WRITE_SETTINGS"
+      ],
+      "newArchEnabled": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b31bbd63-075b-4226-9cfc-fd40362d176d"
+      },
+      "mbwReleaseContract": {
+        "mode": "PREVIEW_HARDENED",
+        "legalVersion": "2026-07-13-v1",
+        "productionServicesRequired": [
+          "AUTH",
+          "SMS",
+          "BILLING",
+          "MATCH_CHAT",
+          "LIVE",
+          "MODERATION",
+          "ACCOUNT_DELETE"
+        ]
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow MBW to select one image for AI Poster.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow MBW to use your location for Nearby preview."
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": true
+        }
+      ],
+      "./app/plugins/withMBWRemoveDangerousAndroidPermissions",
+      "./plugins/mbw-android-manifest-hardening"
+    ],
+    "runtimeVersion": "1.0.42",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled": false,
+      "checkAutomatically": "NEVER"
+    },
+    "ios": {
+      "bundleIdentifier": "com.mbw.app"
+    },
+    "splash": {
+      "image": "./app/assets/mbw_all_pad/ACE_MBW_ICON.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    }
+  }
+}

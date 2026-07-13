@@ -1,0 +1,1006 @@
+{
+  "court": "MBW_SOURCE_AZ_COMPLETION_SEAL",
+  "created_by": "24E41O29D",
+  "head": "6218751",
+  "source_az_green": false,
+  "source_no_patch_green": false,
+  "live_az_green": false,
+  "real_mbw_beast_green": false,
+  "versionName": "1.0.42",
+  "versionCode": 44,
+  "build_gate": "CLOSED_BY_ACE_ORDER",
+  "stage_first": true,
+  "production_apk_later": true,
+  "aab_final_later": true,
+  "checks": [
+    {
+      "id": "01",
+      "name": "active root correct",
+      "status": "PASS",
+      "evidence": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW"
+    },
+    {
+      "id": "02",
+      "name": "forbidden old root absent",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "03",
+      "name": "branch correct",
+      "status": "PASS",
+      "evidence": "master"
+    },
+    {
+      "id": "04",
+      "name": "HEAD known",
+      "status": "PASS",
+      "evidence": "6218751"
+    },
+    {
+      "id": "05",
+      "name": "working tree classified",
+      "status": "PASS",
+      "evidence": 29
+    },
+    {
+      "id": "06",
+      "name": "staged files clean",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "07",
+      "name": "node_modules ignored",
+      "status": "PASS",
+      "evidence": [
+        " M app/components/MBWPremiumOracleVisualCore.js",
+        " M app/components/MBWVisibleScreenCore.js",
+        " M app/runtime/MBWScreenOSBridge.js",
+        " M app/runtime/MBWUserPresenceBridge.js",
+        " M app/screens/Entry/CinematicIntroScreen.js",
+        " M app/screens/Entry/GateLockedScreen.js",
+        " M app/screens/Entry/GateOpenScreen.js",
+        " M app/screens/Entry/PathSelectionScreen.js",
+        " M app/screens/Entry/SubscriptionSignupScreen.js",
+        " M app/screens/MainHubScreen.js",
+        " M app/screens/Sections/AIPosterScreen.js",
+        " M app/screens/Sections/GamesScreen.js",
+        " M app/screens/Sections/KamashastraResultScreen.js",
+        " M app/screens/Sections/KamashastraScreen.js",
+        " M app/screens/Sections/LiveLoungeScreen.js",
+        " M app/screens/Sections/MasterOfCoinsScreen.js",
+        " M app/screens/Sections/MasterOfGamesScreen.js",
+        " M app/screens/Sections/MasterOfLifeScreen.js",
+        " M app/screens/Sections/MatchFinalReincarnationScreen.js",
+        " M app/screens/Sections/MatchmakingScreen.js",
+        " M app/screens/Sections/MensLoungeScreen.js",
+        " M app/screens/Sections/MerchandiseScreen.js",
+        " M app/screens/Sections/NearbyScreen.js",
+        " M app/screens/Sections/SettingsScreen.js",
+        " M app/screens/Sections/TravelLocalScreen.js",
+        " M app/screens/Sections/TravelOverseasScreen.js",
+        "?? app/immune/MBW_IMPORT_SHADOW_OWNER_LOCK.json",
+        "?? app/runtime/MBWSafeNavigation.js",
+        "?? app/runtime/MBWSafeUserSeed.js"
+      ]
+    },
+    {
+      "id": "08",
+      "name": ".git internal untouched",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "09",
+      "name": "package main index",
+      "status": "PASS",
+      "evidence": "index.js"
+    },
+    {
+      "id": "10",
+      "name": "app version correct",
+      "status": "PASS",
+      "evidence": {
+        "version": "1.0.42",
+        "runtimeVersion": "1.0.42",
+        "package": "com.mbw.app",
+        "versionCode": 44,
+        "newArchEnabled": false,
+        "hermes": true,
+        "jsc": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "runtime version correct",
+      "status": "PASS",
+      "evidence": {
+        "version": "1.0.42",
+        "runtimeVersion": "1.0.42",
+        "package": "com.mbw.app",
+        "versionCode": 44,
+        "newArchEnabled": false,
+        "hermes": true,
+        "jsc": false
+      }
+    },
+    {
+      "id": "12",
+      "name": "versionCode correct",
+      "status": "PASS",
+      "evidence": {
+        "version": "1.0.42",
+        "runtimeVersion": "1.0.42",
+        "package": "com.mbw.app",
+        "versionCode": 44,
+        "newArchEnabled": false,
+        "hermes": true,
+        "jsc": false
+      }
+    },
+    {
+      "id": "13",
+      "name": "package name correct",
+      "status": "PASS",
+      "evidence": {
+        "version": "1.0.42",
+        "runtimeVersion": "1.0.42",
+        "package": "com.mbw.app",
+        "versionCode": 44,
+        "newArchEnabled": false,
+        "hermes": true,
+        "jsc": false
+      }
+    },
+    {
+      "id": "14",
+      "name": "Hermes active",
+      "status": "PASS",
+      "evidence": {
+        "version": "1.0.42",
+        "runtimeVersion": "1.0.42",
+        "package": "com.mbw.app",
+        "versionCode": 44,
+        "newArchEnabled": false,
+        "hermes": true,
+        "jsc": false
+      }
+    },
+    {
+      "id": "15",
+      "name": "newArch disabled",
+      "status": "PASS",
+      "evidence": {
+        "version": "1.0.42",
+        "runtimeVersion": "1.0.42",
+        "package": "com.mbw.app",
+        "versionCode": 44,
+        "newArchEnabled": false,
+        "hermes": true,
+        "jsc": false
+      }
+    },
+    {
+      "id": "16",
+      "name": "all routes registered",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "17",
+      "name": "shadow owner lock exists",
+      "status": "PASS",
+      "evidence": "app/immune/MBW_IMPORT_SHADOW_OWNER_LOCK.json"
+    },
+    {
+      "id": "18",
+      "name": "navigator imports no shadow",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "19",
+      "name": "visual OS inheritance true",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "20",
+      "name": "all required assets exist",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "21",
+      "name": "asset case safe",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "22",
+      "name": "overlay pointer safe",
+      "status": "P1_PATCH_REQUIRED",
+      "evidence": [
+        {
+          "file": "app/screens/Entry/GateLockedScreen.js",
+          "line": 53
+        },
+        {
+          "file": "app/screens/Entry/PathSelectionScreen.js",
+          "line": 48
+        },
+        {
+          "file": "app/components/MBWPremiumOracleVisualCore.js",
+          "line": 127
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "safe area source marked",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "24",
+      "name": "safe navigation helper exists",
+      "status": "PASS",
+      "evidence": "app/runtime/MBWSafeNavigation.js"
+    },
+    {
+      "id": "25",
+      "name": "safe user seed helper exists",
+      "status": "PASS",
+      "evidence": "app/runtime/MBWSafeUserSeed.js"
+    },
+    {
+      "id": "26",
+      "name": "optional navigate cleared from target screens",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "27",
+      "name": "env risk absent",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "28",
+      "name": "permission timing source clean",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "29",
+      "name": "debug placeholder text absent",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "id": "30",
+      "name": ".easignore active path safe",
+      "status": "PASS",
+      "evidence": ".easignore scan"
+    },
+    {
+      "id": "31",
+      "name": "runtime package expo",
+      "status": "PASS",
+      "evidence": {
+        "resolved": true,
+        "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/expo/package.json",
+        "error": ""
+      }
+    },
+    {
+      "id": "32",
+      "name": "runtime package react",
+      "status": "PASS",
+      "evidence": {
+        "resolved": true,
+        "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/react/package.json",
+        "error": ""
+      }
+    },
+    {
+      "id": "33",
+      "name": "runtime package react-native",
+      "status": "PASS",
+      "evidence": {
+        "resolved": true,
+        "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/react-native/package.json",
+        "error": ""
+      }
+    },
+    {
+      "id": "34",
+      "name": "runtime package expo-av",
+      "status": "PASS",
+      "evidence": {
+        "resolved": true,
+        "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/expo-av/package.json",
+        "error": ""
+      }
+    },
+    {
+      "id": "35",
+      "name": "runtime package babel-preset-expo",
+      "status": "PASS",
+      "evidence": {
+        "resolved": true,
+        "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/babel-preset-expo/package.json",
+        "error": ""
+      }
+    },
+    {
+      "id": "36",
+      "name": "runtime package @babel/parser",
+      "status": "PASS",
+      "evidence": {
+        "resolved": true,
+        "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/@babel/parser/package.json",
+        "error": ""
+      }
+    },
+    {
+      "id": "37",
+      "name": "CinematicIntro file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Entry/CinematicIntroScreen.js"
+    },
+    {
+      "id": "38",
+      "name": "GateLocked file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Entry/GateLockedScreen.js"
+    },
+    {
+      "id": "39",
+      "name": "GateOpen file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Entry/GateOpenScreen.js"
+    },
+    {
+      "id": "40",
+      "name": "PathSelection file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Entry/PathSelectionScreen.js"
+    },
+    {
+      "id": "41",
+      "name": "SubscriptionSignup file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Entry/SubscriptionSignupScreen.js"
+    },
+    {
+      "id": "42",
+      "name": "MainHub file exists",
+      "status": "PASS",
+      "evidence": "app/screens/MainHubScreen.js"
+    },
+    {
+      "id": "43",
+      "name": "MasterOfLife file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MasterOfLifeScreen.js"
+    },
+    {
+      "id": "44",
+      "name": "Matchmaking file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MatchmakingScreen.js"
+    },
+    {
+      "id": "45",
+      "name": "Games file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/GamesScreen.js"
+    },
+    {
+      "id": "46",
+      "name": "MasterOfGames file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MasterOfGamesScreen.js"
+    },
+    {
+      "id": "47",
+      "name": "MasterOfCoins file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MasterOfCoinsScreen.js"
+    },
+    {
+      "id": "48",
+      "name": "TravelLocal file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/TravelLocalScreen.js"
+    },
+    {
+      "id": "49",
+      "name": "TravelOverseas file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/TravelOverseasScreen.js"
+    },
+    {
+      "id": "50",
+      "name": "Merchandise file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MerchandiseScreen.js"
+    },
+    {
+      "id": "51",
+      "name": "Kamashastra file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/KamashastraScreen.js"
+    },
+    {
+      "id": "52",
+      "name": "LiveLounge file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/LiveLoungeScreen.js"
+    },
+    {
+      "id": "53",
+      "name": "MensLounge file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MensLoungeScreen.js"
+    },
+    {
+      "id": "54",
+      "name": "Nearby file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/NearbyScreen.js"
+    },
+    {
+      "id": "55",
+      "name": "AIPoster file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/AIPosterScreen.js"
+    },
+    {
+      "id": "56",
+      "name": "Settings file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/SettingsScreen.js"
+    },
+    {
+      "id": "57",
+      "name": "MatchFinalReincarnation file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MatchFinalReincarnationScreen.js"
+    },
+    {
+      "id": "58",
+      "name": "KamashastraResult file exists",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/KamashastraResultScreen.js"
+    },
+    {
+      "id": "59",
+      "name": "SubscriptionSignup visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Entry/SubscriptionSignupScreen.js"
+    },
+    {
+      "id": "60",
+      "name": "MainHub visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/MainHubScreen.js"
+    },
+    {
+      "id": "61",
+      "name": "MasterOfLife visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MasterOfLifeScreen.js"
+    },
+    {
+      "id": "62",
+      "name": "Matchmaking visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MatchmakingScreen.js"
+    },
+    {
+      "id": "63",
+      "name": "Games visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/GamesScreen.js"
+    },
+    {
+      "id": "64",
+      "name": "MasterOfGames visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MasterOfGamesScreen.js"
+    },
+    {
+      "id": "65",
+      "name": "MasterOfCoins visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MasterOfCoinsScreen.js"
+    },
+    {
+      "id": "66",
+      "name": "TravelLocal visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/TravelLocalScreen.js"
+    },
+    {
+      "id": "67",
+      "name": "TravelOverseas visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/TravelOverseasScreen.js"
+    },
+    {
+      "id": "68",
+      "name": "Merchandise visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MerchandiseScreen.js"
+    },
+    {
+      "id": "69",
+      "name": "Kamashastra visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/KamashastraScreen.js"
+    },
+    {
+      "id": "70",
+      "name": "LiveLounge visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/LiveLoungeScreen.js"
+    },
+    {
+      "id": "71",
+      "name": "MensLounge visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MensLoungeScreen.js"
+    },
+    {
+      "id": "72",
+      "name": "Nearby visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/NearbyScreen.js"
+    },
+    {
+      "id": "73",
+      "name": "AIPoster visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/AIPosterScreen.js"
+    },
+    {
+      "id": "74",
+      "name": "Settings visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/SettingsScreen.js"
+    },
+    {
+      "id": "75",
+      "name": "MatchFinalReincarnation visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/MatchFinalReincarnationScreen.js"
+    },
+    {
+      "id": "76",
+      "name": "KamashastraResult visual body one-owner",
+      "status": "PASS",
+      "evidence": "app/screens/Sections/KamashastraResultScreen.js"
+    },
+    {
+      "id": "77",
+      "name": "CinematicIntro video autoplay flow",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "id": "78",
+      "name": "GateLocked access icon action",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "id": "79",
+      "name": "GateOpen auto path",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "id": "80",
+      "name": "PathSelection route groups",
+      "status": "PASS",
+      "evidence": true
+    },
+    {
+      "id": "81",
+      "name": "Metro cache clear during future build lane",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "82",
+      "name": "EAS cloud upload proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "83",
+      "name": "native expo-av linkage proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "84",
+      "name": "large cinematic memory live proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "85",
+      "name": "tablet safe zone live proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "86",
+      "name": "orientation live proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "87",
+      "name": "APK build proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "88",
+      "name": "APK forensic proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "89",
+      "name": "clean install proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "90",
+      "name": "old app data reset proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "91",
+      "name": "first launch visual proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "92",
+      "name": "second launch visual proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "93",
+      "name": "all screen live recording proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "94",
+      "name": "icon action tap proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "95",
+      "name": "hardware back proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "96",
+      "name": "logcat crash-free proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "97",
+      "name": "performance/memory proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "98",
+      "name": "user acceptance proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "99",
+      "name": "stage APK proof first",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "100",
+      "name": "production APK proof later",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "101",
+      "name": "AAB proof final",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "102",
+      "name": "store readiness proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "103",
+      "name": "privacy permission live proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "104",
+      "name": "release seal proof",
+      "status": "LIVE_PENDING",
+      "evidence": "future live lane"
+    },
+    {
+      "id": "109",
+      "name": "Babel parse all JS",
+      "status": "PASS",
+      "evidence": []
+    }
+  ],
+  "p0": [],
+  "p1": [
+    {
+      "code": "SOURCE_AZ_P1_CHECK",
+      "detail": {
+        "id": "22",
+        "name": "overlay pointer safe",
+        "status": "P1_PATCH_REQUIRED",
+        "evidence": [
+          {
+            "file": "app/screens/Entry/GateLockedScreen.js",
+            "line": 53
+          },
+          {
+            "file": "app/screens/Entry/PathSelectionScreen.js",
+            "line": 48
+          },
+          {
+            "file": "app/components/MBWPremiumOracleVisualCore.js",
+            "line": 127
+          }
+        ]
+      }
+    }
+  ],
+  "warn": [],
+  "info": [
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "81",
+        "name": "Metro cache clear during future build lane",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "82",
+        "name": "EAS cloud upload proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "83",
+        "name": "native expo-av linkage proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "84",
+        "name": "large cinematic memory live proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "85",
+        "name": "tablet safe zone live proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "86",
+        "name": "orientation live proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "87",
+        "name": "APK build proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "88",
+        "name": "APK forensic proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "89",
+        "name": "clean install proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "90",
+        "name": "old app data reset proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "91",
+        "name": "first launch visual proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "92",
+        "name": "second launch visual proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "93",
+        "name": "all screen live recording proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "94",
+        "name": "icon action tap proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "95",
+        "name": "hardware back proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "96",
+        "name": "logcat crash-free proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "97",
+        "name": "performance/memory proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "98",
+        "name": "user acceptance proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "99",
+        "name": "stage APK proof first",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "100",
+        "name": "production APK proof later",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "101",
+        "name": "AAB proof final",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "102",
+        "name": "store readiness proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "103",
+        "name": "privacy permission live proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    },
+    {
+      "code": "LIVE_AZ_PENDING_CHECK",
+      "detail": {
+        "id": "104",
+        "name": "release seal proof",
+        "status": "LIVE_PENDING",
+        "evidence": "future live lane"
+      }
+    }
+  ]
+}

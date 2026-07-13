@@ -1,0 +1,52 @@
+{
+  "court": "MBW_IMPORT_SHADOW_OWNER_LOCK",
+  "created_by": "24E41O29A",
+  "rule": "navigator_must_import_only_active_app_screen_owners",
+  "delete_executed": false,
+  "move_executed": false,
+  "shadow_items": [
+    {
+      "screen_file": "KamashastraResultScreen.js",
+      "active_owner": [
+        "app/screens/Sections/KamashastraResultScreen.js"
+      ],
+      "shadow_files_not_owner": [
+        "src/screens/KamashastraResultScreen.js",
+        "app/screens/Generated208/Kamashastra/KamashastraResultScreen.js"
+      ]
+    },
+    {
+      "screen_file": "MatchFinalReincarnationScreen.js",
+      "active_owner": [
+        "app/screens/Sections/MatchFinalReincarnationScreen.js"
+      ],
+      "shadow_files_not_owner": [
+        "src/screens/MatchFinalReincarnationScreen.js"
+      ]
+    }
+  ],
+  "active_screen_map": {
+    "CinematicIntro": "app/screens/Entry/CinematicIntroScreen.js",
+    "GateLocked": "app/screens/Entry/GateLockedScreen.js",
+    "GateOpen": "app/screens/Entry/GateOpenScreen.js",
+    "PathSelection": "app/screens/Entry/PathSelectionScreen.js",
+    "SubscriptionSignup": "app/screens/Entry/SubscriptionSignupScreen.js",
+    "MainHub": "app/screens/MainHubScreen.js",
+    "MasterOfLife": "app/screens/Sections/MasterOfLifeScreen.js",
+    "Matchmaking": "app/screens/Sections/MatchmakingScreen.js",
+    "Games": "app/screens/Sections/GamesScreen.js",
+    "MasterOfGames": "app/screens/Sections/MasterOfGamesScreen.js",
+    "MasterOfCoins": "app/screens/Sections/MasterOfCoinsScreen.js",
+    "TravelLocal": "app/screens/Sections/TravelLocalScreen.js",
+    "TravelOverseas": "app/screens/Sections/TravelOverseasScreen.js",
+    "Merchandise": "app/screens/Sections/MerchandiseScreen.js",
+    "Kamashastra": "app/screens/Sections/KamashastraScreen.js",
+    "LiveLounge": "app/screens/Sections/LiveLoungeScreen.js",
+    "MensLounge": "app/screens/Sections/MensLoungeScreen.js",
+    "Nearby": "app/screens/Sections/NearbyScreen.js",
+    "AIPoster": "app/screens/Sections/AIPosterScreen.js",
+    "Settings": "app/screens/Sections/SettingsScreen.js",
+    "MatchFinalReincarnation": "app/screens/Sections/MatchFinalReincarnationScreen.js",
+    "KamashastraResult": "app/screens/Sections/KamashastraResultScreen.js"
+  }
+}

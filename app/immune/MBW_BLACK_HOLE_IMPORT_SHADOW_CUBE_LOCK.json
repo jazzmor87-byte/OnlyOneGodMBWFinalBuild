@@ -1,0 +1,69 @@
+{
+  "court": "MBW_BLACK_HOLE_IMPORT_SHADOW_CUBE_LOCK",
+  "head": "6218751",
+  "heart_pump_theory": "SOURCE_IMPORT_ROUTE_VISUAL_OS_POSTER_HEADLINE_ICON_TOUCH_STATE_REPORT",
+  "cube_builder_faces": [
+    "source",
+    "route",
+    "visual",
+    "touch",
+    "runtime",
+    "gate"
+  ],
+  "active_screen_map": {
+    "CinematicIntro": "app/screens/Entry/CinematicIntroScreen.js",
+    "GateLocked": "app/screens/Entry/GateLockedScreen.js",
+    "GateOpen": "app/screens/Entry/GateOpenScreen.js",
+    "PathSelection": "app/screens/Entry/PathSelectionScreen.js",
+    "SubscriptionSignup": "app/screens/Entry/SubscriptionSignupScreen.js",
+    "MainHub": "app/screens/MainHubScreen.js",
+    "MasterOfLife": "app/screens/Sections/MasterOfLifeScreen.js",
+    "Matchmaking": "app/screens/Sections/MatchmakingScreen.js",
+    "Games": "app/screens/Sections/GamesScreen.js",
+    "MasterOfGames": "app/screens/Sections/MasterOfGamesScreen.js",
+    "MasterOfCoins": "app/screens/Sections/MasterOfCoinsScreen.js",
+    "TravelLocal": "app/screens/Sections/TravelLocalScreen.js",
+    "TravelOverseas": "app/screens/Sections/TravelOverseasScreen.js",
+    "Merchandise": "app/screens/Sections/MerchandiseScreen.js",
+    "Kamashastra": "app/screens/Sections/KamashastraScreen.js",
+    "LiveLounge": "app/screens/Sections/LiveLoungeScreen.js",
+    "MensLounge": "app/screens/Sections/MensLoungeScreen.js",
+    "Nearby": "app/screens/Sections/NearbyScreen.js",
+    "AIPoster": "app/screens/Sections/AIPosterScreen.js",
+    "Settings": "app/screens/Sections/SettingsScreen.js",
+    "MatchFinalReincarnation": "app/screens/Sections/MatchFinalReincarnationScreen.js",
+    "KamashastraResult": "app/screens/Sections/KamashastraResultScreen.js"
+  },
+  "shadow_items": [
+    {
+      "screen_file": "KamashastraResultScreen.js",
+      "active": [
+        "app/screens/Sections/KamashastraResultScreen.js"
+      ],
+      "shadows": [
+        "src/screens/KamashastraResultScreen.js",
+        "app/screens/Generated208/Kamashastra/KamashastraResultScreen.js"
+      ]
+    },
+    {
+      "screen_file": "MatchFinalReincarnationScreen.js",
+      "active": [
+        "app/screens/Sections/MatchFinalReincarnationScreen.js"
+      ],
+      "shadows": [
+        "src/screens/MatchFinalReincarnationScreen.js"
+      ]
+    }
+  ],
+  "navigator_shadow_hits_after_heal": [
+    {
+      "screen_file": "KamashastraResultScreen.js",
+      "shadow": "src/screens/KamashastraResultScreen.js"
+    },
+    {
+      "screen_file": "MatchFinalReincarnationScreen.js",
+      "shadow": "src/screens/MatchFinalReincarnationScreen.js"
+    }
+  ],
+  "build_gate": "CLOSED_BY_ACE_ORDER"
+}

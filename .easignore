@@ -1,0 +1,54 @@
+# MBW ARCHIVE SIZE LOCK — COMMAND 11D-5E-R1
+.git
+node_modules
+.expo
+.expo-shared
+.eas
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+*.zip
+*.apk
+*.aab
+*.tar
+*.tgz
+*.gz
+*.7z
+*.rar
+__pycache__/
+**/__pycache__/
+.DS_Store
+# MBW audit/build output
+MBW_FINAL_AUDITS/
+*_AUDIT*/
+*_REPORT*/
+*_RESULT_WALL*/
+tmp/
+temp/
+coverage/
+# current visual owners and copied poster junk
+.expo/
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+src/screens/MatchFinalReincarnationScreen.js
+src/screens/KamashastraResultScreen.js
+# MBW 34A cloud archive custody allowlist
+!app/
+!app/**
+!app/assets/
+!app/assets/**
+!app/assets/cinematic/
+!app/assets/cinematic/mbw_cinematic.mp4
+!package-lock.json
+!app.json
+!eas.json
+# MBW 34C cloud archive custody allowlist
+.git/
+node_modules/
+**/*.apk
+**/*.aab
+**/*.zip

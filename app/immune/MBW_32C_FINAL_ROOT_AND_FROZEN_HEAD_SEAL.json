@@ -1,0 +1,33 @@
+{
+  "court": "MBW_32C_FINAL_ROOT_AND_FROZEN_HEAD_SEAL",
+  "created_by": "24E41O32C",
+  "active_root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "root_name": "ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "old_root_literal_purged": true,
+  "old_root_filename_purged": true,
+  "manifest_rename_executed": true,
+  "source_behavior_changed": false,
+  "metadata_only_changes": true,
+  "build_gate": "CLOSED_BY_ACE_ORDER",
+  "eas_command_printed": false,
+  "eas_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false,
+  "delete_executed": false,
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "large_asset": [
+    {
+      "asset": "app/assets/cinematic/mbw_cinematic.mp4",
+      "bytes": 8037925
+    }
+  ]
+}

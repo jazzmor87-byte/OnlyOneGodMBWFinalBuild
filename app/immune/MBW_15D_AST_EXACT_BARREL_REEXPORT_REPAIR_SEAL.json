@@ -1,0 +1,29 @@
+{
+  "seal": "MBW_15D_AST_EXACT_BARREL_REEXPORT_REPAIR_SEAL",
+  "head_before": "e65d09e",
+  "barrel_owner": "mbw_god_core/index.js",
+  "patch_method": "BABEL_AST_EXACT_EXPORT_DECLARATION_RANGES",
+  "removed_symbols": [
+    "MBW_GOD_SCENES",
+    "MBW_SCENE_REGISTRY_VERSION",
+    "MBW_VISUAL_CONTRACT_VERSION",
+    "listMBWSceneIds"
+  ],
+  "external_consumer_count": 0,
+  "target_source_files_modified": false,
+  "invented_exports_added": false,
+  "fallback_exports_added": false,
+  "tracked_source_count": 309,
+  "parsed_source_count": 309,
+  "parse_bad_count": 0,
+  "missing_target_count": 0,
+  "target_not_indexed_count": 0,
+  "export_mismatch_count": 0,
+  "neglected_import_edge_count": 32,
+  "neglected_ready_edge_count": 32,
+  "delete_executed": false,
+  "move_executed": false,
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

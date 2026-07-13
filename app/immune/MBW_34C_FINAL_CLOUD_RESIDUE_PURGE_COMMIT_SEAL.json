@@ -1,0 +1,38 @@
+{
+  "court": "MBW_34C_FINAL_CLOUD_RESIDUE_PURGE_COMMIT_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "4d75bc8",
+  "profile_spec_patched": [
+    "app/immune/MBW_31C_FINAL_APK_MATCH_PREBUILD_SEAL.json",
+    "app/immune/MBW_33S_PROFILE_POSTER_IMPORT_BRIDGE_SEAL.json",
+    "app/immune/MBW_33V_METRO_FAMILY_IMPORT_COURT_REPAIR_SEAL.json",
+    "app/immune/MBW_BLACK_HOLE_SOURCE_AZ_FINAL_SEAL.json",
+    "app/immune/MBW_ULTRA_WIDE_PREBUILD_APK_MATCH_SEAL.json",
+    "app/runtime/MBWGeneratedRouteRegistry.js"
+  ],
+  "obsolete_version_patched": [
+    "app/immune/MBW_34A_CLOUD_ARCHIVE_POISON_REPAIR_SEAL.json",
+    "app/immune/MBW_34B_RUNTIME_REGISTRY_PROFILE_IMPORT_RESIDUE_SEAL.json"
+  ],
+  "old_profile_hits_after": [],
+  "missing_imports_after": [],
+  "obsolete_version_hits_after": [],
+  "harmful_easignore_hits_after": [],
+  "critical_missing_after": [],
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "npm_ci_dry_run_rc": 0,
+  "babel_parse_rc": 0,
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false
+}

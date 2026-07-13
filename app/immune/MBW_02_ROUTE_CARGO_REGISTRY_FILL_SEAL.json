@@ -1,0 +1,26 @@
+{
+  "seal": "MBW_02_ROUTE_CARGO_REGISTRY_FILL_SEAL",
+  "route_count": 21,
+  "cargo_groups": [
+    "ROUTE_IDENTITY",
+    "HEADLINE",
+    "ICON_BUTTON",
+    "POSTER_BACKGROUND",
+    "PENTAGRAM_STAR",
+    "PANCHTATVA",
+    "MOTION",
+    "LOGIC_HANDSHAKE",
+    "ACCESS_GATE_STATE",
+    "LAYER_SAFETY",
+    "PUBLIC_TEXT_LAW",
+    "RESULT_PRESENTATION",
+    "SCREEN_FAMILY",
+    "ASSET_HEALTH",
+    "FINAL_PROOF"
+  ],
+  "missing_cargo_before": 1888,
+  "target_missing_cargo_after": 0,
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

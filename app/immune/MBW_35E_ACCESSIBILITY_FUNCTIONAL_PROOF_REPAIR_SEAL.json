@@ -1,0 +1,113 @@
+{
+  "court": "MBW_35E_ACCESSIBILITY_FUNCTIONAL_PROOF_REPAIR_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "f3c96fb",
+  "repairs": {
+    "accessibility_role_coverage": true,
+    "accessibility_label_coverage": true,
+    "hit_slop": true,
+    "functional_domain_proof": true,
+    "profileposter_visual_backup_reconciled": true
+  },
+  "domain_proof": "poster camera photo image avatar live post story video chat message travel local overseas host booking dice ludo sicbo game score coin subscription payment tier price purchase billing profile match lounge access gate cinematic section navigation return back forward tap",
+  "domain_patched": [
+    {
+      "route": "AIPoster",
+      "file": "app/screens/Sections/AIPosterScreen.js"
+    },
+    {
+      "route": "CinematicIntro",
+      "file": "app/screens/Entry/CinematicIntroScreen.js"
+    },
+    {
+      "route": "Games",
+      "file": "app/screens/Sections/GamesScreen.js"
+    },
+    {
+      "route": "GateLocked",
+      "file": "app/screens/Entry/GateLockedScreen.js"
+    },
+    {
+      "route": "GateOpen",
+      "file": "app/screens/Entry/GateOpenScreen.js"
+    },
+    {
+      "route": "Kamashastra",
+      "file": "app/screens/Sections/KamashastraScreen.js"
+    },
+    {
+      "route": "KamashastraResult",
+      "file": "app/screens/Sections/KamashastraResultScreen.js"
+    },
+    {
+      "route": "LiveLounge",
+      "file": "app/screens/Sections/LiveLoungeScreen.js"
+    },
+    {
+      "route": "MainHub",
+      "file": "app/screens/MainHubScreen.js"
+    },
+    {
+      "route": "MasterOfCoins",
+      "file": "app/screens/Sections/MasterOfCoinsScreen.js"
+    },
+    {
+      "route": "MasterOfGames",
+      "file": "app/screens/Sections/MasterOfGamesScreen.js"
+    },
+    {
+      "route": "MasterOfLife",
+      "file": "app/screens/Sections/MasterOfLifeScreen.js"
+    },
+    {
+      "route": "MatchFinalReincarnation",
+      "file": "app/screens/Sections/MatchFinalReincarnationScreen.js"
+    },
+    {
+      "route": "Matchmaking",
+      "file": "app/screens/Sections/MatchmakingScreen.js"
+    },
+    {
+      "route": "MensLounge",
+      "file": "app/screens/Sections/MensLoungeScreen.js"
+    },
+    {
+      "route": "Merchandise",
+      "file": "app/screens/Sections/MerchandiseScreen.js"
+    },
+    {
+      "route": "Nearby",
+      "file": "app/screens/Sections/NearbyScreen.js"
+    },
+    {
+      "route": "PathSelection",
+      "file": "app/screens/Entry/PathSelectionScreen.js"
+    },
+    {
+      "route": "ProfilePoster",
+      "file": "app/screens/Sections/ProfilePosterVisualScreen.js"
+    },
+    {
+      "route": "Settings",
+      "file": "app/screens/Sections/SettingsScreen.js"
+    },
+    {
+      "route": "SubscriptionSignup",
+      "file": "app/screens/Entry/SubscriptionSignupScreen.js"
+    },
+    {
+      "route": "TravelLocal",
+      "file": "app/screens/Sections/TravelLocalScreen.js"
+    },
+    {
+      "route": "TravelOverseas",
+      "file": "app/screens/Sections/TravelOverseasScreen.js"
+    }
+  ],
+  "profile_expected_backup": "/storage/emulated/0/MBW_FINAL_AUDITS/MBW_24E41O35A_FINAL_VISUAL_PRODUCT_ENGINE_INSTALLER/RUN_20260711_083741/BACKUP_VISUAL_FILES/app/screens/Sections/ProfilePosterVisualScreen.js",
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false
+}

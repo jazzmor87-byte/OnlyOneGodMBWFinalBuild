@@ -1,0 +1,29 @@
+{
+  "court": "MBW_35C_DEEP_RESEARCH_VISUAL_MICRO_ISSUE_LEDGER",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "17bd7e1",
+  "issues_closed": {
+    "aiposter_profileposter_shared_route_owner": true,
+    "basic_big_pill_menu_shell": true,
+    "large_section_chamber_box": true,
+    "path_selection_major_gate_blocks": true,
+    "cinematic_bottom_box": true,
+    "asset_registry_40_asset_require_proof": true,
+    "accessibility_roles_on_pressables": true,
+    "final_visual_markers": true,
+    "old_visual_tokens_removed_from_wrappers": true,
+    "source_parse_and_npm_ci_gate": true
+  },
+  "still_requires_after_build": {
+    "apk_manifest_forensic": true,
+    "apk_visual_bundle_forensic": true,
+    "live_screenshot_proof": true,
+    "live_tap_navigation_proof": true,
+    "live_logcat_proof": true
+  },
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false
+}

@@ -1,0 +1,14 @@
+{
+  "seal": "MBW_05_ASSET_POSTER_BINDING_CLEAN_PATCH_SEAL",
+  "route_count": 21,
+  "poster_binding_driver": true,
+  "global_driver_binding_resolver": true,
+  "fallback_forbidden": true,
+  "public_tiny_asset_forbidden": true,
+  "broken_asset_forbidden": true,
+  "app_icon_excluded_from_poster_body": true,
+  "cinematic_video_reserved_for_cinematic_intro": true,
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

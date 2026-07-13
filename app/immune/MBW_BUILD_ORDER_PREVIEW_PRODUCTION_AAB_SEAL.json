@@ -1,0 +1,16 @@
+{
+  "court": "MBW_BUILD_ORDER_FINAL_STAGE_PRODUCTION_AAB_SEAL",
+  "created_by": "24E41O30D",
+  "versionName": "1.0.42",
+  "versionCode": 44,
+  "build_order": [
+    "FINAL_STAGE_APK_FIRST",
+    "PRODUCTION_APK_SECOND",
+    "AAB_FINAL_THIRD"
+  ],
+  "build_gate": "CLOSED_BY_ACE_ORDER",
+  "eas_command_printed": false,
+  "eas_executed": false,
+  "heart_pump_theory": "SOURCE_IMPORT_ROUTE_VISUAL_OS_POSTER_HEADLINE_ICON_TOUCH_STATE_REPORT",
+  "cube_builder": "CLOUD_APK_READINESS_DARK_MATTER"
+}

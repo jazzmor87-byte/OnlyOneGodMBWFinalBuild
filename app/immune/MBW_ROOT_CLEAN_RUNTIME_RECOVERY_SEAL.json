@@ -1,0 +1,105 @@
+{
+  "status": "MBW_ROOT_CLEAN_RUNTIME_RECOVERY_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "287ca82",
+  "cleaned": [
+    {
+      "path": "src/mbw_runtime/MBWRuntimeOS.js",
+      "git_restore_rc": 0,
+      "git_restore_out": ""
+    },
+    {
+      "path": "src/mbw_runtime/MBWRuntimeRoot.js",
+      "git_restore_rc": 0,
+      "git_restore_out": ""
+    },
+    {
+      "path": "src/mbw_runtime/MBWVisualBoundary.js",
+      "git_restore_rc": 0,
+      "git_restore_out": ""
+    },
+    {
+      "path": "app/immune/MBW_FRESH_WRITE_RUNTIME_OS_INSTALLER_SEAL.json",
+      "quarantine": "/storage/emulated/0/MBW_FINAL_AUDITS/MBW_ROOT_CLEAN_AND_RUNTIME_RECOVERY_COURT/RUN_20260711_094300/FAILED_INSTALLER_QUARANTINE/app/immune/MBW_FRESH_WRITE_RUNTIME_OS_INSTALLER_SEAL.json",
+      "controlled_remove": true
+    },
+    {
+      "path": "core/ai",
+      "quarantine": "/storage/emulated/0/MBW_FINAL_AUDITS/MBW_ROOT_CLEAN_AND_RUNTIME_RECOVERY_COURT/RUN_20260711_094300/FAILED_INSTALLER_QUARANTINE/core/ai",
+      "controlled_remove": true
+    },
+    {
+      "path": "core/graph",
+      "quarantine": "/storage/emulated/0/MBW_FINAL_AUDITS/MBW_ROOT_CLEAN_AND_RUNTIME_RECOVERY_COURT/RUN_20260711_094300/FAILED_INSTALLER_QUARANTINE/core/graph",
+      "controlled_remove": true
+    },
+    {
+      "path": "core/runtime",
+      "quarantine": "/storage/emulated/0/MBW_FINAL_AUDITS/MBW_ROOT_CLEAN_AND_RUNTIME_RECOVERY_COURT/RUN_20260711_094300/FAILED_INSTALLER_QUARANTINE/core/runtime",
+      "controlled_remove": true
+    }
+  ],
+  "fixes": [
+    {
+      "file": "index.js",
+      "action": "entry_reconnected_to_MBWRuntimeRoot",
+      "before_sha256": "3cc816440c81db1b45a7d796c25ee6b45e19cfa2d64f1f934e42b1384c82d90b",
+      "after_sha256": "1c2e93007152b32d06cedb41a612f9f201c477b26236ccbb716e86d4bc0b49e1"
+    },
+    {
+      "file": "core/graph/mbwGraphStore.js",
+      "action": "fresh_graph_store_written",
+      "before_sha256": null,
+      "after_sha256": "48c4df1e901da1e7267f8c4b959466b5e2e24971be11658274a1c4e45a0e8992"
+    },
+    {
+      "file": "core/ai/mbwAIConnector.js",
+      "action": "fresh_ai_connector_written",
+      "before_sha256": null,
+      "after_sha256": "a09d119cf0b540ef6a0f34b9f6c67a5198bd9218658f8267a0fb67e3d6420732"
+    },
+    {
+      "file": "core/runtime/lifecycleKernel.js",
+      "action": "fresh_lifecycle_kernel_written",
+      "before_sha256": null,
+      "after_sha256": "3c3e83bdf0487d9e756177dac642e3994507dd9365579a007c3f557f82dc2a8f"
+    },
+    {
+      "file": "src/mbw_runtime/MBWRuntimeOS.js",
+      "action": "fresh_runtime_os_written",
+      "before_sha256": "a46f0dfc94235d26b9d3935c8075ec20d6787914b6e734de82d5f3c1188336ba",
+      "after_sha256": "1860b55597915d39f200699528fad653cb8bde3fe4bb3d0c4312df0e1c66a15c"
+    },
+    {
+      "file": "src/mbw_runtime/MBWVisualBoundary.js",
+      "action": "fresh_visual_boundary_written",
+      "before_sha256": "810baf126c7b98646c22447c67c53b597001a7391d945d54c877c3e46d546804",
+      "after_sha256": "35eceb2ffeceb8ddd6a448b4f4d400cc8bcd0d7f85b675276a28a9eaddb9eb5c"
+    },
+    {
+      "file": "src/mbw_runtime/MBWRuntimeRoot.js",
+      "action": "fresh_runtime_root_written",
+      "before_sha256": "7c0e044708b9e278c47a1cce3486d78c900acc76796389151389dfd5f0b7492e",
+      "after_sha256": "8afbfbf71624b8047b63c3d1318b87104422203b220f19598ba2da3ff06bf0e6"
+    }
+  ],
+  "active_terms": {
+    "MBWRuntimeRoot": true,
+    "MBWRuntimeOS": true,
+    "MBWVisualBoundary": true,
+    "PanchTatva": true,
+    "Pentagram": true,
+    "registerRootComponent": true,
+    "OldRootImportRejected": true
+  },
+  "active_graph_file_count": 35,
+  "missing_imports": [],
+  "escapes": [],
+  "parse_result": {
+    "ok": true,
+    "parsed": 7,
+    "failed": 0,
+    "failures": []
+  },
+  "visible_text_risk": []
+}

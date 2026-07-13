@@ -1,0 +1,20 @@
+{
+  "seal": "MBW_8_COMMAND_FINAL_VISUAL_HEAL_SEAL",
+  "source_head": "ec22f63",
+  "checks": {
+    "one_visual_body": true,
+    "canonical_poster_registry": true,
+    "route_count_21": true,
+    "global_star_zero_disabled": true,
+    "motion_kernel_live": true,
+    "user_seed_live": true,
+    "identity_name": true,
+    "hermes": true,
+    "new_arch_off": true,
+    "root_clean_before_seal": true
+  },
+  "remaining_duplicate_group_count": 0,
+  "build_executed": false,
+  "apk_proof_pending": true,
+  "runtime_visual_proof_pending": true
+}

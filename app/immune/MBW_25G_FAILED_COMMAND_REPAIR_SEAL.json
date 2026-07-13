@@ -1,0 +1,64 @@
+{
+  "status": "MBW_25G_FAILED_COMMAND_REPAIR_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "165ffcc",
+  "active_terms": {
+    "MBWRuntimeRoot": true,
+    "MBWRuntimeOS": true,
+    "MBWVisualBoundary": true,
+    "TripleCoreSentinel": true,
+    "PremiumRuntimeGreenSystem": true,
+    "SelfRepairRuntimeMode": true,
+    "V16LivingVisualOSMapper": true,
+    "VisualBodyInheritanceCore": true,
+    "APKSealLayer": true,
+    "MBWExactVisualStandard": true,
+    "MBWPublicCleanExperience": true,
+    "MBWFirstRunJourneyContract": true,
+    "MBWPermissionProofContract": true,
+    "MBWCompletionCubeBuilder": true
+  },
+  "public_poison_allowlist": [
+    "core/apk/APKSealLayer.js",
+    "core/public/MBWPublicCleanExperience.js"
+  ],
+  "public_hits_outside_allowlist": {},
+  "fixes": [
+    {
+      "file": "core/visual/MBWExactVisualStandard.js",
+      "action": "exact_visual_standard_written",
+      "before_sha256": null,
+      "after_sha256": "5cd48faa6bbf0408818f178d66536301e807e0bc1f91030a469a890bffcb4c1b"
+    },
+    {
+      "file": "core/public/MBWPublicCleanExperience.js",
+      "action": "public_clean_experience_written",
+      "before_sha256": null,
+      "after_sha256": "419d975f026ba3782483f1e763e2e3034faf9743ed748238c2776b104b23946d"
+    },
+    {
+      "file": "core/runtime/MBWFirstRunJourneyContract.js",
+      "action": "first_run_journey_contract_written",
+      "before_sha256": null,
+      "after_sha256": "a3d24fda8a8e490ba6ba7d42947b13ef448152a8af8417eb0c849c7b46db9af8"
+    },
+    {
+      "file": "core/runtime/MBWPermissionProofContract.js",
+      "action": "permission_proof_contract_written",
+      "before_sha256": null,
+      "after_sha256": "fc15abd5fb94731b4617f249380fe7910b1722c3b5eac1c3cf5832f04c16b0bd"
+    },
+    {
+      "file": "core/cube/MBWCompletionCubeBuilder.js",
+      "action": "completion_cube_builder_written",
+      "before_sha256": null,
+      "after_sha256": "c999b57982688080c7da209a9208badd4777e996f7282ec584f519ba1062ed31"
+    },
+    {
+      "file": "src/mbw_runtime/MBWRuntimeOS.js",
+      "action": "runtime_os_connected_to_25g_missing_completion_terms",
+      "before_sha256": "92179b9455a03fd34130cf0a251d2fad66ac3a1c5025e4ba72c296b3f42ebc15",
+      "after_sha256": "d25a53961eceb01723a6bfdbd178325a8136b7dc42b56187858502fc2606d47f"
+    }
+  ]
+}

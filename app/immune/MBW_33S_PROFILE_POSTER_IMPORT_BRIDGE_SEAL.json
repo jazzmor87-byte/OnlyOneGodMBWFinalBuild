@@ -1,0 +1,32 @@
+{
+  "court": "MBW_33S_PROFILE_POSTER_IMPORT_BRIDGE_SEAL",
+  "created_by": "24E41O33S",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "f0af0e5",
+  "build_failure_healed": "Unable to resolve module ../screens/Sections/AIPosterScreen",
+  "bridge_file": "app/screens/Sections/ProfilePosterScreen.js",
+  "bridge_target": "app/screens/Sections/AIPosterScreen.js",
+  "resolved_profile_import": "app/screens/Sections/ProfilePosterScreen.js",
+  "source_behavior": "ProfilePoster route resolves to AIPosterScreen owner",
+  "fallback_screen_created": false,
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false,
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "large_asset": [
+    {
+      "asset": "app/assets/cinematic/mbw_cinematic.mp4",
+      "bytes": 8037925
+    }
+  ]
+}

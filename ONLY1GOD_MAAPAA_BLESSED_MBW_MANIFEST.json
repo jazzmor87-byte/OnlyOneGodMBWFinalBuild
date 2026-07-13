@@ -1,0 +1,4170 @@
+{
+  "mirror_name": "ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "created_from_root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head": "907d45d",
+  "dirty_source_carried": [
+    " M app/assets/cinematic/mbw_cinematic.mp4",
+    " M app/runtime/MBWVisualAssetRegistry.js",
+    " M app/screens/Entry/CinematicIntroScreen.js",
+    " M app/screens/OS/MBWOSRuntimeCarryScreen.js"
+  ],
+  "file_count": 829,
+  "bytes": 128156879,
+  "excluded": [
+    ".git",
+    "node_modules",
+    ".gradle",
+    "build",
+    ".cxx",
+    ".expo",
+    "dist",
+    "web-build"
+  ],
+  "copy_rows": [
+    {
+      "source": "App.js",
+      "mirror": "App.js",
+      "bytes": 1457
+    },
+    {
+      "source": "index.js",
+      "mirror": "index.js",
+      "bytes": 473
+    },
+    {
+      "source": "app.json",
+      "mirror": "app.json",
+      "bytes": 3293
+    },
+    {
+      "source": "package.json",
+      "mirror": "package.json",
+      "bytes": 854
+    },
+    {
+      "source": "package-lock.json",
+      "mirror": "package-lock.json",
+      "bytes": 469287
+    },
+    {
+      "source": "babel.config.js",
+      "mirror": "babel.config.js",
+      "bytes": 100
+    },
+    {
+      "source": "metro.config.js",
+      "mirror": "metro.config.js",
+      "bytes": 105
+    },
+    {
+      "source": "app/components/MBW8D50FullVisualBodyShell.js",
+      "mirror": "app/components/MBW8D50FullVisualBodyShell.js",
+      "bytes": 891
+    },
+    {
+      "source": "app/components/MBWOneBabyScreenSurface.js",
+      "mirror": "app/components/MBWOneBabyScreenSurface.js",
+      "bytes": 885
+    },
+    {
+      "source": "app/components/MBWVisualBodyFrame.js",
+      "mirror": "app/components/MBWVisualBodyFrame.js",
+      "bytes": 571
+    },
+    {
+      "source": "app/components/MBWFloatingIconButton.js",
+      "mirror": "app/components/MBWFloatingIconButton.js",
+      "bytes": 1753
+    },
+    {
+      "source": "app/components/MBWSingleAppVisualBody.js",
+      "mirror": "app/components/MBWSingleAppVisualBody.js",
+      "bytes": 6475
+    },
+    {
+      "source": "app/components/MBWScreenGuard.js",
+      "mirror": "app/components/MBWScreenGuard.js",
+      "bytes": 1617
+    },
+    {
+      "source": "app/navigation/MBWStaticRouteRegistryProof.jsx",
+      "mirror": "app/navigation/MBWStaticRouteRegistryProof.jsx",
+      "bytes": 415
+    },
+    {
+      "source": "app/navigation/AppNavigator.js",
+      "mirror": "app/navigation/AppNavigator.js",
+      "bytes": 3587
+    },
+    {
+      "source": "app/screens/MainHubScreen.js",
+      "mirror": "app/screens/MainHubScreen.js",
+      "bytes": 3738
+    },
+    {
+      "source": "app/runtime/MBWFinalProductLawR329.js",
+      "mirror": "app/runtime/MBWFinalProductLawR329.js",
+      "bytes": 985
+    },
+    {
+      "source": "app/runtime/MBWGlobalBlockedPermissionsR329.js",
+      "mirror": "app/runtime/MBWGlobalBlockedPermissionsR329.js",
+      "bytes": 959
+    },
+    {
+      "source": "app/runtime/MBWOrbitUniverseSignalBridge.js",
+      "mirror": "app/runtime/MBWOrbitUniverseSignalBridge.js",
+      "bytes": 2085
+    },
+    {
+      "source": "app/runtime/MBWOneAppVisualRegistry.js",
+      "mirror": "app/runtime/MBWOneAppVisualRegistry.js",
+      "bytes": 758
+    },
+    {
+      "source": "app/runtime/MBWVisualAssetRegistry.js",
+      "mirror": "app/runtime/MBWVisualAssetRegistry.js",
+      "bytes": 29279
+    },
+    {
+      "source": "app/runtime/MBWGeneratedRouteRegistry.js",
+      "mirror": "app/runtime/MBWGeneratedRouteRegistry.js",
+      "bytes": 73391
+    },
+    {
+      "source": "app/runtime/MBWUserPresenceBridge.js",
+      "mirror": "app/runtime/MBWUserPresenceBridge.js",
+      "bytes": 2148
+    },
+    {
+      "source": "app/runtime/MBWPosterOwnerContract.json",
+      "mirror": "app/runtime/MBWPosterOwnerContract.json",
+      "bytes": 5721
+    },
+    {
+      "source": "app/runtime/MBWAll208PlusScreenRegistryR329.json",
+      "mirror": "app/runtime/MBWAll208PlusScreenRegistryR329.json",
+      "bytes": 80468
+    },
+    {
+      "source": "app/runtime/MBWPosterPathSelection8D9.json",
+      "mirror": "app/runtime/MBWPosterPathSelection8D9.json",
+      "bytes": 1249
+    },
+    {
+      "source": "app/runtime/MBWVisualApprovedPosterMap8D13.json",
+      "mirror": "app/runtime/MBWVisualApprovedPosterMap8D13.json",
+      "bytes": 1319
+    },
+    {
+      "source": "app/runtime/MBWVisualApprovedPosterMap8D13.proof.json",
+      "mirror": "app/runtime/MBWVisualApprovedPosterMap8D13.proof.json",
+      "bytes": 3193
+    },
+    {
+      "source": "app/runtime/MBWScreenOSBridge.js",
+      "mirror": "app/runtime/MBWScreenOSBridge.js",
+      "bytes": 3452
+    },
+    {
+      "source": "app/runtime/MBWQBuilderVisualLaw.js",
+      "mirror": "app/runtime/MBWQBuilderVisualLaw.js",
+      "bytes": 3274
+    },
+    {
+      "source": "app/runtime/MBWRealUserSeedDataR328.json",
+      "mirror": "app/runtime/MBWRealUserSeedDataR328.json",
+      "bytes": 1415
+    },
+    {
+      "source": "app/runtime/MBWLogicalScreenManifestR328.json",
+      "mirror": "app/runtime/MBWLogicalScreenManifestR328.json",
+      "bytes": 121757
+    },
+    {
+      "source": "app/runtime/MBWScreenLogicBridge.js",
+      "mirror": "app/runtime/MBWScreenLogicBridge.js",
+      "bytes": 4770
+    },
+    {
+      "source": "app/runtime/MBWCanonicalSectionNameMapR329.json",
+      "mirror": "app/runtime/MBWCanonicalSectionNameMapR329.json",
+      "bytes": 3214
+    },
+    {
+      "source": "app/runtime/MBWFullBodyUnifiedManifestR329.json",
+      "mirror": "app/runtime/MBWFullBodyUnifiedManifestR329.json",
+      "bytes": 165201
+    },
+    {
+      "source": "app/runtime/MBWVisibleTextLaw.json",
+      "mirror": "app/runtime/MBWVisibleTextLaw.json",
+      "bytes": 243
+    },
+    {
+      "source": "app/runtime/MBWVisualLawRegistry.json",
+      "mirror": "app/runtime/MBWVisualLawRegistry.json",
+      "bytes": 249
+    },
+    {
+      "source": "app/plugins/withMBWRemoveDangerousAndroidPermissions.js",
+      "mirror": "app/plugins/withMBWRemoveDangerousAndroidPermissions.js",
+      "bytes": 1649
+    },
+    {
+      "source": "app/screens/Entry/CinematicIntroScreen.js",
+      "mirror": "app/screens/Entry/CinematicIntroScreen.js",
+      "bytes": 5934
+    },
+    {
+      "source": "app/screens/Entry/GateLockedScreen.js",
+      "mirror": "app/screens/Entry/GateLockedScreen.js",
+      "bytes": 3864
+    },
+    {
+      "source": "app/screens/Entry/GateOpenScreen.js",
+      "mirror": "app/screens/Entry/GateOpenScreen.js",
+      "bytes": 3798
+    },
+    {
+      "source": "app/screens/Entry/PathSelectionScreen.js",
+      "mirror": "app/screens/Entry/PathSelectionScreen.js",
+      "bytes": 3963
+    },
+    {
+      "source": "app/screens/Entry/SubscriptionSignupScreen.js",
+      "mirror": "app/screens/Entry/SubscriptionSignupScreen.js",
+      "bytes": 4128
+    },
+    {
+      "source": "app/screens/Sections/GamesScreen.js",
+      "mirror": "app/screens/Sections/GamesScreen.js",
+      "bytes": 3698
+    },
+    {
+      "source": "app/screens/Sections/KamashastraScreen.js",
+      "mirror": "app/screens/Sections/KamashastraScreen.js",
+      "bytes": 3896
+    },
+    {
+      "source": "app/screens/Sections/LiveLoungeScreen.js",
+      "mirror": "app/screens/Sections/LiveLoungeScreen.js",
+      "bytes": 3906
+    },
+    {
+      "source": "app/screens/Sections/MasterOfCoinsScreen.js",
+      "mirror": "app/screens/Sections/MasterOfCoinsScreen.js",
+      "bytes": 4005
+    },
+    {
+      "source": "app/screens/Sections/MasterOfLifeScreen.js",
+      "mirror": "app/screens/Sections/MasterOfLifeScreen.js",
+      "bytes": 3972
+    },
+    {
+      "source": "app/screens/Sections/MatchmakingScreen.js",
+      "mirror": "app/screens/Sections/MatchmakingScreen.js",
+      "bytes": 3939
+    },
+    {
+      "source": "app/screens/Sections/MensLoungeScreen.js",
+      "mirror": "app/screens/Sections/MensLoungeScreen.js",
+      "bytes": 3906
+    },
+    {
+      "source": "app/screens/Sections/MerchandiseScreen.js",
+      "mirror": "app/screens/Sections/MerchandiseScreen.js",
+      "bytes": 3896
+    },
+    {
+      "source": "app/screens/Sections/NearbyScreen.js",
+      "mirror": "app/screens/Sections/NearbyScreen.js",
+      "bytes": 3774
+    },
+    {
+      "source": "app/screens/Sections/ProfilePosterScreen.js",
+      "mirror": "app/screens/Sections/ProfilePosterScreen.js",
+      "bytes": 3993
+    },
+    {
+      "source": "app/screens/Sections/SettingsScreen.js",
+      "mirror": "app/screens/Sections/SettingsScreen.js",
+      "bytes": 3797
+    },
+    {
+      "source": "app/screens/Sections/TravelLocalScreen.js",
+      "mirror": "app/screens/Sections/TravelLocalScreen.js",
+      "bytes": 3939
+    },
+    {
+      "source": "app/screens/Sections/TravelOverseasScreen.js",
+      "mirror": "app/screens/Sections/TravelOverseasScreen.js",
+      "bytes": 4038
+    },
+    {
+      "source": "app/screens/OS/MBWOSRuntimeCarryScreen.js",
+      "mirror": "app/screens/OS/MBWOSRuntimeCarryScreen.js",
+      "bytes": 2224
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesOverviewScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesOverviewScreen.js",
+      "bytes": 3956
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesEntryScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesEntryScreen.js",
+      "bytes": 3884
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesActionScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesActionScreen.js",
+      "bytes": 3908
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesStateScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesStateScreen.js",
+      "bytes": 3884
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesResultScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesResultScreen.js",
+      "bytes": 3908
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesReturnScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesReturnScreen.js",
+      "bytes": 3908
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesSeedScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesSeedScreen.js",
+      "bytes": 3860
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesPosterScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesPosterScreen.js",
+      "bytes": 3908
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesMotionScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesMotionScreen.js",
+      "bytes": 3908
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesPanchTatvaScreen.js",
+      "bytes": 4004
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesButtonsScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesButtonsScreen.js",
+      "bytes": 3932
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesAssetsScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesAssetsScreen.js",
+      "bytes": 3908
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesVaultScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesVaultScreen.js",
+      "bytes": 3884
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesLogicScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesLogicScreen.js",
+      "bytes": 3884
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesLiveScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesLiveScreen.js",
+      "bytes": 3860
+    },
+    {
+      "source": "app/screens/Generated208/Games/GamesProofScreen.js",
+      "mirror": "app/screens/Generated208/Games/GamesProofScreen.js",
+      "bytes": 3884
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraOverviewScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraOverviewScreen.js",
+      "bytes": 4148
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraEntryScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraEntryScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraActionScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraActionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraStateScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraStateScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraResultScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraResultScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraReturnScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraReturnScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraSeedScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraSeedScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraPosterScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraPosterScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraMotionScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraMotionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraPanchTatvaScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraButtonsScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraButtonsScreen.js",
+      "bytes": 4124
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraAssetsScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraAssetsScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraVaultScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraVaultScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraLogicScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraLogicScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraLiveScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraLiveScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/Kamashastra/KamashastraProofScreen.js",
+      "mirror": "app/screens/Generated208/Kamashastra/KamashastraProofScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeOverviewScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeOverviewScreen.js",
+      "bytes": 4116
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeEntryScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeEntryScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeActionScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeActionScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeStateScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeStateScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeResultScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeResultScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeReturnScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeReturnScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeSeedScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeSeedScreen.js",
+      "bytes": 4020
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungePosterScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungePosterScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeMotionScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeMotionScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungePanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungePanchTatvaScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeButtonsScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeButtonsScreen.js",
+      "bytes": 4092
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeAssetsScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeAssetsScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeVaultScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeVaultScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeLogicScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeLogicScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeLiveScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeLiveScreen.js",
+      "bytes": 4020
+    },
+    {
+      "source": "app/screens/Generated208/LiveLounge/LiveLoungeProofScreen.js",
+      "mirror": "app/screens/Generated208/LiveLounge/LiveLoungeProofScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsOverviewScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsOverviewScreen.js",
+      "bytes": 4212
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsEntryScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsEntryScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsActionScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsActionScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsStateScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsStateScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsResultScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsResultScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsReturnScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsReturnScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsSeedScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsSeedScreen.js",
+      "bytes": 4116
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsPosterScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsPosterScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsMotionScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsMotionScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsPanchTatvaScreen.js",
+      "bytes": 4260
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsButtonsScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsButtonsScreen.js",
+      "bytes": 4188
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsAssetsScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsAssetsScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsVaultScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsVaultScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsLogicScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsLogicScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsLiveScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsLiveScreen.js",
+      "bytes": 4116
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsProofScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfCoins/MasterOfCoinsProofScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeOverviewScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeOverviewScreen.js",
+      "bytes": 4180
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeEntryScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeEntryScreen.js",
+      "bytes": 4108
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeActionScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeActionScreen.js",
+      "bytes": 4132
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeStateScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeStateScreen.js",
+      "bytes": 4108
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeResultScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeResultScreen.js",
+      "bytes": 4132
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeReturnScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeReturnScreen.js",
+      "bytes": 4132
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeSeedScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeSeedScreen.js",
+      "bytes": 4084
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifePosterScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifePosterScreen.js",
+      "bytes": 4132
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeMotionScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeMotionScreen.js",
+      "bytes": 4132
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifePanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifePanchTatvaScreen.js",
+      "bytes": 4228
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeButtonsScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeButtonsScreen.js",
+      "bytes": 4156
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeAssetsScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeAssetsScreen.js",
+      "bytes": 4132
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeVaultScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeVaultScreen.js",
+      "bytes": 4108
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeLogicScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeLogicScreen.js",
+      "bytes": 4108
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeLiveScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeLiveScreen.js",
+      "bytes": 4084
+    },
+    {
+      "source": "app/screens/Generated208/MasterOfLife/MasterOfLifeProofScreen.js",
+      "mirror": "app/screens/Generated208/MasterOfLife/MasterOfLifeProofScreen.js",
+      "bytes": 4108
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingOverviewScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingOverviewScreen.js",
+      "bytes": 4148
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingEntryScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingEntryScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingActionScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingActionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingStateScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingStateScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingResultScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingResultScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingReturnScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingReturnScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingSeedScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingSeedScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingPosterScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingPosterScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingMotionScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingMotionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingPanchTatvaScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingButtonsScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingButtonsScreen.js",
+      "bytes": 4124
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingAssetsScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingAssetsScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingVaultScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingVaultScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingLogicScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingLogicScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingLiveScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingLiveScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/Matchmaking/MatchmakingProofScreen.js",
+      "mirror": "app/screens/Generated208/Matchmaking/MatchmakingProofScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeOverviewScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeOverviewScreen.js",
+      "bytes": 4116
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeEntryScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeEntryScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeActionScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeActionScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeStateScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeStateScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeResultScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeResultScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeReturnScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeReturnScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeSeedScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeSeedScreen.js",
+      "bytes": 4020
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungePosterScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungePosterScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeMotionScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeMotionScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungePanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungePanchTatvaScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeButtonsScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeButtonsScreen.js",
+      "bytes": 4092
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeAssetsScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeAssetsScreen.js",
+      "bytes": 4068
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeVaultScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeVaultScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeLogicScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeLogicScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeLiveScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeLiveScreen.js",
+      "bytes": 4020
+    },
+    {
+      "source": "app/screens/Generated208/MensLounge/MensLoungeProofScreen.js",
+      "mirror": "app/screens/Generated208/MensLounge/MensLoungeProofScreen.js",
+      "bytes": 4044
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseOverviewScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseOverviewScreen.js",
+      "bytes": 4148
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseEntryScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseEntryScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseActionScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseActionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseStateScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseStateScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseResultScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseResultScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseReturnScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseReturnScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseSeedScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseSeedScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandisePosterScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandisePosterScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseMotionScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseMotionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandisePanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandisePanchTatvaScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseButtonsScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseButtonsScreen.js",
+      "bytes": 4124
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseAssetsScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseAssetsScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseVaultScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseVaultScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseLogicScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseLogicScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseLiveScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseLiveScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/Merchandise/MerchandiseProofScreen.js",
+      "mirror": "app/screens/Generated208/Merchandise/MerchandiseProofScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyOverviewScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyOverviewScreen.js",
+      "bytes": 3988
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyEntryScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyEntryScreen.js",
+      "bytes": 3916
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyActionScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyActionScreen.js",
+      "bytes": 3940
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyStateScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyStateScreen.js",
+      "bytes": 3916
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyResultScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyResultScreen.js",
+      "bytes": 3940
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyReturnScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyReturnScreen.js",
+      "bytes": 3940
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbySeedScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbySeedScreen.js",
+      "bytes": 3892
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyPosterScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyPosterScreen.js",
+      "bytes": 3940
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyMotionScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyMotionScreen.js",
+      "bytes": 3940
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyPanchTatvaScreen.js",
+      "bytes": 4036
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyButtonsScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyButtonsScreen.js",
+      "bytes": 3964
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyAssetsScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyAssetsScreen.js",
+      "bytes": 3940
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyVaultScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyVaultScreen.js",
+      "bytes": 3916
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyLogicScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyLogicScreen.js",
+      "bytes": 3916
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyLiveScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyLiveScreen.js",
+      "bytes": 3892
+    },
+    {
+      "source": "app/screens/Generated208/Nearby/NearbyProofScreen.js",
+      "mirror": "app/screens/Generated208/Nearby/NearbyProofScreen.js",
+      "bytes": 3916
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterOverviewScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterOverviewScreen.js",
+      "bytes": 4212
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterEntryScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterEntryScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterActionScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterActionScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterStateScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterStateScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterResultScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterResultScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterReturnScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterReturnScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterSeedScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterSeedScreen.js",
+      "bytes": 4116
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterPosterScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterPosterScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterMotionScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterMotionScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterPanchTatvaScreen.js",
+      "bytes": 4260
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterButtonsScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterButtonsScreen.js",
+      "bytes": 4188
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterAssetsScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterAssetsScreen.js",
+      "bytes": 4164
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterVaultScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterVaultScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterLogicScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterLogicScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterLiveScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterLiveScreen.js",
+      "bytes": 4116
+    },
+    {
+      "source": "app/screens/Generated208/ProfilePoster/ProfilePosterProofScreen.js",
+      "mirror": "app/screens/Generated208/ProfilePoster/ProfilePosterProofScreen.js",
+      "bytes": 4140
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsOverviewScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsOverviewScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsEntryScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsEntryScreen.js",
+      "bytes": 3980
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsActionScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsActionScreen.js",
+      "bytes": 4004
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsStateScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsStateScreen.js",
+      "bytes": 3980
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsResultScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsResultScreen.js",
+      "bytes": 4004
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsReturnScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsReturnScreen.js",
+      "bytes": 4004
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsSeedScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsSeedScreen.js",
+      "bytes": 3956
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsPosterScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsPosterScreen.js",
+      "bytes": 4004
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsMotionScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsMotionScreen.js",
+      "bytes": 4004
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsPanchTatvaScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsButtonsScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsButtonsScreen.js",
+      "bytes": 4028
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsAssetsScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsAssetsScreen.js",
+      "bytes": 4004
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsVaultScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsVaultScreen.js",
+      "bytes": 3980
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsLogicScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsLogicScreen.js",
+      "bytes": 3980
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsLiveScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsLiveScreen.js",
+      "bytes": 3956
+    },
+    {
+      "source": "app/screens/Generated208/Settings/SettingsProofScreen.js",
+      "mirror": "app/screens/Generated208/Settings/SettingsProofScreen.js",
+      "bytes": 3980
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalOverviewScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalOverviewScreen.js",
+      "bytes": 4148
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalEntryScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalEntryScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalActionScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalActionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalStateScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalStateScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalResultScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalResultScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalReturnScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalReturnScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalSeedScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalSeedScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalPosterScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalPosterScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalMotionScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalMotionScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalPanchTatvaScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalButtonsScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalButtonsScreen.js",
+      "bytes": 4124
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalAssetsScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalAssetsScreen.js",
+      "bytes": 4100
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalVaultScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalVaultScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalLogicScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalLogicScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalLiveScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalLiveScreen.js",
+      "bytes": 4052
+    },
+    {
+      "source": "app/screens/Generated208/TravelLocal/TravelLocalProofScreen.js",
+      "mirror": "app/screens/Generated208/TravelLocal/TravelLocalProofScreen.js",
+      "bytes": 4076
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasOverviewScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasOverviewScreen.js",
+      "bytes": 4244
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasEntryScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasEntryScreen.js",
+      "bytes": 4172
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasActionScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasActionScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasStateScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasStateScreen.js",
+      "bytes": 4172
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasResultScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasResultScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasReturnScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasReturnScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasSeedScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasSeedScreen.js",
+      "bytes": 4148
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasPosterScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasPosterScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasMotionScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasMotionScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasPanchTatvaScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasPanchTatvaScreen.js",
+      "bytes": 4292
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasButtonsScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasButtonsScreen.js",
+      "bytes": 4220
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasAssetsScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasAssetsScreen.js",
+      "bytes": 4196
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasVaultScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasVaultScreen.js",
+      "bytes": 4172
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasLogicScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasLogicScreen.js",
+      "bytes": 4172
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasLiveScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasLiveScreen.js",
+      "bytes": 4148
+    },
+    {
+      "source": "app/screens/Generated208/TravelOverseas/TravelOverseasProofScreen.js",
+      "mirror": "app/screens/Generated208/TravelOverseas/TravelOverseasProofScreen.js",
+      "bytes": 4172
+    },
+    {
+      "source": "app/assets/cinematic/mbw_cinematic.mp4",
+      "mirror": "app/assets/cinematic/mbw_cinematic.mp4",
+      "bytes": 8037925
+    },
+    {
+      "source": "app/assets/cinematic/mbw_cinematic_audio.wav",
+      "mirror": "app/assets/cinematic/mbw_cinematic_audio.wav",
+      "bytes": 1940444
+    },
+    {
+      "source": "app/assets/posters/gate_locked.png",
+      "mirror": "app/assets/posters/gate_locked.png",
+      "bytes": 28506
+    },
+    {
+      "source": "app/assets/posters/gate_open.png",
+      "mirror": "app/assets/posters/gate_open.png",
+      "bytes": 28510
+    },
+    {
+      "source": "app/assets/posters/path_selection.jpg",
+      "mirror": "app/assets/posters/path_selection.jpg",
+      "bytes": 119462
+    },
+    {
+      "source": "app/assets/posters/matchmaking.jpg",
+      "mirror": "app/assets/posters/matchmaking.jpg",
+      "bytes": 163933
+    },
+    {
+      "source": "app/assets/posters/main_hub.png",
+      "mirror": "app/assets/posters/main_hub.png",
+      "bytes": 2175873
+    },
+    {
+      "source": "app/assets/posters/master_of_life.jpg",
+      "mirror": "app/assets/posters/master_of_life.jpg",
+      "bytes": 512139
+    },
+    {
+      "source": "app/assets/posters/matchmaking.jpg",
+      "mirror": "app/assets/posters/matchmaking.jpg",
+      "bytes": 163933
+    },
+    {
+      "source": "app/assets/posters/games.png",
+      "mirror": "app/assets/posters/games.png",
+      "bytes": 28514
+    },
+    {
+      "source": "app/assets/posters/coins.png",
+      "mirror": "app/assets/posters/coins.png",
+      "bytes": 28513
+    },
+    {
+      "source": "app/assets/posters/matchmaking.jpg",
+      "mirror": "app/assets/posters/matchmaking.jpg",
+      "bytes": 163933
+    },
+    {
+      "source": "app/assets/posters/travel_overseas.jpg",
+      "mirror": "app/assets/posters/travel_overseas.jpg",
+      "bytes": 265801
+    },
+    {
+      "source": "app/assets/posters/gate_open.png",
+      "mirror": "app/assets/posters/gate_open.png",
+      "bytes": 28510
+    },
+    {
+      "source": "app/assets/posters/games.png",
+      "mirror": "app/assets/posters/games.png",
+      "bytes": 28514
+    },
+    {
+      "source": "app/assets/posters/coins.png",
+      "mirror": "app/assets/posters/coins.png",
+      "bytes": 28513
+    },
+    {
+      "source": "app/assets/posters/mens_lounge.jpg",
+      "mirror": "app/assets/posters/mens_lounge.jpg",
+      "bytes": 238364
+    },
+    {
+      "source": "app/assets/posters/gate_locked.png",
+      "mirror": "app/assets/posters/gate_locked.png",
+      "bytes": 28506
+    },
+    {
+      "source": "app/assets/posters/matchmaking.jpg",
+      "mirror": "app/assets/posters/matchmaking.jpg",
+      "bytes": 163933
+    },
+    {
+      "source": "app/assets/posters/settings.jpg",
+      "mirror": "app/assets/posters/settings.jpg",
+      "bytes": 358707
+    },
+    {
+      "source": "app/assets/posters/games.png",
+      "mirror": "app/assets/posters/games.png",
+      "bytes": 28514
+    },
+    {
+      "source": "app/assets/posters/coins.png",
+      "mirror": "app/assets/posters/coins.png",
+      "bytes": 28513
+    },
+    {
+      "source": "app/assets/posters/gate_locked.png",
+      "mirror": "app/assets/posters/gate_locked.png",
+      "bytes": 28506
+    },
+    {
+      "source": "app/assets/posters/gate_open.png",
+      "mirror": "app/assets/posters/gate_open.png",
+      "bytes": 28510
+    },
+    {
+      "source": "app/assets/posters/mens_lounge.png",
+      "mirror": "app/assets/posters/mens_lounge.png",
+      "bytes": 28490
+    },
+    {
+      "source": "app/assets/posters/gate_locked.png",
+      "mirror": "app/assets/posters/gate_locked.png",
+      "bytes": 28506
+    },
+    {
+      "source": "app/assets/posters/mens_lounge.png",
+      "mirror": "app/assets/posters/mens_lounge.png",
+      "bytes": 28490
+    },
+    {
+      "source": "app/assets/posters/gate_open.png",
+      "mirror": "app/assets/posters/gate_open.png",
+      "bytes": 28510
+    },
+    {
+      "source": "app/assets/posters/games.png",
+      "mirror": "app/assets/posters/games.png",
+      "bytes": 28514
+    },
+    {
+      "source": "app/assets/MBW_ALL_SCREENS/pathselection.png",
+      "mirror": "app/assets/MBW_ALL_SCREENS/pathselection.png",
+      "bytes": 1416007
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/GateLocked.jpg",
+      "mirror": "app/assets/mbw_screen_posters/GateLocked.jpg",
+      "bytes": 327268
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/GateOpen.jpg",
+      "mirror": "app/assets/mbw_screen_posters/GateOpen.jpg",
+      "bytes": 334933
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/PathSelection.jpg",
+      "mirror": "app/assets/mbw_screen_posters/PathSelection.jpg",
+      "bytes": 122360
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/SubscriptionSignup.jpg",
+      "mirror": "app/assets/mbw_screen_posters/SubscriptionSignup.jpg",
+      "bytes": 124867
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/MainHub.jpg",
+      "mirror": "app/assets/mbw_screen_posters/MainHub.jpg",
+      "bytes": 143172
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/Matchmaking.jpg",
+      "mirror": "app/assets/mbw_screen_posters/Matchmaking.jpg",
+      "bytes": 117891
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/MasterOfLife.jpg",
+      "mirror": "app/assets/mbw_screen_posters/MasterOfLife.jpg",
+      "bytes": 94940
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/Games.jpg",
+      "mirror": "app/assets/mbw_screen_posters/Games.jpg",
+      "bytes": 109967
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/MasterOfCoins.jpg",
+      "mirror": "app/assets/mbw_screen_posters/MasterOfCoins.jpg",
+      "bytes": 216728
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/TravelLocal.jpg",
+      "mirror": "app/assets/mbw_screen_posters/TravelLocal.jpg",
+      "bytes": 115358
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/TravelOverseas.jpg",
+      "mirror": "app/assets/mbw_screen_posters/TravelOverseas.jpg",
+      "bytes": 188290
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/Merchandise.jpg",
+      "mirror": "app/assets/mbw_screen_posters/Merchandise.jpg",
+      "bytes": 96931
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/Kamashastra.jpg",
+      "mirror": "app/assets/mbw_screen_posters/Kamashastra.jpg",
+      "bytes": 153917
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/LiveLounge.jpg",
+      "mirror": "app/assets/mbw_screen_posters/LiveLounge.jpg",
+      "bytes": 142968
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/MensLounge.jpg",
+      "mirror": "app/assets/mbw_screen_posters/MensLounge.jpg",
+      "bytes": 108172
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/Nearby.jpg",
+      "mirror": "app/assets/mbw_screen_posters/Nearby.jpg",
+      "bytes": 8574
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/ProfilePoster.jpg",
+      "mirror": "app/assets/mbw_screen_posters/ProfilePoster.jpg",
+      "bytes": 121197
+    },
+    {
+      "source": "app/assets/mbw_screen_posters/GateOpen.jpg",
+      "mirror": "app/assets/mbw_screen_posters/GateOpen.jpg",
+      "bytes": 334933
+    },
+    {
+      "source": "app/assets/mbw_all_pad/ACE_MBW_ICON.png",
+      "mirror": "app/assets/mbw_all_pad/ACE_MBW_ICON.png",
+      "bytes": 3289486
+    },
+    {
+      "source": "app/assets/mbw_all_pad/ACE_MBW_ICON.png",
+      "mirror": "app/assets/mbw_all_pad/ACE_MBW_ICON.png",
+      "bytes": 3289486
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ArcadeHubScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ArcadeHubScreen.jpg",
+      "bytes": 396491
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/CinematicIntroScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/CinematicIntroScreen.jpg",
+      "bytes": 480323
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/DashboardScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/DashboardScreen.jpg",
+      "bytes": 469363
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesActionScreen.jpg",
+      "bytes": 448161
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesAssetsScreen.jpg",
+      "bytes": 474517
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesButtonsScreen.jpg",
+      "bytes": 480321
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesEntryScreen.jpg",
+      "bytes": 446228
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesLiveScreen.jpg",
+      "bytes": 382153
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesLogicScreen.jpg",
+      "bytes": 466599
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesMotionScreen.jpg",
+      "bytes": 451203
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesOverviewScreen.jpg",
+      "bytes": 413190
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesPanchTatvaScreen.jpg",
+      "bytes": 491978
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesPosterScreen.jpg",
+      "bytes": 344221
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesProofScreen.jpg",
+      "bytes": 478946
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesResultScreen.jpg",
+      "bytes": 446229
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesReturnScreen.jpg",
+      "bytes": 480320
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesScreen.jpg",
+      "bytes": 474511
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesSeedScreen.jpg",
+      "bytes": 491972
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesStateScreen.jpg",
+      "bytes": 382155
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GamesVaultScreen.jpg",
+      "bytes": 344219
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GateLockedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GateLockedScreen.jpg",
+      "bytes": 656254
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/GateOpenScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/GateOpenScreen.jpg",
+      "bytes": 734845
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraActionScreen.jpg",
+      "bytes": 487407
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraAssetsScreen.jpg",
+      "bytes": 385084
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraButtonsScreen.jpg",
+      "bytes": 425512
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraEntryScreen.jpg",
+      "bytes": 398669
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraLiveScreen.jpg",
+      "bytes": 487405
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraLogicScreen.jpg",
+      "bytes": 487846
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraMotionScreen.jpg",
+      "bytes": 304877
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraOverviewScreen.jpg",
+      "bytes": 263604
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraPanchTatvaScreen.jpg",
+      "bytes": 425515
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraPosterScreen.jpg",
+      "bytes": 398669
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraProofScreen.jpg",
+      "bytes": 425065
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraResultScreen.jpg",
+      "bytes": 487407
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraReturnScreen.jpg",
+      "bytes": 487406
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraScreen.jpg",
+      "bytes": 425505
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraSeedScreen.jpg",
+      "bytes": 5447
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraStateScreen.jpg",
+      "bytes": 425509
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/KamashastraVaultScreen.jpg",
+      "bytes": 398669
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeActionScreen.jpg",
+      "bytes": 456609
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeAssetsScreen.jpg",
+      "bytes": 423152
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeButtonsScreen.jpg",
+      "bytes": 468618
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeEntryScreen.jpg",
+      "bytes": 400620
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeLiveScreen.jpg",
+      "bytes": 516033
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeLogicScreen.jpg",
+      "bytes": 488987
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeMotionScreen.jpg",
+      "bytes": 476591
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeOverviewScreen.jpg",
+      "bytes": 450753
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungePanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungePanchTatvaScreen.jpg",
+      "bytes": 387057
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungePosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungePosterScreen.jpg",
+      "bytes": 359642
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeProofScreen.jpg",
+      "bytes": 456609
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeResultScreen.jpg",
+      "bytes": 450752
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeReturnScreen.jpg",
+      "bytes": 476591
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeScreen.jpg",
+      "bytes": 439884
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyScreen.jpg",
+      "bytes": 385073
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeSeedScreen.jpg",
+      "bytes": 488986
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeStateScreen.jpg",
+      "bytes": 516034
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/LiveLoungeVaultScreen.jpg",
+      "bytes": 530843
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MBWOSRuntimeCarryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MBWOSRuntimeCarryScreen.jpg",
+      "bytes": 807167
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MBWRouteProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MBWRouteProofScreen.jpg",
+      "bytes": 807163
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MainHubScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MainHubScreen.jpg",
+      "bytes": 463722
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsActionScreen.jpg",
+      "bytes": 231658
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsAssetsScreen.jpg",
+      "bytes": 525886
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsButtonsScreen.jpg",
+      "bytes": 306930
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsEntryScreen.jpg",
+      "bytes": 288364
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsLiveScreen.jpg",
+      "bytes": 525884
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsLogicScreen.jpg",
+      "bytes": 315569
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsMotionScreen.jpg",
+      "bytes": 306928
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsOverviewScreen.jpg",
+      "bytes": 525887
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsPanchTatvaScreen.jpg",
+      "bytes": 359362
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsPosterScreen.jpg",
+      "bytes": 306929
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsProofScreen.jpg",
+      "bytes": 525884
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsResultScreen.jpg",
+      "bytes": 443638
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsReturnScreen.jpg",
+      "bytes": 438413
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsScreen.jpg",
+      "bytes": 306922
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsSeedScreen.jpg",
+      "bytes": 447895
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsStateScreen.jpg",
+      "bytes": 525884
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfCoinsVaultScreen.jpg",
+      "bytes": 306928
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeActionScreen.jpg",
+      "bytes": 945855
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeAssetsScreen.jpg",
+      "bytes": 344228
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeButtonsScreen.jpg",
+      "bytes": 375423
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeEntryScreen.jpg",
+      "bytes": 259703
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeLiveScreen.jpg",
+      "bytes": 516035
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeLogicScreen.jpg",
+      "bytes": 555478
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeMotionScreen.jpg",
+      "bytes": 292853
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeOverviewScreen.jpg",
+      "bytes": 334162
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifePanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifePanchTatvaScreen.jpg",
+      "bytes": 439590
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifePosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifePosterScreen.jpg",
+      "bytes": 359644
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeProofScreen.jpg",
+      "bytes": 435755
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeResultScreen.jpg",
+      "bytes": 432631
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeReturnScreen.jpg",
+      "bytes": 284680
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeScreen.jpg",
+      "bytes": 231171
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeSeedScreen.jpg",
+      "bytes": 402589
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeStateScreen.jpg",
+      "bytes": 427869
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MasterOfLifeVaultScreen.jpg",
+      "bytes": 440768
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchFinalReincarnationScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchFinalReincarnationScreen.jpg",
+      "bytes": 318513
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingActionScreen.jpg",
+      "bytes": 362064
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingAssetsScreen.jpg",
+      "bytes": 326968
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingButtonsScreen.jpg",
+      "bytes": 496551
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingEntryScreen.jpg",
+      "bytes": 399998
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingLiveScreen.jpg",
+      "bytes": 505274
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingLogicScreen.jpg",
+      "bytes": 463039
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingMotionScreen.jpg",
+      "bytes": 555478
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingOverviewScreen.jpg",
+      "bytes": 515007
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingPanchTatvaScreen.jpg",
+      "bytes": 426884
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingPosterScreen.jpg",
+      "bytes": 474260
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingProofScreen.jpg",
+      "bytes": 423248
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingReturnScreen.jpg",
+      "bytes": 440493
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingScreen.jpg",
+      "bytes": 418037
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingSeedScreen.jpg",
+      "bytes": 259701
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingVaultScreen.jpg",
+      "bytes": 315547
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeAssetsScreen.jpg",
+      "bytes": 530844
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeOverviewScreen.jpg",
+      "bytes": 516037
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungePanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungePanchTatvaScreen.jpg",
+      "bytes": 488991
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeProofScreen.jpg",
+      "bytes": 450751
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeScreen.jpg",
+      "bytes": 530838
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseActionScreen.jpg",
+      "bytes": 458248
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseButtonsScreen.jpg",
+      "bytes": 265444
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseLiveScreen.jpg",
+      "bytes": 265441
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseMotionScreen.jpg",
+      "bytes": 265443
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseOverviewScreen.jpg",
+      "bytes": 265445
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandisePanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandisePanchTatvaScreen.jpg",
+      "bytes": 265447
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseProofScreen.jpg",
+      "bytes": 265442
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseReturnScreen.jpg",
+      "bytes": 265443
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseScreen.jpg",
+      "bytes": 265437
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseSeedScreen.jpg",
+      "bytes": 265440
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseStateScreen.jpg",
+      "bytes": 265441
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyActionScreen.jpg",
+      "bytes": 439886
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyButtonsScreen.jpg",
+      "bytes": 402586
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyLogicScreen.jpg",
+      "bytes": 387049
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyMotionScreen.jpg",
+      "bytes": 396493
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyPanchTatvaScreen.jpg",
+      "bytes": 469370
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyResultScreen.jpg",
+      "bytes": 446230
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbySeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbySeedScreen.jpg",
+      "bytes": 400616
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyVaultScreen.jpg",
+      "bytes": 304871
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterActionScreen.jpg",
+      "bytes": 362066
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterAssetsScreen.jpg",
+      "bytes": 475070
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterButtonsScreen.jpg",
+      "bytes": 406541
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterEntryScreen.jpg",
+      "bytes": 358291
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterLiveScreen.jpg",
+      "bytes": 330937
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterLogicScreen.jpg",
+      "bytes": 375423
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterOverviewScreen.jpg",
+      "bytes": 362068
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterPosterScreen.jpg",
+      "bytes": 406542
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterResultScreen.jpg",
+      "bytes": 475071
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterReturnScreen.jpg",
+      "bytes": 358293
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterSeedScreen.jpg",
+      "bytes": 406540
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterStateScreen.jpg",
+      "bytes": 375423
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsActionScreen.jpg",
+      "bytes": 455567
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsEntryScreen.jpg",
+      "bytes": 433021
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsLiveScreen.jpg",
+      "bytes": 318502
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsMotionScreen.jpg",
+      "bytes": 418040
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsOverviewScreen.jpg",
+      "bytes": 446602
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsResultScreen.jpg",
+      "bytes": 454280
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsReturnScreen.jpg",
+      "bytes": 454280
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsScreen.jpg",
+      "bytes": 463723
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsStateScreen.jpg",
+      "bytes": 488985
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsVaultScreen.jpg",
+      "bytes": 430022
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SubscriptionSignupScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SubscriptionSignupScreen.jpg",
+      "bytes": 633953
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalActionScreen.jpg",
+      "bytes": 433026
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalAssetsScreen.jpg",
+      "bytes": 429298
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalMotionScreen.jpg",
+      "bytes": 446603
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalPanchTatvaScreen.jpg",
+      "bytes": 373683
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalPosterScreen.jpg",
+      "bytes": 433025
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalReturnScreen.jpg",
+      "bytes": 451303
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasEntryScreen.jpg",
+      "bytes": 238901
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasLiveScreen.jpg",
+      "bytes": 429299
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasLogicScreen.jpg",
+      "bytes": 231179
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasMotionScreen.jpg",
+      "bytes": 255481
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasProofScreen.jpg",
+      "bytes": 433028
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasReturnScreen.jpg",
+      "bytes": 429301
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasSeedScreen.jpg",
+      "bytes": 455571
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingResultScreen.jpg",
+      "bytes": 455946
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MatchmakingStateScreen.jpg",
+      "bytes": 316272
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeActionScreen.jpg",
+      "bytes": 462217
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeButtonsScreen.jpg",
+      "bytes": 439891
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeEntryScreen.jpg",
+      "bytes": 456609
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeLiveScreen.jpg",
+      "bytes": 400618
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeLogicScreen.jpg",
+      "bytes": 423151
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeMotionScreen.jpg",
+      "bytes": 400621
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungePosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungePosterScreen.jpg",
+      "bytes": 476592
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeResultScreen.jpg",
+      "bytes": 462217
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeReturnScreen.jpg",
+      "bytes": 430025
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeSeedScreen.jpg",
+      "bytes": 449044
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeStateScreen.jpg",
+      "bytes": 423151
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MensLoungeVaultScreen.jpg",
+      "bytes": 462215
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseAssetsScreen.jpg",
+      "bytes": 265443
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseEntryScreen.jpg",
+      "bytes": 265442
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseLogicScreen.jpg",
+      "bytes": 265442
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandisePosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandisePosterScreen.jpg",
+      "bytes": 265442
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseResultScreen.jpg",
+      "bytes": 265443
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/MerchandiseVaultScreen.jpg",
+      "bytes": 265442
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyAssetsScreen.jpg",
+      "bytes": 398665
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyEntryScreen.jpg",
+      "bytes": 807162
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyLiveScreen.jpg",
+      "bytes": 487400
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyOverviewScreen.jpg",
+      "bytes": 231653
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyPosterScreen.jpg",
+      "bytes": 439580
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyProofScreen.jpg",
+      "bytes": 466601
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyReturnScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyReturnScreen.jpg",
+      "bytes": 451297
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/NearbyStateScreen.jpg",
+      "bytes": 458240
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/PathSelectionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/PathSelectionScreen.jpg",
+      "bytes": 439049
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/PentagramArcadeScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/PentagramArcadeScreen.jpg",
+      "bytes": 466604
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterMotionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterMotionScreen.jpg",
+      "bytes": 496446
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterPanchTatvaScreen.jpg",
+      "bytes": 475074
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterProofScreen.jpg",
+      "bytes": 496445
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterScreen.jpg",
+      "bytes": 362060
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/ProfilePosterVaultScreen.jpg",
+      "bytes": 330937
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsAssetsScreen.jpg",
+      "bytes": 399997
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsButtonsScreen.jpg",
+      "bytes": 519830
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsLogicScreen.jpg",
+      "bytes": 449043
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsPanchTatvaScreen.jpg",
+      "bytes": 462219
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsPosterScreen.jpg",
+      "bytes": 315565
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsProofScreen.jpg",
+      "bytes": 357256
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsSeedScreen.jpg",
+      "bytes": 430114
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalButtonsScreen.jpg",
+      "bytes": 389775
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalEntryScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalEntryScreen.jpg",
+      "bytes": 455569
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalLiveScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalLiveScreen.jpg",
+      "bytes": 511351
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalLogicScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalLogicScreen.jpg",
+      "bytes": 519831
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalOverviewScreen.jpg",
+      "bytes": 557699
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalProofScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalProofScreen.jpg",
+      "bytes": 439155
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalResultScreen.jpg",
+      "bytes": 429297
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalScreen.jpg",
+      "bytes": 389768
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalSeedScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalSeedScreen.jpg",
+      "bytes": 455568
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalStateScreen.jpg",
+      "bytes": 511353
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelLocalVaultScreen.jpg",
+      "bytes": 519830
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasActionScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasActionScreen.jpg",
+      "bytes": 446606
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasAssetsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasAssetsScreen.jpg",
+      "bytes": 557699
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasButtonsScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasButtonsScreen.jpg",
+      "bytes": 433030
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasOverviewScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasOverviewScreen.jpg",
+      "bytes": 430123
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasPanchTatvaScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasPanchTatvaScreen.jpg",
+      "bytes": 334166
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasPosterScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasPosterScreen.jpg",
+      "bytes": 389776
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasResultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasResultScreen.jpg",
+      "bytes": 519835
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasScreen.jpg",
+      "bytes": 446599
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasStateScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasStateScreen.jpg",
+      "bytes": 511356
+    },
+    {
+      "source": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasVaultScreen.jpg",
+      "mirror": "app/assets/mbw_clean_shuffled_visual_body_posters/TravelOverseasVaultScreen.jpg",
+      "bytes": 557698
+    },
+    {
+      "source": "app/assets/mbw_posters/MainHub/MainHub.png",
+      "mirror": "app/assets/mbw_posters/MainHub/MainHub.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/Games.png",
+      "mirror": "app/assets/mbw_posters/Games/Games.png",
+      "bytes": 326
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesOverview.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesOverview.png",
+      "bytes": 318
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesEntry.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesEntry.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesAction.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesState.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesResult.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesResult.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesReturn.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesReturn.png",
+      "bytes": 320
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesSeed.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesSeed.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesPoster.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesPoster.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesMotion.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesMotion.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesPanchTatva.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesButtons.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesButtons.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesAssets.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesVault.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesLogic.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesLogic.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesLive.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesLive.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Games/GamesProof.png",
+      "mirror": "app/assets/mbw_posters/Games/GamesProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/Kamashastra.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/Kamashastra.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraOverview.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraEntry.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraEntry.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraAction.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraAction.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraState.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraResult.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraResult.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraReturn.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraSeed.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraSeed.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraPoster.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraPoster.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraMotion.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraMotion.png",
+      "bytes": 321
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraPanchTatva.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraButtons.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraAssets.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraVault.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraVault.png",
+      "bytes": 318
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraLogic.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraLogic.png",
+      "bytes": 321
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraLive.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraLive.png",
+      "bytes": 328
+    },
+    {
+      "source": "app/assets/mbw_posters/Kamashastra/KamashastraProof.png",
+      "mirror": "app/assets/mbw_posters/Kamashastra/KamashastraProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLounge.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLounge.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeOverview.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeEntry.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeEntry.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeAction.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeState.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeState.png",
+      "bytes": 328
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeResult.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeResult.png",
+      "bytes": 326
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeReturn.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeReturn.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeSeed.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeSeed.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungePoster.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungePoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeMotion.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeMotion.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungePanchTatva.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungePanchTatva.png",
+      "bytes": 319
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeButtons.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeAssets.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeAssets.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeVault.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeLogic.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeLogic.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeLive.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeLive.png",
+      "bytes": 319
+    },
+    {
+      "source": "app/assets/mbw_posters/LiveLounge/LiveLoungeProof.png",
+      "mirror": "app/assets/mbw_posters/LiveLounge/LiveLoungeProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoins.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoins.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsOverview.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsEntry.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsEntry.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsAction.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsState.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsResult.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsResult.png",
+      "bytes": 318
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsReturn.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsSeed.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsSeed.png",
+      "bytes": 328
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsPoster.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsPoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsMotion.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsMotion.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsPanchTatva.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsButtons.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsAssets.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsAssets.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsVault.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsLogic.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsLogic.png",
+      "bytes": 316
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsLive.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsLive.png",
+      "bytes": 326
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsProof.png",
+      "mirror": "app/assets/mbw_posters/MasterOfCoins/MasterOfCoinsProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLife.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLife.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeOverview.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeOverview.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeEntry.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeEntry.png",
+      "bytes": 325
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeAction.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeAction.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeState.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeResult.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeResult.png",
+      "bytes": 320
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeReturn.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeSeed.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeSeed.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifePoster.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifePoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeMotion.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeMotion.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifePanchTatva.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifePanchTatva.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeButtons.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeAssets.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeAssets.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeVault.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeLogic.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeLogic.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeLive.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeLive.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeProof.png",
+      "mirror": "app/assets/mbw_posters/MasterOfLife/MasterOfLifeProof.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/Matchmaking.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/Matchmaking.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingOverview.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingEntry.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingEntry.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingAction.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingAction.png",
+      "bytes": 321
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingState.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingResult.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingResult.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingReturn.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingReturn.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingSeed.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingSeed.png",
+      "bytes": 322
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingPoster.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingPoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingMotion.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingMotion.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingPanchTatva.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingButtons.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingAssets.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingVault.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingLogic.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingLogic.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingLive.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingLive.png",
+      "bytes": 317
+    },
+    {
+      "source": "app/assets/mbw_posters/Matchmaking/MatchmakingProof.png",
+      "mirror": "app/assets/mbw_posters/Matchmaking/MatchmakingProof.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLounge.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLounge.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeOverview.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeEntry.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeEntry.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeAction.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeAction.png",
+      "bytes": 320
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeState.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeState.png",
+      "bytes": 320
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeResult.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeResult.png",
+      "bytes": 319
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeReturn.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeSeed.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeSeed.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungePoster.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungePoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeMotion.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeMotion.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungePanchTatva.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungePanchTatva.png",
+      "bytes": 326
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeButtons.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeButtons.png",
+      "bytes": 326
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeAssets.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeVault.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeLogic.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeLogic.png",
+      "bytes": 320
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeLive.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeLive.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/MensLounge/MensLoungeProof.png",
+      "mirror": "app/assets/mbw_posters/MensLounge/MensLoungeProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/Merchandise.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/Merchandise.png",
+      "bytes": 318
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseOverview.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseOverview.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseEntry.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseEntry.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseAction.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseState.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseResult.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseResult.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseReturn.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseSeed.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseSeed.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandisePoster.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandisePoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseMotion.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseMotion.png",
+      "bytes": 325
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandisePanchTatva.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandisePanchTatva.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseButtons.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseButtons.png",
+      "bytes": 325
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseAssets.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseVault.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseLogic.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseLogic.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseLive.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseLive.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/Merchandise/MerchandiseProof.png",
+      "mirror": "app/assets/mbw_posters/Merchandise/MerchandiseProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/Nearby.png",
+      "mirror": "app/assets/mbw_posters/Nearby/Nearby.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyOverview.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyOverview.png",
+      "bytes": 321
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyEntry.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyEntry.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyAction.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyState.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyResult.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyResult.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyReturn.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbySeed.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbySeed.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyPoster.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyPoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyMotion.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyMotion.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyPanchTatva.png",
+      "bytes": 317
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyButtons.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyButtons.png",
+      "bytes": 326
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyAssets.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyVault.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyLogic.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyLogic.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyLive.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyLive.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Nearby/NearbyProof.png",
+      "mirror": "app/assets/mbw_posters/Nearby/NearbyProof.png",
+      "bytes": 322
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePoster.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterOverview.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterEntry.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterEntry.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterAction.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterState.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterResult.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterResult.png",
+      "bytes": 318
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterReturn.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterReturn.png",
+      "bytes": 329
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterSeed.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterSeed.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterPoster.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterPoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterMotion.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterMotion.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterPanchTatva.png",
+      "bytes": 321
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterButtons.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterButtons.png",
+      "bytes": 319
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterAssets.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterAssets.png",
+      "bytes": 328
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterVault.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterVault.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterLogic.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterLogic.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterLive.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterLive.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/ProfilePoster/ProfilePosterProof.png",
+      "mirror": "app/assets/mbw_posters/ProfilePoster/ProfilePosterProof.png",
+      "bytes": 324
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/Settings.png",
+      "mirror": "app/assets/mbw_posters/Settings/Settings.png",
+      "bytes": 326
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsOverview.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsEntry.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsEntry.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsAction.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsAction.png",
+      "bytes": 325
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsState.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsResult.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsResult.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsReturn.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsSeed.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsSeed.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsPoster.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsPoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsMotion.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsMotion.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsPanchTatva.png",
+      "bytes": 321
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsButtons.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsAssets.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsVault.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsVault.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsLogic.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsLogic.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsLive.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsLive.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/Settings/SettingsProof.png",
+      "mirror": "app/assets/mbw_posters/Settings/SettingsProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocal.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocal.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalOverview.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalEntry.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalEntry.png",
+      "bytes": 323
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalAction.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalState.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalState.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalResult.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalResult.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalReturn.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalReturn.png",
+      "bytes": 319
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalSeed.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalSeed.png",
+      "bytes": 322
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalPoster.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalPoster.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalMotion.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalMotion.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalPanchTatva.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalButtons.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalAssets.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalAssets.png",
+      "bytes": 320
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalVault.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalVault.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalLogic.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalLogic.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalLive.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalLive.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelLocal/TravelLocalProof.png",
+      "mirror": "app/assets/mbw_posters/TravelLocal/TravelLocalProof.png",
+      "bytes": 315
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseas.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseas.png",
+      "bytes": 321
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasOverview.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasOverview.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasEntry.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasEntry.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasAction.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasAction.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasState.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasState.png",
+      "bytes": 330
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasResult.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasResult.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasReturn.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasReturn.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasSeed.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasSeed.png",
+      "bytes": 327
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasPoster.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasPoster.png",
+      "bytes": 320
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasMotion.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasMotion.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasPanchTatva.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasPanchTatva.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasButtons.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasButtons.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasAssets.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasAssets.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasVault.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasVault.png",
+      "bytes": 325
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasLogic.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasLogic.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasLive.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasLive.png",
+      "bytes": 332
+    },
+    {
+      "source": "app/assets/mbw_posters/TravelOverseas/TravelOverseasProof.png",
+      "mirror": "app/assets/mbw_posters/TravelOverseas/TravelOverseasProof.png",
+      "bytes": 332
+    },
+    {
+      "source": "screens/DashboardScreen.tsx",
+      "mirror": "screens/DashboardScreen.tsx",
+      "bytes": 964
+    },
+    {
+      "source": "screens/ArcadeHubScreen.tsx",
+      "mirror": "screens/ArcadeHubScreen.tsx",
+      "bytes": 1296
+    },
+    {
+      "source": "screens/arcade/ArcadeHub.tsx",
+      "mirror": "screens/arcade/ArcadeHub.tsx",
+      "bytes": 611
+    },
+    {
+      "source": "screens/arcade/PentagramArcadeScreen.tsx",
+      "mirror": "screens/arcade/PentagramArcadeScreen.tsx",
+      "bytes": 641
+    },
+    {
+      "source": "core/.gitkeep",
+      "mirror": "core/.gitkeep",
+      "bytes": 46
+    },
+    {
+      "source": "core/hooks/useMBWEngine.js",
+      "mirror": "core/hooks/useMBWEngine.js",
+      "bytes": 365
+    },
+    {
+      "source": "core/visual/PentagramWheel.js",
+      "mirror": "core/visual/PentagramWheel.js",
+      "bytes": 161
+    },
+    {
+      "source": "core/wallet/CoinSystem.js",
+      "mirror": "core/wallet/CoinSystem.js",
+      "bytes": 556
+    },
+    {
+      "source": "mbw_god_core/index.js",
+      "mirror": "mbw_god_core/index.js",
+      "bytes": 613
+    },
+    {
+      "source": "mbw_god_core/visual/VisualContract.js",
+      "mirror": "mbw_god_core/visual/VisualContract.js",
+      "bytes": 433
+    },
+    {
+      "source": "mbw_god_core/registry/SceneRegistry.js",
+      "mirror": "mbw_god_core/registry/SceneRegistry.js",
+      "bytes": 512
+    },
+    {
+      "source": "mbw_god_core/engine/CinematicOrchestrator.js",
+      "mirror": "mbw_god_core/engine/CinematicOrchestrator.js",
+      "bytes": 1067
+    },
+    {
+      "source": "android/.gitignore",
+      "mirror": "android/.gitignore",
+      "bytes": 129
+    },
+    {
+      "source": "android/gradlew",
+      "mirror": "android/gradlew",
+      "bytes": 8744
+    },
+    {
+      "source": "android/gradlew.bat",
+      "mirror": "android/gradlew.bat",
+      "bytes": 2937
+    },
+    {
+      "source": "android/build.gradle",
+      "mirror": "android/build.gradle",
+      "bytes": 556
+    },
+    {
+      "source": "android/settings.gradle",
+      "mirror": "android/settings.gradle",
+      "bytes": 1787
+    },
+    {
+      "source": "android/gradle.properties",
+      "mirror": "android/gradle.properties",
+      "bytes": 2826
+    },
+    {
+      "source": "android/app/build.gradle",
+      "mirror": "android/app/build.gradle",
+      "bytes": 8129
+    },
+    {
+      "source": "android/app/debug.keystore",
+      "mirror": "android/app/debug.keystore",
+      "bytes": 2257
+    },
+    {
+      "source": "android/app/proguard-rules.pro",
+      "mirror": "android/app/proguard-rules.pro",
+      "bytes": 562
+    },
+    {
+      "source": "android/settings_fix/settings.gradle.backup",
+      "mirror": "android/settings_fix/settings.gradle.backup",
+      "bytes": 1256
+    },
+    {
+      "source": "android/gradle/wrapper/gradle-wrapper.jar",
+      "mirror": "android/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 43764
+    },
+    {
+      "source": "android/gradle/wrapper/gradle-wrapper.properties",
+      "mirror": "android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 253
+    },
+    {
+      "source": "android/app/src/main/AndroidManifest.xml",
+      "mirror": "android/app/src/main/AndroidManifest.xml",
+      "bytes": 5667
+    },
+    {
+      "source": "android/app/src/debug/AndroidManifest.xml",
+      "mirror": "android/app/src/debug/AndroidManifest.xml",
+      "bytes": 374
+    },
+    {
+      "source": "android/app/src/debugOptimized/AndroidManifest.xml",
+      "mirror": "android/app/src/debugOptimized/AndroidManifest.xml",
+      "bytes": 374
+    },
+    {
+      "source": "android/app/src/main/res/drawable-hdpi/splashscreen_logo.png",
+      "mirror": "android/app/src/main/res/drawable-hdpi/splashscreen_logo.png",
+      "bytes": 20754
+    },
+    {
+      "source": "android/app/src/main/res/drawable-mdpi/splashscreen_logo.png",
+      "mirror": "android/app/src/main/res/drawable-mdpi/splashscreen_logo.png",
+      "bytes": 12863
+    },
+    {
+      "source": "android/app/src/main/res/drawable-xhdpi/splashscreen_logo.png",
+      "mirror": "android/app/src/main/res/drawable-xhdpi/splashscreen_logo.png",
+      "bytes": 29081
+    },
+    {
+      "source": "android/app/src/main/res/drawable-xxhdpi/splashscreen_logo.png",
+      "mirror": "android/app/src/main/res/drawable-xxhdpi/splashscreen_logo.png",
+      "bytes": 47123
+    },
+    {
+      "source": "android/app/src/main/res/drawable-xxxhdpi/splashscreen_logo.png",
+      "mirror": "android/app/src/main/res/drawable-xxxhdpi/splashscreen_logo.png",
+      "bytes": 66529
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "mirror": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 13308
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "mirror": "android/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 12943
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp",
+      "mirror": "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp",
+      "bytes": 64227
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "mirror": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 6107
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "mirror": "android/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 5875
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp",
+      "mirror": "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp",
+      "bytes": 28771
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "mirror": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 23300
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "mirror": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 22767
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp",
+      "mirror": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp",
+      "bytes": 113144
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "mirror": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 51556
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "mirror": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 50817
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp",
+      "mirror": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp",
+      "bytes": 249397
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "mirror": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 90640
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "mirror": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 89637
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp",
+      "mirror": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp",
+      "bytes": 434974
+    },
+    {
+      "source": "android/app/src/main/res/values/colors.xml",
+      "mirror": "android/app/src/main/res/values/colors.xml",
+      "bytes": 221
+    },
+    {
+      "source": "android/app/src/main/res/values/strings.xml",
+      "mirror": "android/app/src/main/res/values/strings.xml",
+      "bytes": 205
+    },
+    {
+      "source": "android/app/src/main/res/values/styles.xml",
+      "mirror": "android/app/src/main/res/values/styles.xml",
+      "bytes": 587
+    },
+    {
+      "source": "android/app/src/main/res/drawable/ic_launcher_background.xml",
+      "mirror": "android/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 245
+    },
+    {
+      "source": "android/app/src/main/res/drawable/rn_edit_text_material.xml",
+      "mirror": "android/app/src/main/res/drawable/rn_edit_text_material.xml",
+      "bytes": 1917
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "mirror": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 257
+    },
+    {
+      "source": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "mirror": "android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 257
+    },
+    {
+      "source": "android/app/src/main/res/xml/mbw_data_extraction_rules.xml",
+      "mirror": "android/app/src/main/res/xml/mbw_data_extraction_rules.xml",
+      "bytes": 623
+    },
+    {
+      "source": "android/app/src/main/res/xml/mbw_full_backup_content.xml",
+      "mirror": "android/app/src/main/res/xml/mbw_full_backup_content.xml",
+      "bytes": 283
+    },
+    {
+      "source": "android/app/src/main/res/values-night/colors.xml",
+      "mirror": "android/app/src/main/res/values-night/colors.xml",
+      "bytes": 12
+    },
+    {
+      "source": "android/app/src/main/java/com/mbw/app/MainApplication.kt",
+      "mirror": "android/app/src/main/java/com/mbw/app/MainApplication.kt",
+      "bytes": 2024
+    },
+    {
+      "source": "android/app/src/main/java/com/mbw/app/MainActivity.kt",
+      "mirror": "android/app/src/main/java/com/mbw/app/MainActivity.kt",
+      "bytes": 2181
+    }
+  ]
+}

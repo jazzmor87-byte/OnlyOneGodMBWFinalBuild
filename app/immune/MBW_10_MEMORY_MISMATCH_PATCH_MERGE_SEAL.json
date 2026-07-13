@@ -1,0 +1,15 @@
+{
+  "seal": "MBW_10_MEMORY_MISMATCH_PATCH_MERGE_SEAL",
+  "fixed_special_law_mismatch_count": 8,
+  "cinematic_global_star_disabled": true,
+  "cinematic_global_panch_tatva_disabled": true,
+  "cinematic_11000_ms_proven": true,
+  "cinematic_welcome_to_mbw_proven": true,
+  "path_selection_master_of_life_proven": true,
+  "path_selection_full_access_proven": true,
+  "mainhub_multi_icon_rail_proven": true,
+  "mainhub_section_targets_proven": true,
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

@@ -1,0 +1,49 @@
+{
+  "seal": "MBW_13C_ROBUST_CUSTODY_SEAL_COMMIT_SEAL",
+  "head_before": "58fefee",
+  "tracked_modified_count": 5,
+  "tracked_modified_files": [
+    "app/data/MBWFinalVisualAssetRegistry.js",
+    "app/runtime/MBWAuthorityChainDriver.js",
+    "app/runtime/MBWGlobalVisualLogicDriver.js",
+    "app/runtime/MBWVisualLogicDriverRegistry.js",
+    "app/screens/Entry/PathSelectionScreen.js"
+  ],
+  "git_path_detection": "GIT_DIFF_NAME_ONLY",
+  "navigation_ref_ready": true,
+  "navigation_shared_aliases": [
+    "MBW_NAV_REF"
+  ],
+  "poster_fallback_contract_key_allowed": true,
+  "runtime_poster_fallback_removed": true,
+  "poster_source_fail_closed": true,
+  "mainhub_exact_target_count": 13,
+  "mainhub_targets": [
+    "MasterOfLife",
+    "Matchmaking",
+    "MasterOfGames",
+    "MasterOfCoins",
+    "TravelLocal",
+    "TravelOverseas",
+    "Merchandise",
+    "Kamashastra",
+    "LiveLounge",
+    "MensLounge",
+    "Nearby",
+    "AIPoster",
+    "Settings"
+  ],
+  "path_selection_runtime_ready": true,
+  "icon_poster_binding_risk_count": 0,
+  "cinematic_route_bypass_ready": true,
+  "runtime_authority_ready_count": 18,
+  "runtime_authority_total": 18,
+  "source_parse_available": true,
+  "source_parse_bad_count": 0,
+  "duplicate_assets_deleted": false,
+  "project_owned_assets_deleted": false,
+  "node_modules_modified": false,
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

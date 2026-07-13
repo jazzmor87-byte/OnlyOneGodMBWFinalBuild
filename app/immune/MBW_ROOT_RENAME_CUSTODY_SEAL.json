@@ -1,0 +1,31 @@
+{
+  "court": "MBW_ROOT_RENAME_CUSTODY_SEAL",
+  "created_by": "24E41O32A",
+  "old_root_name": "ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "new_root_name": "ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "old_root_path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "new_root_path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "move_executed_for_root_rename_only": true,
+  "delete_executed": false,
+  "build_gate": "CLOSED_BY_ACE_ORDER",
+  "eas_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false,
+  "head_before": "87045c7",
+  "heart_pump_theory": "SOURCE_IMPORT_ROUTE_VISUAL_OS_POSTER_HEADLINE_ICON_TOUCH_STATE_REPORT",
+  "cube_builder": "ROOT_CUSTODY_RENAME_SOURCE_NO_DRIFT",
+  "changed_files": [
+    "ONLY1GOD_MAAPAA_BLESSED_MBW_MANIFEST.json",
+    "app/immune/MBW_PREMIUM_SENTINEL_SEAL.json",
+    "app/immune/MBW_SOURCE_AZ_COMPLETION_SEAL.json",
+    "app/immune/MBW_BLACK_HOLE_SOURCE_AZ_FINAL_SEAL.json"
+  ],
+  "old_hits_before": [
+    "ONLY1GOD_MAAPAA_BLESSED_MBW_MANIFEST.json",
+    "app/immune/MBW_PREMIUM_SENTINEL_SEAL.json",
+    "app/immune/MBW_SOURCE_AZ_COMPLETION_SEAL.json",
+    "app/immune/MBW_BLACK_HOLE_SOURCE_AZ_FINAL_SEAL.json"
+  ],
+  "old_hits_after": []
+}

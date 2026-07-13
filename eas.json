@@ -1,0 +1,77 @@
+{
+  "cli": {
+    "version": ">=20.5.1",
+    "appVersionSource": "local",
+    "requireCommit": false
+  },
+  "build": {
+    "stage": {
+      "android": {
+        "buildType": "apk",
+        "image": "ubuntu-24.04-jdk-17-ndk-r27b"
+      },
+      "distribution": "internal",
+      "env": {
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk",
+        "image": "ubuntu-24.04-jdk-17-ndk-r27b"
+      },
+      "autoIncrement": false,
+      "distribution": "internal",
+      "env": {
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
+      }
+    },
+    "production-apk": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "image": "ubuntu-24.04-jdk-17-ndk-r27b"
+      },
+      "autoIncrement": false,
+      "env": {
+        "MBW_BUILD_KIND": "production-apk",
+        "MBW_PRODUCTION_AFTER_FINAL_STAGE_CLEAN": "true",
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
+      }
+    },
+    "playAab": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "image": "ubuntu-24.04-jdk-17-ndk-r27b"
+      },
+      "env": {
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
+      }
+    },
+    "stage-apk": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "image": "ubuntu-24.04-jdk-17-ndk-r27b"
+      },
+      "autoIncrement": false,
+      "env": {
+        "MBW_BUILD_KIND": "FINAL_MBW_APK_24E41N4B_FIXED_PARSE_IMPORT",
+        "MBW_FINAL_STAGE_FIRST": "true",
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
+      }
+    },
+    "apk": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "NODE_ENV": "production",
+        "EAS_SKIP_AUTO_FINGERPRINT": "1",
+        "MBW_GOLDEN_MASTER_PREVIEW": "true"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "maa-protection-mbw-exact-poster-cleanroom",
+  "version": "1.0.42",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "export:android": "expo export:embed --eager --platform android --dev false",
+    "mbw:qbuilder": "node scripts/mbw-q-builder-os.cjs",
+    "mbw:apk-forensic": "node scripts/mbw-q-builder-apk-only.cjs",
+    "ios": "expo run:ios",
+    "mbw:golden-court": "node scripts/mbw-golden-master-court.cjs",
+    "mbw:golden-export": "NODE_ENV=production expo export --platform android --max-workers 1",
+    "mbw:forensic-repair-court": "node scripts/mbw-forensic-repair-court.cjs"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "7.3.3",
+    "@react-navigation/native-stack": "7.17.5",
+    "expo": "54.0.35",
+    "expo-av": "16.0.8",
+    "expo-file-system": "~19.0.23",
+    "expo-image-manipulator": "~14.0.8",
+    "expo-image-picker": "~17.0.11",
+    "expo-location": "~19.0.8",
+    "expo-status-bar": "~3.0.0",
+    "expo-system-ui": "~6.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "4.16.0",
+    "expo-secure-store": "15.0.8",
+    "expo-crypto": "15.0.9",
+    "crypto-js": "4.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "54.0.11",
+    "eas-cli": "^20.5.1"
+  }
+}

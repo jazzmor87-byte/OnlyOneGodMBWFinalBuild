@@ -1,0 +1,49 @@
+{
+  "court": "MBW_33A_EAS_CLOUD_NPM_CI_LOCK_SEAL",
+  "created_by": "24E41O33A",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "73eca40",
+  "sdk_lane": "Expo SDK 54 / React Native 0.81.5 / Hermes",
+  "dependency_contract": {
+    "react-native": {
+      "package_dependencies": "0.81.5",
+      "lock_dependencies": "0.81.5"
+    },
+    "babel-preset-expo": {
+      "package_devDependencies": "54.0.11",
+      "lock_devDependencies": "54.0.11"
+    },
+    "@react-native/babel-plugin-codegen": {},
+    "@react-native/codegen": {}
+  },
+  "package_changes": [
+    {
+      "section": "devDependencies",
+      "package": "babel-preset-expo",
+      "from": "57.0.2",
+      "to": "54.0.11"
+    }
+  ],
+  "npm_install_package_lock_only_rc": 0,
+  "npm_ci_dry_run_rc": 0,
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "large_asset": [
+    {
+      "asset": "app/assets/cinematic/mbw_cinematic.mp4",
+      "bytes": 8037925
+    }
+  ],
+  "build_gate": "CLOSED_AFTER_LOCK_HEAL_READY_FOR_RETRY",
+  "eas_executed_by_script": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false
+}

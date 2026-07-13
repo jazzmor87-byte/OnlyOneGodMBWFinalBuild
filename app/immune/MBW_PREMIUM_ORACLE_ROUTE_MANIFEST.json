@@ -1,0 +1,154 @@
+{
+  "routes": [
+    {
+      "route": "CinematicIntro",
+      "type": "ENTRY_SPECIAL",
+      "file": "app/screens/Entry/CinematicIntroScreen.js",
+      "law": "premium_video_welcome_to_mbw_after_5s_auto_flow"
+    },
+    {
+      "route": "GateLocked",
+      "type": "ENTRY_SPECIAL",
+      "file": "app/screens/Entry/GateLockedScreen.js",
+      "law": "bottom_transparent_access_box_pentagram_star_icon_action_rotating_up_down"
+    },
+    {
+      "route": "GateOpen",
+      "type": "ENTRY_SPECIAL",
+      "file": "app/screens/Entry/GateOpenScreen.js",
+      "law": "center_star_visual_only_no_tap_dependency_auto_next_after_5s"
+    },
+    {
+      "route": "PathSelection",
+      "type": "ENTRY_SPECIAL",
+      "file": "app/screens/Entry/PathSelectionScreen.js",
+      "law": "two_route_groups_full_mbw_app_master_of_life"
+    },
+    {
+      "route": "SubscriptionSignup",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Entry/SubscriptionSignupScreen.js",
+      "poster": "SubscriptionSignupScreen.jpg",
+      "headline": "SUBSCRIPTION"
+    },
+    {
+      "route": "MainHub",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/MainHubScreen.js",
+      "poster": "MainHubScreen.jpg",
+      "headline": "MEN BEHIND WALL"
+    },
+    {
+      "route": "MasterOfLife",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/MasterOfLifeScreen.js",
+      "poster": "MasterOfLifeScreen.jpg",
+      "headline": "MASTER OF LIFE"
+    },
+    {
+      "route": "Matchmaking",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/MatchmakingScreen.js",
+      "poster": "MatchmakingScreen.jpg",
+      "headline": "MATCHMAKING"
+    },
+    {
+      "route": "Games",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/GamesScreen.js",
+      "poster": "GamesScreen.jpg",
+      "headline": "MASTER OF GAME"
+    },
+    {
+      "route": "MasterOfGames",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/MasterOfGamesScreen.js",
+      "poster": "MasterOfGamesScreen.jpg",
+      "headline": "MASTER OF GAME"
+    },
+    {
+      "route": "MasterOfCoins",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/MasterOfCoinsScreen.js",
+      "poster": "MasterOfCoinsScreen.jpg",
+      "headline": "MASTER OF COINS"
+    },
+    {
+      "route": "TravelLocal",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/TravelLocalScreen.js",
+      "poster": "TravelLocalScreen.jpg",
+      "headline": "TRAVEL LOCAL"
+    },
+    {
+      "route": "TravelOverseas",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/TravelOverseasScreen.js",
+      "poster": "TravelOverseasScreen.jpg",
+      "headline": "TRAVEL OVERSEAS"
+    },
+    {
+      "route": "Merchandise",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/MerchandiseScreen.js",
+      "poster": "MerchandiseScreen.jpg",
+      "headline": "MERCHANDISE"
+    },
+    {
+      "route": "Kamashastra",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/KamashastraScreen.js",
+      "poster": "KamashastraScreen.jpg",
+      "headline": "KAMASHASTRA"
+    },
+    {
+      "route": "LiveLounge",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/LiveLoungeScreen.js",
+      "poster": "LiveLoungeScreen.jpg",
+      "headline": "LIVE LOUNGE"
+    },
+    {
+      "route": "MensLounge",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/MensLoungeScreen.js",
+      "poster": "MensLoungeScreen.jpg",
+      "headline": "MEN\u2019S LOUNGE"
+    },
+    {
+      "route": "Nearby",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/NearbyScreen.js",
+      "poster": "NearbyScreen.jpg",
+      "headline": "NEARBY"
+    },
+    {
+      "route": "AIPoster",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/AIPosterScreen.js",
+      "poster": "AIPosterScreen.jpg",
+      "headline": "AI POSTER"
+    },
+    {
+      "route": "Settings",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/SettingsScreen.js",
+      "poster": "SettingsScreen.jpg",
+      "headline": "SETTINGS"
+    },
+    {
+      "route": "MatchFinalReincarnation",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/MatchFinalReincarnationScreen.js",
+      "poster": "MatchFinalReincarnationScreen.jpg",
+      "headline": "FINAL MATCH"
+    },
+    {
+      "route": "KamashastraResult",
+      "type": "NORMAL_SYNC",
+      "file": "app/screens/Sections/KamashastraResultScreen.js",
+      "poster": "KamashastraResultScreen.jpg",
+      "headline": "KAMASHASTRA RESULT"
+    }
+  ]
+}

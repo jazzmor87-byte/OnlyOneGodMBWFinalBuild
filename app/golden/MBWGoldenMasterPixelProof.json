@@ -1,0 +1,188 @@
+{
+  "CinematicIntro": {
+    "file": "CinematicIntroScreen.jpg",
+    "bytes": 480323,
+    "sha256": "0225b5ee7644a82d488548b48321359a347964639dfbe62979fd0c3413071d8b",
+    "pixel_sha256": "9efb51008ac64823755f04b22dc2a7611872eca844320c729137e5cd07cc7e6b"
+  },
+  "GateLocked": {
+    "file": "GateLockedScreen.jpg",
+    "bytes": 656254,
+    "sha256": "7446bdbd269bb3a911221589e3408fb3c96ed047cd4b4876a92faab4a06d24f6",
+    "pixel_sha256": "dacbde6bd1ef4e2098d6bb56a32bccc3224d1ef0dad5f41959a9220da7a74c4b"
+  },
+  "GateOpen": {
+    "file": "GateOpenScreen.jpg",
+    "bytes": 734845,
+    "sha256": "0171fc19eed8252718f3edd4fef183dd7503d9f0d761a1537a1c780f9d42563b",
+    "pixel_sha256": "3dae4b3219201763fced7a06e76869226d8ca692f86ad8e4fe589f055a5adaeb"
+  },
+  "PathSelection": {
+    "file": "PathSelectionScreen.jpg",
+    "bytes": 439049,
+    "sha256": "27affb5cec1dbb6da734aa63490e7c78208962689d5bd5774351c464d31282ee",
+    "pixel_sha256": "65f5ea37e779ab0fa79a0bfcd9e507a5869efb13cc9997ca000ce0a51ad9d2e6"
+  },
+  "SubscriptionSignup": {
+    "file": "SubscriptionSignupScreen.jpg",
+    "bytes": 633953,
+    "sha256": "fd38c33381bcad860d7223d864e8fe4d315c822a82b06f551d62ed653521bf9e",
+    "pixel_sha256": "a523e78082283b7dc7a80824406fd3e368c032680a75f5e02fc5f13847133b31"
+  },
+  "MainHub": {
+    "file": "MainHubScreen.jpg",
+    "bytes": 463722,
+    "sha256": "0b678fa965fb42285a1a83eb1cf608a979fb85954e1e0602ec469333022a2043",
+    "pixel_sha256": "84888f015a4a0a4346da1c0066323ae5d0d81f9cad88ab2ef6be565380777170"
+  },
+  "MasterOfLife": {
+    "file": "MasterOfLifeScreen.jpg",
+    "bytes": 231171,
+    "sha256": "f605aa9d975fdf667e306153be18abde423d4f70ba18d454f4d05df8ffea848b",
+    "pixel_sha256": "407018fd5d22f9215f64685a2c5fa15934ade28b14982b0c5e126efd01c09a00"
+  },
+  "Matchmaking": {
+    "file": "MatchmakingScreen.jpg",
+    "bytes": 418037,
+    "sha256": "8c2d89a53d7466625c32eec75c94159c38e2f2d6891f74cb10bf0ba195f29b79",
+    "pixel_sha256": "25225db6835571469cc14e44770be72064017a01b9727ebd2b2b4cbaae435e90"
+  },
+  "Games": {
+    "file": "GamesScreen.jpg",
+    "bytes": 474511,
+    "sha256": "8700556b4eee5ea0ddf2d7ee6ca5512c93f2384cba680d24adea07e5cfdf0bc4",
+    "pixel_sha256": "3865fc23d627b41bebcc342c74fed422dbc2a99fb5c5a3c15ad04dd470644615"
+  },
+  "MasterOfGames": {
+    "file": "GamesOverviewScreen.jpg",
+    "bytes": 413190,
+    "sha256": "72a9aa850d214aeaf47d6fcf56c7757ad4309ea6af3ba2524d445480d296211c",
+    "pixel_sha256": "3776b26b5dd8858d6def2f66820e3103253f34aa3dfb914d30fa2a5267a38fec"
+  },
+  "MasterOfCoins": {
+    "file": "MasterOfCoinsScreen.jpg",
+    "bytes": 306922,
+    "sha256": "e97a094f38e3a98725b21799016b836705d951dd6ebbcffb01fde4af095edec2",
+    "pixel_sha256": "25ed3c32407c9f136fd221af72499ca9c2f8f1f8c972d95dc63d7f46c756a100"
+  },
+  "TravelLocal": {
+    "file": "TravelLocalScreen.jpg",
+    "bytes": 389768,
+    "sha256": "972883a7e775e5f5dfe3ee40b5af3200a53df0df1268ecf18e315f59a03bad51",
+    "pixel_sha256": "1aae560f4d8b64903c9b22605f6e2179ebbd75f46f68ca2e092c4497d5c33fe0"
+  },
+  "TravelOverseas": {
+    "file": "TravelOverseasScreen.jpg",
+    "bytes": 446599,
+    "sha256": "101fe1b13559fcc43a314c18a9512d49e79858c07fd49efe0822a5e3dfc4173c",
+    "pixel_sha256": "26101504c1243afae758dbd92d69cd2b486a969f73e286929943b8676c247a44"
+  },
+  "Merchandise": {
+    "file": "MerchandiseScreen.jpg",
+    "bytes": 265437,
+    "sha256": "5d831b098eaf801f020ebdaf864dda9e6016bc59acd032b7a837aa79a631bdd5",
+    "pixel_sha256": "1df020bdd551c3e6b32048bdcfd491f1d3ded89580451df9836da8a74daee85a"
+  },
+  "Kamashastra": {
+    "file": "KamashastraScreen.jpg",
+    "bytes": 425505,
+    "sha256": "9c33761c08d1ccdbcdd13b82a71e80b561542e0e1a083802ce2d38940b089de1",
+    "pixel_sha256": "6752ee805b87923f19a8d6b393faa5c6597456fbbd60da37ba72924b445177b5"
+  },
+  "LiveLounge": {
+    "file": "LiveLoungeScreen.jpg",
+    "bytes": 439884,
+    "sha256": "2100cb9c487cf66d46f90bc3860d02c486b9f7e73649dee376c01b3e034999aa",
+    "pixel_sha256": "bd98d22ef885e3abfcbfe98c5ab4a0a0cf574fdec2ef5b46bd1d6ff6962f804c"
+  },
+  "MensLounge": {
+    "file": "MensLoungeScreen.jpg",
+    "bytes": 530838,
+    "sha256": "3a23187c9a3f118e5bdfa64efdaaab6d8584556185a7e902fce5c3ba0574faba",
+    "pixel_sha256": "e7fa1b6ff3368e59397a9bc5b543d4cd239474d81d3e5fb52de3309a12248422"
+  },
+  "Nearby": {
+    "file": "NearbyScreen.jpg",
+    "bytes": 385073,
+    "sha256": "0dec5522a2ad461f1ed47c6bb12902f676d77e1b1df46cef24c916b36616396d",
+    "pixel_sha256": "fe6e70864254e40a6c79a4a11cb9ec7b34e80ac4fd73a84c76a4021a3cc5917c"
+  },
+  "AIPoster": {
+    "file": "ProfilePosterOverviewScreen.jpg",
+    "bytes": 362068,
+    "sha256": "a54f8dd63ae3e51bace3690a795fe428ca53287f6db854945b7879ffa7a0802f",
+    "pixel_sha256": "cb44b3f355660939ad0c1257e223b825e21726b68ac492c57547720cc5bb593a"
+  },
+  "Settings": {
+    "file": "SettingsActionScreen.jpg",
+    "bytes": 455567,
+    "sha256": "ad5e63e95902c09986ee0861341143a03d0aa43aabfb890da8f0849c5fa73374",
+    "pixel_sha256": "e3abdb6f35f3f8928398832ad8aab67c176909202919cbf7c6bf3277cd0abf63"
+  },
+  "ProfilePoster": {
+    "file": "ProfilePosterEntryScreen.jpg",
+    "bytes": 358291,
+    "sha256": "b00cb96ca695e86e38e2c773304e73706439758d2053ac123752767c69a67d5b",
+    "pixel_sha256": "5ff9311f252bbaabb992723dd3dc939a2b63175a55b188edc75e43f8ac8928a8"
+  },
+  "MatchChat": {
+    "file": "MatchmakingLiveScreen.jpg",
+    "bytes": 505274,
+    "sha256": "67f34ee225ca82c258a3c843de36e87f8eba0921db857bf9667748d17cc23aa8",
+    "pixel_sha256": "999a39a090e212964659758c5f6db808ba02a5fd5c65304b3ffff50d801abd38"
+  },
+  "GameRoom": {
+    "file": "GamesLiveScreen.jpg",
+    "bytes": 382153,
+    "sha256": "b69a9790c348e11f0b0c12a7e4c46e4139535364a0ccc8c96ab9f00820ca1a85",
+    "pixel_sha256": "46bf3d5c17c9feed63d32e244a20c04600686ad45126d70589a884949b2b837e"
+  },
+  "TravelBooking": {
+    "file": "TravelLocalResultScreen.jpg",
+    "bytes": 429297,
+    "sha256": "99e75a83781a83fa255a1b25c728e7f80e75640c5bcb35d9a458108ef9fb9a86",
+    "pixel_sha256": "a775ea78ff06d53637e3cb1119883f9f74b987e18727e233239e345f058826d8"
+  },
+  "CommerceReceipt": {
+    "file": "MerchandiseActionScreen.jpg",
+    "bytes": 458248,
+    "sha256": "30e22b5349000765a5d46f6f7d2a3b0e3ace79e1e052e9f907dd9054aba9ebd1",
+    "pixel_sha256": "f56aadc0cdfbe3e1b2cbb9ea9b686c9f3d08ca0778da1b6fe094203a235fd2f6"
+  },
+  "Privacy": {
+    "file": "SettingsProofScreen.jpg",
+    "bytes": 357256,
+    "sha256": "276d1b490352d11966856e3f8baa12354985531df909a4e286f5a9f4f9626fd0",
+    "pixel_sha256": "32c8824cbea526e2ffd1dda8fd4b5935ffd1feef784e79deb7067986a07e706f"
+  },
+  "Terms": {
+    "file": "SettingsResultScreen.jpg",
+    "bytes": 454280,
+    "sha256": "be08afbe20d89c620a69d6700d2201d8a1ee1bebcca6f78f935e0d7de3792c1a",
+    "pixel_sha256": "7e1bdbd9e2ed3355683f346a2244c76a5985f6f927281243131fbf86cb9ff1b6"
+  },
+  "Safety": {
+    "file": "SettingsVaultScreen.jpg",
+    "bytes": 430022,
+    "sha256": "dc6f8d71d0eed6eeefd823839956a7e14b31875e962af81fa637849f9ee3c205",
+    "pixel_sha256": "01c48207c365baab937c7fbc4923d18f43a116cc8d7918c9a7bb2ed050fd95de"
+  },
+  "AccountControl": {
+    "file": "SettingsStateScreen.jpg",
+    "bytes": 488985,
+    "sha256": "b6c4845db4250a7b6f56803e3d5feb304c8e14958dfa3634162e94583a3a609f",
+    "pixel_sha256": "fbcbf5b2d097c67b25761b2676dbf7808c45387c66addb377e5757ad23877906"
+  },
+  "SeedProfile": {
+    "file": "ProfilePosterSeedScreen.jpg",
+    "bytes": 406540,
+    "sha256": "1e3df4eb93270cf722a0a0a648b3ab4513a171dbb8bdccc852c58cc37a9d93e5",
+    "pixel_sha256": "1146bbaad3e9b28baeb4d80a536a6666f482d10444354226e71886046b5a9359"
+  },
+  "Consent": {
+    "file": "SettingsButtonsScreen.jpg",
+    "bytes": 519830,
+    "sha256": "edebeb1a01929cf9064c3dd7e9d7ab5125eb587552b10e48c8c3bdb4697078f8",
+    "pixel_sha256": "849a43cdd0b5dd037d1b8e67b6a58774f7c9feab906531b95d1971653d4a0307"
+  }
+}

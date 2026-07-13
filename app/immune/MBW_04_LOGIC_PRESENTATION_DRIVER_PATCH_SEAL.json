@@ -1,0 +1,17 @@
+{
+  "seal": "MBW_04_LOGIC_PRESENTATION_DRIVER_PATCH_SEAL",
+  "entry_flow_sequence": true,
+  "first_run_flow": true,
+  "return_user_flow": true,
+  "section_return_rule": true,
+  "result_presentation_rule": true,
+  "empty_state_rule": true,
+  "locked_state_rule": true,
+  "success_state_rule": true,
+  "error_state_rule": true,
+  "next_step_state": true,
+  "primary_secondary_action_targets": true,
+  "build_executed": false,
+  "gradle_executed": false,
+  "eas_executed": false
+}

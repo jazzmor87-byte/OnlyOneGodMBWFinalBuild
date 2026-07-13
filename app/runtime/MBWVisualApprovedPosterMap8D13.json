@@ -1,0 +1,20 @@
+{
+  "GateLocked": "app/assets/mbw_screen_posters/GateLocked.jpg",
+  "GateOpen": "app/assets/mbw_screen_posters/GateOpen.jpg",
+  "PathSelection": "app/assets/mbw_screen_posters/PathSelection.jpg",
+  "SubscriptionSignup": "app/assets/mbw_exact_visual_body_posters/SubscriptionSignup.jpg",
+  "MainHub": "app/assets/mbw_exact_visual_body_posters/MainHub.png",
+  "Games": "app/assets/mbw_exact_visual_body_posters/Games.jpg",
+  "Kamashastra": "app/assets/mbw_exact_visual_body_posters/Kamashastra.jpg",
+  "LiveLounge": "app/assets/mbw_exact_visual_body_posters/LiveLounge.png",
+  "MasterOfCoins": "app/assets/mbw_exact_visual_body_posters/MasterOfCoins.jpg",
+  "MasterOfLife": "app/assets/mbw_exact_visual_body_posters/MasterOfLife.jpg",
+  "Matchmaking": "app/assets/mbw_exact_visual_body_posters/Matchmaking.png",
+  "MensLounge": "app/assets/mbw_exact_visual_body_posters/MensLounge.jpg",
+  "Merchandise": "app/assets/mbw_exact_visual_body_posters/Merchandise.jpg",
+  "Nearby": "app/assets/mbw_exact_visual_body_posters/Nearby.png",
+  "ProfilePoster": "app/assets/mbw_exact_visual_body_posters/ProfilePoster.jpg",
+  "Settings": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsScreen.jpg",
+  "TravelLocal": "app/assets/mbw_exact_visual_body_posters/TravelLocal.jpg",
+  "TravelOverseas": "app/assets/mbw_exact_visual_body_posters/TravelOverseas.jpg"
+}

@@ -1,0 +1,39 @@
+{
+  "seal": "MBW_FINAL_THREE_ARROW_GOLDEN_HEAD_SEAL",
+  "schema_version": 1,
+  "source_head_short": "55a49c1",
+  "source_head_full": "55a49c105f9c37cf41239759a32f558c54729627",
+  "source_tree": "5a310349b92759b22cc2e6111c481e7955b0adee",
+  "manifest_path": "app/immune/MBW_FINAL_THREE_ARROW_GOLDEN_HEAD_MANIFEST.json",
+  "manifest_sha256": "3fb9f41c86eee4071b12d45f45c44d9b89b1d36b2b11ad442c643ae57399295c",
+  "manifest_covered_file_count": 918,
+  "manifest_covered_source_count": 306,
+  "identity": {
+    "name": "MBW_FINAL_APK",
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "jsEngine": "hermes",
+    "newArchEnabled": false
+  },
+  "permission_set_exact": true,
+  "route_guard_proof": {
+    "allowlist": true,
+    "validator": true,
+    "product_guard": true,
+    "global_guard": true
+  },
+  "eas_apk_profile_ready": true,
+  "tool_proof": {
+    "node": "/data/data/com.termux/files/usr/bin/node",
+    "npm": "/data/data/com.termux/files/usr/bin/npm",
+    "npx": "/data/data/com.termux/files/usr/bin/npx",
+    "git": "/data/data/com.termux/files/usr/bin/git"
+  },
+  "build_executed": false,
+  "eas_executed": false,
+  "apk_created": false,
+  "runtime_proof_executed": false,
+  "visual_proof_executed": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "25B_VISUAL_BODY_HANDS_EXACTNESS_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "28ce6b0",
+  "visual_terms": {
+    "MBWVisualBoundary": true,
+    "PanchTatva": true,
+    "Pentagram": true,
+    "VisualBodyInheritanceCore": true,
+    "posterSafeZone": true
+  },
+  "missing_actions_after": [],
+  "patched_action_files": []
+}

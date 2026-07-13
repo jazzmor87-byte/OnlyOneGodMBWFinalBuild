@@ -1,0 +1,294 @@
+{
+  "court": "MBW_ULTRA_WIDE_PREBUILD_APK_MATCH_SEAL",
+  "created_by": "24E41O31B",
+  "head_before": "a673174",
+  "source_ultra_wide_green": false,
+  "live_az_green": false,
+  "real_mbw_beast_green": false,
+  "heart_pump_theory": "SOURCE_IMPORT_ROUTE_VISUAL_OS_POSTER_HEADLINE_ICON_TOUCH_STATE_REPORT",
+  "cube_faces": {
+    "FACE_1_SOURCE_CUSTODY": true,
+    "FACE_2_ACTIVE_IMPORT_GRAPH": true,
+    "FACE_3_ROUTE_BINDING": true,
+    "FACE_4_VISUAL_HEART_PUMP": false,
+    "FACE_5_TOUCH_LOOP_RUNTIME": true,
+    "FACE_6_HERMES_PARSE": true,
+    "FACE_7_CLOUD_UPLOAD_TREE": true,
+    "FACE_8_APK_MATCH_FINAL_STAGE_READINESS": true
+  },
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "active_screen_reach": {
+    "CinematicIntro": true,
+    "GateLocked": true,
+    "GateOpen": true,
+    "PathSelection": true,
+    "SubscriptionSignup": true,
+    "MainHub": true,
+    "MasterOfLife": true,
+    "Matchmaking": true,
+    "Games": true,
+    "MasterOfGames": true,
+    "MasterOfCoins": true,
+    "TravelLocal": true,
+    "TravelOverseas": true,
+    "Merchandise": true,
+    "Kamashastra": true,
+    "LiveLounge": true,
+    "MensLounge": true,
+    "Nearby": true,
+    "AIPoster": true,
+    "Settings": true,
+    "MatchFinalReincarnation": true,
+    "KamashastraResult": true
+  },
+  "route_bindings": {
+    "CinematicIntro": {
+      "component": "MBWRealCinematicIntro",
+      "import": {
+        "spec": "../screens/Entry/CinematicIntroScreen",
+        "resolved": "app/screens/Entry/CinematicIntroScreen.js",
+        "exists": true
+      }
+    },
+    "GateLocked": {
+      "component": "MBWRealGateLocked",
+      "import": {
+        "spec": "../screens/Entry/GateLockedScreen",
+        "resolved": "app/screens/Entry/GateLockedScreen.js",
+        "exists": true
+      }
+    },
+    "GateOpen": {
+      "component": "MBWRealGateOpen",
+      "import": {
+        "spec": "../screens/Entry/GateOpenScreen",
+        "resolved": "app/screens/Entry/GateOpenScreen.js",
+        "exists": true
+      }
+    },
+    "PathSelection": {
+      "component": "MBWRealPathSelection",
+      "import": {
+        "spec": "../screens/Entry/PathSelectionScreen",
+        "resolved": "app/screens/Entry/PathSelectionScreen.js",
+        "exists": true
+      }
+    },
+    "SubscriptionSignup": {
+      "component": "MBWRealSubscriptionSignup",
+      "import": {
+        "spec": "../screens/Entry/SubscriptionSignupScreen",
+        "resolved": "app/screens/Entry/SubscriptionSignupScreen.js",
+        "exists": true
+      }
+    },
+    "MainHub": {
+      "component": "MBWRealMainHub",
+      "import": {
+        "spec": "../screens/MainHubScreen",
+        "resolved": "app/screens/MainHubScreen.js",
+        "exists": true
+      }
+    },
+    "MasterOfLife": {
+      "component": "MBWRealMasterOfLife",
+      "import": {
+        "spec": "../screens/Sections/MasterOfLifeScreen",
+        "resolved": "app/screens/Sections/MasterOfLifeScreen.js",
+        "exists": true
+      }
+    },
+    "Matchmaking": {
+      "component": "MBWRealMatchmaking",
+      "import": {
+        "spec": "../screens/Sections/MatchmakingScreen",
+        "resolved": "app/screens/Sections/MatchmakingScreen.js",
+        "exists": true
+      }
+    },
+    "Games": {
+      "component": "MBWRealGames",
+      "import": {
+        "spec": "../screens/Sections/GamesScreen",
+        "resolved": "app/screens/Sections/GamesScreen.js",
+        "exists": true
+      }
+    },
+    "MasterOfGames": {
+      "component": "MBWRealMasterOfGames",
+      "import": {
+        "spec": "../screens/Sections/MasterOfGamesScreen",
+        "resolved": "app/screens/Sections/MasterOfGamesScreen.js",
+        "exists": true
+      }
+    },
+    "MasterOfCoins": {
+      "component": "MBWRealMasterOfCoins",
+      "import": {
+        "spec": "../screens/Sections/MasterOfCoinsScreen",
+        "resolved": "app/screens/Sections/MasterOfCoinsScreen.js",
+        "exists": true
+      }
+    },
+    "TravelLocal": {
+      "component": "MBWRealTravelLocal",
+      "import": {
+        "spec": "../screens/Sections/TravelLocalScreen",
+        "resolved": "app/screens/Sections/TravelLocalScreen.js",
+        "exists": true
+      }
+    },
+    "TravelOverseas": {
+      "component": "MBWRealTravelOverseas",
+      "import": {
+        "spec": "../screens/Sections/TravelOverseasScreen",
+        "resolved": "app/screens/Sections/TravelOverseasScreen.js",
+        "exists": true
+      }
+    },
+    "Merchandise": {
+      "component": "MBWRealMerchandise",
+      "import": {
+        "spec": "../screens/Sections/MerchandiseScreen",
+        "resolved": "app/screens/Sections/MerchandiseScreen.js",
+        "exists": true
+      }
+    },
+    "Kamashastra": {
+      "component": "MBWRealKamashastra",
+      "import": {
+        "spec": "../screens/Sections/KamashastraScreen",
+        "resolved": "app/screens/Sections/KamashastraScreen.js",
+        "exists": true
+      }
+    },
+    "LiveLounge": {
+      "component": "MBWRealLiveLounge",
+      "import": {
+        "spec": "../screens/Sections/LiveLoungeScreen",
+        "resolved": "app/screens/Sections/LiveLoungeScreen.js",
+        "exists": true
+      }
+    },
+    "MensLounge": {
+      "component": "MBWRealMensLounge",
+      "import": {
+        "spec": "../screens/Sections/MensLoungeScreen",
+        "resolved": "app/screens/Sections/MensLoungeScreen.js",
+        "exists": true
+      }
+    },
+    "Nearby": {
+      "component": "MBWRealNearby",
+      "import": {
+        "spec": "../screens/Sections/NearbyScreen",
+        "resolved": "app/screens/Sections/NearbyScreen.js",
+        "exists": true
+      }
+    },
+    "AIPoster": {
+      "component": "MBWRealAIPoster",
+      "import": {
+        "spec": "../screens/Sections/AIPosterScreen",
+        "resolved": "app/screens/Sections/AIPosterScreen.js",
+        "exists": true
+      }
+    },
+    "Settings": {
+      "component": "MBWRealSettings",
+      "import": {
+        "spec": "../screens/Sections/SettingsScreen",
+        "resolved": "app/screens/Sections/SettingsScreen.js",
+        "exists": true
+      }
+    },
+    "MatchFinalReincarnation": {
+      "component": "MBWRealMatchFinalReincarnation",
+      "import": {
+        "spec": "../screens/Sections/MatchFinalReincarnationScreen",
+        "resolved": "app/screens/Sections/MatchFinalReincarnationScreen.js",
+        "exists": true
+      }
+    },
+    "KamashastraResult": {
+      "component": "MBWRealKamashastraResult",
+      "import": {
+        "spec": "../screens/Sections/KamashastraResultScreen",
+        "resolved": "app/screens/Sections/KamashastraResultScreen.js",
+        "exists": true
+      }
+    },
+    "ProfilePoster": {
+      "component": "ProfilePosterScreen",
+      "import": {
+        "spec": "../screens/Sections/AIPosterScreen",
+        "resolved": "app/screens/Sections/ProfilePosterScreen.js",
+        "exists": true
+      }
+    }
+  },
+  "large_asset_policy": {
+    "source_safe": true,
+    "live_memory_proof_required_after_install": true,
+    "items": [
+      {
+        "route": "CinematicIntro",
+        "asset": "app/assets/cinematic/mbw_cinematic.mp4",
+        "bytes": 8037925
+      }
+    ]
+  },
+  "p0": [
+    {
+      "code": "STYLE_KILLERS",
+      "detail": [
+        {
+          "file": "app/runtime/MBWOrbitUniverseSignalBridge.js",
+          "line": 80,
+          "text": "    opacity: 0,"
+        },
+        {
+          "file": "app/runtime/MBWScreenOSBridge.js",
+          "line": 11,
+          "text": "    <View pointerEvents=\"none\" style={{ width: 0, height: 0, opacity: 0, overflow: 'hidden' }}>"
+        }
+      ]
+    },
+    {
+      "code": "CUBE_FACE_FAILED",
+      "detail": {
+        "FACE_4_VISUAL_HEART_PUMP": false
+      }
+    }
+  ],
+  "p1": [],
+  "warn": [],
+  "info": [
+    {
+      "code": "LARGE_ASSET_ACCEPTED_SOURCE_SAFE_LIVE_PROOF_REQUIRED",
+      "detail": [
+        {
+          "route": "CinematicIntro",
+          "asset": "app/assets/cinematic/mbw_cinematic.mp4",
+          "bytes": 8037925
+        }
+      ]
+    }
+  ],
+  "build_gate": "CLOSED_BY_ACE_ORDER",
+  "next_build_order": [
+    "FINAL_STAGE_APK_FIRST",
+    "PRODUCTION_APK_SECOND",
+    "AAB_FINAL_THIRD"
+  ],
+  "eas_command_printed": false,
+  "eas_executed": false
+}

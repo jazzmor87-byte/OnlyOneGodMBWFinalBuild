@@ -1,0 +1,143 @@
+{
+  "court": "MBW_35A_FINAL_VISUAL_PRODUCT_ENGINE_INSTALLER_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "e475791",
+  "patched_routes": [
+    {
+      "route": "AIPoster",
+      "file": "app/screens/Sections/AIPosterScreen.js"
+    },
+    {
+      "route": "CinematicIntro",
+      "file": "app/screens/Entry/CinematicIntroScreen.js"
+    },
+    {
+      "route": "Games",
+      "file": "app/screens/Sections/GamesScreen.js"
+    },
+    {
+      "route": "GateLocked",
+      "file": "app/screens/Entry/GateLockedScreen.js"
+    },
+    {
+      "route": "GateOpen",
+      "file": "app/screens/Entry/GateOpenScreen.js"
+    },
+    {
+      "route": "Kamashastra",
+      "file": "app/screens/Sections/KamashastraScreen.js"
+    },
+    {
+      "route": "KamashastraResult",
+      "file": "app/screens/Sections/KamashastraResultScreen.js"
+    },
+    {
+      "route": "LiveLounge",
+      "file": "app/screens/Sections/LiveLoungeScreen.js"
+    },
+    {
+      "route": "MainHub",
+      "file": "app/screens/MainHubScreen.js"
+    },
+    {
+      "route": "MasterOfCoins",
+      "file": "app/screens/Sections/MasterOfCoinsScreen.js"
+    },
+    {
+      "route": "MasterOfGames",
+      "file": "app/screens/Sections/MasterOfGamesScreen.js"
+    },
+    {
+      "route": "MasterOfLife",
+      "file": "app/screens/Sections/MasterOfLifeScreen.js"
+    },
+    {
+      "route": "MatchFinalReincarnation",
+      "file": "app/screens/Sections/MatchFinalReincarnationScreen.js"
+    },
+    {
+      "route": "Matchmaking",
+      "file": "app/screens/Sections/MatchmakingScreen.js"
+    },
+    {
+      "route": "MensLounge",
+      "file": "app/screens/Sections/MensLoungeScreen.js"
+    },
+    {
+      "route": "Merchandise",
+      "file": "app/screens/Sections/MerchandiseScreen.js"
+    },
+    {
+      "route": "Nearby",
+      "file": "app/screens/Sections/NearbyScreen.js"
+    },
+    {
+      "route": "PathSelection",
+      "file": "app/screens/Entry/PathSelectionScreen.js"
+    },
+    {
+      "route": "ProfilePoster",
+      "file": "app/screens/Sections/AIPosterScreen.js"
+    },
+    {
+      "route": "Settings",
+      "file": "app/screens/Sections/SettingsScreen.js"
+    },
+    {
+      "route": "SubscriptionSignup",
+      "file": "app/screens/Entry/SubscriptionSignupScreen.js"
+    },
+    {
+      "route": "TravelLocal",
+      "file": "app/screens/Sections/TravelLocalScreen.js"
+    },
+    {
+      "route": "TravelOverseas",
+      "file": "app/screens/Sections/TravelOverseasScreen.js"
+    }
+  ],
+  "patched_route_count": 23,
+  "asset_registry": "app/data/MBWFinalVisualAssetRegistry.js",
+  "visual_os": "app/components/MBWFinalVisualProductOS.js",
+  "selected_asset_count": 40,
+  "cinematic_present": true,
+  "markers": [
+    "MBW_BIG_PILL_MENU_REPLACED",
+    "MBW_CINEMATIC_GATE_READY",
+    "MBW_FINAL_VISUAL_ASSET_REGISTRY_READY",
+    "MBW_FINAL_VISUAL_PRODUCT_ENGINE_READY",
+    "MBW_FLOATING_ICON_ACTIONS_READY",
+    "MBW_HEADLINE_PHASE_READY",
+    "MBW_LIVING_STAR_ENGINE_READY",
+    "MBW_MAINHUB_EMPIRE_CHAMBER_READY",
+    "MBW_PANCHTATVA_PARTICLES_READY",
+    "MBW_PATH_SELECTION_REBUILT_READY",
+    "MBW_POSTER_AWARE_DEPTH_READY"
+  ],
+  "visual_repair_result": {
+    "big_pill_menu_replaced": true,
+    "mainhub_empire_chamber_installed": true,
+    "path_selection_rebuilt": true,
+    "cinematic_gate_rebuilt": true,
+    "floating_icon_actions_installed": true,
+    "living_star_engine_installed": true,
+    "poster_aware_depth_installed": true,
+    "panch_tatva_particles_installed": true
+  },
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "npm_ci_dry_run_rc": 0,
+  "babel_parse_rc": 0,
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false
+}

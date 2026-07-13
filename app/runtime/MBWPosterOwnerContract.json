@@ -1,0 +1,159 @@
+{
+  "seal": "MBWPosterOwnerContract",
+  "mode": "8D5_POSTER_CONTRACT_HASH_LOCK",
+  "generated_at": "LOCKED_DETERMINISTIC_POSTER_CONTRACT",
+  "routes": {
+    "CinematicIntro": {
+      "route": "CinematicIntro",
+      "expected_poster": "app/assets/mbw_clean_shuffled_visual_body_posters/CinematicIntroScreen.jpg",
+      "exists": 0,
+      "bytes": 0,
+      "sha256": "",
+      "fallback_allowed": false
+    },
+    "GateLocked": {
+      "route": "GateLocked",
+      "expected_poster": "app/assets/mbw_screen_posters/GateLocked.jpg",
+      "exists": 1,
+      "bytes": 327268,
+      "sha256": "830f7ac37664fc3967799c9778a9dabc51a57d91814feb6e0c17602dc45d28ae",
+      "fallback_allowed": false
+    },
+    "GateOpen": {
+      "route": "GateOpen",
+      "expected_poster": "app/assets/mbw_screen_posters/GateOpen.jpg",
+      "exists": 1,
+      "bytes": 334933,
+      "sha256": "54d420936576a400951ebe90becebe41b612db504a65d15078d5ab4d26a5af78",
+      "fallback_allowed": false
+    },
+    "PathSelection": {
+      "route": "PathSelection",
+      "expected_poster": "app/assets/mbw_screen_posters/PathSelection.jpg",
+      "exists": 1,
+      "bytes": 122360,
+      "sha256": "e2fc339af6efe53176e3841bb8cab61db43e43b61f4eab53c14e94232926a263",
+      "fallback_allowed": false
+    },
+    "SubscriptionSignup": {
+      "route": "SubscriptionSignup",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/SubscriptionSignup.jpg",
+      "exists": 1,
+      "bytes": 124867,
+      "sha256": "4a009c2ce08354afa274317020b55e87c55934bf7716c010c754a31732cbf8e5",
+      "fallback_allowed": false
+    },
+    "MainHub": {
+      "route": "MainHub",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/MainHub.png",
+      "exists": 1,
+      "bytes": 1540043,
+      "sha256": "5bbc65ff4d1c827e52370ffb9878527c67ce1521ea4aaf39c5895bf103f12fc4",
+      "fallback_allowed": false
+    },
+    "Games": {
+      "route": "Games",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/Games.jpg",
+      "exists": 1,
+      "bytes": 109967,
+      "sha256": "c154b9997c5f56274f3f68e590b61fa4c97f4865ae19ac95035e832ea750c6e0",
+      "fallback_allowed": false
+    },
+    "Kamashastra": {
+      "route": "Kamashastra",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/Kamashastra.jpg",
+      "exists": 1,
+      "bytes": 153917,
+      "sha256": "ae7e7af92e25b6cc6f73e8bdc95ce17a10815392e5cc509ccfe6ebe02e40b791",
+      "fallback_allowed": false
+    },
+    "LiveLounge": {
+      "route": "LiveLounge",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/LiveLounge.png",
+      "exists": 1,
+      "bytes": 1761596,
+      "sha256": "a9017633ef09dc333a379c1af5097e0a3bdde560455c8ccd55fb3603877b4249",
+      "fallback_allowed": false
+    },
+    "MasterOfCoins": {
+      "route": "MasterOfCoins",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/MasterOfCoins.jpg",
+      "exists": 1,
+      "bytes": 216728,
+      "sha256": "598a65c26e4ade12557d0a3b0781e285f9a94414b992c48c10930b508a192712",
+      "fallback_allowed": false
+    },
+    "MasterOfLife": {
+      "route": "MasterOfLife",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/MasterOfLife.jpg",
+      "exists": 1,
+      "bytes": 94940,
+      "sha256": "6143037b8b980c7a24c45515dbdda4f84fd02a9c842e2f99ae88213001d8da53",
+      "fallback_allowed": false
+    },
+    "Matchmaking": {
+      "route": "Matchmaking",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/Matchmaking.png",
+      "exists": 1,
+      "bytes": 3688802,
+      "sha256": "e42e3c0c554a207aadcd47381657f87efecb7b077f63a5090e0b92857d0e8af6",
+      "fallback_allowed": false
+    },
+    "MensLounge": {
+      "route": "MensLounge",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/MensLounge.jpg",
+      "exists": 1,
+      "bytes": 108172,
+      "sha256": "0b2c0b5b3b58f311e63cf8a0a719168a9934428006c6b60140ad62ceb8f5a689",
+      "fallback_allowed": false
+    },
+    "Merchandise": {
+      "route": "Merchandise",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/Merchandise.jpg",
+      "exists": 1,
+      "bytes": 96931,
+      "sha256": "c2cf47905c6d0e67bb7e3376da16af6b4844233cb252591fea4df37ceab6c25c",
+      "fallback_allowed": false
+    },
+    "Nearby": {
+      "route": "Nearby",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/Nearby.png",
+      "exists": 1,
+      "bytes": 2308411,
+      "sha256": "beaa023d4acf7eb9255b8b1c249aa966772596c9e1676e2208776a4eb2cd6adc",
+      "fallback_allowed": false
+    },
+    "ProfilePoster": {
+      "route": "ProfilePoster",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/ProfilePoster.jpg",
+      "exists": 1,
+      "bytes": 121197,
+      "sha256": "5ff9cee5509de84d682e1658cca03fdc27c7fef2af0939d816bd1ae9d7c3c872",
+      "fallback_allowed": false
+    },
+    "Settings": {
+      "route": "Settings",
+      "expected_poster": "app/assets/mbw_clean_shuffled_visual_body_posters/SettingsScreen.jpg",
+      "exists": 1,
+      "bytes": 358707,
+      "sha256": "a5c037fcd9f45e5ac95739c172cb73a346f6154b8512c843dbe885d37e00c3f3",
+      "fallback_allowed": false
+    },
+    "TravelLocal": {
+      "route": "TravelLocal",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/TravelLocal.jpg",
+      "exists": 1,
+      "bytes": 115358,
+      "sha256": "4ae2d6f6bb25691661e62a93e922e13041649cb4b376e1833443b3a26b6e661c",
+      "fallback_allowed": false
+    },
+    "TravelOverseas": {
+      "route": "TravelOverseas",
+      "expected_poster": "app/assets/mbw_exact_visual_body_posters/TravelOverseas.jpg",
+      "exists": 1,
+      "bytes": 188290,
+      "sha256": "28a7ebd316f540deab2534c51a159f93cb9541ab62ce09ce5a7d679ec5be3b15",
+      "fallback_allowed": false
+    }
+  }
+}

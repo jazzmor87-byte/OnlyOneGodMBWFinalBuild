@@ -1,0 +1,21 @@
+{
+  "court": "MBW_33T_FAMILY_WIDE_METRO_IMPORT_RESOLVER_SEAL",
+  "head_before": "9e4824d",
+  "created_bridges": [],
+  "missing_final": [],
+  "fallback_created": false,
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false,
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  }
+}

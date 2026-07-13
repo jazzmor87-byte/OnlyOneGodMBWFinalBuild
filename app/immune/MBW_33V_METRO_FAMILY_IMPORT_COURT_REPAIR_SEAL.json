@@ -1,0 +1,32 @@
+{
+  "court": "MBW_33V_METRO_FAMILY_IMPORT_COURT_REPAIR_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head_before": "d4177f3",
+  "failed_cloud_log_healed": "Unable to resolve module ../screens/Sections/AIPosterScreen",
+  "repair_type": "family_wide_known_alias_bridge_resolver",
+  "created_bridges": [],
+  "missing_final": [],
+  "fallback_created": false,
+  "delete_executed": false,
+  "move_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false,
+  "npm_ci_dry_run_rc": 0,
+  "babel_parse_rc": 0,
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "package": "com.mbw.app",
+    "versionCode": 44,
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "large_asset": [
+    {
+      "asset": "app/assets/cinematic/mbw_cinematic.mp4",
+      "bytes": 8037925
+    }
+  ]
+}

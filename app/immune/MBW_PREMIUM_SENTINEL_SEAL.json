@@ -1,0 +1,81 @@
+{
+  "court": "MBW_24E41O24G_FINAL_PREMIUM_SENTINEL_SEAL",
+  "root": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW",
+  "head": "8d4ca2f",
+  "branch": "master",
+  "source_green": true,
+  "cloud_parity_green": true,
+  "ready_for_build_when_ace_says": true,
+  "build_gate": "CLOSED_BY_ACE_ORDER",
+  "eas_executed": false,
+  "local_build": false,
+  "expo_export": false,
+  "install_executed": false,
+  "cinematic_checks": {
+    "video_asset": true,
+    "welcome_to": true,
+    "mbw": true,
+    "after_5_seconds": true,
+    "auto_gate_locked": true,
+    "no_tap_dependency": true,
+    "premium_star_motion": true
+  },
+  "core_checks": {
+    "headline_cycle": true,
+    "icon_action_sync": true,
+    "premium_star": true,
+    "poster_visible": true,
+    "front_elevation": true
+  },
+  "config": {
+    "version": "1.0.42",
+    "runtimeVersion": "1.0.42",
+    "versionCode": 44,
+    "package": "com.mbw.app",
+    "newArchEnabled": false,
+    "hermes": true,
+    "jsc": false
+  },
+  "package_declared": {
+    "expo": "54.0.35",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "expo-av": "16.0.8",
+    "babel-preset-expo": "57.0.2"
+  },
+  "runtime_checks": {
+    "expo": {
+      "resolved": true,
+      "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/expo/package.json",
+      "error": ""
+    },
+    "react": {
+      "resolved": true,
+      "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/react/package.json",
+      "error": ""
+    },
+    "react-native": {
+      "resolved": true,
+      "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/react-native/package.json",
+      "error": ""
+    },
+    "expo-av": {
+      "resolved": true,
+      "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/expo-av/package.json",
+      "error": ""
+    },
+    "babel-preset-expo": {
+      "resolved": true,
+      "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/babel-preset-expo/package.json",
+      "error": ""
+    },
+    "@babel/parser": {
+      "resolved": true,
+      "path": "/data/data/com.termux/files/usr/var/ONLY1GOD_MAAPAA_BLESSED_MBW/node_modules/@babel/parser/package.json",
+      "error": ""
+    }
+  },
+  "p0": [],
+  "p1": [],
+  "warn": []
+}

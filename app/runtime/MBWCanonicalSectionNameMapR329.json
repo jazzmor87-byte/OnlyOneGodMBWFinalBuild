@@ -1,0 +1,146 @@
+{
+  "MainHub": {
+    "family": "MAIN HUB / REALM ENTRY",
+    "visible": "\ud83d\udc51 MAIN HUB \ud83d\udddd\ufe0f",
+    "aliases": [
+      "mainhub",
+      "main hub",
+      "realm entry",
+      "home"
+    ]
+  },
+  "MasterOfLife": {
+    "family": "HONEYBOY\u2019S WORLD / MB REALM",
+    "visible": "\ud83d\udddd\ufe0f HONEYBOY\u2019S WORLD \ud83d\udc51",
+    "aliases": [
+      "masteroflife",
+      "master of life",
+      "honeyboy",
+      "honey boys world",
+      "money boy",
+      "mb realm"
+    ]
+  },
+  "Matchmaking": {
+    "family": "MATCHMAKING / INNER CIRCLE",
+    "visible": "\u2764\ufe0f INNER CIRCLE \ud83d\udc98",
+    "aliases": [
+      "matchmaking",
+      "match",
+      "inner circle"
+    ]
+  },
+  "Games": {
+    "family": "GAMES / MASTER OF GAMES",
+    "visible": "\ud83c\udfb2 GAMES \ud83d\udd79\ufe0f",
+    "aliases": [
+      "games",
+      "game",
+      "master of games",
+      "ludo",
+      "seep",
+      "sweep",
+      "sicbo"
+    ]
+  },
+  "MasterOfCoins": {
+    "family": "MASTER OF COINS",
+    "visible": "\ud83e\ude99 MASTER OF COINS \ud83d\udcb0",
+    "aliases": [
+      "masterofcoins",
+      "master of coins",
+      "coins",
+      "coin",
+      "wallet"
+    ]
+  },
+  "TravelLocal": {
+    "family": "TRAVEL LOCAL / HOSTING",
+    "visible": "\ud83e\udded TRAVEL LOCAL \u2708\ufe0f",
+    "aliases": [
+      "travellocal",
+      "travel local",
+      "local travel",
+      "hosting",
+      "host"
+    ]
+  },
+  "TravelOverseas": {
+    "family": "TRAVEL OVERSEAS / ABROAD",
+    "visible": "\ud83c\udf0d TRAVEL OVERSEAS \u2708\ufe0f",
+    "aliases": [
+      "traveloverseas",
+      "travel overseas",
+      "overseas",
+      "abroad"
+    ]
+  },
+  "Merchandise": {
+    "family": "MERCHANDISE / LUXURY",
+    "visible": "\ud83d\udc8e MERCHANDISE \ud83d\udecd\ufe0f",
+    "aliases": [
+      "merchandise",
+      "merch",
+      "luxury"
+    ]
+  },
+  "Kamashastra": {
+    "family": "KAMASHASTRA \u2014 ART OF MATCHING",
+    "visible": "\ud83d\udd25 KAMASHASTRA \u2014 ART OF MATCHING \u269c\ufe0f",
+    "aliases": [
+      "kamashastra",
+      "kama shastra",
+      "art of matching"
+    ]
+  },
+  "LiveLounge": {
+    "family": "LIVE / SOCIAL CHAMBER",
+    "visible": "\ud83c\udf99\ufe0f SOCIAL CHAMBER \ud83d\udce1",
+    "aliases": [
+      "livelounge",
+      "live lounge",
+      "live",
+      "social chamber"
+    ]
+  },
+  "MensLounge": {
+    "family": "MEN\u2019S LOUNGE",
+    "visible": "\ud83d\udc51 MEN\u2019S LOUNGE \ud83e\udd42",
+    "aliases": [
+      "menslounge",
+      "mens lounge",
+      "men's lounge",
+      "men\u2019s lounge",
+      "lounge"
+    ]
+  },
+  "Nearby": {
+    "family": "NEXT DOOR / NEARBY",
+    "visible": "\ud83d\udccd NEXT DOOR \ud83e\udded",
+    "aliases": [
+      "nearby",
+      "next door",
+      "nextdoor"
+    ]
+  },
+  "ProfilePoster": {
+    "family": "AI POSTER / USE MY FACE",
+    "visible": "\ud83d\udcf8 AI POSTER \ud83d\uddbc\ufe0f",
+    "aliases": [
+      "profileposter",
+      "profile poster",
+      "ai poster",
+      "use my face",
+      "profile"
+    ]
+  },
+  "Settings": {
+    "family": "SETTINGS / ACCESS",
+    "visible": "\u2699\ufe0f SETTINGS \ud83d\udee1\ufe0f",
+    "aliases": [
+      "settings",
+      "access",
+      "restore"
+    ]
+  }
+}
