@@ -1,16 +1,17 @@
+"MBW_EXACT_VISUAL_OS_WRAPPED";
+import { withMBWExactVisualOS } from "../../runtime/MBWExactVisualOS";
 import { safeNavigate } from '../../runtime/MBWSafeNavigation';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { MBWVisualBodyFrame } from '../../components/MBWVisualBodyFrame';
 import { MBWFloatingIconButton } from '../../components/MBWFloatingIconButton';
-
-export default function MBWOSRuntimeCarryScreen({ navigation }) {
+export default withMBWExactVisualOS(function MBWOSRuntimeCarryScreen({
+  navigation
+}) {
   const goMainHub = () => safeNavigate(navigation, 'GateLocked');
   const goBack = () => navigation && navigation.goBack ? navigation.goBack() : null;
   const stay = () => {};
-
-  return (
-    <MBWVisualBodyFrame routeName="MBW OS RUNTIME CARRY" posterSafe>
+  return <MBWVisualBodyFrame routeName="MBW OS RUNTIME CARRY" posterSafe>
       <View style={styles.wrap}>
         <Text style={styles.title}>♠️ MBW OS 🧠</Text>
         <View style={styles.buttons}>
@@ -19,16 +20,16 @@ export default function MBWOSRuntimeCarryScreen({ navigation }) {
           <MBWFloatingIconButton label="🔥 RUNTIME 🧠" press handler={stay} />
         </View>
       </View>
-    </MBWVisualBodyFrame>
-  );
-}
-
+    </MBWVisualBodyFrame>;
+}, {
+  screenId: "MBWOSRuntimeCarryScreen"
+});
 const styles = StyleSheet.create({
   wrap: {
     flex: 1,
     justifyContent: 'flex-end',
     padding: 22,
-    paddingBottom: 42,
+    paddingBottom: 42
   },
   title: {
     color: '#D4AF37',
@@ -36,12 +37,12 @@ const styles = StyleSheet.create({
     fontWeight: '800',
     letterSpacing: 2,
     textAlign: 'center',
-    marginBottom: 18,
+    marginBottom: 18
   },
   buttons: {
     gap: 12,
-    alignItems: 'center',
-  },
+    alignItems: 'center'
+  }
 });
 
 /*

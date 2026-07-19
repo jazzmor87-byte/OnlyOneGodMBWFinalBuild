@@ -13,3 +13,4 @@ MBW_*_READY*.json
 MBW_V*_RUNTIME_TRUTH_ENGINE_*.json
 *.pyc
 __pycache__/
+.env*.local

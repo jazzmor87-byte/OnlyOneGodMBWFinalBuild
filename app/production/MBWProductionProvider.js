@@ -3,7 +3,7 @@ import * as Crypto from 'expo-crypto';
 import { MBWProductionRepository } from './MBWProductionRepository';
 import { mbwProductionConfigStatus } from './MBWProductionConfig';
 import { mbwPurchaseTier, mbwRestorePurchases } from './MBWBillingClient';
-import { useMBWGoldenMaster } from '../golden/MBWGoldenMasterStore';
+import { useMBWGoldenMaster } from './sovereign/MBWGoldenMasterStore';
 const Context = createContext(null);
 function badge(tier) { return ['444','555'].includes(tier) ? 'MAROON' : tier === '333' ? 'GOLDEN' : 'BLACK'; }
 export function MBWProductionProvider({ children }) {

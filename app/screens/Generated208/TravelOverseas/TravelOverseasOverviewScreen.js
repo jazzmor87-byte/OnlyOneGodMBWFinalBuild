@@ -1,4 +1,5 @@
-
+"MBW_EXACT_VISUAL_OS_WRAPPED";
+import { withMBWExactVisualOS } from "../../../runtime/MBWExactVisualOS";
 /**
 🧠 MBW_VISUAL_CONTRACT
 layer1: HEADER_STATE
@@ -11,7 +12,6 @@ layer5: ROUTE_LINK
 import React from "react";
 import { MBWFullVisualBody } from "../../../components/MBWFullVisualBody";
 import { MBWOneVisualSurface } from "../../../components/MBWOneVisualSurface";
-
 export const POSTER_ASSET_OWNER = "MBW_8D70HW_POSTER_ASSET_OWNER::TravelOverseasOverview::TravelOverseas";
 // MBW_8D70HW_QBUILDER_POSTER_ASSET_REQUIRE = require("../../../assets/mbw_clean_shuffled_visual_body_posters/MainHubScreen.jpg");
 export const MBW_ROUTE_NAME = "TravelOverseasOverview";
@@ -49,9 +49,8 @@ export const MBW_ONE_BODY_SCREEN_CONTRACT = {
   SECTION_STATE_LOGIC: "TravelOverseasOverview:SECTION_STATE_LOGIC",
   SECTION_SCREEN_BODY: "TravelOverseasOverview:SECTION_SCREEN_BODY",
   POSTER_OWNER_ALIGNMENT: "TravelOverseasOverview:POSTER_OWNER_ALIGNMENT",
-  POSTER_ASSET_UNIQUE_FOR_ROUTE: "TravelOverseasOverview:POSTER_ASSET_UNIQUE_FOR_ROUTE",
+  POSTER_ASSET_UNIQUE_FOR_ROUTE: "TravelOverseasOverview:POSTER_ASSET_UNIQUE_FOR_ROUTE"
 };
-
 export function TravelOverseasOverviewScreen(props) {
   const routeName = MBW_ROUTE_NAME;
   const oneTrueVisualBodyOnly = true;
@@ -62,13 +61,10 @@ export function TravelOverseasOverviewScreen(props) {
   void babyScreenWorksInsideOneBody;
   void noLocalVisualBody;
   void noSecondVisualBody;
-
-  return (
-    <MBWFullVisualBody {...props} routeName={routeName} screenContract={MBW_ONE_BODY_SCREEN_CONTRACT}>
+  return <MBWFullVisualBody {...props} routeName={routeName} screenContract={MBW_ONE_BODY_SCREEN_CONTRACT}>
       <MBWOneVisualSurface routeName={routeName} navigation={props?.navigation} contract={MBW_ONE_BODY_SCREEN_CONTRACT} />
-    </MBWFullVisualBody>
-  );
+    </MBWFullVisualBody>;
 }
-
-export default TravelOverseasOverviewScreen;
-
+export default withMBWExactVisualOS(TravelOverseasOverviewScreen, {
+  screenId: "TravelOverseasOverviewScreen"
+});

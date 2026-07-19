@@ -1,4 +1,5 @@
-
+"MBW_EXACT_VISUAL_OS_WRAPPED";
+import { withMBWExactVisualOS } from "../../../runtime/MBWExactVisualOS";
 /**
 🧠 MBW_VISUAL_CONTRACT
 layer1: HEADER_STATE
@@ -11,7 +12,6 @@ layer5: ROUTE_LINK
 import React from "react";
 import { MBWFullVisualBody } from "../../../components/MBWFullVisualBody";
 import { MBWOneVisualSurface } from "../../../components/MBWOneVisualSurface";
-
 export const POSTER_ASSET_OWNER = "MBW_8D70HW_POSTER_ASSET_OWNER::TravelLocalReturn::TravelLocal";
 // MBW_8D70HW_QBUILDER_POSTER_ASSET_REQUIRE = require("../../../assets/mbw_clean_shuffled_visual_body_posters/MainHubScreen.jpg");
 export const MBW_ROUTE_NAME = "TravelLocalReturn";
@@ -49,9 +49,8 @@ export const MBW_ONE_BODY_SCREEN_CONTRACT = {
   SECTION_STATE_LOGIC: "TravelLocalReturn:SECTION_STATE_LOGIC",
   SECTION_SCREEN_BODY: "TravelLocalReturn:SECTION_SCREEN_BODY",
   POSTER_OWNER_ALIGNMENT: "TravelLocalReturn:POSTER_OWNER_ALIGNMENT",
-  POSTER_ASSET_UNIQUE_FOR_ROUTE: "TravelLocalReturn:POSTER_ASSET_UNIQUE_FOR_ROUTE",
+  POSTER_ASSET_UNIQUE_FOR_ROUTE: "TravelLocalReturn:POSTER_ASSET_UNIQUE_FOR_ROUTE"
 };
-
 export function TravelLocalReturnScreen(props) {
   const routeName = MBW_ROUTE_NAME;
   const oneTrueVisualBodyOnly = true;
@@ -62,13 +61,10 @@ export function TravelLocalReturnScreen(props) {
   void babyScreenWorksInsideOneBody;
   void noLocalVisualBody;
   void noSecondVisualBody;
-
-  return (
-    <MBWFullVisualBody {...props} routeName={routeName} screenContract={MBW_ONE_BODY_SCREEN_CONTRACT}>
+  return <MBWFullVisualBody {...props} routeName={routeName} screenContract={MBW_ONE_BODY_SCREEN_CONTRACT}>
       <MBWOneVisualSurface routeName={routeName} navigation={props?.navigation} contract={MBW_ONE_BODY_SCREEN_CONTRACT} />
-    </MBWFullVisualBody>
-  );
+    </MBWFullVisualBody>;
 }
-
-export default TravelLocalReturnScreen;
-
+export default withMBWExactVisualOS(TravelLocalReturnScreen, {
+  screenId: "TravelLocalReturnScreen"
+});

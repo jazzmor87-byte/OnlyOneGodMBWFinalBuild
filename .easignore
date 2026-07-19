@@ -58,7 +58,6 @@ scripts/mbw-forensic-repair-court.cjs
 scripts/mbw-golden-master-court.cjs
 scripts/mbw-apk-forensic-v3.py
 scripts/mbw-apk-golden-forensic.py
-
 # MBW V8.4 GENERATED208 GOLDEN EAS SCOPE BEGIN
 app/screens/Generated208/**
 !app/screens/Generated208/Games/GamesLiveScreen.js
@@ -80,3 +79,12 @@ app/screens/Generated208/**
 !constitution/**
 !app/production/**
 !scripts/**
+!darkmatter/**
+!app/darkmatter/**
+!scripts/darkmatter/**
+.env*.local
+.env
+.env.*
+*.jks
+*.keystore
+.gradle/

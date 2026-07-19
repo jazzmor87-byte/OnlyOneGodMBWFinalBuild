@@ -23,40 +23,73 @@ import MBWRealSettings from '../screens/Sections/SettingsScreen';
 import MBWRealMatchFinalReincarnation from '../screens/Sections/MatchFinalReincarnationScreen';
 import MBWRealKamashastraResult from '../screens/Sections/KamashastraResultScreen';
 import ProfilePosterScreen from '../screens/Sections/ProfilePosterVisualScreen';
-
-import {
-  CommerceReceiptScreen,
-  MatchChatScreen,
-  SeedProfileScreen,
-  SubscriptionSignupScreen,
-  TravelBookingScreen
-} from '../golden/MBWGoldenMasterScreens';
-
+import { CommerceReceiptScreen, MatchChatScreen, SeedProfileScreen, SubscriptionSignupScreen, TravelBookingScreen } from "../production/sovereign/MBWGoldenMasterScreens";
 const Stack = createNativeStackNavigator();
-
 export default function AppNavigator() {
-  return (
-    <Stack.Navigator initialRouteName="CinematicIntro" screenOptions={{ headerShown: false, animation: 'fade' }}>
-      <Stack.Screen name="CinematicIntro" component={MBWRealCinematicIntro} options={{ headerShown: false }} />
-      <Stack.Screen name="GateLocked" component={MBWRealGateLocked} options={{ headerShown: false }} />
-      <Stack.Screen name="GateOpen" component={MBWRealGateOpen} options={{ headerShown: false }} />
-      <Stack.Screen name="PathSelection" component={MBWRealPathSelection} options={{ headerShown: false }} />
-      <Stack.Screen name="SubscriptionSignup" component={MBWRealSubscriptionSignup} options={{ headerShown: false }} />
-      <Stack.Screen name="MainHub" component={MBWRealMainHub} options={{ headerShown: false }} />
-      <Stack.Screen name="MasterOfLife" component={MBWRealMasterOfLife} options={{ headerShown: false }} />
-      <Stack.Screen name="Matchmaking" component={MBWRealMatchmaking} options={{ headerShown: false }} />
-      <Stack.Screen name="Games" component={MBWRealGames} options={{ headerShown: false }} />
-      <Stack.Screen name="MasterOfGames" component={MBWRealMasterOfGames} options={{ headerShown: false }} />
-      <Stack.Screen name="MasterOfCoins" component={MBWRealMasterOfCoins} options={{ headerShown: false }} />
-      <Stack.Screen name="TravelLocal" component={MBWRealTravelLocal} options={{ headerShown: false }} />
-      <Stack.Screen name="TravelOverseas" component={MBWRealTravelOverseas} options={{ headerShown: false }} />
-      <Stack.Screen name="Merchandise" component={MBWRealMerchandise} options={{ headerShown: false }} />
-      <Stack.Screen name="Kamashastra" component={MBWRealKamashastra} options={{ headerShown: false }} />
-      <Stack.Screen name="LiveLounge" component={MBWRealLiveLounge} options={{ headerShown: false }} />
-      <Stack.Screen name="MensLounge" component={MBWRealMensLounge} options={{ headerShown: false }} />
-      <Stack.Screen name="Nearby" component={MBWRealNearby} options={{ headerShown: false }} />
-      <Stack.Screen name="AIPoster" component={MBWRealAIPoster} options={{ headerShown: false }} />
-      <Stack.Screen name="Settings" component={MBWRealSettings} options={{ headerShown: false }} />
+  return <Stack.Navigator initialRouteName="CinematicIntro" screenOptions={{
+    headerShown: false,
+    animation: 'fade'
+  }}>
+      <Stack.Screen name="CinematicIntro" component={MBWRealCinematicIntro} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="GateLocked" component={MBWRealGateLocked} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="GateOpen" component={MBWRealGateOpen} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="PathSelection" component={MBWRealPathSelection} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="SubscriptionSignup" component={MBWRealSubscriptionSignup} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="MainHub" component={MBWRealMainHub} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="MasterOfLife" component={MBWRealMasterOfLife} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="Matchmaking" component={MBWRealMatchmaking} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="Games" component={MBWRealGames} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="MasterOfGames" component={MBWRealMasterOfGames} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="MasterOfCoins" component={MBWRealMasterOfCoins} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="TravelLocal" component={MBWRealTravelLocal} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="TravelOverseas" component={MBWRealTravelOverseas} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="Merchandise" component={MBWRealMerchandise} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="Kamashastra" component={MBWRealKamashastra} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="LiveLounge" component={MBWRealLiveLounge} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="MensLounge" component={MBWRealMensLounge} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="Nearby" component={MBWRealNearby} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="AIPoster" component={MBWRealAIPoster} options={{
+      headerShown: false
+    }} />
+      <Stack.Screen name="Settings" component={MBWRealSettings} options={{
+      headerShown: false
+    }} />
 <Stack.Screen name="ProfilePoster" component={ProfilePosterScreen} />
               <Stack.Screen name="CommerceReceipt" component={CommerceReceiptScreen} />
         <Stack.Screen name="MatchChat" component={MatchChatScreen} />
@@ -64,6 +97,5 @@ export default function AppNavigator() {
         <Stack.Screen name="Signup" component={SubscriptionSignupScreen} />
         <Stack.Screen name="Subscription" component={SubscriptionSignupScreen} />
         <Stack.Screen name="TravelBooking" component={TravelBookingScreen} />
-</Stack.Navigator>
-  );
+</Stack.Navigator>;
 }
