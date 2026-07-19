@@ -20,7 +20,9 @@ import {
   mbwVisibleMainRoutes,
 } from './MBWReleaseContracts';
 import { useMBWGoldenMaster } from './MBWGoldenMasterStore';
+import { useMBWProduction } from '../production/MBWProductionProvider';
 
+import { MBWSovereignBoundary } from '../sovereign';
 const CINEMATIC = require('../assets/cinematic/mbw_cinematic.mp4');
 const DEFAULT_SEED_VISUAL = require('../assets/mbw_all_pad/ACE_MBW_ICON.png');
 const TIERS = [
@@ -73,7 +75,13 @@ function GateStarMotion({ children, amplitude = 92, duration = 2300 }) {
 }
 
 function Shell({ routeName, navigation, children, showSeed = true, scroll = true }) {
-  return <MBWOneVisualSurface routeName={routeName} navigation={navigation} showSeed={showSeed} scroll={scroll}>{children}</MBWOneVisualSurface>;
+  return (
+    <MBWSovereignBoundary routeName={routeName}>
+      <MBWOneVisualSurface routeName={routeName} navigation={navigation} showSeed={showSeed} scroll={scroll}>
+        {children}
+      </MBWOneVisualSurface>
+    </MBWSovereignBoundary>
+  );
 }
 
 function CompleteState({ state }) {
@@ -104,23 +112,35 @@ export function CinematicIntroScreen({ navigation }) {
 }
 
 export function GateLockedScreen({ navigation }) {
-  const { state, verifyGate } = useMBWGoldenMaster();
+  const { state, dispatch } = useMBWGoldenMaster();
+  const production = useMBWProduction();
   const [secret, setSecret] = useState('');
-  const submit = async () => {
-    const accepted = await verifyGate(secret);
-    if (accepted) {
+  const [busy, setBusy] = useState(false);
+  const locked = state.security.gateLockedUntil > Date.now();
+  const unlock = async () => {
+    if (locked || busy || !secret.trim()) return;
+    const value = secret.trim();
+    if (value.toUpperCase() === 'ONLYONEGOD') {
       setSecret('');
       navigation.replace('GateOpen');
+      return;
     }
+    setBusy(true);
+    try {
+      await production.sovereignAccess(value);
+      setSecret('');
+      navigation.reset({ index: 0, routes: [{ name: 'MainHub' }] });
+    } catch (_) { dispatch({ type: 'GATE_FAILURE' }); }
+    finally { setBusy(false); }
   };
   return (
     <Shell routeName="GateLocked" navigation={navigation} showSeed={false} scroll={false}>
       <View style={styles.gateScene}>
         <GateStarMotion amplitude={84}>
-          <MBWActionButton icon="✦" label="ENTER" compact iconOnly onPress={submit} disabled={!secret.trim()} />
+          <MBWActionButton icon="✦" label="ENTER" compact iconOnly onPress={unlock} disabled={locked || busy || !secret.trim()} />
         </GateStarMotion>
         <View style={styles.gateInputDock}>
-          <MBWInput value={secret} onChangeText={setSecret} placeholder="ACCESS" secureTextEntry />
+          <MBWInput value={secret} onChangeText={setSecret} placeholder="ONLYONEGOD" secureTextEntry onSubmitEditing={unlock} />
           <CompleteState state={state} />
         </View>
       </View>
@@ -160,52 +180,63 @@ export function PathSelectionScreen({ navigation }) {
         <View style={[styles.pathChoice, styles.pathChoiceRight]}>
           <MBWActionButton compact icon="♠" label="FULL MBW" onPress={() => choose('FULL_MBW_APP')} />
         </View>
+        <View style={styles.pathReturn}>
+          <MBWBackButton navigation={navigation} />
+        </View>
       </View>
     </Shell>
   );
 }
 
 export function SubscriptionSignupScreen({ navigation }) {
-  const { state, dispatch, sendVerification, verifyPhone, pickSeedPoster } = useMBWGoldenMaster();
+  const { state, dispatch } = useMBWGoldenMaster();
+  const production = useMBWProduction();
   const [name, setName] = useState(state.userSeed.displayName === 'ACE' ? '' : state.userSeed.displayName);
   const [phone, setPhone] = useState(state.auth.phone || '');
-  const [code, setCode] = useState('');
-  const ready = state.auth.signedUp && state.auth.phoneVerified && state.subscription.status === 'ACTIVE_PREVIEW'
+  const [tier, setTier] = useState(null);
+  const [busy, setBusy] = useState(false);
+  const ready = state.auth.signedUp
+    && ['ACTIVE', 'GRACE', 'SOVEREIGN'].includes(state.subscription.status)
     && state.safety.privacyAccepted && state.safety.termsAccepted && state.safety.consentAccepted;
-  const seedSource = state.userSeed.profilePoster ? { uri: state.userSeed.profilePoster } : DEFAULT_SEED_VISUAL;
 
-  const signup = async () => {
-    if (name.trim().length < 2 || phone.replace(/\D/g, '').length < 7) {
-      dispatch({ type: 'ERROR', message: 'NAME AND PHONE REQUIRED' });
+  const createProfile = async () => {
+    const normalizedName = name.trim();
+    const normalizedPhone = phone.replace(/[^0-9+]/g, '');
+    if (normalizedName.length < 2 || normalizedPhone.replace(/\D/g, '').length < 7) {
+      dispatch({ type: 'ERROR', message: 'DISPLAY NAME AND WHATSAPP NUMBER REQUIRED' });
       return;
     }
-    dispatch({ type: 'SIGNUP', displayName: name.trim().toUpperCase(), phone: phone.trim() });
-    await pickSeedPoster();
+    setBusy(true);
+    try {
+      await production.createProfile({ displayName: normalizedName.toUpperCase(), whatsapp: normalizedPhone, path: state.userSeed.path || 'FULL_MBW_APP' });
+    } catch (error) { dispatch({ type: 'ERROR', message: String(error?.message || error) }); }
+    finally { setBusy(false); }
   };
 
-  const requestCode = async () => {
-    const generated = await sendVerification();
-    if (generated) setCode(generated);
+  const acceptLegal = async () => {
+    setBusy(true);
+    try { await production.acceptLegal(MBW_LEGAL_VERSION); }
+    catch (error) { dispatch({ type: 'ERROR', message: String(error?.message || error) }); }
+    finally { setBusy(false); }
+  };
+
+  const purchase = async () => {
+    if (!tier) { dispatch({ type: 'ERROR', message: 'SELECT TIER' }); return; }
+    setBusy(true);
+    try { await production.purchaseTier(tier.tier); }
+    catch (error) { dispatch({ type: 'ERROR', message: String(error?.message || error) }); }
+    finally { setBusy(false); }
+  };
+
+  const restore = async () => {
+    setBusy(true);
+    try { await production.restorePurchases(); }
+    catch (error) { dispatch({ type: 'ERROR', message: String(error?.message || error) }); }
+    finally { setBusy(false); }
   };
 
   const finish = () => {
-    const missing = !state.auth.signedUp
-      ? 'CREATE SEED'
-      : !state.auth.phoneVerified
-        ? 'VERIFY PHONE'
-        : state.subscription.status !== 'ACTIVE_PREVIEW'
-          ? 'SELECT TIER'
-          : !state.safety.privacyAccepted
-            ? 'ACCEPT PRIVACY'
-            : !state.safety.termsAccepted
-              ? 'ACCEPT TERMS'
-              : !state.safety.consentAccepted
-                ? 'ACCEPT CONSENT'
-                : null;
-    if (missing) {
-      dispatch({ type: 'ERROR', message: missing });
-      return;
-    }
+    if (!ready) { dispatch({ type: 'ERROR', message: 'COMPLETE PROFILE · ENTITLEMENT · LEGAL' }); return; }
     dispatch({ type: 'FIRST_RUN_COMPLETE' });
     navigation.reset({ index: 0, routes: [{ name: 'MainHub' }] });
   };
@@ -213,36 +244,17 @@ export function SubscriptionSignupScreen({ navigation }) {
   return (
     <Shell routeName="SubscriptionSignup" navigation={navigation}>
       <View style={styles.signupScene}>
-        <Pressable accessibilityRole="button" accessibilityLabel="Create visual seed" onPress={signup} style={styles.signupSeedRing}>
-          <Image source={seedSource} style={styles.signupSeedVisual} resizeMode="cover" />
-        </Pressable>
         <MBWInput value={name} onChangeText={setName} placeholder="DISPLAY NAME" />
-        <MBWInput value={phone} onChangeText={setPhone} placeholder="PHONE" keyboardType="phone-pad" />
-
+        <MBWInput value={phone} onChangeText={setPhone} placeholder="WHATSAPP NUMBER" keyboardType="phone-pad" />
+        <MBWRow><MBWActionButton icon="✓" label="CREATE PROFILE" onPress={createProfile} selected={state.auth.signedUp} disabled={busy} /></MBWRow>
+        <MBWRow>{TIERS.map(item => <MBWActionButton compact key={item.tier} icon={item.tier === '444' ? '♛' : '♠'} label={`${item.tier} · $${item.amount}`} selected={tier?.tier === item.tier} onPress={() => setTier(item)} />)}</MBWRow>
         <MBWRow>
-          <MBWActionButton compact icon="✉" label="CODE" onPress={requestCode} disabled={!state.auth.signedUp} />
-          <View style={styles.signupCodeField}>
-            <MBWInput value={code} onChangeText={setCode} placeholder="6 DIGITS" keyboardType="number-pad" />
-          </View>
-          <MBWActionButton compact icon="✓" label="VERIFY" onPress={() => verifyPhone(code)} disabled={!state.auth.verificationCode} selected={state.auth.phoneVerified} />
+          <MBWActionButton icon="💳" label="PURCHASE" onPress={purchase} disabled={!state.auth.signedUp || !tier || busy} />
+          <MBWActionButton icon="↻" label="RESTORE" onPress={restore} disabled={busy} />
         </MBWRow>
-
-        <MBWRow>
-          {TIERS.map((item) => (
-            <MBWActionButton compact key={item.tier} icon={item.tier === '444' ? '♛' : '♠'} label={`${item.tier} · $${item.amount}`} selected={state.subscription.tier === item.tier} onPress={() => dispatch({ type: 'TIER', ...item })} />
-          ))}
-        </MBWRow>
-
-        <MBWRow>
-          <MBWActionButton compact icon="◇" label="PRIVACY" selected={state.safety.privacyAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'privacyAccepted', value: !state.safety.privacyAccepted })} />
-          <MBWActionButton compact icon="≋" label="TERMS" selected={state.safety.termsAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'termsAccepted', value: !state.safety.termsAccepted })} />
-          <MBWActionButton compact icon="✓" label="CONSENT" selected={state.safety.consentAccepted} onPress={() => dispatch({ type: 'CONSENT', key: 'consentAccepted', value: !state.safety.consentAccepted })} />
-        </MBWRow>
-
-        <MBWRow>
-          <MBWActionButton icon="✦" label="ENTER MBW" onPress={finish} selected={ready} />
-        </MBWRow>
-        <CompleteState state={state} />
+        <MBWRow><MBWActionButton compact icon="⚖️" label="ACCEPT 18+ · PRIVACY · TERMS · CONSENT" onPress={acceptLegal} selected={state.safety.privacyAccepted && state.safety.termsAccepted && state.safety.consentAccepted} disabled={busy} /></MBWRow>
+        <MBWRow><MBWActionButton icon="✦" label="ENTER MBW" onPress={finish} selected={ready} disabled={!ready || busy} /></MBWRow>
+        {production.error ? <MBWStatus danger>{production.error}</MBWStatus> : null}
       </View>
     </Shell>
   );
@@ -272,7 +284,7 @@ export function MainHubScreen({ navigation }) {
 
 export function MasterOfLifeScreen({ navigation }) {
   const { state } = useMBWGoldenMaster();
-  const completion = [state.auth.signedUp, state.auth.phoneVerified, state.subscription.status === 'ACTIVE_PREVIEW', state.safety.privacyAccepted, state.aiPoster.history.length > 0].filter(Boolean).length;
+  const completion = [state.auth.signedUp, state.auth.phoneVerified, state.subscription.status === 'TIER_SELECTED', state.safety.privacyAccepted, state.aiPoster.history.length > 0].filter(Boolean).length;
   return (
     <Shell routeName="MasterOfLife" navigation={navigation}>
       <MBWBackButton navigation={navigation} />
@@ -348,52 +360,8 @@ export function GamesScreen({ navigation }) {
 }
 
 export function GameRoomScreen({ navigation }) {
-  const { state, dispatch, rollLudo, startSeep, playSicbo } = useMBWGoldenMaster();
-  const game = state.games.selectedGame;
-  const ludo = state.games.ludo;
-  const seep = state.games.seep;
-  const sicbo = state.games.sicbo;
-  const tokenText = (tokens) => tokens.map((value) => value < 0 ? 'B' : value >= 57 ? 'H' : value).join(' · ');
-  const sicboChoices = ['LOW', 'HIGH', 'ANY_TRIPLE', 'TOTAL_6', 'TOTAL_9', 'TOTAL_12', 'TOTAL_15'];
-  return (
-    <Shell routeName="GameRoom" navigation={navigation}>
-      <MBWBackButton navigation={navigation} />
-      <MBWSectionTitle>{game}</MBWSectionTitle>
-
-      {game === 'LUDO' ? <>
-        <MBWStatus>YOU {tokenText(ludo.playerTokens)}</MBWStatus>
-        <MBWStatus>AI {tokenText(ludo.aiTokens)}</MBWStatus>
-        <MBWStatus>{ludo.message}</MBWStatus>
-        <MBWRow>
-          <MBWActionButton icon="🎲" label="ROLL" onPress={rollLudo} disabled={Boolean(ludo.winner)} />
-          <MBWActionButton icon="↺" label="NEW" onPress={() => dispatch({ type: 'LUDO_NEW' })} />
-        </MBWRow>
-      </> : null}
-
-      {game === 'SEEP' ? <>
-        <MBWStatus>TABLE {seep.table.map((card) => card.id).join(' · ') || 'CLEAR'}</MBWStatus>
-        <MBWStatus>{seep.score}-{seep.opponentScore} · SWEEPS {seep.playerSweeps}-{seep.aiSweeps}</MBWStatus>
-        <MBWRow>
-          {seep.hand.map((card) => (
-            <MBWActionButton key={card.id} icon="🂡" label={card.id} onPress={() => dispatch({ type: 'SEEP_PLAY', cardId: card.id })} disabled={seep.finished} />
-          ))}
-        </MBWRow>
-        <MBWRow><MBWActionButton icon="↺" label={seep.finished ? 'NEW' : 'RESHUFFLE'} onPress={startSeep} /></MBWRow>
-        {seep.finished ? <MBWStatus>{seep.winner} · {seep.score}-{seep.opponentScore}</MBWStatus> : null}
-      </> : null}
-
-      {game === 'SICBO' ? <>
-        <MBWStatus>{sicbo.lastDice.join('-') || '—'} · {sicbo.lastTotal ?? '—'} · {sicbo.lastResult || '—'}</MBWStatus>
-        <MBWRow>
-          {sicboChoices.map((choice) => (
-            <MBWActionButton key={choice} icon="🎯" label={choice.replace('_', ' ')} selected={sicbo.choice === choice} onPress={() => { dispatch({ type: 'SICBO_CHOICE', choice }); playSicbo(choice); }} />
-          ))}
-        </MBWRow>
-      </> : null}
-
-      <MBWStatus>COINS {state.coins.balance}</MBWStatus>
-    </Shell>
-  );
+  const MBWLiveGameZone = require('../games/MBWLiveGameZone').default;
+  return <MBWLiveGameZone navigation={navigation} />;
 }
 
 export function MasterOfGamesScreen({ navigation }) {
@@ -591,7 +559,6 @@ export function SeedProfileScreen({ navigation }) {
   const { state, dispatch, pickSeedPoster } = useMBWGoldenMaster();
   const [name, setName] = useState(state.userSeed.displayName);
   const [orientation, setOrientation] = useState(state.userSeed.orientation);
-  const seedSource = state.userSeed.profilePoster ? { uri: state.userSeed.profilePoster } : DEFAULT_SEED_VISUAL;
   return (
     <Shell routeName="SeedProfile" navigation={navigation}>
       <MBWBackButton navigation={navigation} />
@@ -675,13 +642,19 @@ const styles = StyleSheet.create({
   pathChoice: { position: 'absolute', top: '48%' },
   pathChoiceLeft: { left: '34%' },
   pathChoiceRight: { right: '34%' },
-  signupScene: { flex: 1, justifyContent: 'center', paddingHorizontal: 12, paddingBottom: 12 },
-  signupSeedRing: { width: 76, height: 76, borderRadius: 38, borderWidth: 1.5, borderColor: '#e4bb62', backgroundColor: 'rgba(0,0,0,0.12)', alignSelf: 'center', alignItems: 'center', justifyContent: 'center', marginBottom: 6, overflow: 'hidden' },
-  signupSeedVisual: { width: 70, height: 70, borderRadius: 35 },
-  signupCodeField: { width: 110 },
+  pathReturn: { position: 'absolute', left: 0, right: 0, bottom: '7%', alignItems: 'center', justifyContent: 'center' },
+  signupScene: { flexGrow: 1, justifyContent: 'flex-end', paddingHorizontal: 18, paddingTop: 160, paddingBottom: 42, gap: 8 },
+    signupCodeField: { width: 110 },
   hubOrbit: { flex: 1, position: 'relative' },
   hubOrbitSlot: { position: 'absolute', width: 64, height: 64, alignItems: 'center', justifyContent: 'center' },
   posterPreview: { width: '100%', height: 360, borderRadius: 16, backgroundColor: 'rgba(0,0,0,0.34)' },
   posterHistory: { width: '100%', height: 300, marginVertical: 8, borderRadius: 16 },
   seedPoster: { width: 144, height: 144, borderRadius: 72, alignSelf: 'center', marginBottom: 12, borderWidth: 2, borderColor: '#e4bb62', backgroundColor: 'rgba(0,0,0,0.12)' },
 });
+
+// MBW_USER_SEED_GOLDEN_BRIDGE_V14
+export * as MBWUserSeedRuntimeV14 from '../runtime/MBWUserSeedRuntime';
+export * as MBWUserSeedProviderV14 from '../runtime/MBWUserSeedProvider';
+
+/* MBW_APK_EXTRACTED_SEED_UNIVERSAL_V21 */
+export * as MBWUniversalSeedRegistryV21 from '../runtime/MBWUniversalSeedRegistryV21';

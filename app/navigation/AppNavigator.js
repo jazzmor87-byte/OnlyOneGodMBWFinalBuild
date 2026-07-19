@@ -24,6 +24,14 @@ import MBWRealMatchFinalReincarnation from '../screens/Sections/MatchFinalReinca
 import MBWRealKamashastraResult from '../screens/Sections/KamashastraResultScreen';
 import ProfilePosterScreen from '../screens/Sections/ProfilePosterVisualScreen';
 
+import {
+  CommerceReceiptScreen,
+  MatchChatScreen,
+  SeedProfileScreen,
+  SubscriptionSignupScreen,
+  TravelBookingScreen
+} from '../golden/MBWGoldenMasterScreens';
+
 const Stack = createNativeStackNavigator();
 
 export default function AppNavigator() {
@@ -50,6 +58,12 @@ export default function AppNavigator() {
       <Stack.Screen name="AIPoster" component={MBWRealAIPoster} options={{ headerShown: false }} />
       <Stack.Screen name="Settings" component={MBWRealSettings} options={{ headerShown: false }} />
 <Stack.Screen name="ProfilePoster" component={ProfilePosterScreen} />
-      </Stack.Navigator>
+              <Stack.Screen name="CommerceReceipt" component={CommerceReceiptScreen} />
+        <Stack.Screen name="MatchChat" component={MatchChatScreen} />
+        <Stack.Screen name="SeedProfile" component={SeedProfileScreen} />
+        <Stack.Screen name="Signup" component={SubscriptionSignupScreen} />
+        <Stack.Screen name="Subscription" component={SubscriptionSignupScreen} />
+        <Stack.Screen name="TravelBooking" component={TravelBookingScreen} />
+</Stack.Navigator>
   );
 }

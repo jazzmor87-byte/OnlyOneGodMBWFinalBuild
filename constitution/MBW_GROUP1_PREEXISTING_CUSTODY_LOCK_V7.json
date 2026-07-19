@@ -1,0 +1,238 @@
+{
+  "court": "MBW_GROUP1_PREEXISTING_CUSTODY_LOCK_V7",
+  "law": "Paths untouched by the proved Group 1 installer are preserved, hashed, classified and rejected on later drift.",
+  "installer_report": {
+    "path": "/data/data/com.termux/files/usr/var/MBW_FINAL_AUDITS_LOCAL/MBW_GOLDEN_GLOBAL_E2E_V1_20260719_032103/INSTALL_REPORT.json",
+    "sha256": "b69e5c3d963f32ab6ea4be12a26c98e7bbce17d321d65d706ae788128dc5c776",
+    "changed_paths": [
+      ".easignore",
+      "App.js",
+      "android/app/proguard-rules.pro",
+      "android/gradle.properties",
+      "app.json",
+      "app/golden/MBWGoldenMasterScreens.js",
+      "app/golden/MBWGoldenMasterStore.js",
+      "app/golden/MBWReleaseContracts.js",
+      "app/production/MBWBillingClient.js",
+      "app/production/MBWProductionConfig.js",
+      "app/production/MBWProductionErrorBoundary.js",
+      "app/production/MBWProductionProvider.js",
+      "app/production/MBWProductionRepository.js",
+      "app/production/MBWSupabaseClient.js",
+      "backend/supabase/config.toml",
+      "backend/supabase/functions/_shared/google.ts",
+      "backend/supabase/functions/_shared/http.ts",
+      "backend/supabase/functions/_shared/supabase.ts",
+      "backend/supabase/functions/billing-verify/index.ts",
+      "backend/supabase/functions/bootstrap/index.ts",
+      "backend/supabase/functions/health/index.ts",
+      "backend/supabase/functions/sovereign-exchange/index.ts",
+      "backend/supabase/migrations/202607190001_mbw_golden_global_core.sql",
+      "constitution/MBW_GOLDEN_GLOBAL_CONSTITUTION_V2_LOCK.json",
+      "constitution/MBW_GOLDEN_GLOBAL_CONSTITUTION_V2_LOCK.md",
+      "eas.json",
+      "index.js",
+      "package.json",
+      "scripts/mbw_group1_foundation_court.py"
+    ]
+  },
+  "idempotency_report": {
+    "path": "/data/data/com.termux/files/usr/var/MBW_FINAL_AUDITS_LOCAL/MBW_GOLDEN_GLOBAL_E2E_V1_20260719_032134/INSTALL_REPORT.json",
+    "sha256": "d5b3d5b32f56368cedcef3d449f9f467debf497d93d2543c1f62dda240e89dda",
+    "changed_paths": []
+  },
+  "entry_roots": [
+    "index.js",
+    "App.js"
+  ],
+  "entries": [
+    {
+      "path": "MBW_GLOBAL_RELEASE_INPUTS.json",
+      "status": "??",
+      "sha256": "9898d1c836a3614fb3e9ff24e0b9163c64cc918a8b2c84db3d515632aa44e8f9",
+      "bytes": 4590,
+      "active_from_entry": false,
+      "classification": "FROZEN_PREEXISTING_METADATA",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/games/MBWLiveGameZone.js",
+      "status": "??",
+      "sha256": "999f17dc367cc3e787202979bd3780383abdffa633bb2623e83cb3e38a534007",
+      "bytes": 39093,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_ROUTE_DEPENDENCY",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/runtime/MBWAPKExtractedSeedV21.json",
+      "status": "??",
+      "sha256": "de397c0f0de4ee143be78269448ebd92970e27e18ce587139d7cecf347b3ea86",
+      "bytes": 6835,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/runtime/MBWResultInternalInheritanceDriver.js",
+      "status": " M",
+      "sha256": "89258d71e9afd9b3bf9f44efb71ba4a195d3e73f4965540fda6ad6835cde4e48",
+      "bytes": 5233,
+      "active_from_entry": false,
+      "classification": "FROZEN_OUT_OF_SCOPE_PREEXISTING",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": "1\t1\tapp/runtime/MBWResultInternalInheritanceDriver.js"
+    },
+    {
+      "path": "app/runtime/MBWScreenOSBridge.js",
+      "status": " M",
+      "sha256": "0c932181569ce68b1ed4c35f70fcdb041d4e893d69e35eecb5f947462d37f019",
+      "bytes": 3881,
+      "active_from_entry": false,
+      "classification": "FROZEN_OUT_OF_SCOPE_PREEXISTING",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": "7\t0\tapp/runtime/MBWScreenOSBridge.js"
+    },
+    {
+      "path": "app/runtime/MBWUniversalSeedProviderV21.js",
+      "status": "??",
+      "sha256": "f94b8bd8338b10aed362ae1d2db4f148187d77304c7282956b95f4eb5be3b2a6",
+      "bytes": 1480,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/runtime/MBWUniversalSeedRegistryV21.js",
+      "status": "??",
+      "sha256": "32dcc94988c9327ad5d204fcec8c83dd5791c42ecc1d05015cae5cc0f9610fd8",
+      "bytes": 3679,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/runtime/MBWUserPresenceBridge.js",
+      "status": " M",
+      "sha256": "de799d1859ae5736bb0c0281548549397928b07d595248d4516afdf52c57d5b0",
+      "bytes": 2489,
+      "active_from_entry": false,
+      "classification": "FROZEN_OUT_OF_SCOPE_PREEXISTING",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": "7\t0\tapp/runtime/MBWUserPresenceBridge.js"
+    },
+    {
+      "path": "app/runtime/MBWUserSeedProvider.js",
+      "status": "??",
+      "sha256": "e00e1f8ccfd8eb93036c40d5ab030e17e2e0727285d6c58cf88a94147d4e7e8d",
+      "bytes": 1894,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/runtime/MBWUserSeedRuntime.js",
+      "status": "??",
+      "sha256": "0c14b3197b05724122be2bde1b9afdded653fb4f345da772703685a305e75474",
+      "bytes": 1949,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/sovereign/MBWSovereignBoundary.js",
+      "status": "??",
+      "sha256": "a0a7b4ab4d96cd9f98651324ae97b72bc322e5f330bb6f2504c74a4402902dde",
+      "bytes": 2803,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/sovereign/MBWSovereignConstitution.js",
+      "status": "??",
+      "sha256": "9890e3f66913bb73c12f93b9626c383319efa5b2e9bc3ba0920090d8d3a0d98e",
+      "bytes": 2217,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/sovereign/MBWSovereignManifest.json",
+      "status": "??",
+      "sha256": "ec7173c5f9de99f6ab9a3dc95260f245d6967b3cf2b764592537a4f672ac132b",
+      "bytes": 862,
+      "active_from_entry": false,
+      "classification": "FROZEN_PREEXISTING_METADATA",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/sovereign/MBWSovereignRuntime.js",
+      "status": "??",
+      "sha256": "531fd404f1ae396b6b54d9eb6167b90f38e04381b96d6d51d28f050bb1595b0f",
+      "bytes": 4158,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "app/sovereign/index.js",
+      "status": "??",
+      "sha256": "e0d47f88f7d1e20aefd6a3e50c36d4b71051ec7337fb9ba157f40a69d7572675",
+      "bytes": 333,
+      "active_from_entry": true,
+      "classification": "INHERITED_ACTIVE_FOUNDATION",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": ""
+    },
+    {
+      "path": "src/screens/KamashastraResultScreen.js",
+      "status": " M",
+      "sha256": "6d6ca6c441c0ef0aa85dd79dd7f322da345813137e63ee25b895a86bc9980a91",
+      "bytes": 493,
+      "active_from_entry": false,
+      "classification": "FROZEN_OUT_OF_SCOPE_PREEXISTING",
+      "touched_by_group1_installer": false,
+      "banned_active_tokens": [],
+      "git_numstat": "1\t1\tsrc/screens/KamashastraResultScreen.js"
+    }
+  ],
+  "proofs": {
+    "git_repository_readable": true,
+    "installer_report_present": true,
+    "installer_rollback_absent": true,
+    "idempotency_report_present": true,
+    "idempotency_changed_zero": true,
+    "candidate_installer_touch_absent": true,
+    "active_banned_residue_absent": true,
+    "candidate_files_complete": true,
+    "classification_failures_absent": true
+  },
+  "locked_at_utc": "2026-07-18T22:30:09.423899+00:00"
+}

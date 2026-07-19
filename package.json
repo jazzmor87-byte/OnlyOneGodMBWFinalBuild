@@ -12,7 +12,8 @@
     "ios": "expo run:ios",
     "mbw:golden-court": "node scripts/mbw-golden-master-court.cjs",
     "mbw:golden-export": "NODE_ENV=production expo export --platform android --max-workers 1",
-    "mbw:forensic-repair-court": "node scripts/mbw-forensic-repair-court.cjs"
+    "mbw:forensic-repair-court": "node scripts/mbw-forensic-repair-court.cjs",
+    "mbw:group1-court": "python3 scripts/mbw_group1_foundation_court.py ."
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -32,10 +33,14 @@
     "react-native-screens": "4.16.0",
     "expo-secure-store": "15.0.8",
     "expo-crypto": "15.0.9",
-    "crypto-js": "4.2.0"
+    "crypto-js": "4.2.0",
+    "@supabase/supabase-js": "2.84.0",
+    "react-native-url-polyfill": "3.0.0",
+    "expo-iap": "4.5.2"
   },
   "devDependencies": {
     "babel-preset-expo": "54.0.11",
-    "eas-cli": "^20.5.1"
+    "eas-cli": "^20.5.1",
+    "@expo/config-plugins": "54.0.4"
   }
 }

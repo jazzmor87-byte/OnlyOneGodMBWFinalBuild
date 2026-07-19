@@ -3,6 +3,8 @@ import { DarkTheme, NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import MBWGoldenMasterNavigator from './app/golden/MBWGoldenMasterNavigator';
 import { MBWGoldenMasterProvider } from './app/golden/MBWGoldenMasterStore';
+import { MBWProductionProvider } from './app/production/MBWProductionProvider';
+import { MBWProductionErrorBoundary } from './app/production/MBWProductionErrorBoundary';
 
 const MBW_THEME = {
   ...DarkTheme,
@@ -20,10 +22,14 @@ const MBW_THEME = {
 export default function App() {
   return (
     <MBWGoldenMasterProvider>
+      <MBWProductionProvider>
+        <MBWProductionErrorBoundary>
       <StatusBar style="light" hidden={false} />
       <NavigationContainer theme={MBW_THEME}>
         <MBWGoldenMasterNavigator />
       </NavigationContainer>
+        </MBWProductionErrorBoundary>
+      </MBWProductionProvider>
     </MBWGoldenMasterProvider>
   );
 }

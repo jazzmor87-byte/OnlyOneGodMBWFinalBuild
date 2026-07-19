@@ -443,7 +443,7 @@ export const MBW_GENERATED_ROUTE_REGISTRY = Object.freeze([
   { name: 'ProfilePosterProofScreen', component: wrapMBWRouteComponent('ProfilePosterProofScreen', resolveMBWRouteComponent(MBWRouteModule_174_ProfilePosterProofScreen, 'ProfilePosterProofScreen')) },
   { name: 'ProfilePosterResultScreen', component: wrapMBWRouteComponent('ProfilePosterResultScreen', resolveMBWRouteComponent(MBWRouteModule_175_ProfilePosterResultScreen, 'ProfilePosterResultScreen')) },
   { name: 'ProfilePosterReturnScreen', component: wrapMBWRouteComponent('ProfilePosterReturnScreen', resolveMBWRouteComponent(MBWRouteModule_176_ProfilePosterReturnScreen, 'ProfilePosterReturnScreen')) },
-  { name: 'ProfilePosterScreen', component: wrapMBWRouteComponent('ProfilePosterScreen', resolveMBWRouteComponent(MBWRouteModule_177_ProfilePosterScreen, 'ProfilePosterScreen')) },
+  { name: 'AIPosterScreen', component: wrapMBWRouteComponent('AIPosterScreen', resolveMBWRouteComponent(MBWRouteModule_177_ProfilePosterScreen, 'AIPosterScreen')) },
   { name: 'ProfilePosterSeedScreen', component: wrapMBWRouteComponent('ProfilePosterSeedScreen', resolveMBWRouteComponent(MBWRouteModule_178_ProfilePosterSeedScreen, 'ProfilePosterSeedScreen')) },
   { name: 'ProfilePosterStateScreen', component: wrapMBWRouteComponent('ProfilePosterStateScreen', resolveMBWRouteComponent(MBWRouteModule_179_ProfilePosterStateScreen, 'ProfilePosterStateScreen')) },
   { name: 'ProfilePosterVaultScreen', component: wrapMBWRouteComponent('ProfilePosterVaultScreen', resolveMBWRouteComponent(MBWRouteModule_180_ProfilePosterVaultScreen, 'ProfilePosterVaultScreen')) },

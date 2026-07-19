@@ -1,0 +1,2 @@
+import { handleOptions, json } from '../_shared/http.ts'; import { adminClient } from '../_shared/supabase.ts';
+Deno.serve(async req => { const opt=handleOptions(req); if(opt)return opt; try { const { error }=await adminClient().from('mbw_profiles').select('id').limit(1); if(error)throw error; return json({ok:true,service:'MBW_GOLDEN_GLOBAL',database:'UP',release:'CONSTITUTION_V2',time:new Date().toISOString()}); } catch(error){ return json({ok:false,error:String(error?.message||error)},503); } });

@@ -9,7 +9,7 @@ import * as FileSystem from 'expo-file-system/legacy';
 import * as Location from 'expo-location';
 import {
   MBW_LEGAL_VERSION,
-  MBW_PREVIEW_SERVICE_STATUS,
+  MBW_PRODUCTION_SERVICE_STATUS,
   mbwRouteAccess,
 } from './MBWReleaseContracts';
 
@@ -18,10 +18,6 @@ export const MBW_GOLDEN_MASTER_STORAGE_KEY = 'MBW_GOLDEN_MASTER_STATE_V2';
 export const MBW_GOLDEN_MASTER_LEGACY_STORAGE_KEY = 'MBW_GOLDEN_MASTER_STATE_V1';
 
 const MBW_SECURE_KEY_NAME = 'MBW_GOLDEN_MASTER_DEVICE_KEY_V2';
-const MBW_GATE_HASHES = new Set([
-  '2fa7ce2a8bd43a2982062a34c2e49402681ed93bd141e153525da27fc6ba2a75',
-  '861303f737250ee23db9d9aafea93cf041f6341f23f4767279ff7eb91626441c',
-]);
 const MBW_GATE_MAX_FAILURES = 5;
 const MBW_GATE_LOCK_MS = 5 * 60 * 1000;
 const MBW_POSTER_FOLDER = `${FileSystem.documentDirectory}mbw-posters/`;
@@ -89,8 +85,7 @@ function migrateState(raw) {
   merged.hydrated = false;
   merged.lifecycle.gateUnlocked = false;
   merged.lifecycle.lastError = null;
-  merged.auth.verificationCode = null;
-  merged.auth.verificationExpiresAt = null;
+
   merged.security.gateFailures = 0;
   merged.security.gateLockedUntil = 0;
   merged.safety.legalVersion = merged.safety.legalVersion || MBW_LEGAL_VERSION;
@@ -124,7 +119,7 @@ async function encryptState(state) {
     ...state,
     hydrated: false,
     lifecycle: { ...state.lifecycle, gateUnlocked: false, lastError: null },
-    auth: { ...state.auth, verificationCode: null, verificationExpiresAt: null },
+    auth: { ...state.auth },
     security: { ...state.security, gateFailures: 0, gateLockedUntil: 0 },
   };
   const encrypted = CryptoJS.AES.encrypt(JSON.stringify(safeState), encryptionKey, {
@@ -358,9 +353,7 @@ export function createInitialMBWState() {
       signedUp: false,
       phone: '',
       phoneVerified: false,
-      verificationCode: null,
-      verificationExpiresAt: null,
-      verificationMode: 'PREVIEW_LOCAL',
+                  verificationMode: 'DIRECT_WHATSAPP_CAPTURE_UNVERIFIED',
     },
     subscription: {
       tier: null,
@@ -447,7 +440,7 @@ export function createInitialMBWState() {
       blocked: [],
       deletedAt: null,
     },
-    productionServices: { ...MBW_PREVIEW_SERVICE_STATUS },
+    productionServices: { ...MBW_PRODUCTION_SERVICE_STATUS },
   };
 }
 
@@ -506,18 +499,14 @@ function reducer(state, action) {
       return withUpdated(state, { userSeed: { ...state.userSeed, path: action.path, updatedAt: now() } });
     case 'SIGNUP':
       return withUpdated(state, {
-        auth: { ...state.auth, signedUp: true, phone: action.phone },
+        auth: { ...state.auth, signedUp: true, phone: action.phone, phoneVerified: false },
         userSeed: { ...state.userSeed, displayName: action.displayName, updatedAt: now() },
       });
-    case 'VERIFICATION_SENT':
-      return withUpdated(state, { auth: { ...state.auth, verificationCode: action.code, verificationExpiresAt: action.expiresAt } });
-    case 'PHONE_VERIFIED':
-      return withUpdated(state, { auth: { ...state.auth, phoneVerified: true, verificationCode: null, verificationExpiresAt: null } });
     case 'TIER': {
-      const receipt = { id: makeId('SUB'), tier: action.tier, amount: action.amount, currency: action.currency, at: now(), mode: 'PREVIEW_NO_SETTLEMENT' };
+      const receipt = { id: makeId('SUB'), tier: action.tier, amount: action.amount, currency: action.currency, at: now(), mode: 'TIER_SELECTION_PENDING_BILLING' };
       return withUpdated(state, {
-        subscription: { tier: action.tier, status: 'ACTIVE_PREVIEW', receipt },
-        userSeed: { ...state.userSeed, tier: action.tier, badge: action.badge, subscriptionState: 'ACTIVE_PREVIEW', updatedAt: now() },
+        subscription: { tier: action.tier, status: 'TIER_SELECTED', receipt },
+        userSeed: { ...state.userSeed, tier: action.tier, badge: action.badge, subscriptionState: 'TIER_SELECTED', updatedAt: now() },
       });
     }
     case 'CONSENT': {
@@ -558,7 +547,7 @@ function reducer(state, action) {
     case 'CHAT': {
       const id = action.id;
       const previous = state.matchmaking.chats[id] || [];
-      const message = { id: makeId('MSG'), sender: 'ME', text: action.text.trim(), at: now(), delivery: 'LOCAL_PREVIEW' };
+      const message = { id: makeId('MSG'), sender: 'ME', text: action.text.trim(), at: now(), delivery: 'REMOTE_PENDING' };
       return withUpdated(state, { matchmaking: { ...state.matchmaking, chats: { ...state.matchmaking.chats, [id]: [...previous, message] } } });
     }
     case 'SELECT_GAME':
@@ -648,13 +637,13 @@ function reducer(state, action) {
       if (state.travel.bookings.some((item) => item.tripId === action.trip.id && item.status !== 'CANCELLED')) {
         return withUpdated(state, { lifecycle: { ...state.lifecycle, lastError: 'BOOKING ALREADY EXISTS' } });
       }
-      const booking = { id: makeId('BOOK'), tripId: action.trip.id, title: action.trip.title, place: action.trip.place, price: action.trip.price, status: 'RESERVED_PREVIEW', at: now() };
+      const booking = { id: makeId('BOOK'), tripId: action.trip.id, title: action.trip.title, place: action.trip.place, price: action.trip.price, status: 'REQUESTED', at: now() };
       return withUpdated(state, { travel: { ...state.travel, bookings: [booking, ...state.travel.bookings] } });
     }
     case 'TRAVEL_CANCEL':
       return withUpdated(state, { travel: { ...state.travel, bookings: state.travel.bookings.map((item) => item.id === action.id ? { ...item, status: 'CANCELLED', cancelledAt: now() } : item) } });
     case 'TRAVEL_HOST': {
-      const host = { id: makeId('HOST'), title: action.title, place: action.place, capacity: action.capacity, status: 'ACTIVE_PREVIEW', at: now() };
+      const host = { id: makeId('HOST'), title: action.title, place: action.place, capacity: action.capacity, status: 'TIER_SELECTED', at: now() };
       return withUpdated(state, { travel: { ...state.travel, hosting: [host, ...state.travel.hosting] } });
     }
     case 'NEARBY_RESULT':
@@ -697,7 +686,7 @@ function reducer(state, action) {
       return withUpdated(state, { commerce: { ...state.commerce, cart: state.commerce.cart.filter((item) => item.id !== action.id) } });
     case 'CHECKOUT': {
       const total = state.commerce.cart.reduce((sum, item) => sum + item.price * item.qty, 0);
-      const order = { id: makeId('ORDER'), items: state.commerce.cart, total, status: 'ORDERED_PREVIEW_NO_SETTLEMENT', at: now() };
+      const order = { id: makeId('ORDER'), items: state.commerce.cart, total, status: 'PAYMENT_PENDING', at: now() };
       return withUpdated(state, { commerce: { ...state.commerce, cart: [], orders: [order, ...state.commerce.orders], lastReceiptId: order.id } });
     }
     case 'KAMA_VALUE':
@@ -710,6 +699,24 @@ function reducer(state, action) {
     }
     case 'RESET':
       return { ...createInitialMBWState(), hydrated: true };
+
+    case 'REMOTE_PROFILE':
+      return withUpdated(state, {
+        auth: { ...state.auth, signedUp: true, phone: action.profile.whatsapp_number || state.auth.phone, phoneVerified: false },
+        userSeed: { ...state.userSeed, displayName: action.profile.display_name || state.userSeed.displayName, updatedAt: now() },
+      });
+    case 'REMOTE_ENTITLEMENT':
+      return withUpdated(state, {
+        subscription: { tier: action.tier, status: action.status, receipt: { source: 'REMOTE_VERIFIED', expiresAt: action.expiresAt || null } },
+        userSeed: { ...state.userSeed, tier: action.tier, badge: action.badge, subscriptionState: action.status, updatedAt: now() },
+      });
+    case 'REMOTE_ENTITLEMENT_REVOKED':
+      return withUpdated(state, {
+        subscription: { tier: '111', status: action.status || 'NONE', receipt: null },
+        userSeed: { ...state.userSeed, tier: '111', badge: 'BLACK', subscriptionState: action.status || 'NONE', updatedAt: now() },
+      });
+    case 'REMOTE_LEGAL_ACCEPTED':
+      return withUpdated(state, { safety: { ...state.safety, privacyAccepted: true, termsAccepted: true, consentAccepted: true, privacyAcceptedAt: now(), termsAcceptedAt: now(), consentAcceptedAt: now(), legalVersion: action.version } });
     default:
       return state;
   }
@@ -753,34 +760,7 @@ export function MBWGoldenMasterProvider({ children }) {
     return () => clearTimeout(persistTimerRef.current);
   }, [state]);
 
-  const verifyGate = useCallback(async (value) => {
-    if (Number(state.security.gateLockedUntil) > Date.now()) {
-      dispatch({ type: 'ERROR', message: 'ACCESS TEMPORARILY LOCKED' });
-      return false;
-    }
-    const normalized = String(value || '').trim();
-    const digest = await Crypto.digestStringAsync(Crypto.CryptoDigestAlgorithm.SHA256, normalized);
-    const accepted = [...MBW_GATE_HASHES].some((hash) => timingSafeEqualHex(hash, digest));
-    dispatch(accepted ? { type: 'GATE_UNLOCK' } : { type: 'GATE_FAILURE' });
-    return accepted;
-  }, [state.security.gateLockedUntil]);
-
-  const sendVerification = useCallback(async () => {
-    const bytes = await Crypto.getRandomBytesAsync(4);
-    const numeric = ((bytes[0] << 24) >>> 0) + (bytes[1] << 16) + (bytes[2] << 8) + bytes[3];
-    const code = String(100000 + (numeric % 900000));
-    dispatch({ type: 'VERIFICATION_SENT', code, expiresAt: Date.now() + 5 * 60 * 1000 });
-    return code;
-  }, []);
-
-  const verifyPhone = useCallback((input) => {
-    const accepted = Boolean(state.auth.verificationCode)
-      && String(input).trim() === state.auth.verificationCode
-      && Number(state.auth.verificationExpiresAt) > Date.now();
-    if (accepted) dispatch({ type: 'PHONE_VERIFIED' });
-    else dispatch({ type: 'ERROR', message: 'INVALID OR EXPIRED CODE' });
-    return accepted;
-  }, [state.auth.verificationCode, state.auth.verificationExpiresAt]);
+  const verifyGate = useCallback(async () => false, []);
 
   const requestNearby = useCallback(async () => {
     try {
@@ -956,8 +936,6 @@ export function MBWGoldenMasterProvider({ children }) {
     state,
     dispatch,
     verifyGate,
-    sendVerification,
-    verifyPhone,
     requestNearby,
     pickPoster,
     pickSeedPoster,
@@ -972,8 +950,6 @@ export function MBWGoldenMasterProvider({ children }) {
   }), [
     state,
     verifyGate,
-    sendVerification,
-    verifyPhone,
     requestNearby,
     pickPoster,
     pickSeedPoster,
@@ -994,3 +970,10 @@ export function useMBWGoldenMaster() {
   if (!value) throw new Error('MBWGoldenMasterProvider missing');
   return value;
 }
+
+// MBW_USER_SEED_GOLDEN_BRIDGE_V14
+export * as MBWUserSeedRuntimeV14 from '../runtime/MBWUserSeedRuntime';
+export * as MBWUserSeedProviderV14 from '../runtime/MBWUserSeedProvider';
+
+/* MBW_APK_EXTRACTED_SEED_UNIVERSAL_V21 */
+export * as MBWUniversalSeedRegistryV21 from '../runtime/MBWUniversalSeedRegistryV21';

@@ -52,3 +52,31 @@ node_modules/
 **/*.apk
 **/*.aab
 **/*.zip
+
+# MBW local forensic courts excluded from EAS upload
+scripts/mbw-forensic-repair-court.cjs
+scripts/mbw-golden-master-court.cjs
+scripts/mbw-apk-forensic-v3.py
+scripts/mbw-apk-golden-forensic.py
+
+# MBW V8.4 GENERATED208 GOLDEN EAS SCOPE BEGIN
+app/screens/Generated208/**
+!app/screens/Generated208/Games/GamesLiveScreen.js
+!app/screens/Generated208/Games/GamesOverviewScreen.js
+!app/screens/Generated208/Matchmaking/MatchmakingLiveScreen.js
+!app/screens/Generated208/Merchandise/MerchandiseActionScreen.js
+!app/screens/Generated208/ProfilePoster/ProfilePosterEntryScreen.js
+!app/screens/Generated208/ProfilePoster/ProfilePosterOverviewScreen.js
+!app/screens/Generated208/ProfilePoster/ProfilePosterSeedScreen.js
+!app/screens/Generated208/Settings/SettingsActionScreen.js
+!app/screens/Generated208/Settings/SettingsButtonsScreen.js
+!app/screens/Generated208/Settings/SettingsProofScreen.js
+!app/screens/Generated208/Settings/SettingsResultScreen.js
+!app/screens/Generated208/Settings/SettingsStateScreen.js
+!app/screens/Generated208/Settings/SettingsVaultScreen.js
+!app/screens/Generated208/TravelLocal/TravelLocalResultScreen.js
+# MBW V8.4 GENERATED208 GOLDEN EAS SCOPE END
+!backend/**
+!constitution/**
+!app/production/**
+!scripts/**

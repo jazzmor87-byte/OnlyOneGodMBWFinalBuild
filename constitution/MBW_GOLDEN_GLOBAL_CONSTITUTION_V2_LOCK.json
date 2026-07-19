@@ -1,0 +1,56 @@
+{
+  "name": "MEN BEHIND WALL — GOLDEN GLOBAL RELEASE",
+  "constitutionVersion": "2.0.0",
+  "status": "CANONICAL_LOCKED",
+  "replaces": [
+    "PREVIEW",
+    "APK_CERTIFICATION_NO_SETTLEMENT_CLAIM",
+    "TIER_SELECTED_FOR_CERTIFICATION",
+    "LOCAL_CERTIFICATION_ONLY",
+    "ORDERED_CERTIFICATION_NO_SETTLEMENT_CLAIM",
+    "RESERVED_CERTIFICATION_NO_CONTRACT"
+  ],
+  "artifactLaw": {
+    "deviceCertification": "SIGNED_PRODUCTION_APK",
+    "googlePlayDistribution": "SIGNED_PRODUCTION_AAB",
+    "hermes": true,
+    "newArchitectureState": "PROVED_FALSE_UNTIL_INTENTIONALLY_CHANGED",
+    "r8": true,
+    "resourceShrink": true,
+    "sbom": true,
+    "licenceManifest": true,
+    "provenance": true
+  },
+  "identityLaw": {
+    "signup": "DIRECT_WHATSAPP_NUMBER_CAPTURE",
+    "phoneVerificationClaim": false,
+    "remoteSession": "SUPABASE_AUTH_ANONYMOUS_THEN_LINKABLE",
+    "sovereignAccess": "SERVER_ISSUED_ALLOWLISTED_ENTITLEMENT",
+    "publicClientBackdoor": false
+  },
+  "gamesLaw": {
+    "cashValue": false,
+    "withdrawable": false,
+    "transferable": false,
+    "redeemable": false,
+    "purchasedCoinsForWagering": false,
+    "realWorldPrizes": false
+  },
+  "sections": [
+    "00_GOLDEN_RELEASE_ARTIFACT", "01_BOOT_RECOVERY_CONTINUITY", "02_CINEMATIC_ENTRY_WORLD",
+    "03_GLOBAL_ACCESS_IDENTITY", "04_MAIN_HUB", "05_GLOBAL_VISUAL_DRIVER", "06_MASTER_OF_LIFE",
+    "07_MATCHMAKING", "08_MASTER_OF_GAMES", "09_MASTER_OF_COINS", "10_TRAVEL_LOCAL",
+    "11_TRAVEL_OVERSEAS", "12_MERCHANDISE", "13_KAMASHASTRA", "14_LIVE_LOUNGE",
+    "15_MENS_LOUNGE", "16_NEARBY", "17_AI_PHOTO_STUDIO", "18_SETTINGS_PRIVACY_ACCOUNT",
+    "19_PRODUCTION_BACKEND_SECURITY", "20_TRUST_SAFETY_LEGAL", "21_TEST_OBSERVABILITY",
+    "22_FIVE_LAYER_RELEASE_SEAL"
+  ],
+  "finalSeal": {
+    "sourceRootProof": true,
+    "runtimeRootProof": true,
+    "exportBundleProof": true,
+    "apkForensicProof": true,
+    "liveVisualProof": true,
+    "all23CourtsRequired": true
+  }
+}

@@ -12,3 +12,6 @@
 -keep class com.facebook.react.turbomodule.** { *; }
 
 # Add any project specific keep options here:
+
+# MBW Golden Global Group 1 foundation
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
