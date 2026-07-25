@@ -1,0 +1,37 @@
+{
+  "engine": "MBW_DARK_MATTER_OMEGA_PRIME",
+  "version": "1.0.0",
+  "project": "MEN_BEHIND_WALL",
+  "projectIsolation": true,
+  "executionOrder": [
+    "DARK_MATTER_PRIME",
+    "SOVEREIGN_AUTHORITY",
+    "SINGULARITY_REPAIR",
+    "BLACK_HOLE_CONTAINMENT",
+    "ESCAPE_VECTOR",
+    "OMEGA_PROOF"
+  ],
+  "laws": {
+    "noActionWithoutAuthority": true,
+    "noMutationWithoutBackup": true,
+    "noDeletionWithoutOwnershipReferenceAndRollbackProof": true,
+    "noCompletionWithoutProof": true,
+    "noBuildWithoutReleaseGate": true,
+    "noPublicBackdoor": true,
+    "noDecorativeArchitecture": true,
+    "noUnmappedActiveOS": true,
+    "noCriticalDeadEnd": true,
+    "noCrossProjectIdentityLeak": true
+  },
+  "primeDeadEnd": {
+    "definition": "Every active route, state, action, service and release path reaches a verified result or a proved Escape Vector; unresolved critical terminals are forbidden.",
+    "p0Allowed": 0,
+    "p1Allowed": 0
+  },
+  "releaseState": {
+    "group1FoundationRequired": true,
+    "group1EstablishedMarker": "MBW_GROUP_1_GOLDEN_GLOBAL_FOUNDATION_ESTABLISHED",
+    "governanceCanBeEstablishedBeforeAllFeatureGroups": true,
+    "globalReleaseCanBeDeclaredBeforeAll23Courts": false
+  }
+}

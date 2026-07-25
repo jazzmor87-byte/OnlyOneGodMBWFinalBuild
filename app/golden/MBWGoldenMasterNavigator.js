@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { mbwRouteAccess } from './MBWReleaseContracts';
 import { useMBWGoldenMaster } from './MBWGoldenMasterStore';
+import MBWProductionAIPosterScreen from '../screens/Sections/AIPosterScreen';
 import {
   AIPosterScreen,
   AccountControlScreen,
@@ -74,7 +75,7 @@ const ROUTES = [
   ['LiveLounge', LiveLoungeScreen],
   ['MensLounge', MensLoungeScreen],
   ['Nearby', NearbyScreen],
-  ['AIPoster', AIPosterScreen],
+  ['AIPoster', MBWProductionAIPosterScreen],
   ['Settings', SettingsScreen],
   ['ProfilePoster', ProfilePosterScreen],
   ['MatchChat', MatchChatScreen],

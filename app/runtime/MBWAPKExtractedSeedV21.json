@@ -1,0 +1,312 @@
+{
+  "MATCH_SEEDS": [
+    {
+      "code": "EM",
+      "name": "EMBER",
+      "role": "Top",
+      "aura": "Warm pull",
+      "intent": "Stable date",
+      "score": 96,
+      "status": "Prime",
+      "style": "direct, protective, loyal"
+    },
+    {
+      "code": "NR",
+      "name": "NOIR",
+      "role": "Versatile",
+      "aura": "Mystery",
+      "intent": "Deep chat",
+      "score": 94,
+      "status": "Hot",
+      "style": "slow, private, observant"
+    },
+    {
+      "code": "CR",
+      "name": "CROWN",
+      "role": "Bottom",
+      "aura": "Soft royal",
+      "intent": "Chemistry",
+      "score": 91,
+      "status": "Ready",
+      "style": "elegant, responsive, affectionate"
+    },
+    {
+      "code": "VL",
+      "name": "VELVET",
+      "role": "Versatile",
+      "aura": "Smooth",
+      "intent": "Slow burn",
+      "score": 89,
+      "status": "Open",
+      "style": "calm, sensual, balanced"
+    },
+    {
+      "code": "AS",
+      "name": "ASH",
+      "role": "Top",
+      "aura": "Quiet fire",
+      "intent": "Direct meet",
+      "score": 87,
+      "status": "Live",
+      "style": "minimal words, clear action"
+    },
+    {
+      "code": "GL",
+      "name": "GOLD",
+      "role": "Bottom",
+      "aura": "Luxury",
+      "intent": "Premium bond",
+      "score": 85,
+      "status": "New",
+      "style": "soft, polished, high taste"
+    },
+    {
+      "code": "DR",
+      "name": "DRAKE",
+      "role": "Top",
+      "aura": "Bold",
+      "intent": "Adventure",
+      "score": 83,
+      "status": "Quest",
+      "style": "brave, playful, travel-ready"
+    },
+    {
+      "code": "MN",
+      "name": "MOON",
+      "role": "Versatile",
+      "aura": "Calm",
+      "intent": "Night talk",
+      "score": 82,
+      "status": "Soft",
+      "style": "patient, emotional, steady"
+    },
+    {
+      "code": "RX",
+      "name": "REX",
+      "role": "Top",
+      "aura": "Dominant",
+      "intent": "Clear match",
+      "score": 80,
+      "status": "Sharp",
+      "style": "confident, structured, serious"
+    },
+    {
+      "code": "SN",
+      "name": "SILK",
+      "role": "Bottom",
+      "aura": "Tender",
+      "intent": "Trust first",
+      "score": 78,
+      "status": "Gentle",
+      "style": "warm, careful, loyal"
+    },
+    {
+      "code": "SK",
+      "name": "SKY",
+      "role": "Versatile",
+      "aura": "Free",
+      "intent": "Travel link",
+      "score": 76,
+      "status": "Moving",
+      "style": "open, curious, social"
+    },
+    {
+      "code": "OX",
+      "name": "ONYX",
+      "role": "Bottom",
+      "aura": "Magnetic",
+      "intent": "Private bond",
+      "score": 74,
+      "status": "Hidden",
+      "style": "deep, private, intense"
+    }
+  ],
+  "MATCH_INTENTS": [
+    {
+      "key": "STABLE",
+      "label": "STABLE DATE",
+      "boost": 4
+    },
+    {
+      "key": "CHAT",
+      "label": "DEEP CHAT",
+      "boost": 3
+    },
+    {
+      "key": "TRAVEL",
+      "label": "TRAVEL LINK",
+      "boost": 5
+    },
+    {
+      "key": "GAME",
+      "label": "GAME BOND",
+      "boost": 2
+    }
+  ],
+  "REALM_FEED_LUX_LOCAL_USERS": [
+    {
+      "name": "Orion",
+      "rank": "ACE RISING",
+      "signal": "Council ready",
+      "zone": "Near Realm Gate",
+      "score": 96
+    },
+    {
+      "name": "Noir",
+      "rank": "VAULT KEEPER",
+      "signal": "Vault unlocked",
+      "zone": "Gold Chamber",
+      "score": 94
+    },
+    {
+      "name": "Crown",
+      "rank": "LIVE SPARK",
+      "signal": "Live lounge active",
+      "zone": "Maroon Hall",
+      "score": 92
+    },
+    {
+      "name": "Velvet",
+      "rank": "MATCH PATH",
+      "signal": "Intent locked",
+      "zone": "Seed Rail",
+      "score": 91
+    },
+    {
+      "name": "Dusk",
+      "rank": "TRAVEL LIGHT",
+      "signal": "Local quest open",
+      "zone": "City Route",
+      "score": 89
+    },
+    {
+      "name": "Ash",
+      "rank": "GAME TABLE",
+      "signal": "Board ready",
+      "zone": "Play Room",
+      "score": 88
+    },
+    {
+      "name": "Gold",
+      "rank": "PROFILE CROWN",
+      "signal": "Profile updated",
+      "zone": "Crown Vault",
+      "score": 87
+    },
+    {
+      "name": "Moon",
+      "rank": "REALM WATCH",
+      "signal": "Watching HBW",
+      "zone": "Silent Balcony",
+      "score": 85
+    }
+  ],
+  "MATCH_FLOW_STEPS": [
+    {
+      "key": "BOARD",
+      "title": "SEED BOARD",
+      "route": "MatchmakingMainLux",
+      "status": "LIVE",
+      "logic": "12 visible desired seeds are selectable."
+    },
+    {
+      "key": "FEED",
+      "title": "MATCH FEED",
+      "route": "MatchmakingFeedLux",
+      "status": "LIVE",
+      "logic": "Visible match signals and active users are shown."
+    },
+    {
+      "key": "INTENT",
+      "title": "INTENT LOCK",
+      "route": "MatchIntentLock",
+      "status": "LIVE",
+      "logic": "Chosen seed receives an intent score and path lock."
+    },
+    {
+      "key": "VAULT",
+      "title": "PROFILE VAULT",
+      "route": "MatchProfileVault",
+      "status": "LIVE",
+      "logic": "Selected seed carries into profile vault with next best links."
+    },
+    {
+      "key": "FOUND",
+      "title": "MATCH FOUND",
+      "route": "MatchFoundLux",
+      "status": "LIVE",
+      "logic": "Final match result confirms chosen seed path."
+    },
+    {
+      "key": "OUTCOME",
+      "title": "OUTCOME CHAMBER",
+      "route": "MatchOutcomeChamber",
+      "status": "LIVE",
+      "logic": "Final match state and restart path are connected."
+    }
+  ],
+  "MATCH_FEED_USERS": [
+    {
+      "code": "EM",
+      "name": "Ember",
+      "signal": "Intent warming",
+      "zone": "Gold Rail",
+      "score": 96
+    },
+    {
+      "code": "ON",
+      "name": "Onyx",
+      "signal": "Quiet lock",
+      "zone": "Velvet Gate",
+      "score": 95
+    },
+    {
+      "code": "CR",
+      "name": "Crown",
+      "signal": "Profile ready",
+      "zone": "Crown Vault",
+      "score": 94
+    },
+    {
+      "code": "VL",
+      "name": "Velvet",
+      "signal": "Live spark",
+      "zone": "Maroon Hall",
+      "score": 92
+    },
+    {
+      "code": "AS",
+      "name": "Ash",
+      "signal": "Game table link",
+      "zone": "Play Room",
+      "score": 90
+    },
+    {
+      "code": "DS",
+      "name": "Dusk",
+      "signal": "Travel path open",
+      "zone": "City Quest",
+      "score": 88
+    },
+    {
+      "code": "GD",
+      "name": "Gold",
+      "signal": "Vault pulse",
+      "zone": "Inner Chamber",
+      "score": 87
+    },
+    {
+      "code": "MN",
+      "name": "Moon",
+      "signal": "Silent watch",
+      "zone": "Balcony",
+      "score": 85
+    }
+  ],
+  "MATCH_VISIBLE_RULES": {
+    "board": "12 Visible Desired Seeds",
+    "publicFlow": "Seed Board → Match Feed → Intent Lock → Profile Vault → Match Found → Outcome Chamber",
+    "privacy": "Users see active signals, not private dev codes.",
+    "completion": "MATCHMAKING_LIVING_LOGIC_COMPLETE"
+  }
+}

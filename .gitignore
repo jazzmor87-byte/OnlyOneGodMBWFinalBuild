@@ -14,3 +14,6 @@ MBW_V*_RUNTIME_TRUTH_ENGINE_*.json
 *.pyc
 __pycache__/
 .env*.local
+android/app/debug.keystore
+*.keystore
+*.jks

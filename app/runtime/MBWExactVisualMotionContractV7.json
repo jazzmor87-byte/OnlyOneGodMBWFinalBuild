@@ -1,0 +1,30 @@
+{
+  "version": "V7",
+  "headlineCycleSeconds": 5,
+  "headlineAppearDisappear": true,
+  "headlineIconMotionSynchronized": true,
+  "pentagramStarVisibleAllApp": true,
+  "starEatsWords": true,
+  "emojiIconButtons": true,
+  "motionFamilies": [
+    "pentagram",
+    "hexagram",
+    "octagonal",
+    "triangle",
+    "curve",
+    "edge",
+    "shape-driven"
+  ],
+  "mainModelSafeZoneRequired": true,
+  "motionMustNotCoverMainModel": true,
+  "largeCardsForbidden": true,
+  "smallTransparentTypingCardOnly": true,
+  "smoothMotionRequired": true,
+  "reducedMotionRequired": true,
+  "runtimeProofRequired": [
+    "APK",
+    "install",
+    "screen-recording",
+    "frame-review"
+  ]
+}

@@ -108,7 +108,9 @@
       ],
       "./app/plugins/withMBWRemoveDangerousAndroidPermissions",
       "./plugins/mbw-android-manifest-hardening",
-      "expo-iap"
+      "expo-iap",
+      "expo-asset",
+      "expo-media-library"
     ],
     "runtimeVersion": "1.0.42",
     "updates": {

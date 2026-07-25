@@ -1,5 +1,5 @@
 import React from "react";
-import OriginalApp from "../../App";
+import OriginalApp from "../../app.json";
 import MBWRuntimeOS from "./MBWRuntimeOS";
 import MBWVisualBoundary from "./MBWVisualBoundary";
 

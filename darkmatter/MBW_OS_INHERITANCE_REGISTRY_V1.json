@@ -1,0 +1,265 @@
+{
+  "engine": "MBW_DARK_MATTER_OMEGA_PRIME",
+  "canonicalOS": [
+    {
+      "id": "DARK_MATTER_PRIME",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "hidden-cause observer",
+      "sections": [
+        "00",
+        "01",
+        "19",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "id": "SOVEREIGN_REALITY_ENGINE",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "law and authority",
+      "sections": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "18",
+        "20"
+      ]
+    },
+    {
+      "id": "SINGULARITY_REPAIR_ENGINE",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "minimum complete repair",
+      "sections": [
+        "00",
+        "01",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "id": "BLACK_HOLE_ZERO_RESIDUE_ENGINE",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "containment and zero residue",
+      "sections": [
+        "00",
+        "19",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "id": "ESCAPE_VECTOR_CONTINUITY_ENGINE",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "rollback recovery and safe return",
+      "sections": [
+        "01",
+        "02",
+        "03",
+        "18",
+        "22"
+      ]
+    },
+    {
+      "id": "OMEGA_PROOF_CARRYING_RELEASE_ENGINE",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "final convergence and proof",
+      "sections": [
+        "00",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "id": "CINEMATIC_ENTRY_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "entry world",
+      "sections": [
+        "02"
+      ]
+    },
+    {
+      "id": "IDENTITY_ENTITLEMENT_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "identity access and billing",
+      "sections": [
+        "03",
+        "06",
+        "18"
+      ]
+    },
+    {
+      "id": "MAIN_HUB_ROUTE_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "route ownership and lifecycle",
+      "sections": [
+        "04"
+      ]
+    },
+    {
+      "id": "GLOBAL_VISUAL_DRIVER_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "poster motion safe-zone and visual owner",
+      "sections": [
+        "05"
+      ]
+    },
+    {
+      "id": "REALM_MATCH_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "realm and matchmaking",
+      "sections": [
+        "06",
+        "07",
+        "13"
+      ]
+    },
+    {
+      "id": "GAMES_COINS_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "games and non-cash coins",
+      "sections": [
+        "08",
+        "09"
+      ]
+    },
+    {
+      "id": "TRAVEL_COMMERCE_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "travel merchandise and fulfilment",
+      "sections": [
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "LIVE_SOCIAL_NEARBY_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "live social location",
+      "sections": [
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "id": "AI_STUDIO_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "on-device editor and export",
+      "sections": [
+        "17"
+      ]
+    },
+    {
+      "id": "PRODUCTION_SECURITY_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "backend security legal and observability",
+      "sections": [
+        "19",
+        "20",
+        "21"
+      ]
+    },
+    {
+      "id": "GOLDEN_RELEASE_OS",
+      "parent": "MBW_DARK_MATTER_OMEGA_PRIME",
+      "role": "artifact and five-layer seal",
+      "sections": [
+        "00",
+        "22"
+      ]
+    }
+  ],
+  "pathAdapters": [
+    {
+      "prefix": "app/golden/",
+      "os": "MAIN_HUB_ROUTE_OS"
+    },
+    {
+      "prefix": "app/sovereign/",
+      "os": "SOVEREIGN_REALITY_ENGINE"
+    },
+    {
+      "prefix": "app/runtime/",
+      "os": "ESCAPE_VECTOR_CONTINUITY_ENGINE"
+    },
+    {
+      "prefix": "app/production/",
+      "os": "PRODUCTION_SECURITY_OS"
+    },
+    {
+      "prefix": "app/darkmatter/",
+      "os": "DARK_MATTER_PRIME"
+    },
+    {
+      "prefix": "app/ai-studio/",
+      "os": "AI_STUDIO_OS"
+    },
+    {
+      "prefix": "core/visual/",
+      "os": "GLOBAL_VISUAL_DRIVER_OS"
+    },
+    {
+      "prefix": "core/runtime/",
+      "os": "ESCAPE_VECTOR_CONTINUITY_ENGINE"
+    },
+    {
+      "prefix": "core/",
+      "os": "SINGULARITY_REPAIR_ENGINE"
+    },
+    {
+      "prefix": "mbw_god_core/",
+      "os": "SOVEREIGN_REALITY_ENGINE"
+    },
+    {
+      "prefix": "backend/",
+      "os": "PRODUCTION_SECURITY_OS"
+    },
+    {
+      "prefix": "android/",
+      "os": "GOLDEN_RELEASE_OS"
+    },
+    {
+      "prefix": "scripts/",
+      "os": "OMEGA_PROOF_CARRYING_RELEASE_ENGINE"
+    },
+    {
+      "prefix": "constitution/",
+      "os": "SOVEREIGN_REALITY_ENGINE"
+    },
+    {
+      "prefix": "App.js",
+      "os": "MBW_DARK_MATTER_OMEGA_PRIME"
+    },
+    {
+      "prefix": "index.js",
+      "os": "MBW_DARK_MATTER_OMEGA_PRIME"
+    }
+  ],
+  "allReleaseSections": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22"
+  ]
+}

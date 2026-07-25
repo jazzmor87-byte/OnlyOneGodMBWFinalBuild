@@ -2,7 +2,7 @@ import 'react-native-url-polyfill/auto';
 // MBW_SOVEREIGN_ROOT_V14
 import React from 'react';
 import { registerRootComponent } from 'expo';
-import App from './App';
+import App from './app.json';
 import { MBWSovereignBoundary } from './app/sovereign/MBWSovereignBoundary';
 import { getMBWSovereignRuntimeSnapshot } from './app/sovereign/MBWSovereignRuntime';
 import { MBWUserSeedProvider } from './app/runtime/MBWUserSeedProvider';

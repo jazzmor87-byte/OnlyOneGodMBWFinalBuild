@@ -4,9 +4,11 @@
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-navigation/native": "7.3.3",
     "@react-navigation/native-stack": "7.17.5",
+    "@shopify/react-native-skia": "2.2.12",
     "@supabase/supabase-js": "2.84.0",
     "crypto-js": "4.2.0",
     "expo": "~54.0.36",
+    "expo-asset": "~12.0.13",
     "expo-av": "16.0.8",
     "expo-crypto": "15.0.9",
     "expo-file-system": "~19.0.23",
@@ -14,17 +16,24 @@
     "expo-image-manipulator": "~14.0.8",
     "expo-image-picker": "~17.0.11",
     "expo-location": "~19.0.8",
+    "expo-media-library": "~18.2.1",
     "expo-secure-store": "15.0.8",
     "expo-status-bar": "~3.0.0",
     "expo-system-ui": "~6.0.9",
+    "onnxruntime-react-native": "^1.24.3",
     "react": "19.1.0",
     "react-native": "0.81.5",
+    "react-native-reanimated": "3.19.5",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "4.16.0",
-    "react-native-url-polyfill": "3.0.0"
+    "react-native-svg": "15.12.1",
+    "react-native-url-polyfill": "3.0.0",
+    "react-native-view-shot": "4.0.3"
   },
   "devDependencies": {
-    "babel-preset-expo": "54.0.11"
+    "babel-preset-expo": "54.0.11",
+    "jpeg-js": "0.4.4",
+    "pngjs": "7.0.0"
   },
   "expo": {
     "doctor": {
@@ -48,7 +57,11 @@
     "mbw:golden-export": "NODE_ENV=production expo export --platform android --max-workers 1",
     "mbw:forensic-repair-court": "node scripts/mbw-forensic-repair-court.cjs",
     "mbw:group1-court": "python3 scripts/mbw_group1_foundation_court.py .",
-    "darkmatter:omega": "python3 scripts/darkmatter/mbw_dark_matter_omega_prime_final_court.py ."
+    "darkmatter:omega": "python3 scripts/darkmatter/mbw_dark_matter_omega_prime_final_court.py .",
+    "eas-build-post-install": "node scripts/mbw-eas-post-install.cjs && node scripts/mbw-v49-function-map-guard.cjs .",
+    "mbw:normalize-exactvisualos-assets": "node scripts/mbw-eas-android-native-fixes.cjs --normalize-only",
+    "postinstall": "node scripts/mbw-v49-function-map-guard.cjs . && node scripts/mbw-codegen-idempotency-gate.cjs",
+    "mbw:codegen-idempotency-gate": "node scripts/mbw-codegen-idempotency-gate.cjs"
   },
   "version": "1.0.42"
 }
