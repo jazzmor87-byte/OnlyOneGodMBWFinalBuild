@@ -2,7 +2,7 @@
   "cli": {
     "version": ">=21.0.2",
     "appVersionSource": "local",
-    "requireCommit": false
+    "requireCommit": true
   },
   "build": {
     "stage": {
@@ -109,11 +109,11 @@
       "environment": "preview",
       "channel": "preview",
       "android": {
-        "buildType": "apk",
-        "image": "sdk-54"
+        "image": "sdk-54",
+        "withoutCredentials": true,
+        "gradleCommand": ":app:assembleDebug"
       },
-      "node": "20.19.4",
-      "credentialsSource": "remote"
+      "node": "20.19.4"
     },
     "preview": {
       "distribution": "internal",
