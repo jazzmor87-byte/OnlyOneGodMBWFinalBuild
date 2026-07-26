@@ -17,14 +17,17 @@
     },
     "production": {
       "android": {
-        "buildType": "apk",
-        "image": "ubuntu-24.04-jdk-17-ndk-r27b"
+        "buildType": "app-bundle",
+        "image": "sdk-54"
       },
       "autoIncrement": false,
-      "distribution": "internal",
+      "distribution": "store",
       "env": {
         "EAS_SKIP_AUTO_FINGERPRINT": "1"
-      }
+      },
+      "environment": "production",
+      "node": "20.19.4",
+      "credentialsSource": "remote"
     },
     "production-apk": {
       "distribution": "internal",
@@ -100,6 +103,30 @@
         "EXPO_PUBLIC_MBW_RELEASE_CHANNEL": "production",
         "EAS_SKIP_AUTO_FINGERPRINT": "1"
       }
+    },
+    "preview-apk": {
+      "distribution": "internal",
+      "environment": "preview",
+      "channel": "preview",
+      "android": {
+        "buildType": "apk",
+        "image": "sdk-54"
+      },
+      "node": "20.19.4",
+      "credentialsSource": "remote"
+    },
+    "preview": {
+      "distribution": "internal",
+      "environment": "preview",
+      "channel": "preview",
+      "android": {
+        "buildType": "apk",
+        "image": "sdk-54"
+      },
+      "node": "20.19.4"
     }
+  },
+  "submit": {
+    "production": {}
   }
 }

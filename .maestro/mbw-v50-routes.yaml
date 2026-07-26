@@ -1,0 +1,13 @@
+appId: ${APP_ID}
+---
+- launchApp
+- waitForAnimationToEnd:
+    timeout: 15000
+- runFlow:
+    when:
+      visible: "WELCOME TO"
+    commands:
+      - extendedWaitUntil:
+          visible: "MBW"
+          timeout: 12000
+- takeScreenshot: mbw-v50-route-universe

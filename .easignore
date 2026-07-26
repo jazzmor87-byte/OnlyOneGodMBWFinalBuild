@@ -266,4 +266,6 @@ app/screens/Generated208/**
 !/app/features/aiPosterForge/models/
 !/app/features/aiPosterForge/models/modnet_photographic.onnx
 # MBW_V17_SIZE_TRUTH_END
+
+# MBW V50.13 — debug-only keystore never enters EAS archive
 android/app/debug.keystore

@@ -1,0 +1,136 @@
+name: MBW V50 Exact Android Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_note:
+        type: string
+        required: false
+        description: MBW V50 release note
+
+jobs:
+  preflight:
+    name: V50 Cloud Preflight
+    environment: preview
+    runs_on: linux-large
+    outputs:
+      candidate_commit: ${{ steps.identity.outputs.candidate_commit }}
+      package_lock_sha256: ${{ steps.identity.outputs.package_lock_sha256 }}
+      android_package: ${{ steps.identity.outputs.android_package }}
+    steps:
+      - uses: eas/checkout
+      - uses: eas/install_node_modules
+      - id: identity
+        run: |
+          node tools/mbw-v50/cloud_preflight.mjs
+          set-output candidate_commit "$(git rev-parse HEAD 2>/dev/null || echo uploaded-local-project)"
+          set-output package_lock_sha256 "$(sha256sum package-lock.json | awk '{print $1}')"
+          ANDROID_PACKAGE="$(npx expo config --type public --json | node -e 'let s="";process.stdin.on("data",d=>s+=d);process.stdin.on("end",()=>{const c=JSON.parse(s);process.stdout.write(c.android?.package||"")})')"
+          test -n "$ANDROID_PACKAGE"
+          set-output android_package "$ANDROID_PACKAGE"
+
+  build_preview:
+    name: Build Exact Preview APK
+    needs: [preflight]
+    type: build
+    environment: preview
+    params:
+      platform: android
+      profile: preview-apk
+
+  maestro_smoke:
+    name: Maestro MBW Runtime Proof
+    needs: [build_preview]
+    type: maestro
+    environment: preview
+    runs_on: linux-large-nested-virtualization
+    env:
+      APP_ID: ${{ needs.preflight.outputs.android_package }}
+    params:
+      build_id: ${{ needs.build_preview.outputs.build_id }}
+      flow_path:
+        - .maestro/mbw-v50-smoke.yaml
+        - .maestro/mbw-v50-routes.yaml
+      shards: 2
+
+  artifact_forensics:
+    name: Exact APK Artifact Custody
+    needs: [build_preview, maestro_smoke]
+    environment: preview
+    runs_on: linux-large
+    outputs:
+      artifact_sha256: ${{ steps.proof.outputs.artifact_sha256 }}
+      artifact_size: ${{ steps.proof.outputs.artifact_size }}
+      proof_state: ${{ steps.proof.outputs.proof_state }}
+    steps:
+      - uses: eas/checkout
+      - uses: eas/download_build
+        id: download_preview
+        with:
+          build_id: ${{ needs.build_preview.outputs.build_id }}
+          extensions: [apk]
+      - id: proof
+        run: bash tools/mbw-v50/cloud_artifact_proof.sh "${{ steps.download_preview.outputs.artifact_path }}" mbw-v50-cloud-artifact-proof.json
+      - uses: eas/upload_artifact
+        with:
+          type: other
+          name: MBW V50 APK Forensic Proof
+          path: mbw-v50-cloud-artifact-proof.json
+
+  honor_pad_instructions:
+    name: Honor Pad 9 Exact Physical Court
+    needs: [artifact_forensics]
+    type: doc
+    params:
+      md: |
+        Install the exact preview APK from build `${{ needs.build_preview.outputs.build_id }}` on HONOR Pad 9.
+        Approve only after the 11-second intro, WELCOME TO → MBW timing, poster safety,
+        floating-icon taps, route transitions, reduced motion, no crash, no black body,
+        and no tap blocking are all directly proven.
+
+  honor_pad_approval:
+    name: Honor Pad 9 Physical Certification Approval
+    needs: [honor_pad_instructions]
+    type: require-approval
+
+  build_production:
+    name: Build Exact Production AAB
+    needs: [honor_pad_approval]
+    type: build
+    environment: production
+    params:
+      platform: android
+      profile: production
+
+  production_artifact_forensics:
+    name: Exact Production AAB Artifact Custody
+    needs: [build_production]
+    environment: production
+    runs_on: linux-large
+    outputs:
+      artifact_sha256: ${{ steps.proof.outputs.artifact_sha256 }}
+      artifact_size: ${{ steps.proof.outputs.artifact_size }}
+      proof_state: ${{ steps.proof.outputs.proof_state }}
+    steps:
+      - uses: eas/checkout
+      - uses: eas/download_build
+        id: download_production
+        with:
+          build_id: ${{ needs.build_production.outputs.build_id }}
+          extensions: [aab]
+      - id: proof
+        run: bash tools/mbw-v50/cloud_artifact_proof.sh "${{ steps.download_production.outputs.artifact_path }}" mbw-v50-cloud-production-aab-proof.json
+      - uses: eas/upload_artifact
+        with:
+          type: other
+          name: MBW V50 Production AAB Forensic Proof
+          path: mbw-v50-cloud-production-aab-proof.json
+
+  submit_production:
+    name: Submit Exact Certified Build to Google Play
+    needs: [build_production, production_artifact_forensics]
+    type: submit
+    environment: production
+    params:
+      build_id: ${{ needs.build_production.outputs.build_id }}
+      profile: production

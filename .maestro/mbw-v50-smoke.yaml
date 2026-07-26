@@ -1,0 +1,15 @@
+appId: ${APP_ID}
+---
+- launchApp:
+    clearState: true
+- waitForAnimationToEnd:
+    timeout: 15000
+- assertVisible: "WELCOME TO"
+- extendedWaitUntil:
+    visible: "MBW"
+    timeout: 12000
+- tapOn:
+    point: "50%,85%"
+- waitForAnimationToEnd:
+    timeout: 10000
+- takeScreenshot: mbw-v50-main-entry
