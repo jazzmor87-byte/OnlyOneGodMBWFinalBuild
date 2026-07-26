@@ -18,3 +18,9 @@ android/app/debug.keystore
 *.keystore
 *.jks
 .env
+credentials.json
+.env.*
+*.p12
+*.pfx
+*.pem
+*.key

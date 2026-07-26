@@ -1,12 +1,31 @@
+# MBW SAFE IGNORE SHIELD
+
+# MBW SAFE VENDOR SHIELD
+node_modules/
+.expo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# MBW generated audit residue shield
+MBW_*_RUNTIME_TRUTH_ENGINE_*.json
+MBW_*_REPORT*.txt
+MBW_*_READY*.json
+MBW_V*_RUNTIME_TRUTH_ENGINE_*.json
+*.pyc
+__pycache__/
+.env*.local
+android/app/debug.keystore
+*.keystore
+*.jks
+.env
+credentials.json
+.env.*
 # MBW ARCHIVE SIZE LOCK — COMMAND 11D-5E-R1
 .git
 node_modules
 .expo
 .expo-shared
 .eas
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 *.log
 *.tmp
 *.zip
@@ -17,7 +36,6 @@ yarn-error.log*
 *.gz
 *.7z
 *.rar
-__pycache__/
 **/__pycache__/
 .DS_Store
 # MBW audit/build output
@@ -29,7 +47,6 @@ tmp/
 temp/
 coverage/
 # current visual owners and copied poster junk
-.expo/
 android/.gradle/
 android/app/build/
 android/build/
@@ -48,7 +65,6 @@ src/screens/KamashastraResultScreen.js
 !eas.json
 # MBW 34C cloud archive custody allowlist
 .git/
-node_modules/
 **/*.apk
 **/*.aab
 **/*.zip
@@ -82,11 +98,6 @@ app/screens/Generated208/**
 !darkmatter/**
 !app/darkmatter/**
 !scripts/darkmatter/**
-.env*.local
-.env
-.env.*
-*.jks
-*.keystore
 .gradle/
 
 # MBW_V9_REACHABLE_SOURCE_BEGIN
@@ -185,15 +196,10 @@ app/screens/Generated208/**
 /android/app/build/
 
 # Local release outputs and transient files
-*.apk
-*.aab
 *.apks
-*.log
-*.tmp
 *.bak
 *.orig
 *.swp
-.DS_Store
 
 # Local proof and report residue
 /MBW_FILE_SUITES/
@@ -209,60 +215,18 @@ app/screens/Generated208/**
 !/assets/mbw/
 !/assets/mbw/exact-visual-os/
 !/assets/mbw/exact-visual-os/MBW_REF_01_ORBITAL_WORLD.png
-!/assets/
-!/assets/mbw/
-!/assets/mbw/exact-visual-os/
 !/assets/mbw/exact-visual-os/MBW_REF_02_PATH_GATE.png
-!/assets/
-!/assets/mbw/
-!/assets/mbw/exact-visual-os/
 !/assets/mbw/exact-visual-os/MBW_REF_03_MASTER_OF_COINS.png
 # MBW_V16_SIZE_DROP_END
 
 # MBW_V17_SIZE_TRUTH_BEGIN
 # Reproducible dependencies, caches and build outputs
-/node_modules/
-/.expo/
-/.gradle/
-/.cache/
-/.parcel-cache/
-/.turbo/
-/coverage/
-/dist/
-/web-build/
-/build/
-/android/.gradle/
-/android/build/
-/android/app/build/
-*.apk
-*.aab
-*.apks
-*.log
-*.tmp
-*.bak
-*.orig
 
 # Local proof/report residue outside runtime authority
-/MBW_FILE_SUITES/
-/MBW_FINAL_AUDITS_LOCAL/
-/MBW_GROUP1_GGR_WORKTREES/
-/MBW_OMEGA_LIVE_SNAPSHOTS/
 
 # Build-time native repair authority
-!/scripts/
-!/scripts/mbw-eas-android-native-fixes.cjs
-!/scripts/mbw-eas-post-install.cjs
 
 # Exact visual references
-!/assets/
-!/assets/mbw/
-!/assets/mbw/exact-visual-os/
-!/assets/mbw/exact-visual-os/MBW_REF_01_ORBITAL_WORLD.png
-!/assets/mbw/exact-visual-os/MBW_REF_02_PATH_GATE.png
-!/assets/mbw/exact-visual-os/MBW_REF_03_MASTER_OF_COINS.png
-!/app/
-!/app/features/
-!/app/features/aiPosterForge/
 !/app/features/aiPosterForge/models/
 !/app/features/aiPosterForge/models/modnet_photographic.onnx
 # MBW_V17_SIZE_TRUTH_END
@@ -273,4 +237,22 @@ app/screens/Generated208/**
 # MBW V50.16 — proven debug key for assembleDebug
 !android/
 !android/app/
-!android/app/debug.keystore
+
+*.p12
+*.pfx
+*.pem
+*.key
+*service-account*.json
+*service_account*.json
+
+# MBW V50.19 — clean production archive custody
+/tmp/
+/temp/
+/*.log
+/*.zip
+/*.apk
+/*.aab
+/*.tgz
+/*.tar
+/*.tar.gz
+/MBW_DARK_MATTER_ABSOLUTE_V50_WORKTREES/
