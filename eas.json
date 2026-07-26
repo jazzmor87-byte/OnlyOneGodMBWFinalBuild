@@ -23,7 +23,19 @@
       "autoIncrement": false,
       "distribution": "store",
       "env": {
-        "EAS_SKIP_AUTO_FINGERPRINT": "1"
+        "EXPO_PUBLIC_MBW_OPERATOR_NAME": "MEN BEHIND WALL",
+        "EXPO_PUBLIC_MBW_OPERATOR_EMAIL": "hurry2048@gmail.com",
+        "EXPO_PUBLIC_MBW_PAYMENT_MODE": "FREE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_111": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_222": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_333": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_444": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_RELEASE_CHANNEL": "production",
+        "EXPO_PUBLIC_MBW_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_MBW_SUPABASE_URL": "https://fbssftvoevxgyvlcjbed.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://fbssftvoevxgyvlcjbed.supabase.co"
       },
       "environment": "production",
       "node": "20.19.4",
@@ -113,7 +125,22 @@
         "withoutCredentials": true,
         "gradleCommand": ":app:assembleDebug"
       },
-      "node": "20.19.4"
+      "node": "20.19.4",
+      "env": {
+        "EXPO_PUBLIC_MBW_OPERATOR_NAME": "MEN BEHIND WALL",
+        "EXPO_PUBLIC_MBW_OPERATOR_EMAIL": "hurry2048@gmail.com",
+        "EXPO_PUBLIC_MBW_PAYMENT_MODE": "FREE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_111": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_222": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_333": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_444": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_RELEASE_CHANNEL": "production",
+        "EXPO_PUBLIC_MBW_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_MBW_SUPABASE_URL": "https://fbssftvoevxgyvlcjbed.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://fbssftvoevxgyvlcjbed.supabase.co"
+      }
     },
     "preview": {
       "distribution": "internal",
@@ -124,9 +151,39 @@
         "image": "sdk-54"
       },
       "node": "20.19.4"
+    },
+    "release-apk": {
+      "distribution": "internal",
+      "environment": "production",
+      "credentialsSource": "remote",
+      "node": "20.19.4",
+      "env": {
+        "EXPO_PUBLIC_MBW_OPERATOR_NAME": "MEN BEHIND WALL",
+        "EXPO_PUBLIC_MBW_OPERATOR_EMAIL": "hurry2048@gmail.com",
+        "EXPO_PUBLIC_MBW_PAYMENT_MODE": "FREE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_111": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_222": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_333": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_PLAY_PRODUCT_444": "DEFERRED_FREE_MODE",
+        "EXPO_PUBLIC_MBW_RELEASE_CHANNEL": "production",
+        "EXPO_PUBLIC_MBW_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_MBW_SUPABASE_URL": "https://fbssftvoevxgyvlcjbed.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_ufyZrLbYQdcItkviL3xYGw_Gwk-QcAB",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://fbssftvoevxgyvlcjbed.supabase.co"
+      },
+      "android": {
+        "image": "sdk-54",
+        "buildType": "apk"
+      }
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "track": "internal",
+        "releaseStatus": "draft"
+      }
+    }
   }
 }

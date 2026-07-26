@@ -269,4 +269,8 @@ app/screens/Generated208/**
 
 
 # MBW V50.14 — include only the proven debug keystore for assembleDebug
+
+# MBW V50.16 — proven debug key for assembleDebug
+!android/
+!android/app/
 !android/app/debug.keystore
