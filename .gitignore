@@ -24,3 +24,16 @@ credentials.json
 *.pfx
 *.pem
 *.key
+/node_modules/
+/.expo/
+/.gradle/
+/android/.gradle/
+/android/app/build/
+/android/build/
+/build/
+/dist/
+/coverage/
+/tools/hermesc-termux/
+android/mbw-v50-*-failure-capture.init.gradle
+scripts/mbw-v50-*-install-gradle-init.js
+MBW_GRADLE_FAILURE.txt

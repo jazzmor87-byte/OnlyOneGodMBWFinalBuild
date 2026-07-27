@@ -256,3 +256,7 @@ app/screens/Generated208/**
 /*.tar
 /*.tar.gz
 /MBW_DARK_MATTER_ABSOLUTE_V50_WORKTREES/
+/tools/hermesc-termux/
+android/mbw-v50-*-failure-capture.init.gradle
+scripts/mbw-v50-*-install-gradle-init.js
+MBW_GRADLE_FAILURE.txt

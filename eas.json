@@ -24,7 +24,10 @@
       "distribution": "store",
       "environment": "production",
       "node": "20.19.4",
-      "credentialsSource": "remote"
+      "credentialsSource": "remote",
+      "env": {
+        "NODE_ENV": "production"
+      }
     },
     "production-apk": {
       "distribution": "internal",
@@ -35,7 +38,10 @@
       "autoIncrement": true,
       "environment": "production",
       "credentialsSource": "remote",
-      "node": "20.19.4"
+      "node": "20.19.4",
+      "env": {
+        "NODE_ENV": "production"
+      }
     },
     "playAab": {
       "distribution": "store",
