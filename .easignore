@@ -260,3 +260,8 @@ app/screens/Generated208/**
 android/mbw-v50-*-failure-capture.init.gradle
 scripts/mbw-v50-*-install-gradle-init.js
 MBW_GRADLE_FAILURE.txt
+!/app/navigation/
+!/app/runtime/MBWMatchmakingSeedGateway.js
+!/app/screens/Sections/UserSeedScreen.js
+!/app/navigation/AppNavigator.js
+!/app/screens/Sections/MatchFinalReincarnationScreen.js

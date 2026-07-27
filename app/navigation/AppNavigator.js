@@ -24,6 +24,12 @@ import MBWRealMatchFinalReincarnation from '../screens/Sections/MatchFinalReinca
 import MBWRealKamashastraResult from '../screens/Sections/KamashastraResultScreen';
 import ProfilePosterScreen from '../screens/Sections/ProfilePosterVisualScreen';
 import { CommerceReceiptScreen, MatchChatScreen, SeedProfileScreen, SubscriptionSignupScreen, TravelBookingScreen } from "../production/sovereign/MBWGoldenMasterScreens";
+
+import MBWUserSeedScreen from '../screens/Sections/UserSeedScreen';
+
+import { withMBWSeedGateway } from '../runtime/MBWMatchmakingSeedGateway';
+
+const MBWMatchmakingWithSeedGateway = withMBWSeedGateway(MBWRealMatchmaking);
 const Stack = createNativeStackNavigator();
 export default function AppNavigator() {
   return <Stack.Navigator initialRouteName="CinematicIntro" screenOptions={{
@@ -51,7 +57,7 @@ export default function AppNavigator() {
       <Stack.Screen name="MasterOfLife" component={MBWRealMasterOfLife} options={{
       headerShown: false
     }} />
-      <Stack.Screen name="Matchmaking" component={MBWRealMatchmaking} options={{
+      <Stack.Screen name="Matchmaking" component={MBWMatchmakingWithSeedGateway} options={{
       headerShown: false
     }} />
       <Stack.Screen name="Games" component={MBWRealGames} options={{
@@ -97,5 +103,9 @@ export default function AppNavigator() {
         <Stack.Screen name="Signup" component={SubscriptionSignupScreen} />
         <Stack.Screen name="Subscription" component={SubscriptionSignupScreen} />
         <Stack.Screen name="TravelBooking" component={TravelBookingScreen} />
+
+        <Stack.Screen name="UserSeed" component={MBWUserSeedScreen} options={{ headerShown: false }} />
+
+        <Stack.Screen name="MatchFinalReincarnation" component={MBWRealMatchFinalReincarnation} options={{ headerShown: false }} />
 </Stack.Navigator>;
 }
